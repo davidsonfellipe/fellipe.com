@@ -56,10 +56,6 @@ tagline: front-end engineer na globo.com | rio de janeiro, brasil
     </li>
 </ul>
 
-<script type="text/javascript"
-        src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
-
 <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-2123552-1']);
