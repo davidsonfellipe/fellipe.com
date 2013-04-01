@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Camanjs &#8211; Manipulando imagens usando javascript | Davidson Fellipe, Front-end Engineer</title>
+    
+    <meta name="author" content="Davidson Fellipe">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Camanjs &#8211; Manipulando imagens usando javascript / Davidson Fellipe">
+    <meta property="og:site_name" content="Davidson Fellipe">
+    <meta property="og:url" content="http://fellipe.com/blog/camanjs-manipulando-imagens-usando-javascript/">
+    <meta property="og:image" content="http://fellipe.com/assets/img/opengraph.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Camanjs &#8211; Manipulando imagens usando javascript from website's Davidson Fellipe">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-ie7.css">
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="http://fellipe.com/assets/themes/fellipecom/css/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <!-- atom & rss feed -->
+    <link href="http://fellipe.com/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="http://fellipe.com/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+  </head>
+
+  <body>
+    <div class="container">
+      
+<nav class="nav">
+    <a class="masterhead" href="http://fellipe.com/">Davidson Fellipe</a>
+
+    <section class="nav-lists">
+        <ul class="itens">
+            <li class="link">
+                <a href="http://fellipe.com/blog/">blog</a>
+            </li>
+            <li class="link">
+                <a href="http://fellipe.com/talks/">talks</a>
+            </li>
+            <li class="link">
+                <a href="http://fellipe.com/projects/">projects</a>
+            </li>
+            <li class="link">
+                <a href="http://fellipe.com/about/">about</a>
+            </li>
+        </ul>
+        <ul class="itens social">
+            <li class="button-list-item">
+                <a href="https://github.com/davidsonfellipe" class="button icon-github">
+                    <span class="label"></span>
+                </a>
+            </li>
+            <li class="button-list-item">
+                <a href="http://www.linkedin.com/in/fellipe" class="button icon-linkedin-sign">
+                    <span class="label"></span>
+                </a>
+            </li>
+            <li class="button-list-item">
+                <a href="https://www.facebook.com/fellipe" class="button icon-facebook-sign">
+                    <span class="label"></span>
+                </a>
+            </li>
+            <li class="button-list-item">
+                <a href="https://twitter.com/davidsonfellipe" class="button icon-twitter-sign">
+                    <span class="label"></span>
+                </a>
+            </li>
+        </ul>
+    </section>
+</nav>
+
+<h1 class="title">
+  Camanjs &#8211; Manipulando imagens usando javascript 
+</h1>
+
+<!--
+<div class="date">
+  <span>25 February 2011</strong>
+</div> -->
+
+<article class="post-content">
+  <p><a href='http://camanjs.com/'>CamanJS</a>, a sigla vem de <strong>Ca</strong>nvas <strong>Man</strong>ipulation em Javascript, ele trás uma interface simplificada para fazer a manipulação de imagens dinamicamente utilizando a linguagem Javascript. A intenção inicial do trabalho de <a href='http://twitter.com/MeltingIce'>Ryan LeFevre</a> foi replicar os efeitos do <a href='http://instagr.am/'>Instagram</a> apenas utilizando <strong>Javascript</strong>.</p>
+
+<p>Após observar os demos você perceberá que o CamanJS ainda exige muito processamento, acabei realizando um teste aplicando o efeito de Vintage no <a href='http://camanjs.com/examples/presets'>DEMOS PRESETS</a> , um dos <em>cores</em> de minha maquina ficou em 100% por uns 10 segundos. Esse fato é porque a ferramenta percorre todos os pixels da imagem representada por um canvas, realiza alguma manipulação no pixel, caso seja necessário, e por fim atualiza o <strong>CANVAS</strong>.</p>
+
+<h2 id='como_utilizar'>Como utilizar?</h2>
+
+<p>O uso do CamanJS é simples, e não requer nenhuma outra dependência. Podemos acessar todas as funcionalidades pela função Caman( ). Mas, <strong>devido a restrições de segurança do navegador, o CamanJS só poderá modificar imagens que vêm do mesmo domínio que a página se encontra</strong>, caso queria utiliza-lo com imagens é necessário você especificar um proxy. O CamanJS já vem um proxy escrito em PHP, mas nada impede que você desenvolva um semelhante em outra linguagem, para maiores informações acesse a <a href='http://camanjs.com/docs'>documentação do CamanJS</a>.</p>
+
+<p>Agora vamos a um exemplo de uso, irei aplicar efeitos que faça com que a imagem da esquerda fique com a aparência da imagem a direita:</p>
+
+<p><img alt='' src='/assets/img/rio_usando_camanjs_3.png' /></p>
+
+<p>Primeiramente vamos incluir os arquivos da biblioteca Caman.js, optei por inclui-la via CDN disponibilizada no site do projeto:</p>
+
+<pre><code>&lt;script src=&quot;http://ajax.cdnjs.com/ajax/libs/camanjs/2.0/caman.full.min.js&quot;&gt;&lt;/script&gt;</code></pre>
+
+<p>Primeiramente vamos incluir os arquivos da biblioteca Caman.js, optei por inclui-la pelo link da CDN disponibilizada no site do projeto:</p>
+
+<pre><code>Caman(&quot;rio_usando_camanjs.jpg&quot;,
+      &quot;#example-canvas&quot;,
+      function () {
+
+        this.brightness(10)
+          .contrast(100)
+          .sepia(40)
+          .saturation(5);
+
+        this.render(function () {
+            console.log(&quot;Finished!&quot;);
+        });
+});</code></pre>
+
+<p>Projetos como esse são de grande utilidade para aqueles que desejam incorporar manipulações rápidas em imagens em suas apps. O crescimento do HTML5, atrelado ao crescimento de ferramentas utilizando javascript esta se tornando cada vez mais prevalente. <a href='http://fellipe.com/demos/camanjs/index.html'>Veja resultado da demonstração</a>.</p>
+
+<h2 id='saiba_mais'>saiba mais</h2>
+
+<p>O CamanJS ainda precisa melhorar sua performance, caso tenha interesse em contribuir para melhorar a ferramenta, fork o projeto no <a href='https://github.com/meltingice/CamanJS'>github</a>.</p>
+</article>
+
+<!-- 
+<ul class="tag_box inline">
+  <li><i class="icon-folder-open"></i></li>
+  
+  
+
+
+  
+     
+    	<li><a href="http://fellipe.com/categories.html#desenvolvimento-ref">
+    		desenvolvimento <span>8</span>
+    	</a></li>
+    
+  
+
+
+</ul>
+
+ -->
+<!-- 
+<ul class="tag_box inline">
+  <li><i class="icon-tags"></i></li>
+  
+  
+
+
+  
+     
+    	<li><a href="http://fellipe.com/tags.html#Caman.js-ref">Caman.js <span>1</span></a></li>
+     
+    	<li><a href="http://fellipe.com/tags.html#javascript-ref">javascript <span>5</span></a></li>
+     
+    	<li><a href="http://fellipe.com/tags.html#js-ref">js <span>3</span></a></li>
+    
+  
+
+
+
+</ul>
+ -->
+
+<div class="pagination">
+  <ul>
+  
+    <li class="button prev">
+      <a href="http://fellipe.com//blog/uso-correto-da-funcao-do-parseint-em-javascript/" title="Uso correto da função do parseInt em Javascript">&larr; Uso correto da função do parseInt em Javascript</a>
+    </li>
+  
+    <!-- <li><a href="http://fellipe.com/archive.html">Archive</a></li> -->
+  
+    <li class="button next">
+      <a href="http://fellipe.com//blog/analisando-a-qualidade-de-codigo-javascript-usando-jslint/" title="Analisando a qualidade de código JavaScript usando JSLint">Analisando a qualidade de código JavaScript usando JSLint &rarr;</a>
+    </li>
+  
+  </ul>
+</div>
+
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+    var disqus_shortname = 'fellipecom'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+
+    </div>
+    
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2123552-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+  </body>
+</html>
+

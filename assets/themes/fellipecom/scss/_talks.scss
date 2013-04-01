@@ -1,0 +1,46 @@
+.talks {
+
+    .talk-local {
+        display: block;
+        color: #999;
+        margin-top: 5px;
+    }
+
+    .talk-info {
+        color: #ccc;
+        position: absolute;
+        right: 0px;
+        text-align: right;
+        text-transform: lowercase;
+        top: 15px;
+        width: 85px;
+
+        .talk-date,
+        .talk-date-day,
+        .talk-date-month {
+            display: block;
+        }
+        .talk-date,
+        .talk-year {
+            color: #666;
+            width: 60px;
+            height: 40px;
+            padding: 3px 0px 5px 0px;
+            text-align: center;
+            font-size: 9px;
+            -moz-box-shadow: 0 0 5px #ccc;
+            -webkit-box-shadow: 0 0 5px #ccc;
+            box-shadow: 0 0 5px #ccc;
+        }
+        .talk-date-year {
+            margin-top: 5px;
+            display: block;
+        }
+        .talk-date-day {
+            color: #ccc;
+            display: block;
+            font-size: 25px;
+            line-height: 23px;
+        }
+    }
+}

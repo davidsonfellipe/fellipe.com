@@ -1,0 +1,25 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+header: Pages
+group: navigation
+---
+{% include JB/setup %}
+{% include themes/fellipecom/nav.html %}
+
+<ul class="list posts">
+  {% for post in site.posts %}
+    <li class="list-item post-item">
+        <span class="lang">
+              {% if post.lang == 'en' %}
+                  en
+              {% else %}
+                  pt-br
+              {% endif %}
+        </span>
+        <a href="{{ BASE_URL }}{{ post.url }}">{{ post.title }}</a>
+        <span class="list-note post-date">{{ post.date | date_to_string }}</span>
+    </li>
+  {% endfor %}
+</ul>

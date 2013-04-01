@@ -1,0 +1,66 @@
+.post-content {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 2px #D0D0D0;
+    font-family: Georgia;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.5em;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    padding: 20px 0;
+
+    pre,
+    p,
+    ol,
+    ul,
+    dl {
+        padding: 10px 40px;
+    }
+    li {
+        list-style-type: disc;
+    }
+    dt {
+        font-weight: bold;
+    }
+    h2 {
+        background-color: rgba(255, 255, 255, .8);
+        font-weight: bold;
+        display: inline-block;
+        padding: 10px 20px 10px 40px;
+        margin: 10px 0;
+        border-left: 4px solid #c30;
+    }
+    pre {
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 880px;
+        margin: 10px 0;
+        overflow: auto;
+    }
+    a {
+        text-decoration: underline;
+        color: #c30;
+    }
+    img,
+    iframe {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.pagination {
+    font-size: 0;
+    margin-bottom: 20px;
+
+    .prev,
+    .next {
+        display: inline-block;
+        font-size: 20px;
+        margin: 0 10px 0 0;
+        width: 434px;
+        border-left-width: 0;
+    }
+    .next {
+        margin: 0;
+        text-align: right;
+    }
+}

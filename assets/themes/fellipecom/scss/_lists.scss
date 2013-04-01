@@ -1,0 +1,48 @@
+.list {
+
+    .list-item {
+        display: block;
+        position: relative;
+
+        a {
+            background: none repeat scroll 0 0 rgba(255, 255, 255, .6);
+            border-left: 4px solid $color-detail;
+            box-shadow: 0 0 2px #D0D0D0;
+            display: block;
+            margin: 2px 0 10px;
+            overflow: hidden;
+            padding: 20px 30px 20px 60px;
+            -webkit-transition: background-color 0.3s linear;
+            -moz-transition: background-color 0.3s linear;
+            -o-transition: background-color 0.3s linear;
+            -ms-transition: background-color 0.3s linear;
+            transition: background-color 0.3s linear;
+
+            &:hover {
+                background-color: rgba(0, 0, 0, .05);
+            }
+        }
+
+        .list-note {
+            color: #ccc;
+            position: absolute;
+            width: 200px;
+            right: 20px;
+            text-align: right;
+            top: 20px;
+        }
+
+        .lang {
+            position: absolute;
+            top: 20px;
+            left: 15px;
+            font-size: 10px;
+            background-color: #c30;
+            padding: 3px 5px;
+            color: #fff;
+            font-weight: bold;
+            font-family: "Helvetica Neue";
+            text-transform: uppercase;
+        }
+    }
+}

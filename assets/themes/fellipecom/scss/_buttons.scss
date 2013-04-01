@@ -1,0 +1,37 @@
+.button-list{
+    float: right;
+    margin-bottom: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+.button-list-item {
+    display: inline-block;
+}
+.button{
+    background-color: #fff;
+    border-left: 4px solid transparent;
+    opacity: 0.8;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    padding: 10px 15px 10px 25px;
+    cursor: pointer;
+    text-align: left;
+    -webkit-transition: border 0.6s linear;
+    -moz-transition: border 0.6s linear;
+    -o-transition: border 0.6s linear;
+    -ms-transition: border 0.6s linear;
+    transition: border 0.6s linear;
+
+    &:before{
+        color: #c30;
+        text-indent: -20px;
+        top: 0;
+        transition: all .6s linear;
+        opacity: .8;
+    }
+
+    &:hover {
+        border-left-color: #c30;
+    }
+}

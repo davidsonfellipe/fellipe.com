@@ -1,0 +1,20 @@
+RewriteEngine on
+RewriteBase /
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+RewriteRule ^(.*)([^/])$        /$1$2/ [L,R=301]
+
+RewriteRule blog/(.*)/$ /blog/$1/index.html
+RewriteRule ^(.*)/$ /$1/index.html [L]
+
+ErrorDocument 404 /404.html
+
+# bloquear diretorios
+DirectoryIndex index.php index.htm index.html
+Options -Indexes
+
+#redirects
+redirect 301 /palestras/ http://fellipe.com/talks/

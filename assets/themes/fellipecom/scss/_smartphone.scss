@@ -1,0 +1,93 @@
+// @media only screen and (max-width: 320px) and (min-width: 220px) {
+@media only screen and (max-width: 420px) {
+
+    .container {
+        padding-top: 85px;
+        width: 100%;
+    }
+
+    .title {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .title:first-child {
+        margin-top: 15px;
+    }
+
+    .nav .nav-lists {
+        float: left;
+        padding-right: 0;
+    }
+    .nav .itens li:first-child {
+        margin-left: 0px;
+    }
+    .nav .itens li:first-child {
+        margin-left: 0;
+    }
+
+    .nav .social {
+        margin-left: 0;
+        border-left-width: 0;
+        padding-left: 10px;
+    }
+
+    .aboutme .hi {
+        font-size: 100px;
+    }
+
+    .aboutme{
+        margin: 0px auto 40px auto;
+    }
+
+    .aboutme .name{
+        font-size: 20px;
+    }
+
+    .aboutme .job{
+        font-size: 12px;
+    }
+
+    .button-list {
+        float: none;
+        clear: both;
+
+        .button-list-item {
+            display: block;
+        }
+
+        .button {
+            width: 100%;
+            margin-bottom: 5px;
+            padding: 10px 15px 10px 30px;
+            text-align: left;
+        }
+    }
+
+    .list .list-item .list-note {
+        right: 5px;
+        text-align: right;
+        top: 5px;
+        font-size: 0.8em;
+    }
+
+    .talks .talk-info {
+        top: -2px;
+        right: -24px;
+    }
+
+    .talks .talk-info .talk-date {
+        border: 0;
+        box-shadow: 0 0 0;
+        top: 0;
+    }
+
+    .talks .talk-info .talk-date-day,
+    .talks .talk-info .talk-date-month {
+        display: inline;
+    }
+
+    .talks .talk-info .talk-date-day {
+        font-size: 16px;
+    }
+
+}
