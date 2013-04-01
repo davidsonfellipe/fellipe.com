@@ -6,5 +6,5 @@ http_path = "/"
 relative_assets = true
 
 # Specify the output style/environment
-output_style = :expanded
+output_style = :compressed #:expanded or :nested or :compact or :compressed
 environment = :production
