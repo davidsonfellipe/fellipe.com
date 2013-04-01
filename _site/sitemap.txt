@@ -1,15 +1,11 @@
 
 http://fellipe.com/about/
-http://fellipe.com/archive.html
 http://fellipe.com/atom.xml
 http://fellipe.com/blog/
-http://fellipe.com/categories.html
 http://fellipe.com/index.html
-http://fellipe.com/pages.html
 http://fellipe.com/projects/
 http://fellipe.com/rss.xml
 http://fellipe.com/sitemap.txt
-http://fellipe.com/tags.html
 http://fellipe.com/talks/
 
 http://fellipe.com/blog/big-review-de-2012/
