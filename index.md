@@ -5,18 +5,21 @@ tagline: front-end engineer na globo.com | rio de janeiro, brasil
 ---
 {% include JB/setup %}
 <header class="aboutme">
-    <h2 class="name"><span class="hi">hi!</span><br>i'm Davidson Fellipe</h2>
+    <h2 class="name">
+        <span class="hi">hi!</span><br>
+        i'm Davidson Fellipe
+    </h2>
     <h3 class="job">
-                    front-end engineer at <a href="http://opensource.globo.com">globo.com</a>,
-                    m.sc. student at PUC-Rio,
-                    co-founder at <a href="http://braziljs.org">braziljs.org</a>
-                    <br>
-                    Conference organizer at <a href="http://riojs.org">rio.js</a>,
-                            <a href="http://pernambucojs.com">pernambuco.js</a>,
-                            <a href="http://frontinbh.com.br">frontinbh</a>,
-                            <a href="http://frontinmaceio.com.br">frontinmaceio</a>
-                    <br>
-                    lives in rio de janeiro
+        front-end engineer at <a href="http://opensource.globo.com">globo.com</a>,
+        m.sc. student at PUC-Rio,
+        co-founder at <a href="http://braziljs.org">braziljs.org</a>
+        <br>
+        Conferences organizer at <a href="http://riojs.org">rio.js</a>,
+                <a href="http://pernambucojs.com">pernambuco.js</a>,
+                <a href="http://frontinbh.com.br">frontinbh</a>,
+                <a href="http://frontinmaceio.com.br">frontinmaceio</a>
+        <br>
+        lives in rio de janeiro
     </h3>
 </header>
 
