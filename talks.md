@@ -57,7 +57,7 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="http://www.slideshare.net/davidsonfellipe/jqueryperf">
+        <a href="http://fellipe.com/slides/performance-javascript/">
             <span class="lang">pt-br</span>
             <h2 class="talk-title">
                 Alta Performance em Aplicações JavaScript @ BrazilJS</h2>
@@ -71,7 +71,7 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="http://www.slideshare.net/davidsonfellipe/javascript-cross-browser">
+        <a href="http://fellipe.com/slides/fluent2012/pt/">
             <span class="lang">pt-br</span>
             <h2 class="talk-title">
                 Fluent Conference - Highlights @ 6º Rio.JS</h2>
@@ -99,7 +99,7 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="http://www.slideshare.net/davidsonfellipe/javascript-cross-browser">
+        <a href="http://fellipe.com/slides/fluent2012/pt/">
             <span class="lang">pt-br</span>
             <h2 class="talk-title">
                 Fluent Conference - Highlights @ Globo.com Weekly Talk</h2>
