@@ -9,12 +9,12 @@ tagline: front-end engineer na globo.com | rio de janeiro, brasil
     <h3 class="job">
                     front-end engineer at <a href="http://opensource.globo.com">globo.com</a>,
                     m.sc. student at PUC-Rio,
-                    co-founder at <a href="braziljs.org">braziljs.org</a>
+                    co-founder at <a href="http://braziljs.org">braziljs.org</a>
                     <br>
-                    curator <a href="riojs.org">rio.js</a>,
-                            <a href="pernambucojs.com">pernambuco.js</a>,
+                    Conference organizer at <a href="http://riojs.org">rio.js</a>,
+                            <a href="http://pernambucojs.com">pernambuco.js</a>,
                             <a href="http://frontinbh.com.br">frontinbh</a>,
-                            <a href="frontinmaceio.com.br">frontinmaceio</a>
+                            <a href="http://frontinmaceio.com.br">frontinmaceio</a>
                     <br>
                     lives in rio de janeiro
     </h3>
