@@ -64,3 +64,10 @@
         text-align: right;
     }
 }
+
+//mobile
+@media only screen and (max-width: 420px) {
+    .post-content img {
+        width: 100%;
+    }
+}
