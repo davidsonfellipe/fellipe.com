@@ -34,7 +34,7 @@ tagline: front-end engineer na globo.com | rio de janeiro, brasil
     </li>
     <li class="button-list-item">
         <a href="{{ BASE_PATH }}projects/" class="button icon-bullhorn">
-            <span class="label">project</span>
+            <span class="label">projects</span>
         </a>
     </li>
     <li class="button-list-item">
