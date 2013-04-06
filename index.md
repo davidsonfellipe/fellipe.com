@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Hi!
-tagline: front-end engineer na globo.com | rio de janeiro, brasil
 ---
 {% include JB/setup %}
 <header class="aboutme">

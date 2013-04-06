@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }} | {{ site.author.name }}, {{ site.tagline }}</title>
+    <title>{{ page.title }}{% if page.permalink %} |{% endif %} {{ site.author.name }}, {{ site.tagline }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
