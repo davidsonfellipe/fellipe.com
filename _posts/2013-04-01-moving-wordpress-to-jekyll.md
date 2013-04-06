@@ -4,12 +4,6 @@ author: Davidson Fellipe
 layout: post
 lang: en
 permalink: /blog/moving-wordpress-to-jekyll/
-Hide SexyBookmarks:
-  - 0
-Hide OgTags:
-  - 0
-dsq_thread_id:
-  - 1003744646
 ---
 ![][jekyll]
 
@@ -37,7 +31,7 @@ Jekyll-bootstrap?
 
 ##New version
 
-There version isn't dependency on server-side, only server delivery static files. Other services that I use are: Google Analytics (for statitistics about users), Disqus (for comments), GitHub (Versin code).
+There version isn't dependency on server-side, only server delivery static files. Other services that I use are: Google Analytics (for statistics about users), Disqus (for comments), GitHub (version control).
 
 ##biggest problems for migration
 
@@ -49,7 +43,7 @@ There version isn't dependency on server-side, only server delivery static files
 
 ##Keep the previous content
 
-I migrate all Wordpress's posts, using [Wordpress to Jekyll exporter](https://github.com/benbalter/wordpress-to-jekyll-exporter). This tool is a WordPress plugin that converts all posts, pages, taxonomies, metadata, and settings to Markdown and YAML which can be dropped into Jekyll. Thanks [Ben Balter](https://github.com/benbalter) for this nice job.
+I migrate all posts from Wordpress, using [Wordpress to Jekyll exporter](https://github.com/benbalter/wordpress-to-jekyll-exporter). This tool is a WordPress plugin that converts all posts, pages, taxonomies, metadata, and settings to Markdown and YAML which can be dropped into Jekyll. Thanks [Ben Balter](https://github.com/benbalter) for this nice job.
 
 ##Keep the same URLs
 
