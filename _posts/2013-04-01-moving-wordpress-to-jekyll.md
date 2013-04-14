@@ -7,6 +7,7 @@ permalink: /blog/moving-wordpress-to-jekyll/
 ---
 ![][jekyll]
 
+
 [jekyll]: /assets/img/jekyll.png
 
 
@@ -16,10 +17,10 @@ I just wanted to learn a new tool and improving design of website.
 
 ##Motivation
 
-For almost 3 years this website was powered using the publishing platform called Wordpress. Since beginning of the year I was thinking about convert this blog, from WordPress to [Jekyll](http://jekyllrb.com/). So, on last weekend I put hands on editor for finish this project.
+Almost 3 years this website was powered using Wordpress. Since beginning of the year I was thinking about how convert this blog for a static site generator tool. So, on last weekend I put hands on editor to finish this project.
 
 
-##I thought of 2 options
+##I had 2 options
 
 Docpad?
 
@@ -31,7 +32,7 @@ Jekyll-bootstrap?
 
 ##New version
 
-There version isn't dependency on server-side, only server delivery static files. Other services that I use are: Google Analytics (for statistics about users), Disqus (for comments), GitHub (version control).
+There version isn't dependency on server-side, it's just server delivery static files. Other services that I use are: Google Analytics (for statistics about users), Disqus (for comments), GitHub (version control).
 
 ##biggest problems for migration
 
