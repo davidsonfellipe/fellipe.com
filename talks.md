@@ -10,7 +10,7 @@ group: navigation
 
 <ul class="list talks">
     <li class="list-item talk">
-        <a href="#">
+        <a href="https://speakerdeck.com/fellipe/os-segredos-dos-front-end-engineers">
             <span class="lang">pt-br</span>
             <h2 class="talk-title">
                 Os Segredos dos Front-end Engineers @ Semana Academica da FEEVALE</h2>
