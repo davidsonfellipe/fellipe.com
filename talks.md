@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talks (upcoming 2013)
+title: Talks / 2013
 permalink: /talks/
 header: Pages
 group: navigation
@@ -25,7 +25,7 @@ group: navigation
     </li>
 </ul>
 
-#{.title}2012
+#{.title}Talks / 2012
 
 <ul class="list talks">
     <li class="list-item talk">
@@ -142,7 +142,7 @@ group: navigation
     </li>
 </ul>
 
-#{.title}2011
+#{.title}Talks / 2011
 
 <ul class="list talks">
     <li class="list-item talk">
