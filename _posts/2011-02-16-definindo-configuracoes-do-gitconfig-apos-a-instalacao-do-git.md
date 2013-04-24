@@ -82,7 +82,7 @@ Situação bem comum que lidamos no desenvolvimento de software é a questão da
     [user]
     name = davidson
     email = email@fellipe.com
-    &nbsp;
+
     [color]
     diff = auto
     grep = auto
@@ -90,10 +90,10 @@ Situação bem comum que lidamos no desenvolvimento de software é a questão da
     status = auto
     branch = auto
     status = auto
-    &nbsp;
+
     [core]
     editor = mate -w
-    &nbsp;
+
     [alias]
     st = status
     ci = commit
