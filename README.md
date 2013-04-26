@@ -3,7 +3,7 @@
 My personal website using jekyll-bootstrap
 
 # steps to run
-
+    
     gem install jekyll
 
     git clone https://github.com/davidsonfellipe/fellipe.com.git
@@ -14,6 +14,9 @@ My personal website using jekyll-bootstrap
 
 On browser localhost:4000
 
+# dependencies
+    
+    gem install compass
 
 ## License
 
