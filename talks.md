@@ -220,7 +220,7 @@ group: navigation
             <span class="lang">pt-br</span>
             <h2 class="talk-title">
                 Canvas Element @ BrazilJS</h2>
-            <span class="talk-local">Fortaleza, CE, Braxil</span>
+            <span class="talk-local">Fortaleza, CE, Brazil</span>
             <section class="talk-info">
                 <span class="talk-date">
                     <span class="talk-date-month">may</span>
