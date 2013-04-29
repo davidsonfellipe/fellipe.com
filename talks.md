@@ -13,7 +13,7 @@ group: navigation
         <a href="https://speakerdeck.com/fellipe/os-segredos-dos-front-end-engineers">
             <span class="lang">pt-br</span>
             <h2 class="talk-title">
-                Os Segredos dos Front-end Engineers @ Semana Academica da FEEVALE</h2>
+                Os Segredos dos Front-end Engineers @ Semana Acadêmica ICET 2013 - Feevale</h2>
             <span class="talk-local">Novo Hamburgo, RS, Brazil</span>
             <section class="talk-info">
                 <span class="talk-date">
