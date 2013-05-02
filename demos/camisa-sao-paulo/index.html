@@ -11,6 +11,7 @@
     <meta property="og:image" content="http://fellipe.com/demos/camisa-sao-paulo/fb.png">
     <meta property="og:type" content="website">
     <meta property="og:description" content="Experiments from website's Davidson Fellipe - São Paulo FC t-shirt - CSS + WebGL 1.0 fragment shader">
+    <meta property="fb:app_id" content="337306756343400">
 
 
     <style type="text/css">
@@ -56,6 +57,9 @@
         <h1>São Paulo FC t-shirt<br>CSS + WebGL 1.0 fragment shader</h1>
         <img src="camisa.png" class="camisa p-e-b">
         <img src="camisa.png" class="camisa red">
+
+        <div class="fb-like" data-href="http://http://fellipe.com/demos/camisa-sao-paulo/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+        <div id="fb-root"></div>
     </section>
 
     <script>
@@ -68,6 +72,14 @@
           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
+
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=337306756343400";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
 </body>
 </html>
