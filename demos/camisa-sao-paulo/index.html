@@ -59,6 +59,7 @@
             clear: both;
             display: block;
             width: 100%;
+            text-align: center;
         }
     </style>
 </head>
@@ -72,11 +73,20 @@
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
-        </pre>
+</pre>
     </section>
 
     <section class="t-shirt-box">
         <img src="camisa.png" class="t-shirt red">
+<pre class="code">
+.red {
+    /* 1) Only works Chrome Mac, Windows, Linux, Chrome OS, Android
+       2) Got to: chrome://flags/
+       3) Enable CSS Shaders. */
+    opacity: .75;
+    -webkit-filter: custom(none mix(url(<a href="tint.fs">tint.fs</a>) normal source-atop));
+}
+</pre>
     </section>
 
     <div class="fb-like" data-href="http://http://fellipe.com/demos/camisa-sao-paulo/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
