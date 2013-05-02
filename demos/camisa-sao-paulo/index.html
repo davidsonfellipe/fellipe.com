@@ -19,12 +19,18 @@
             width: 940px;
             margin: 10px auto;
         }
-        .title {
+        .title,
+        .subtitle {
             text-transform: uppercase;
             color: #333;
             font-family: "Helvetica Neue";
             font-size: 40px;
+            line-height: 1em;
             text-align: center;
+        }
+        .subtitle {
+            font-size: 25px;
+            margin-top: -20px;
         }
         .t-shirt-box {
             display: inline-block;
@@ -55,7 +61,8 @@
     </style>
 </head>
 <body>
-    <h1 class="title">São Paulo FC t-shirt<br>CSS + WebGL 1.0 fragment shader</h1>
+    <h1 class="title">São Paulo FC t-shirt</h1>
+    <h2 class="subtitle">CSS + WebGL 1.0 fragment shader</h2>
     <section class="t-shirt-box">
         <img src="camisa.png" class="t-shirt black-white">
 <pre class="code">
