@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Camisa do São Paulo</title>
+    <title>São Paulo FC t-shirt CSS3</title>
     <meta charset="utf-8">
 
     <!-- Open Graph -->
@@ -13,10 +13,9 @@
     <meta property="og:description" content="Experiments from website's Davidson Fellipe - São Paulo FC t-shirt - CSS + WebGL 1.0 fragment shader">
     <meta property="fb:app_id" content="337306756343400">
 
-
     <style type="text/css">
         body {
-            background-color: #fff;
+            background: url(bg.png) repeat 0 0 #fff;
             width: 940px;
             margin: 10px auto;
         }
@@ -40,14 +39,6 @@
             filter: grayscale(100%);
         }
         .red {
-            /*
-            chrome://flags/
-
-            OpenGL ES shading language.
-
-            Enable CSS Shaders. Mac, Windows, Linux, Chrome OS, Android
-
-            More info at https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#feCustomElement.*/
             opacity: .75;
             -webkit-filter: custom(none mix(url(tint.fs) normal source-atop));
         }
