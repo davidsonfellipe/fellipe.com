@@ -244,3 +244,17 @@ group: navigation
         </a>
     </li>
 </ul>
+
+
+#{.title}Others Talks
+
+<ul class="list talks">
+    <li class="list-item talk">
+        <a href="http://fellipe.com/slides/rdfs">
+            <span class="lang">pt-br</span>
+            <h2 class="talk-title">
+                RDFS @ PUC-Rio</h2>
+            <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
+        </a>
+    </li>
+</ul>
