@@ -257,4 +257,12 @@ group: navigation
             <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
         </a>
     </li>
+    <li class="list-item talk">
+        <a href="http://www.slideshare.net/davidsonfellipe/sistema-de-comunicao-bluetooth-usando-microcontrolado-pic">
+            <span class="lang">pt-br</span>
+            <h2 class="talk-title">
+                Sistema De Comunicação Bluetooth Usando Microcontrolador PIC @ University of Pernambuco (Completion of Course Work)</h2>
+            <span class="talk-local">Recife, PE, Brazil</span>
+        </a>
+    </li>
 </ul>
