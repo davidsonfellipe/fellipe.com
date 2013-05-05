@@ -25,7 +25,7 @@ O evento de **fortaleza** teve cerca de 550 inscritos, isso mesmo 550! Para um e
  [4]: http://twitter.com/fbarroso "Barroso"
  [5]: http://twitter.com/henriquegogo "Henrique Gogo"
 
-<p><img src="/assets/img/galera-braziljs-2011.jpg"></p>
+<p><img src="/assets/img/galera-braziljs-2011.jpg" alt="galera na braziljs"></p>
 
 Estava com grandes expectativas para palestras do [Guilherme Chapiewski][7], [Léo Balter][8], [Pedro Pimentel][9], [Mike Taylor][10], [Richard Worth][11], [Michal Budzynski ][12]e [Emerson Leite][13]. Tivemos boas apresentações, que mostraram um uso bem bacana do que fazer com a linguagem. Além dos palestrantes citados anteriormente, gostei muito das apresentações do Rafael Ferreira e do [Bruno Fernandes][14], eles mandaram muito bem! Infelizmente perdi as palestras do [Maujor][15], do [David Herman][16] e os Lightning Talks, da hora do almoço.
 
@@ -54,7 +54,7 @@ Além disso o **BrazilJS** foi uma excelente oportunidade para conhecer pessoas 
  [23]: http://twitter.com/#!/feliperodrigues
  [24]: http://twitter.com/#!/brunosouza
 
-<p><img src="/assets/img/pernambuco-braziljs-2011.jpg"></p>
+<p><img src="/assets/img/pernambuco-braziljs-2011.jpg" alt="pernambucanos no braziljs 2011"></p>
 
 ##pronunciamento do @maujor
 
