@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Projects / opensource
 permalink: /projects/
 header: Pages
 group: navigation
@@ -21,6 +21,11 @@ group: navigation
         </a>
         <span class="list-note">opensource</span>
     </li>
+</ul>
+
+#{.title}Projects / companies
+
+<ul class="list projects">
     <li class="list-item">
         <a href="http://opensource.globo.com">
             Globo.com / Open Source
