@@ -28,6 +28,7 @@ group: navigation
 <ul class="list projects">
     <li class="list-item">
         <a href="http://sportv.globo.com/site/">
+            <span class="label">new</span>
             Sportv
         </a>
         <span class="list-note">for globo.com</span>

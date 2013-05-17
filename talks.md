@@ -11,7 +11,7 @@ group: navigation
 <ul class="list talks">
     <li class="list-item talk">
         <a href="https://speakerdeck.com/fellipe/os-segredos-dos-front-end-engineers">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Os Segredos dos Front-end Engineers @ Semana Acadêmica ICET 2013 - Feevale</h2>
             <span class="talk-local">Novo Hamburgo, RS, Brazil</span>
@@ -30,7 +30,7 @@ group: navigation
 <ul class="list talks">
     <li class="list-item talk">
         <a href="http://www.slideshare.net/davidsonfellipe/jqueryperf">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Performance em JQuery apps @ PHP n'Rio </h2>
             <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
@@ -44,7 +44,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://www.slideshare.net/davidsonfellipe/javascript-cross-browser">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Javascript Cross-browser @ Workshop Front-end Globo.com</h2>
             <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
@@ -58,7 +58,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://fellipe.com/slides/performance-javascript/">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Alta Performance em Aplicações JavaScript @ BrazilJS</h2>
             <span class="talk-local">Porto Alegre, RS, Brazil</span>
@@ -72,7 +72,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://fellipe.com/slides/fluent2012/pt/">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Fluent Conference - Highlights @ 6º Rio.JS</h2>
             <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
@@ -86,7 +86,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://www.slideshare.net/davidsonfellipe/jqueryperf">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Performance em JQuery apps @ IV FSLDC</h2>
             <span class="talk-local">Duque de Caxias, RJ, Brazil</span>
@@ -100,7 +100,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://fellipe.com/slides/fluent2012/pt/">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Fluent Conference - Highlights @ Globo.com Weekly Talk</h2>
             <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
@@ -114,7 +114,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://www.slideshare.net/davidsonfellipe/javascript-cross-browser">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Javascript Cross-browser @ PernambucoJS</h2>
             <span class="talk-local">Recife, PE, Brazil</span>
@@ -128,7 +128,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://www.slideshare.net/davidsonfellipe/jqueryperf">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Performance em JQuery apps @ BeagaJS</h2>
             <span class="talk-local">Belo Horizonte, MG, Brazil</span>
@@ -147,7 +147,7 @@ group: navigation
 <ul class="list talks">
     <li class="list-item talk">
         <a href="http://fellipe.com/slides/jqueryfn">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Jquery.fn @ Sampa.JS</h2>
             <span class="talk-local">São Paulo, SP, Brazil</span>
@@ -161,7 +161,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://fellipe.com/slides/jqueryfn">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Jquery.fn @ Workshop Globo.com</h2>
             <span class="talk-local">Rio de Janeiro, Brazil</span>
@@ -175,7 +175,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://fellipe.com/slides/jqueryfn">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Jquery.fn @ Rio.JS</h2>
             <span class="talk-local">Rio de Janeiro, Brazil</span>
@@ -189,7 +189,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://fellipe.com/slides/html5/">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 HTML5 &amp; CSS3 @ II EATI</h2>
             <span class="talk-local">Frederico Westphalen, RS, Brazil</span>
@@ -203,7 +203,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://www.slideshare.net/davidsonfellipe/canvas-vs-svg">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Canvas vs. SVG @ Front in Rio</h2>
             <span class="talk-local">Rio de Janeiro, Brazil</span>
@@ -217,7 +217,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://www.slideshare.net/davidsonfellipe/canvas-element">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Canvas Element @ BrazilJS</h2>
             <span class="talk-local">Fortaleza, CE, Brazil</span>
@@ -231,7 +231,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://www.slideshare.net/davidsonfellipe/frontendretirante-nordestino">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Frontend, Retirante Nordestino @ Frontend Global</h2>
             <span class="talk-local">Recife, PE, Brazil</span>
@@ -251,7 +251,7 @@ group: navigation
 <ul class="list talks">
     <li class="list-item talk">
         <a href="http://fellipe.com/slides/rdfs">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 RDFS @ PUC-Rio</h2>
             <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
@@ -259,7 +259,7 @@ group: navigation
     </li>
     <li class="list-item talk">
         <a href="http://www.slideshare.net/davidsonfellipe/sistema-de-comunicao-bluetooth-usando-microcontrolado-pic">
-            <span class="lang">pt-br</span>
+            <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                 Sistema De Comunicação Bluetooth Usando Microcontrolador PIC @ University of Pernambuco (Completion of Course Work)</h2>
             <span class="talk-local">Recife, PE, Brazil</span>

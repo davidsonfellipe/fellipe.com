@@ -32,10 +32,7 @@
             top: 20px;
         }
 
-        .lang {
-            position: absolute;
-            top: 20px;
-            left: 15px;
+        .label {
             font-size: 10px;
             background-color: #c30;
             padding: 3px 5px;
@@ -43,6 +40,12 @@
             font-weight: bold;
             font-family: "Helvetica Neue";
             text-transform: uppercase;
+        }
+
+        .lang {
+            position: absolute;
+            top: 20px;
+            left: 15px;
         }
     }
 }
