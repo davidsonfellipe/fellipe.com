@@ -27,14 +27,14 @@ group: navigation
 
 <ul class="list projects">
     <li class="list-item">
-        <a href="http://opensource.globo.com">
-            Globo.com / Open Source
+        <a href="http://sportv.globo.com/site/">
+            Sportv
         </a>
         <span class="list-note">for globo.com</span>
     </li>
     <li class="list-item">
-        <a href="http://sportv.globo.com/site/">
-            Sportv
+        <a href="http://opensource.globo.com">
+            Globo.com / Open Source
         </a>
         <span class="list-note">for globo.com</span>
     </li>
