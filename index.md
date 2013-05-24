@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Hi!
 ---
 {% include JB/setup %}
 <header class="aboutme">
