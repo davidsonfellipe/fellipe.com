@@ -76,6 +76,12 @@ group: navigation
         <span class="list-note">for globo.com</span>
     </li>
     <li class="list-item">
+        <a href="http://www.fisioterapiaame.com.br/">
+            Fisioterapia Ame
+        </a>
+        <span class="list-note">freelance</span>
+    </li>
+    <li class="list-item">
         <a href="http://www.renatosaraiva.com.br/">
             RenatoSaraiva.com.br
         </a>
