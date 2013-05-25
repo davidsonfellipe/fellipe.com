@@ -21,6 +21,12 @@ group: navigation
         </a>
         <span class="list-note">opensource</span>
     </li>
+    <li class="list-item">
+        <a href="http://fellipe.com/apps/lena-js/">
+            Lena.js
+        </a>
+        <span class="list-note">opensource</span>
+    </li>
 </ul>
 
 #{.title}Projects / companies
