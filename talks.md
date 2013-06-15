@@ -18,7 +18,7 @@ group: navigation
             <section class="talk-info">
                 <span class="talk-date">
                     <span class="talk-date-month">july</span>
-                    <span class="talk-date-day">30</span>
+                    <span class="talk-date-day">20</span>
                 </span>
             </section>
         </a>
