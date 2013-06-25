@@ -18,6 +18,8 @@ Options -Indexes
 
 #redirects
 redirect 301 /palestras/ http://fellipe.com/talks/
+redirect 301 /apps/lena-js/ http://fellipe.com/demos/lena-js/
+redirect 301 /lena-js/ http://fellipe.com/demos/lena-js/
 
 # BEGIN GZIP
 <ifmodule mod_deflate.c>
