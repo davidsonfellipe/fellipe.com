@@ -22,7 +22,7 @@ group: navigation
         <span class="list-note">opensource</span>
     </li>
     <li class="list-item">
-        <a href="http://fellipe.com/apps/lena-js/">
+        <a href="http://fellipe.com/demos/lena-js/">
             Lena.js
         </a>
         <span class="list-note">opensource</span>
