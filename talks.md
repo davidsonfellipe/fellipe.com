@@ -10,6 +10,20 @@ group: navigation
 
 <ul class="list talks">
     <li class="list-item talk">
+        <a href="http://frontinbh.com.br/">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
+               Opening conference @ Front in BH</h2>
+            <span class="talk-local">Belo Horizonte, MG, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">august</span>
+                    <span class="talk-date-day">3</span>
+                </span>
+            </section>
+        </a>
+    </li>
+    <li class="list-item talk">
         <a href="#">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
