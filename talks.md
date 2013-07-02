@@ -13,7 +13,7 @@ group: navigation
         <a href="#">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
-               Coming soon - @ V FSLDC</h2>
+               Workflow Open Source para Frontend Developers @ V FSLDC</h2>
             <span class="talk-local">Duque de Caxias, RJ, Brazil</span>
             <section class="talk-info">
                 <span class="talk-date">
