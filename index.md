@@ -14,7 +14,7 @@ layout: default
         <br>
         Conferences organizer at <a href="http://riojs.org">rio.js</a>,
                 <a href="http://pernambucojs.com">pernambuco.js</a>,
-                <a href="http://frontinbh.com.br">frontinbh</a>,
+                <a href="http://frontinbh.com.br">frontinbh</a>
         <br>
         lives in rio de janeiro
     </h3>
