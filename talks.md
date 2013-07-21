@@ -38,7 +38,7 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="#">
+        <a href="https://speakerdeck.com/fellipe/workflow-open-source-para-frontend-developers">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                Workflow Open Source para Frontend Developers @ V FSLDC</h2>
