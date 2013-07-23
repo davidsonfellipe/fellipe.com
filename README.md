@@ -12,7 +12,7 @@ My personal website using jekyll-bootstrap
 
     jekyll --server
 
-On browser [localhost:4000](localhost:4000)
+On browser [localhost:4000](http://localhost:4000)
 
 
 # dependencies
