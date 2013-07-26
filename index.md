@@ -12,9 +12,9 @@ layout: default
         m.sc. student at PUC-Rio,
         co-founder at <a href="http://braziljs.org">braziljs.org</a>
         <br>
-        Conferences organizer at <a href="http://riojs.org">rio.js</a>,
+        Conferences organizer at <a href="http://frontinbh.com.br">frontinbh</a>,
                 <a href="http://pernambucojs.com">pernambuco.js</a>,
-                <a href="http://frontinbh.com.br">frontinbh</a>
+                <a href="http://riojs.org">rio.js</a>
         <br>
         lives in rio de janeiro
     </h3>
