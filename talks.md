@@ -24,7 +24,7 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="#">
+        <a href="https://speakerdeck.com/fellipe/turbinando-seu-workflow-para-o-desenvolvimento-de-webapps">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                Workflow Open Source para Frontend Developers @ Front in Bahia</h2>
