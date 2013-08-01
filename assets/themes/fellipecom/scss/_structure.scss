@@ -24,4 +24,8 @@ body:before {
     width: 960px;
     position: relative;
     padding-top: 70px;
+
+    &.container-media {
+        width: 100%;
+    }
 }
