@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Media / Interviews
+title: Media
 permalink: /media/
 header: Pages
 group: navigation
@@ -14,6 +14,14 @@ group: navigation
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                Interview about Front in BH on Estado de Minas (Brazilian newspaper)
+            </h2>
+        </a>
+    </li>
+    <li class="list-item talk">
+        <a href="{{ BASE_URL }}/media/opinions/revista-wide-91.pdf">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
+               Opinion about market for developers in Brazil for Revista Wide (Brazilian magazine)
             </h2>
         </a>
     </li>
