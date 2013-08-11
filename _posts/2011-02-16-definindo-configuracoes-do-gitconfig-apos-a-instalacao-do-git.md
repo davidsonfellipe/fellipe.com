@@ -101,6 +101,6 @@ Situação bem comum que lidamos no desenvolvimento de software é a questão da
     df = diff
     lg = log -pgit ps
     co = checkout
-    pom = push origin master
+    pom = pull origin master
     ps = push
     pl = pull
