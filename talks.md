@@ -10,6 +10,20 @@ group: navigation
 
 <ul class="list talks">
     <li class="list-item talk">
+        <a href="https://www.facebook.com/events/583982984976397/">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
+               Front-end Engineers: passado, presente e futuro @ Convescote XL</h2>
+            <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">august</span>
+                    <span class="talk-date-day">28</span>
+                </span>
+            </section>
+        </a>
+    </li>
+    <li class="list-item talk">
         <a href="http://frontinbh.com.br/">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
