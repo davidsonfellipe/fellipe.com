@@ -10,7 +10,7 @@ group: navigation
 
 <ul class="list talks">
     <li class="list-item talk">
-        <a href="#">
+        <a href="https://speakerdeck.com/fellipe/frontend-engineers-passado-presente-e-futuro">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                Front-end Engineers: passado, presente e futuro @ Convescote XL</h2>
