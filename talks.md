@@ -13,6 +13,20 @@ group: navigation
         <a href="https://speakerdeck.com/fellipe/frontend-engineers-passado-presente-e-futuro">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
+               Untitled @ Joomla Day Rio 2013</h2>
+            <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">november</span>
+                    <span class="talk-date-day">16</span>
+                </span>
+            </section>
+        </a>
+    </li>
+    <li class="list-item talk">
+        <a href="https://speakerdeck.com/fellipe/frontend-engineers-passado-presente-e-futuro">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
                Front-end Engineers: passado, presente e futuro @ Convescote XL</h2>
             <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
             <section class="talk-info">
