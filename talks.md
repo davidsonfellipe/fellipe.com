@@ -10,7 +10,7 @@ group: navigation
 
 <ul class="list talks">
     <li class="list-item talk">
-        <a href="https://speakerdeck.com/fellipe/frontend-engineers-passado-presente-e-futuro">
+        <a href="#">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                Untitled @ Joomla Day Rio 2013</h2>
