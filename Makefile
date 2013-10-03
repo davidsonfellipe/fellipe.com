@@ -1,0 +1,2 @@
+run:
+		@jekyll --server --safe
