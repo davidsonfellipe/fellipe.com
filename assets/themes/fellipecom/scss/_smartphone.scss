@@ -7,10 +7,11 @@
 
     .title {
         font-size: 30px;
-        margin-bottom: 15px;
+        margin: 15px 0;
     }
+
     .title:first-child {
-        margin-top: 15px;
+        margin-top: 40px;
     }
 
     .nav .nav-lists {
@@ -62,11 +63,15 @@
         }
     }
 
-    .list .list-item .list-note {
-        right: 5px;
-        text-align: right;
-        top: 5px;
-        font-size: 0.8em;
+    .list .list-item {
+        font-size: 13px;
+
+        .list-note {
+            right: 5px;
+            text-align: right;
+            top: 5px;
+            font-size: 0.8em;
+        }
     }
 
     .talks .talk-info {
@@ -88,5 +93,4 @@
     .talks .talk-info .talk-date-day {
         font-size: 16px;
     }
-
 }
