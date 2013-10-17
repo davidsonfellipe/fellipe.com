@@ -10,6 +10,14 @@ group: navigation
 
 <ul class="list talks">
     <li class="list-item talk">
+        <a href="http://setup.loopinfinito.com.br/davidson-fellipe/">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
+               Interview about my career for Setup Loop Infinito (Brazilian Blog)
+            </h2>
+        </a>
+    </li>
+     <li class="list-item talk">
         <a href="{{ BASE_URL }}/media/interviews/front-in-bh-no-estado-de-minas/">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
