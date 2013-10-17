@@ -13,7 +13,7 @@ group: navigation
         <a href="http://setup.loopinfinito.com.br/davidson-fellipe/">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
-               Interview about my career for Setup Loop Infinito (Brazilian Blog)
+               Interview about me for Setup Loop Infinito (Brazilian Blog)
             </h2>
         </a>
     </li>
