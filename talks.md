@@ -10,10 +10,10 @@ group: navigation
 
 <ul class="list talks">
     <li class="list-item talk">
-        <a href="#">
+        <a href="https://speakerdeck.com/fellipe/its-javascript-time">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
-               Untitled @ Joomla Day Rio 2013</h2>
+               It's Javascript Time @ Joomla Day Rio 2013</h2>
             <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
             <section class="talk-info">
                 <span class="talk-date">
