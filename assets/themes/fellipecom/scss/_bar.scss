@@ -30,8 +30,8 @@ $color-bg: #333;
         li{
             display: inline-block;
             *display: inline;
-            zoom: 1;
             margin-left: 10px;
+            zoom: 1;
         }
     }
 
@@ -44,12 +44,13 @@ $color-bg: #333;
         margin-left: 15px;
         padding-left: 15px;
     }
-    .button{
+
+    .button {
         background-color: transparent;
+        cursor: pointer;
         font-size: 16px;
         margin: 0 10px 0 0;
         padding: 10px 0 10px 0;
-        cursor: pointer;
         text-align: left;
 
         &:before{
