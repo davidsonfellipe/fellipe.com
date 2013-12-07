@@ -23,18 +23,18 @@
         .talk-date,
         .talk-year {
             color: #666;
-            width: 60px;
+            font-size: 9px;
             height: 40px;
             padding: 3px 0px 5px 0px;
             text-align: center;
-            font-size: 9px;
+            width: 60px;
             -moz-box-shadow: 0 0 5px #ccc;
             -webkit-box-shadow: 0 0 5px #ccc;
             box-shadow: 0 0 5px #ccc;
         }
         .talk-date-year {
-            margin-top: 5px;
             display: block;
+            margin-top: 5px;
         }
         .talk-date-day {
             color: #ccc;
