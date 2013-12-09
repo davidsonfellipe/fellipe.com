@@ -20,26 +20,26 @@
     }
 
     .hi {
+        @extend .name;
         font-size: 150px;
-    }
-
-    .name span {
-        display: inline-block;
+        display: block;
+        margin-left: -5px;
         -moz-transition: all 1s ease;
         -webkit-transition: all 0.6s ease;
         -o-transition: all 1s ease;
         transition: all 1s ease;
-    }
+        width: 200px;
 
-    .name span:hover {
-        filter:alpha(opacity=0.5);
-        -moz-opacity: 0.5;
-        opacity: 0.5;
-        transform: scale(1.3,1.3);
-        -ms-transform: scale(1.3,1.3);
-        -webkit-transform: scale(1.3,1.3);
-        -o-transform: scale(1.3,1.3);
-        -moz-transform: scale(1.3,1.3);
+        &:hover {
+            filter:alpha(opacity=0.5);
+            -moz-opacity: 0.5;
+            opacity: 0.5;
+            transform: scale(1.3,1.3);
+            -ms-transform: scale(1.3,1.3);
+            -webkit-transform: scale(1.3,1.3);
+            -o-transform: scale(1.3,1.3);
+            -moz-transform: scale(1.3,1.3);
+        }
     }
 
     .job {

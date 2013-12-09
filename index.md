@@ -4,10 +4,8 @@ layout: default
 {% include JB/setup %}
 <div class="container">
     <header class="aboutme">
-        <h2 class="name">
-            <span class="hi">hi!</span><br>
-            i'm Davidson Fellipe
-        </h2>
+        <span class="hi">hi!</span>
+        <h2 class="name">i'm Davidson Fellipe</h2>
         <h3 class="job">
             front-end engineer at <a href="http://opensource.globo.com">globo.com</a>,
             m.sc. student at PUC-Rio,
