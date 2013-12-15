@@ -10,6 +10,20 @@ group: navigation
 
 <ul class="list talks">
     <li class="list-item talk">
+        <a href="https://speakerdeck.com/fellipe/esse-cara-e-o-grunt">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
+               Esse cara é o Grunt @ Front in Recife</h2>
+            <span class="talk-local">Recife, PE, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">december</span>
+                    <span class="talk-date-day">14</span>
+                </span>
+            </section>
+        </a>
+    </li>
+    <li class="list-item talk">
         <a href="https://speakerdeck.com/fellipe/its-javascript-time">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
