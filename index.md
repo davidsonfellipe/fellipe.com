@@ -35,22 +35,22 @@ layout: default
         </li>
         <li class="button-list-item">
             <a href="https://github.com/davidsonfellipe" class="button icon-github">
-                <span class="label">github</span>
             </a>
         </li>
         <li class="button-list-item">
-            <a href="http://www.linkedin.com/in/fellipe" class="button icon-linkedin-sign">
-                <span class="label">linkedin</span>
+            <a href="http://www.linkedin.com/in/fellipe" class="button icon-linkedin">
             </a>
         </li>
         <li class="button-list-item">
-            <a href="https://www.facebook.com/fellipe" class="button icon-facebook-sign">
-                <span class="label">facebook</span>
+            <a href="https://www.facebook.com/fellipe" class="button icon-facebook">
             </a>
         </li>
         <li class="button-list-item">
-            <a href="https://twitter.com/davidsonfellipe" class="button icon-twitter-sign">
-                <span class="label">twitter</span>
+            <a href="https://twitter.com/davidsonfellipe" class="button icon-twitter" rel="me">
+            </a>
+        </li>
+        <li class="button-list-item">
+            <a href="https://plus.google.com/+DavidsonFellipe/posts?rel=author" class="button icon-google-plus">
             </a>
         </li>
     </ul>
