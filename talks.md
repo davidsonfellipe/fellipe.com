@@ -1,12 +1,31 @@
 ---
 layout: page
-title: Talks / 2013
+title: Talks / 2014
 permalink: /talks/
 header: Pages
 group: navigation
 ---
 {% include JB/setup %}
 {% include themes/fellipecom/nav.html %}
+
+<ul class="list talks">
+    <li class="list-item talk">
+        <a href="#">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
+               Guia prático de Desenvolvimento Front-end para Django Devs @ Python Nordeste 2014</h2>
+            <span class="talk-local">Salvador, BA, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">may</span>
+                    <span class="talk-date-day">3</span>
+                </span>
+            </section>
+        </a>
+    </li>
+</ul>
+
+#{.title}Talks / 2013
 
 <ul class="list talks">
     <li class="list-item talk">
