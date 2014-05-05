@@ -24,7 +24,7 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="#">
+        <a href="http://www.slideshare.net/davidsonfellipe/guia-pratico-de-desenvolvimento-front-end-para-django-devs">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                Guia prático de Desenvolvimento Front-end para Django Devs @ Python Nordeste 2014</h2>
