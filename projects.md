@@ -27,6 +27,12 @@ group: navigation
         </a>
         <span class="list-note">opensource</span>
     </li>
+    <li class="list-item">
+        <a href="http://fellipe.com/apps/im-coder">
+            I'm Coder
+        </a>
+        <span class="list-note">opensource</span>
+    </li>
 </ul>
 
 #{.title}Projects / companies
