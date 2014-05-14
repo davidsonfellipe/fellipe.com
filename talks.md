@@ -13,12 +13,54 @@ group: navigation
         <a href="#">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
+               Turbinando seu workflow para o desenvolvimento de webapps @ Frontend Carioca</h2>
+            <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">sep</span>
+                    <span class="talk-date-day">27</span>
+                </span>
+            </section>
+        </a>
+    </li>
+    <li class="list-item talk">
+        <a href="#">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
+               Workflow para desenvolvimento mobile usando Grunt.JS @ Mobile Conf 2014</h2>
+            <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">may</span>
+                    <span class="talk-date-day">31</span>
+                </span>
+            </section>
+        </a>
+    </li>
+    <li class="list-item talk">
+        <a href="#">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
                Como é trabalhar na globo.com? @ UERJ</h2>
             <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
             <section class="talk-info">
                 <span class="talk-date">
                     <span class="talk-date-month">may</span>
                     <span class="talk-date-day">15</span>
+                </span>
+            </section>
+        </a>
+    </li>
+    <li class="list-item talk">
+        <a href="http://www.slideshare.net/davidsonfellipe/practical-guide-for-frontend-development-for-django-devs">
+            <span class="label lang">en</span>
+            <h2 class="talk-title">
+               Practical guide for front-end development for django devs @ Python Nordeste 2014</h2>
+            <span class="talk-local">Salvador, BA, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">may</span>
+                    <span class="talk-date-day">3</span>
                 </span>
             </section>
         </a>
