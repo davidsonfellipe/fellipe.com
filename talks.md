@@ -24,7 +24,7 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="#">
+        <a href="http://www.slideshare.net/davidsonfellipe/workflow-para-desenvolvimento-mobile-usando-gruntjs">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                Workflow para desenvolvimento mobile usando Grunt.JS @ Mobile Conf 2014</h2>
