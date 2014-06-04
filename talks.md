@@ -38,7 +38,7 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="#">
+        <a href="http://www.slideshare.net/davidsonfellipe/como-e-trabalhar-na-globocom">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                Como é trabalhar na globo.com? @ UERJ</h2>
