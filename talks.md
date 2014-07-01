@@ -24,6 +24,19 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
+        <a href="#">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">soon @ Front in Aracaju</h2>
+            <span class="talk-local">Aracaju, SE, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">aug</span>
+                    <span class="talk-date-day">2</span>
+                </span>
+            </section>
+        </a>
+    </li>
+    <li class="list-item talk">
         <a href="http://www.slideshare.net/davidsonfellipe/workflow-para-desenvolvimento-mobile-usando-gruntjs">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
