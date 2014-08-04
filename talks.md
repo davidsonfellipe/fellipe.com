@@ -24,9 +24,9 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="#">
+        <a href="http://www.slideshare.net/davidsonfellipe/workflow-para-desenvolvimento-mobile-usando-gruntjs">
             <span class="label lang">pt-br</span>
-            <h2 class="talk-title">soon @ Front Interior</h2>
+            <h2 class="talk-title">Workflow para desenvolvimento mobile usando Grunt.JS @ Front Interior</h2>
             <span class="talk-local">Bauru, SP, Brazil</span>
             <section class="talk-info">
                 <span class="talk-date">
@@ -37,9 +37,9 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="#">
+        <a href="http://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
             <span class="label lang">pt-br</span>
-            <h2 class="talk-title">soon @ Front in Aracaju</h2>
+            <h2 class="talk-title">Guia do Front-end das galáxias @ Front in Aracaju</h2>
             <span class="talk-local">Aracaju, SE, Brazil</span>
             <section class="talk-info">
                 <span class="talk-date">
