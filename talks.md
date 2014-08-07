@@ -24,6 +24,20 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
+        <a href="#">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
+               Workshop about Grunt.js @ Web.br by W3C</h2>
+            <span class="talk-local">São Paulo, SP, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">sep</span>
+                    <span class="talk-date-day">26</span>
+                </span>
+            </section>
+        </a>
+    </li>
+    <li class="list-item talk">
         <a href="http://www.slideshare.net/davidsonfellipe/workflow-para-desenvolvimento-mobile-usando-gruntjs">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">Workflow para desenvolvimento mobile usando Grunt.JS @ Front Interior</h2>
