@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   var path = require('path');
 
   // measures the time each task takes
-  // require('time-grunt')(grunt);
+  require('time-grunt')(grunt);
 
   // load-grunt-config includes load-grunt-tasks
   require('load-grunt-config')(grunt, {
