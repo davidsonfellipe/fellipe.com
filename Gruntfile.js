@@ -1,7 +1,15 @@
 module.exports = function(grunt) {
 
-  // measures the time each task takes
-  require('time-grunt')(grunt);
+  var path = require('path');
 
-  require('load-grunt-config')(grunt);
+  // measures the time each task takes
+  // require('time-grunt')(grunt);
+
+  // load-grunt-config includes load-grunt-tasks
+  require('load-grunt-config')(grunt, {
+    configPath: path.join(process.cwd(), 'grunt'),
+    data: { //data passed into config.
+      path: 'assets/themes/fellipecom/'
+    }
+  });
 };
