@@ -14,6 +14,20 @@ group: navigation
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                Turbinando seu workflow para o desenvolvimento de webapps @ Frontend Carioca</h2>
+            <span class="talk-local">Natal, RN, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">sep</span>
+                    <span class="talk-date-day">27</span>
+                </span>
+            </section>
+        </a>
+    </li>
+    <li class="list-item talk">
+        <a href="#">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
+               Turbinando seu workflow para o desenvolvimento de webapps @ Frontend Carioca</h2>
             <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
             <section class="talk-info">
                 <span class="talk-date">
