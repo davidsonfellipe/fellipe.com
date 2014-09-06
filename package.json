@@ -4,6 +4,7 @@
     "grunt": "0.4.1",
     "grunt-contrib-csslint": "^0.2.0",
     "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1",
     "load-grunt-config": "^0.13.0"
   }
 }
