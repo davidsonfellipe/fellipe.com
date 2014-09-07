@@ -1,2 +1,5 @@
+setup:
+	@npm install rsyncwrapper
+
 run:
-		@jekyll --server --safe
+	@jekyll --server --safe
