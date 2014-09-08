@@ -6,14 +6,12 @@ module.exports = {
       authKey: 'key'
     },
     src: '_site/',
-    dest: '/public_html/_x',
+    dest: '/public_html/',
     exclusions: ['.DS_Store',
                  'Makefile',
-                 'temp',
                  'package.json',
                  'Gruntfile.js',
                  'node_modules'],
-    // keep: ['/important/images/at/server/*.jpg'],
     simple: true,
     useList: false
   }
