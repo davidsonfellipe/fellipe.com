@@ -38,7 +38,7 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="#">
+        <a href="https://github.com/almirfilho/grunt-workshop">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                Workshop about Grunt.js @ Web.br by W3C</h2>
