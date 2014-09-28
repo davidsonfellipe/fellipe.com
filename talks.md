@@ -24,10 +24,10 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="#">
+        <a href="http://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
-               Turbinando seu workflow para o desenvolvimento de webapps @ Frontend Carioca</h2>
+               Guia do Front-end das Galáxias @ Frontend Carioca</h2>
             <span class="talk-local">Rio de Janeiro, RJ, Brazil</span>
             <section class="talk-info">
                 <span class="talk-date">
