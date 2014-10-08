@@ -6,6 +6,7 @@
     "grunt-contrib-sass": "^0.8.1",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-ftpush": "^0.3.3",
-    "load-grunt-config": "^0.13.0"
+    "load-grunt-config": "^0.13.0",
+    "time-grunt": "^1.0.0"
   }
 }
