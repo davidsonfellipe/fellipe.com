@@ -444,6 +444,25 @@ group: navigation
     </li>
 </ul>
 
+#{.title}Talks / 2009
+
+<ul class="list talks">
+    <li class="list-item talk">
+        <a href="https://speakerdeck.com/fellipe/front-end-engineer-and-designer">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
+                Front-end engineer  &amp; designer @ Frontend-br Meetup</h2>
+            <span class="talk-local">Recife, PE, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">march</span>
+                    <span class="talk-date-day">9</span>
+                </span>
+            </section>
+        </a>
+    </li>
+</ul>
+
 
 #{.title}Others Talks
 
