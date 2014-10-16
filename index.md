@@ -34,7 +34,7 @@ layout: default
             </a>
         </li>
         <li class="button-list-item">
-            <a href="http://www.linkedin.com/in/fellipe" class="button icon-linkedin">
+            <a href="https://www.linkedin.com/in/fellipe" class="button icon-linkedin">
             </a>
         </li>
         <li class="button-list-item">
