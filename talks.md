@@ -24,10 +24,10 @@ group: navigation
         </a>
     </li>
     <li class="list-item talk">
-        <a href="#">
+        <a href="http://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
-               Untitled @ Rupy Natal</h2>
+               Guia do Front-end das Galáxias @ Rupy Natal</h2>
             <span class="talk-local">Natal, RN, Brazil</span>
             <section class="talk-info">
                 <span class="talk-date">
