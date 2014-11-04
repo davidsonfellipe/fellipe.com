@@ -10,6 +10,20 @@ group: navigation
 
 <ul class="list talks">
     <li class="list-item talk">
+        <a href="#">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
+               O melhor da monitoração de Web Performance @ Front in Poa</h2>
+            <span class="talk-local">Porto Alegre, RS, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">nov</span>
+                    <span class="talk-date-day">8</span>
+                </span>
+            </section>
+        </a>
+    </li>
+     <li class="list-item talk">
         <a href="https://www.slideshare.net/davidsonfellipe/workflow-para-desenvolvimento-mobile-usando-gruntjs/">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
