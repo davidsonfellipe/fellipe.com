@@ -10,7 +10,7 @@ group: navigation
 
 <ul class="list talks">
     <li class="list-item talk">
-        <a href="#">
+        <a href="http://www.slideshare.net/davidsonfellipe/o-melhor-da-monitoracao-de-web-performance">
             <span class="label lang">pt-br</span>
             <h2 class="talk-title">
                O melhor da monitoração de Web Performance @ Front in Poa</h2>
