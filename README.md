@@ -19,6 +19,12 @@ On browser [localhost:4000](http://localhost:4000)
 
     gem install compass
 
+#### Author
+
+[![Davidson Fellipe](http://gravatar.com/avatar/054c583ad5dc09a861874e14dcb43e4c?s=70)](https://github.com/davidsonfellipe)
+<br>
+[Davidson Fellipe](https://github.com/davidsonfellipe)
+
 ## License
 
-[MIT](http://opensource.org/licenses/MIT)
+Code is under [MIT](http://davidsonfellipe.mit-license.org) license
