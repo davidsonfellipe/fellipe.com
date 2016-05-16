@@ -1,12 +1,31 @@
 ---
 layout: page
-title: Talks / 2014
+title: Talks / 2015
 permalink: /talks/
 header: Pages
 group: navigation
 ---
 {% include JB/setup %}
 {% include themes/fellipecom/nav.html %}
+
+<ul class="list talks">
+    <li class="list-item talk">
+        <a href="http://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
+            <span class="label lang">pt-br</span>
+            <h2 class="talk-title">
+               Guia do Front-end das Galáxias @ Front in Cuiabá</h2>
+            <span class="talk-local">Cuiabá, MT, Brazil</span>
+            <section class="talk-info">
+                <span class="talk-date">
+                    <span class="talk-date-month">mar</span>
+                    <span class="talk-date-day">28</span>
+                </span>
+            </section>
+        </a>
+    </li>
+</ul>
+
+#{.title}Talks / 2013
 
 <ul class="list talks">
     <li class="list-item talk">
