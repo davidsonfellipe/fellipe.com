@@ -7,9 +7,7 @@ layout: default
         <span class="hi">hi!</span>
         <h2 class="name">i'm Davidson Fellipe</h2>
         <h3 class="job">
-            senior front-end engineer at <a href="https://loadsmart.com">loadsmart</a>
-            <br>
-            Conferences organizer at <a href="http://frontinbh.com.br">frontinbh</a>
+            senior front-end engineer at <a href="https://loadsmart.com">loadsmart</a> &amp; organizer at <a href="http://frontinbh.com.br">frontinbh</a>
             <br>
             lives in new york city
         </h3>
