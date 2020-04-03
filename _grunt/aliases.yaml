@@ -1,5 +1,0 @@
-default:
-  - 'yslow'
-
-test:
-  - 'yslow'
