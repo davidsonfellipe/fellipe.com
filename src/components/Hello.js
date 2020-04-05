@@ -1,7 +1,7 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 
-import { screen } from "../styles/screen"
+import { screen } from "../styles/screen";
 
 const Name = styled.h1`
   font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -16,7 +16,7 @@ const Name = styled.h1`
     margin: 200px 0 15px -5px;
     letter-spacing: -0.04em;
   }
-`
+`;
 
 const Text = styled.p`
   font-family: "Cormorant Garamond", serif;
@@ -44,16 +44,18 @@ const Text = styled.p`
   ${screen.lg} {
     display: inline-block;
   }
-`
+`;
 
 const Sidebar = () => (
   <section>
-    <Name>HELLO! 👋🏻</Name>
+    <Name>
+      HELLO! <span role="img">👋🏻</span>
+    </Name>
     <Text>
       Would you like to see my <a href="/blog/">Posts</a> or{" "}
       <a href="/talks/">Talks</a>?
     </Text>
   </section>
-)
+);
 
-export default Sidebar
+export default Sidebar;
