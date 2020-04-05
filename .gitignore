@@ -9,3 +9,4 @@ _posts_not_published/
 assets/themes/fellipecom/css/
 .ftppass
 Gemfile.lock
+yarn-error.log
