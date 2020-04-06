@@ -31,10 +31,10 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 1280,
-              linkImagesToOriginal: false
+              maxWidth: 1280
             }
-          }
+          },
+          `gatsby-remark-responsive-iframe`
         ]
       }
     },
@@ -46,7 +46,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        display: `minimal-ui`
+        display: `minimal-ui`,
+        icon: `src/images/gatsby-icon.jpg` // This path is relative to the root of the site.
       }
     },
     {
