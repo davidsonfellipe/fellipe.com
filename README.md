@@ -1,6 +1,6 @@
 # www.fellipe.com
 
-My personal website using jekyll-bootstrap
+My personal website using Gatsbyjs
 
 # steps to run
 
