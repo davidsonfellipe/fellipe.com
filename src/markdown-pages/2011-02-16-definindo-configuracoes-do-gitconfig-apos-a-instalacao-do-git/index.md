@@ -4,31 +4,22 @@ author: Davidson Fellipe
 layout: post
 lang: pt
 path: /blog/definindo-configuracoes-do-gitconfig-apos-a-instalacao-do-git/
-date: "2017-11-07"
-dsq_thread_id:
-  - 261154568
-categories:
-  - desenvolvimento
-tags: ['blogs']
+date: "2011-02-16"
+dsq_thread_id: 261154568
+tags: ["blogs"]
 ---
+
 **GIT** é um Software Livre utilizado para controle de versão, é distribuído, com enfase em rapidez. Foi inicialmente criado por **Linus Torvalds **para ser utilizado no desenvolvimento do kernel **Linux**. Para instalar a ferramenta para basta acessar seu [site oficial][1].
 
 [1]: http://git-scm.com/download
 
 Comecei a usar git em setembro de 2010. Hoje, acho o GIT uma ferramenta robusta para o controle de versão. No meu primeiro projeto que utilizava o GIT, tive um pouco de dificuldade para entender, mas com o tempo fui procurando soluções como se resolvia alguns problemas comuns de conflitos e já estou bem adaptado a seu uso.
 
+Enfim, irei apenas apresentar algumas definições que me ajuda a trabalhar no dia-a-dia com o GIT via terminal do MacOS.  Com o GIT instalado localize o arquivo **.gitconfig**, que normalmente fica no diretório _home_ de seu usuário, ex: _/Users/fellipe/.gitconfig_.
 
-Enfim, irei apenas apresentar algumas definições que me ajuda a trabalhar no dia-a-dia com o GIT via terminal do MacOS.  Com o GIT instalado localize o arquivo **.gitconfig**, que normalmente fica no diretório *home* de seu usuário, ex: */Users/fellipe/.gitconfig*.
-
-
-Você pode editar esse arquivo utilizando um editor de texto ou utilizar o comando “*git config –global*” via Terminal. Primeiramente apresentarei via Terminal e no [final do post tem o resultado de como o arquivo .gitconfig ficará][2], esse resultado apresentado no final pode ser usado para quem deseja editar via editor de texto.
+Você pode editar esse arquivo utilizando um editor de texto ou utilizar o comando “_git config –global_” via Terminal. Primeiramente apresentarei via Terminal e no [final do post tem o resultado de como o arquivo .gitconfig ficará][2], esse resultado apresentado no final pode ser usado para quem deseja editar via editor de texto.
 
 [2]: #arquivo_gitconfig
-
-
-
-
-
 
 ## Definições de Usuário
 
@@ -72,8 +63,6 @@ Especificar as cores das respostas do GIT, facilita bastante no uso da ferrament
 Situação bem comum que lidamos no desenvolvimento de software é a questão da resolução de conflitos, para casos que o GIT não pode resolver automaticamente você pode definir a ferramenta que você tem mais familiaridade para fazer uso do merge. Para defini-la basta utilizar o comando abaixo:
 
     git config --global merge.tool "SUA_FERRAMENTA_DE_MERGE"
-
-
 
 ## Resultado final do arquivo:
 

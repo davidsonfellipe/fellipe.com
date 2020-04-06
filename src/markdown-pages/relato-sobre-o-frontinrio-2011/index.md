@@ -4,11 +4,8 @@ author: Davidson Fellipe
 layout: post
 lang: pt
 path: /blog/relato-sobre-o-frontinrio-2011/
-date: "2017-11-07"
-dsq_thread_id:
-  - 342861870
-categories:
-  - eventos
+date: "2011-06-26"
+dsq_thread_id: 342861870
 tags: ["blogs"]
 ---
 
@@ -53,17 +50,17 @@ Apos minha palestra no BrazilJS, percebi que poderia fazer uma específica sobre
 para eu apresentar uma palestra no FrontInRio, escolhi esse tema. Comecei apresentando sobre alguns conceitos que seriam relevantes para o entendimento,
 mostrei também as principais diferenças entre as duas técnicas, o suporte aos browsers, libraries tanto para SVG quanto para Canvas, um hands on cujo código pode ser encontrado em [meu repositório no github para palestras][6].
 
-<p><iframe class="video-wrap" width="880" height="500" src="http://www.slideshare.net/slideshow/embed_code/8354309" frameborder="0"> </iframe></p>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/cBrSaB767SSlID" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
-E mais uma vez a Globo.com contou com um grande número de participantes no evento.
+<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/davidsonfellipe/canvas-vs-svg" title="CANVAS vs SVG @ FrontInRio 2011" target="_blank">CANVAS vs SVG @ FrontInRio 2011</a> </strong> from <strong><a href="//www.slideshare.net/davidsonfellipe" target="_blank">Davidson Fellipe</a></strong> </div>
 
-![][./264478_10150223688524548_787149547_7065875_6582493_n1.jpg]
+![](./264478_10150223688524548_787149547_7065875_6582493_n1.jpg)
 
 ## Agradecimentos
 
-- Organizadores do evento, que estão de parabéns pela realização
-- Leo Balter, pelo convite
-- Globo.com, patrocinadora do evento
-- Todos presentes no evento, sem vocês o evento não teria sido um sucesso!
+-   Organizadores do evento, que estão de parabéns pela realização
+-   Leo Balter, pelo convite
+-   Globo.com, patrocinadora do evento
+-   Todos presentes no evento, sem vocês o evento não teria sido um sucesso!
 
 [6]: https://github.com/davidsonfellipe/talks/tree/master/2011_frontinrio

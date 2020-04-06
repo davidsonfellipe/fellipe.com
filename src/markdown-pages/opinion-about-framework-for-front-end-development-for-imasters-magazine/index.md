@@ -1,19 +1,18 @@
 ---
-title: 'Opinion about frameworks for front end development'
+title: "Opinion about frameworks for front end development"
 author: Davidson Fellipe
 layout: post
 lang: en
 path: /blog/opinion-about-frameworks-for-front-end-development/
-date: "2017-11-07"
-tags: ['react']
+date: "2013-03-17"
+tags: ["react"]
 ---
 
 ## Originally published in [edition No. 5][1], iMasters Magazine, Year 2, on March 2013.
 
 ![](post-revista-imasters-frameworks-front-end.jpg)
 
-
-In this fifth edition's [iMasters Magazine] [0], magazine's major brazilian portal about web development, I wrote an opinion about Frameworks for Front-end Development.
+In this fifth edition's [iMasters Magazine][0], magazine's major brazilian portal about web development, I wrote an opinion about Frameworks for Front-end Development.
 
 [0]: http://issuu.com/imasters
 

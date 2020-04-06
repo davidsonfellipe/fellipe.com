@@ -5,9 +5,8 @@ layout: post
 lang: pt
 path: /blog/proposta-de-emprego-no-rio-de-janeiro-aceitar-ou-nao/
 date: "2010-09-24"
-dsq_thread_id:
-  - 261154516
-tags: ["winter", "snow", "react"]
+dsq_thread_id: 261154516
+tags: ["rio de janeiro"]
 ---
 
 ![](./DSC04035______.jpg)

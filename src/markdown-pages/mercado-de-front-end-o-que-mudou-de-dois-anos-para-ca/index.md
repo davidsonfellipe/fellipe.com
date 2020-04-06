@@ -4,8 +4,8 @@ author: Davidson Fellipe
 layout: post
 lang: pt
 path: /blog/mercado-de-front-end-o-que-mudou-de-dois-anos-para-ca/
-date: "2017-11-07"
-tags: ["winter", "snow", "react"]
+date: "2012-07-07"
+tags: ["front-end", "revista"]
 ---
 
 ##Publicado originalmente na [edição n° 91](http://www.revistawide.com.br/index.php/2012/7) da Revista Wide, em julho de 2012.

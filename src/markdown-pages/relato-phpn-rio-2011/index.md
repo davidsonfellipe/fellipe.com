@@ -1,18 +1,15 @@
 ---
-title: 'PHP n Rio, 2011'
+title: "PHP n Rio, 2011"
 author: Davidson Fellipe
 layout: post
 lang: pt
 path: /blog/relato-phpn-rio-2011/
-date: "2017-11-07"
-dsq_thread_id:
-  - 463112440
-categories:
-  - eventos
-tags: ['blogs']
+date: "2011-11-06"
+dsq_thread_id: 463112440
+tags: ["blogs"]
 ---
 
-![][.//DSCF0003.jpg]
+![](.//DSCF0003.jpg)
 
 Aconteceu no ultimo, 5 de novembro, o PHP n’ Rio, evento que reuniu a comunidade de desenvolvedores php do rio de janeiro e contou com 13 palestras, 4 oficinas e uma desconferencia. Basicamente o evento, que foi realizado no CEFET/RJ Maracanã, se dividiu em 3 salas, e irei relatar as seguintes palestras que conferi:
 
@@ -26,8 +23,7 @@ Ainda mostrou diversos lugares onde podemos adquirir o material de estudo. No fi
 
 A segunda palestra do dia foi com uma figura, conhecida como Suissa, que atualmente é um dos maiores evangelistas do NoSQL no Brasil.
 
-![][./DSCF0005.jpg]
-
+![](./DSCF0005.jpg)
 
 ## 3) Como usar HTML5 sem uma máquina do tempo
 
@@ -39,7 +35,7 @@ Em uma palestra recheada de links, ele tocou em vários assuntos, entre eles, lo
 
 Palestra comandada pelo Alexandre Gaigalas ([@alganet][3]), um dos nomes mais conhecidos da comunidade PHP no Brasil, que apresentou em quais paradigmas de programação podemos utilizar com a linguagem PHP. Fazendo um passei pelo imperativo, pelo dominante OOP com PHP e pelo ainda, pouco usado, PHP Funcional.
 
- [3]: http://twitter.com/alganet
+[3]: http://twitter.com/alganet
 
 ## Desconferencia
 

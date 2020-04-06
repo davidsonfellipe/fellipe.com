@@ -4,11 +4,10 @@ author: Davidson Fellipe
 layout: post
 lang: pt
 path: /blog/meu-ambiente-de-trabalho-em-7-itens/
-date: "2017-11-07"
-dsq_thread_id:
-  - 655514170
-tags: ['winter', 'snow', 'react']
+date: "2012-04-18"
+dsq_thread_id: "655514170"
 ---
+
 Enfim criei coragem para escreve sobre esse tema, que foi uma brincadeira antiga, que há um tempo atrás foi seguida por um [grande número de desenvolvedores][1].
 
 [1]: https://www.google.com.br/search?q=Meu%20ambiente%20de%20trabalho%20em%207%20itens
@@ -19,13 +18,13 @@ Venho trabalhando com o Mac OS X desde 2009, e enquanto eu tiver trabalhando com
 
 ## 2) Iterm2
 
-Um emulador de terminal para MacOS, com boa performance, bons *skins*, e já tem suas teclas de atalho bem conhecidas por mim.
+Um emulador de terminal para MacOS, com boa performance, bons _skins_, e já tem suas teclas de atalho bem conhecidas por mim.
 
 ## 3) Controle de versão: Git, Github e Gitifier
 
 Desde quando entrei no projeto na área de esportes, da globo.com venho usando o Git, e hoje, ele é meu controle de versão favorito. Nessa mesma época o @fabiomiranda me apresentou o Github, e fui conhecendo aos poucos essa incrível rede social, e passei a me envolver mais com o mundo Open Source devido a ela. O [Gitifier][2] é um simples notificador de pushs realizados em um determinado projeto e há uns 3 meses venho o utilizando.
 
- [2]: http://psionides.github.com/gitifier/
+[2]: http://psionides.github.com/gitifier/
 
 ## 4) Editor: Sublime Text 2
 
@@ -45,16 +44,16 @@ Com este software posso todas as contas de messengers que possuo, evitando deixa
 
 Será que os seguintes nomes, topam falar sobre os seus?
 
-*   [Giovanni Keppelen][4]
-*   [Zeno Rocha][5]
-*   [Rafael Caricio][6]
-*   [Rômulo Jales][7]
-*   [Klaus Laube][8]
-*   [Leonardo Alberto Souza][9]
+-   [Giovanni Keppelen][4]
+-   [Zeno Rocha][5]
+-   [Rafael Caricio][6]
+-   [Rômulo Jales][7]
+-   [Klaus Laube][8]
+-   [Leonardo Alberto Souza][9]
 
- [4]: http://bygiovanni.com.br
- [5]: http://blog.zenorocha.com
- [6]: http://rafaelcaricio.blogspot.com.br/
- [7]: http://romulojales.com/
- [8]: http://www.klauslaube.com.br/
- [9]: http://blog.leobetosouza.com/
+[4]: http://bygiovanni.com.br
+[5]: http://blog.zenorocha.com
+[6]: http://rafaelcaricio.blogspot.com.br/
+[7]: http://romulojales.com/
+[8]: http://www.klauslaube.com.br/
+[9]: http://blog.leobetosouza.com/

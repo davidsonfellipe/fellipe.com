@@ -4,7 +4,7 @@ import Title from "../components/Title";
 import Section from "../components/Section";
 import Link from "../components/Link";
 import ItemDate from "../components/ItemDate";
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 
 const AboutPage = () => (
   <Layout>

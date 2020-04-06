@@ -4,9 +4,9 @@ author: Davidson Fellipe
 layout: post
 lang: pt
 path: /blog/big-review-de-2012/
-date: "2017-11-07"
+date: "2013-01-01"
 dsq_thread_id:
-  - 1003744646
+    - 1003744646
 tags: ["winter", "snow", "react"]
 ---
 
@@ -42,7 +42,7 @@ Ainda em março, comecei o Mestrado na PUC-Rio, talvez essa tenha sido uma decis
 
 ## Viagem aos EUA
 
-![][./sfo.jpg]
+![](./sfo.jpg)
 Em Maio, fiquei na expectativa de minha primeira viagem internacional segunda viagem internacional, se considerarmos uma visita a Argentina e Paraguai em Janeiro.
 
 Depois da correria para visto e passaporte, embarquei com destino a San Francisco para participar da [Fluent Conferenc][10]e, a primeira conferência focada em javascript da O’Reilly, realizada na apaixonante San Francisco. Foram 3 dias de evento, e uma ótima oportunidade para troca ideias com desenvolvedores de várias partes do mundo, e abrir meus olhos para o grande crescimento do mercado de mobile para o desenvolvedor Frontend. Mais detalhes sobre o que rolou no evento podem ser conferidos nessa minha apresentação: [Fluent Conference Highlights][11], que apresentei em um TechTalk lá na Globo.com e também no Rio.js. Ainda pude conferir uma SF em clima de festa, em comemoração dos 75 anos da [Golden Gate Bridge][12], que trouxe um tempero especial para essa viagem.
@@ -53,16 +53,16 @@ Depois da correria para visto e passaporte, embarquei com destino a San Francisc
 
 ## Preparativos para o Front in BH
 
-![][./frontinbh.jpg] Esse ano fui convidado pelo Giovanni Keppelen, para participar da organização da 2ª edição do Front in BH, evento realizado em julho, que contou com cerca de 320 participantes na capital mineira, era apenas minha 2ª vez na cidade, e foi bastante gratificante os ótimos feedbacks que recebemos dos belo-horizontinos. Para mais detalhes técnicos sobre o que rolou no evento, confira esse post do Sérgio Lopes:
+![](./frontinbh.jpg) Esse ano fui convidado pelo Giovanni Keppelen, para participar da organização da 2ª edição do Front in BH, evento realizado em julho, que contou com cerca de 320 participantes na capital mineira, era apenas minha 2ª vez na cidade, e foi bastante gratificante os ótimos feedbacks que recebemos dos belo-horizontinos. Para mais detalhes técnicos sobre o que rolou no evento, confira esse post do Sérgio Lopes:
 
-- [Front In BH 2012: anotações da palestra ‘WordPress aliado do Front End’ do Leandro Vieira][15]
-- [Front In BH 2012: anotações da palestra ‘REST client side’ do Alexandre Gaigalas][16]
-- [Front In BH 2012: anotações da palestra ‘Amazon EC2 e CDN no Peixe Urbano’ do Alexandre Tabor][17]
-- [Front In BH 2012: anotações da palestra ‘Novo Cinto de Utilidades do Desenvolvedor JavaScript’ do Leo Balter][18]
-- [Front In BH 2012: anotações da palestra ‘Estilizando Folhas de Estilo com Estilo’ do Bernard De Luna][19]
-- [Front In BH 2012: anotações da palestra ‘Desafios do Design Mobile’ do Horácio Soares][20]
-- [Front In BH 2012: anotações da palestra ‘CSS sucks’ do Zeno Rocha][21]
-- [Front In BH 2012: palestra sobre performance e otimizações web][22]
+-   [Front In BH 2012: anotações da palestra ‘WordPress aliado do Front End’ do Leandro Vieira][15]
+-   [Front In BH 2012: anotações da palestra ‘REST client side’ do Alexandre Gaigalas][16]
+-   [Front In BH 2012: anotações da palestra ‘Amazon EC2 e CDN no Peixe Urbano’ do Alexandre Tabor][17]
+-   [Front In BH 2012: anotações da palestra ‘Novo Cinto de Utilidades do Desenvolvedor JavaScript’ do Leo Balter][18]
+-   [Front In BH 2012: anotações da palestra ‘Estilizando Folhas de Estilo com Estilo’ do Bernard De Luna][19]
+-   [Front In BH 2012: anotações da palestra ‘Desafios do Design Mobile’ do Horácio Soares][20]
+-   [Front In BH 2012: anotações da palestra ‘CSS sucks’ do Zeno Rocha][21]
+-   [Front In BH 2012: palestra sobre performance e otimizações web][22]
 
 [15]: http://sergiolopes.org/front-in-bh-wordpress-leandro-vieira/
 [16]: http://sergiolopes.org/front-in-bh-rest-client-side-alexandre-gaigalas/
@@ -83,7 +83,7 @@ Em novembro rolou o PHP n’ Rio, evento carioca organizado por membros da comun
 
 ## Hackathon da BlackBerry Jam Sessions
 
-![][./rj-best-game.jpg]
+![](./rj-best-game.jpg)
 
 Em setembro tive a oportunidade de participar do muito bem organizado BlackBerry Jam Sessions #5, realizado no Rio de Janeiro, foi minha primeira participação em um Hackathon, onde fiz um grupo junto com Matheus Vilaça, Flor di Maria, Zeno Rocha, Zanoni Miranda, apenas o Zeno, eu já conhecia antes do evento, e após 10 horas de programação, apresentamos o jogo [Black Wings][25], e vencemos na categoria Melhor Jogo. Todo jogo está [disponível no github][26]. Para maiores informações sobre o evento acesse esse [link][27].
 
@@ -101,13 +101,13 @@ Esse foi outro grande desafio para esse ano, onde busquei expor minha visão atu
 
 ## Front in Maceió
 
-![][./frontinmaceio1.jpg] Em outubro estava de volta ao nordeste, e dessa vez para um estado bem representativo em minha vida, e onde vive grande parte de minha família. Apesar das dificuldades, fizemos um evento de TI para 200 pessoas nessa capital com menor IDH do Brasil, esse foi um fato que trouxe uma grande satisfação, mas não foi fácil conseguir apoio para o evento. Por outro lado, Juarez P.A. Filho e eu, tivemos que pensar em várias estratégias de marketing para tornar possível essa ideia. Conheci muitos devs de lá, e estou gostando de ver esse Buzz pós-evento gerado na região, a [turma do Caravana Web][30] está quebrando tudo por lá.
+![](./frontinmaceio1.jpg) Em outubro estava de volta ao nordeste, e dessa vez para um estado bem representativo em minha vida, e onde vive grande parte de minha família. Apesar das dificuldades, fizemos um evento de TI para 200 pessoas nessa capital com menor IDH do Brasil, esse foi um fato que trouxe uma grande satisfação, mas não foi fácil conseguir apoio para o evento. Por outro lado, Juarez P.A. Filho e eu, tivemos que pensar em várias estratégias de marketing para tornar possível essa ideia. Conheci muitos devs de lá, e estou gostando de ver esse Buzz pós-evento gerado na região, a [turma do Caravana Web][30] está quebrando tudo por lá.
 
 [30]: https://www.facebook.com/groups/caravanaweb/?fref=ts
 
 ## BrazilJS Foundation & BrazilJS Conference
 
-![][./braziljs.jpg] Em Julho, anunciamos a [Fundação BrazilJS][33], que é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade de JavaScript no Brasil. Onde sou mais ligado a apoios a eventos regionais e a [BrazilJS Weekly][34].
+![](./braziljs.jpg) Em Julho, anunciamos a [Fundação BrazilJS][33], que é uma fundação sem fins lucrativos com a missão de mover e unir a comunidade de JavaScript no Brasil. Onde sou mais ligado a apoios a eventos regionais e a [BrazilJS Weekly][34].
 
 [32]: /assets/img/braziljs.jpg
 [33]: http://braziljs.org/
@@ -131,16 +131,16 @@ Considerando atividades que me envolvi o ano todo, posso destacar: O trabalho no
 
 ## E 2013?
 
-- Beber mais água e evitar outro calculo renal
-- Voltar a praticar exercícios e emagrecer 11kg
-- Terminar as disciplinas do Mestrado
-- Correr uma corrida de rua
-- Ir a outro evento internacional (QConSF, QConNY, JSconf Arg ou JSconf EUA)
-- Aumentar a visibilidade da BrazilJS Foundation
-- Um Front in BH épico
-- Um Front in Maceió épico
-- Um PernambucoJS épico
-- Novo layout do blog
+-   Beber mais água e evitar outro calculo renal
+-   Voltar a praticar exercícios e emagrecer 11kg
+-   Terminar as disciplinas do Mestrado
+-   Correr uma corrida de rua
+-   Ir a outro evento internacional (QConSF, QConNY, JSconf Arg ou JSconf EUA)
+-   Aumentar a visibilidade da BrazilJS Foundation
+-   Um Front in BH épico
+-   Um Front in Maceió épico
+-   Um PernambucoJS épico
+-   Novo layout do blog
 
 ## Agradecimentos
 

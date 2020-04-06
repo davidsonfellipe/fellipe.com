@@ -4,12 +4,9 @@ author: Davidson Fellipe
 layout: post
 lang: pt
 path: /blog/css-reloader-para-firefox-e-chrome/
-date: "2017-11-07"
-dsq_thread_id:
-  - 332173132
-categories:
-  - desenvolvimento
-tags: ['blogs']
+date: "2011-06-14"
+dsq_thread_id: 332173132
+tags: ["blogs"]
 ---
 
 Um tempo atras, eu encontrei essa extensão do **Firefox**, conhecida como **CSS Reloader**. Ela permite **recarregar** o TODOS os arquivos de **CSS** incorporados a página sem fazer recarregar a mesma. Uma boa **ferramenta** para quem trabalha com páginas que possuem um tempo de carregamento um pouco mais demorados. Tornando seu desenvolvimento de **CSS** mais **produtivo**.
