@@ -49,7 +49,10 @@ const Text = styled.p`
 const Sidebar = () => (
   <section>
     <Name>
-      HELLO! <span role="img">👋🏻</span>
+      HELLO!
+      <span role="img" aria-label="hand icon">
+        👋🏻
+      </span>
     </Name>
     <Text>
       Would you like to see my <a href="/blog/">Posts</a> or{" "}
