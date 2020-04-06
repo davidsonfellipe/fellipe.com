@@ -5,10 +5,7 @@ layout: post
 lang: pt
 path: /blog/relato-sobre-o-braziljs-2011-fortaleza/
 date: "2011-06-22"
-dsq_thread_id:
-    - 339216301
-categories:
-    - eventos
+dsq_thread_id: 339216301
 tags: ["blogs"]
 ---
 

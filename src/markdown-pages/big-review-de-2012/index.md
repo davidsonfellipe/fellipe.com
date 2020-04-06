@@ -5,8 +5,7 @@ layout: post
 lang: pt
 path: /blog/big-review-de-2012/
 date: "2013-01-01"
-dsq_thread_id:
-    - 1003744646
+dsq_thread_id: 1003744646
 tags: ["winter", "snow", "react"]
 ---
 

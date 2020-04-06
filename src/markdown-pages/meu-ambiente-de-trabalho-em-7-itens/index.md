@@ -5,7 +5,7 @@ layout: post
 lang: pt
 path: /blog/meu-ambiente-de-trabalho-em-7-itens/
 date: "2012-04-18"
-dsq_thread_id: "655514170"
+dsq_thread_id: 655514170
 ---
 
 Enfim criei coragem para escreve sobre esse tema, que foi uma brincadeira antiga, que há um tempo atrás foi seguida por um [grande número de desenvolvedores][1].
