@@ -12,10 +12,6 @@ My personal website using Gatsbyjs
 
 On browser [localhost:4000](http://localhost:4000)
 
-# dependencies
-
-    TBD
-
 #### Author
 
 [![Davidson Fellipe](http://gravatar.com/avatar/054c583ad5dc09a861874e14dcb43e4c?s=70)](https://github.com/davidsonfellipe)
