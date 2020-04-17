@@ -18,7 +18,7 @@ const IndexPage = ({
   return (
     <Layout>
       <Section>
-        <Title>TALKS</Title>
+        <Title>BLOG</Title>
         <div>{Posts}</div>
       </Section>
     </Layout>
