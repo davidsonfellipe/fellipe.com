@@ -39,23 +39,13 @@ const Section = styled.div`
   }
 `;
 
-const Layout = ({ children }) => {
-  // <Header siteTitle={data.site.siteMetadata.title} />
-
-  //  <footer>
-  //         © {new Date().getFullYear()}, Built with
-  //         {` `}
-  //         <a href="https://www.gatsbyjs.org">Gatsby</a>
-  //       </footer>
-
-  return (
-    <Wrapper>
-      <Header />
-      <Section>{children}</Section>
-      <Footer />
-    </Wrapper>
-  );
-};
+const Layout = ({ children }) => (
+  <Wrapper>
+    <Header />
+    <Section>{children}</Section>
+    <Footer />
+  </Wrapper>
+);
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired
