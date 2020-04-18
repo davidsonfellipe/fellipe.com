@@ -1,0 +1,87 @@
+body {
+	background:#000 !important;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+.slides > article {
+	border: 1px solid #000 !important;
+}
+
+h1 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #1197A0;
+}
+h4 {
+	font-size: 38px;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 800;
+	color: #1197A0;
+}
+h5 {
+	margin-top: -35px;
+	text-align: right;
+	font-style: italic;
+}
+
+article {
+	background-color: #eee !important;
+}
+
+/* backgrounds */
+.abertura {
+	background: url("../i/abertura.jpg") no-repeat scroll 0 0 transparent !important;
+}
+.conf {
+	background: url("../i/sf.jpg") no-repeat scroll 0 0 transparent !important;
+}
+.palco {
+	background: url("../i/palco.jpg") no-repeat scroll 0 0 transparent !important;
+}
+.clipboard {
+	background: url("../i/clipboard_com.png") no-repeat scroll 0 0 transparent !important;
+}
+
+.bgdark {
+	background: -webkit-linear-gradient(243deg, #151515 5px, transparent 5px) 10px 0px,
+				-webkit-linear-gradient(#111 25%, transparent 50%, transparent 75%, #151515 75%, #111);
+	background-color: #131313 !important;
+	background-size: 20px 20px !important;
+	color: #1197A0 !important;
+}
+.fluent {
+	color: #1197A0;
+}
+
+.lista-jovem li {
+	background-color: #111	 !important;
+	color: #dedede !important;
+	margin-left: -85px;
+	width: 90%;
+	padding: 20px 20px 20px 70px;
+	border-radius: 5px;
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	filter:alpha(opacity=9);
+}
+.lista-jovem li:before {
+	list-style: none !important;
+	content: '' !important;
+
+}
+
+.social-wgt {
+	position: fixed;
+	top: 20px;
+	right: 0;
+	z-index: 100;
+	width: 250px; 
+	height: 19px;
+	overflow: hidden;
+}
+.social-wgt .twitter-share-button {
+	position: absolute;
+	right: 40px;
+	top: 0;
+}
