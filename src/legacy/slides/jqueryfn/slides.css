@@ -1,0 +1,122 @@
+	/* Your individual styles here, or just use inline styles if that’s
+       what you want. */
+	body{
+		background-color:#ccc !important;
+		background: -moz-radial-gradient(#999, #000) !important;
+		background: -webkit-radial-gradient(#999, #000) !important;
+	}
+	.slides.template-default > article:not(.nobackground):not(.biglogo) {
+	  background: url("")  no-repeat scroll 780px 620px white !important;  
+	}
+	.slides > article{
+		color:#333 !important;
+	}
+	.source:before{
+		content: "fonte: ";
+		border-shadow:#ccc;
+	}
+	.source{
+		text-shadow: 0 0 7px #000000;
+	}
+	article.fill h3{
+		background:none repeat scroll 0 0 rgba(0, 0, 0, 1) !important;
+		color:#fff !important;
+		-moz-box-shadow: 0 0 5px #888;
+		-webkit-box-shadow: 0 0 5px #888;
+		box-shadow: 0 0 5px #888;
+	}
+	.slides > article.iframe-full{
+		padding-top:0;
+	}
+	.slides > article.iframe-full iframe{
+		margin-top:45px;
+	}
+	.slides > article.iframe-full h3{
+		padding: 0.3em 20px !important;
+	}
+	.slides > article.code-example table td{
+		border-width:0 !important;
+	}
+	.slides > article.code-example pre{
+		margin-top:0 !important;
+	}
+	.code-example .zebra{
+		display:block;
+		background: #fff;
+		border: 1px solid #d7d7d7;
+		width:150px;
+		text-align:center;
+	}
+	.code-example .zebra:nth-child(odd) {
+		background: #E3E3E3;
+	}
+	.code-example .zebra:first-child{
+	    border:2px solid #f00;
+	}
+	.code-example .square{
+		width:200px;
+		height:200px;
+		border:1px solid #ccc;
+	}
+	.code-example .box-opacity{
+background-color: rgba(255, 0, 0, 0.35);
+	}
+	.code-example .box-opacity{
+background-color: rgba(255, 0, 0, 0.35);
+	}
+	
+	.code-example .box-shadow{
+		box-shadow: 0px 0px 10px #ccc;
+	}
+	.code-example .border-radius{
+		border-radius: 25px;
+	}
+	.code-example .example{
+		width:150px;
+	}
+	/*especifico*/
+	.quem-sou ul {
+	    background-color: #000000;
+	    margin-left: -60px;
+	    opacity: 0.7;
+		padding:30px 20px;
+	}
+	.quem-sou li {
+	    background-color: #000000;
+	    list-style: none outside none;
+	    margin: 0 0 0.5em;
+	    opacity: 1;
+	    padding: 0 45px 0 60px;
+	}
+	.quem-sou li:before {
+	    margin-left: 0;
+	    position: absolute;
+	    width: 0.75em;
+	}
+	.qual-doctype li:before{
+		content: '' !important;
+	}
+	.qual-doctype ul{
+		position:relative;
+	}
+	.qual-doctype .xis{
+	    color: #FF0000;
+	    font-size: 556px;
+	    font-weight: bold;
+	    left: 25%;
+	    position: absolute;
+	    top: 163px;
+	}
+	.font-face-teste {
+		font-family: "Droid Sans Mono";
+	}
+	.slide-area{
+	    width: 50px !important;
+	}
+	.slides > article.iframe-full iframe{
+	    margin:80px 0 0 20px;
+	}
+	.links{
+		display:inline;
+		font-size:0.8em;
+	}

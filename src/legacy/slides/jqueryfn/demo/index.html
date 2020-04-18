@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagination more</title>
+        <meta charset='utf-8'>
+        <!-- chamadas de css no topo da página -->
+        <link rel="stylesheet" href="css/grid-topico-mini.css" type="text/css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="css/customizacao_ge.css" type="text/css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="css/atleta.css" type="text/css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="css/atleta_feed.css" type="text/css" media="screen" charset="utf-8">
+    <head>
+    <body id="glb-corpo">
+        <div class="glb-grid-8 feed">
+        	<h3 class="atleta-titulo">Últimas Notícias</h3>
+        	<ol class="lista-materias">
+        		<li itemtype="http://schema.org/NewsArticle" itemscope="" class="materia">
+        		<div class="materia-chamada">
+        			<span itemprop="publishDate" class="materia-data">15 de maio de 2011</span>
+        			<span itemprop="author" class="materia-author"></span>
+        			<h3 class="materia-titulo">
+        			<a itemprop="name" title="Jogadores comemoram título paulista em boate em Santos" href="#">
+        			    Jogadores comemoram título paulista em boate em Santos
+        			</a>
+        			</h3>
+        		</div>
+        		</li>
+        	</ol>
+        	<div class="mais-noticias">
+        		<a class="paginacao">mais</a>
+        	</div>
+        	<div class="mensagem-nenhuma-noticia">
+        		 não foi possível carregar o conteúdo
+        	</div>
+        </div>
+        <!-- chamadas de javascripts no bottom da página -->
+        <script src="http://sawpf.com/libs/jquery/1.4.2.js" type="text/javascript"></script>
+        <script src="http://sawpf.com/libs/jqueryui/1.8.7.js" type="text/javascript"></script>
+        <script src="js/paginacao.fn.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+        	$(document).ready(function() {
+        		$('.feed').Paginacao({
+        			total: 3,
+        			urlJSON: 'json/'
+        		});
+        	});
+        </script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "totalItens": 3,
+    "itemInicial": 2,
+    "totalPaginas": 3,
+    "materias": [
+        {
+            "subtitulo": "Comentaristas concordam que é difícil evitar que a bola chegue no jogador do Santos e dizem que Tite deve adotar uma estratégia de marcação por zona",
+            "ultima_atualizacao": "8 de maio de 2011",
+            "permalink": "http://sportv.globo.com/site/programas/troca-de-passes/noticia/2011/05/se-neymar-estiver-inspirado-com-gas-nao-da-para-marcar.html",
+            "editoria_principal": "troca de passes",
+            "site": "sportv",
+            "primeira_publicacao": "8 de maio de 2011",
+            "titulo": "Marcação sobre Neymar gera debate"
+        }
+    ],
+    "itensPorPagina": 1,
+    "paginaAtual": 2,
+    "itensObtidos": 1
+}
