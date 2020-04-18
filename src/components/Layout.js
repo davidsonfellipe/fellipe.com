@@ -13,11 +13,14 @@ import "./layout.css";
 import styled from "styled-components";
 
 import { screen } from "../styles/screen";
+import { font } from "../styles/theme";
+
 import Header from "./Header";
 import Footer from "./Footer";
 
 const Wrapper = styled.div`
-  padding: 15px 7px 15px 0px;
+  font-family: ${font.text};
+  padding: 15px 7px 15px 0;
   margin: 0 auto;
   width: 100%;
   overflow: hidden;

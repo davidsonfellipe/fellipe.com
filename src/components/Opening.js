@@ -1,8 +1,8 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 
-import Text from "./Text"
-import { screen } from "../styles/screen"
+import Text from "./Text";
+import { screen } from "../styles/screen";
 
 const Section = styled.div`
   display: inline-block;
@@ -12,7 +12,7 @@ const Section = styled.div`
   ${screen.lg} {
     padding: 40px 0 15px 0;
   }
-`
+`;
 
 const Block = styled.div`
   border-top: 1px solid #eeeeee;
@@ -25,11 +25,10 @@ const Block = styled.div`
   ${screen.lg} {
     width: calc(100vw - 400px);
   }
-`
+`;
 
 const OpeningText = styled(Text)`
   display: inline-block;
-  font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-size: 1.25em;
@@ -56,7 +55,7 @@ const OpeningText = styled(Text)`
     text-decoration: underline;
   }
 }
-`
+`;
 
 const Opening = () => (
   <Section>
@@ -84,6 +83,6 @@ const Opening = () => (
       </OpeningText>
     </Block>
   </Section>
-)
+);
 
-export default Opening
+export default Opening;

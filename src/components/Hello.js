@@ -2,9 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 import { screen } from "../styles/screen";
+import { font } from "../styles/theme";
 
 const Name = styled.h1`
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: ${font.title};
   font-style: normal;
   font-weight: 900;
   margin: 75px 0 25px 0;
@@ -19,7 +20,6 @@ const Name = styled.h1`
 `;
 
 const Text = styled.p`
-  font-family: "Cormorant Garamond", serif;
   font-size: 18px;
   display: none;
   line-height: 1.5em;
