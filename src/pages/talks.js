@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react'
 
-import Title from "../components/Title";
-import Section from "../components/Section";
-import Link from "../components/Link";
-import ItemDate from "../components/ItemDate";
-import Layout from "../components/Layout";
+import Title from '../components/Title'
+import Section from '../components/Section'
+import Link from '../components/Link'
+import ItemDate from '../components/ItemDate'
+import Layout from '../components/Layout'
 
 const AboutPage = () => (
   <Layout>
@@ -23,8 +23,7 @@ const AboutPage = () => (
         <ItemDate>Porto Alegre, Brazil · nov 8, 2014</ItemDate>
       </Link>
       <Link href="https://www.slideshare.net/davidsonfellipe/workflow-para-desenvolvimento-mobile-usando-gruntjs/">
-        Workflow para desenvolvimento web &amp; mobile usando Grunt.JS @ VI
-        FSLDC
+        Workflow para desenvolvimento web &amp; mobile usando Grunt.JS @ VI FSLDC
         <ItemDate>Duque de Caxias, Brazil · oct 25, 2014</ItemDate>
       </Link>
       <Link href="http://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
@@ -40,8 +39,7 @@ const AboutPage = () => (
         <ItemDate>São Paulo, Brazil · sep 26, 2014</ItemDate>
       </Link>
       <Link href="http://www.slideshare.net/davidsonfellipe/workflow-para-desenvolvimento-mobile-usando-gruntjs">
-        Workflow para desenvolvimento web &amp; mobile usando Grunt.JS @ Front
-        Interior
+        Workflow para desenvolvimento web &amp; mobile usando Grunt.JS @ Front Interior
         <ItemDate>Bauru, Brazil · aug 30, 2014</ItemDate>
       </Link>
       <Link href="http://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
@@ -57,13 +55,11 @@ const AboutPage = () => (
         <ItemDate>Rio de Janeiro, Brazil · may 15, 2014</ItemDate>
       </Link>
       <Link href="http://www.slideshare.net/davidsonfellipe/practical-guide-for-frontend-development-for-django-devs">
-        Practical guide for front-end development for django devs @ Python
-        Nordeste 2014
+        Practical guide for front-end development for django devs @ Python Nordeste 2014
         <ItemDate>Salvador, Brazil · may 3, 2014</ItemDate>
       </Link>
       <Link href="http://www.slideshare.net/davidsonfellipe/guia-pratico-de-desenvolvimento-front-end-para-django-devs">
-        Guia prático de Desenvolvimento Front-end para Django Devs @ Python
-        Nordeste 2014
+        Guia prático de Desenvolvimento Front-end para Django Devs @ Python Nordeste 2014
         <ItemDate>Salvador, Brazil · may 3, 2014</ItemDate>
       </Link>
       <Link href="https://speakerdeck.com/fellipe/esse-cara-e-o-grunt">
@@ -87,8 +83,7 @@ const AboutPage = () => (
         <ItemDate>Duque de Caxias, Brazil · jul 20, 2013</ItemDate>
       </Link>
       <Link href="https://speakerdeck.com/fellipe/os-segredos-dos-front-end-engineers">
-        Os Segredos dos Front-end Engineers @ Semana Acadêmica ICET 2013 -
-        Feevale
+        Os Segredos dos Front-end Engineers @ Semana Acadêmica ICET 2013 - Feevale
         <ItemDate>Novo Hamburgo, Brazil · apr 13, 2013</ItemDate>
       </Link>
       <Link href="http://www.slideshare.net/davidsonfellipe/jqueryperf">
@@ -160,12 +155,12 @@ const AboutPage = () => (
         <ItemDate>Rio de Janeiro, Brazil</ItemDate>
       </Link>
       <Link href="http://www.slideshare.net/davidsonfellipe/sistema-de-comunicao-bluetooth-usando-microcontrolado-pic">
-        Sistema De Comunicação Bluetooth Usando Microcontrolador PIC @
-        University of Pernambuco (Completion of Course Work)
+        Sistema De Comunicação Bluetooth Usando Microcontrolador PIC @ University of Pernambuco (Completion of Course
+        Work)
         <ItemDate>Recife, Brazil</ItemDate>
       </Link>
     </Section>
   </Layout>
-);
+)
 
-export default AboutPage;
+export default AboutPage

@@ -1,6 +1,6 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
-import { screen } from "../styles/screen"
+import { screen } from '../styles/screen'
 
 const Section = styled.div`
   max-width: ${screen.max};

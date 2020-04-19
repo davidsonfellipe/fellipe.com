@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-import { font } from "../styles/theme";
+import { font } from '../styles/theme'
 
 const Title = styled.h1`
   color: #333;
@@ -12,6 +12,6 @@ const Title = styled.h1`
   font-size: 60px;
   letter-spacing: -2px;
   text-transform: uppercase;
-`;
+`
 
-export default Title;
+export default Title

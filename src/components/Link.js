@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const Link = styled.a`
   border-bottom: 2px dashed #eee;
@@ -19,6 +19,6 @@ const Link = styled.a`
   &:last-child {
     border: 0;
   }
-`;
+`
 
-export default Link;
+export default Link

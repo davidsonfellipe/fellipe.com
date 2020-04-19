@@ -1,6 +1,6 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
-import { screen } from "../styles/screen"
+import { screen } from '../styles/screen'
 
 const ItemDate = styled.span`
   font-size: 20px;

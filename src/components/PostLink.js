@@ -1,6 +1,6 @@
-import React from "react"
-import Link from "../components/Link"
-import ItemDate from "../components/ItemDate"
+import React from 'react'
+import Link from '../components/Link'
+import ItemDate from '../components/ItemDate'
 
 const PostLink = ({ post }) => (
   <Link href={post.frontmatter.path}>

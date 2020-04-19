@@ -1,8 +1,8 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
-import Text from "./Text";
-import { screen } from "../styles/screen";
+import Text from './Text'
+import { screen } from '../styles/screen'
 
 const Section = styled.div`
   display: inline-block;
@@ -12,7 +12,7 @@ const Section = styled.div`
   ${screen.lg} {
     padding: 40px 0 15px 0;
   }
-`;
+`
 
 const Block = styled.div`
   border-top: 1px solid #eeeeee;
@@ -25,7 +25,7 @@ const Block = styled.div`
   ${screen.lg} {
     width: calc(100vw - 400px);
   }
-`;
+`
 
 const OpeningText = styled(Text)`
   display: inline-block;
@@ -55,34 +55,31 @@ const OpeningText = styled(Text)`
     text-decoration: underline;
   }
 }
-`;
+`
 
 const Opening = () => (
   <Section>
     <Block>
       <OpeningText>
-        I'm a Engineering Manager at{" "}
-        <a href="https://loadsmart.com/">Loadsmart</a>, working on a technical
-        leadership, mentoring, architecture design, recruiting.
+        I'm a Engineering Manager at <a href="https://loadsmart.com/">Loadsmart</a>, working on a technical leadership,
+        mentoring, architecture design, recruiting.
       </OpeningText>
       <OpeningText>
-        I'm also <a href="https://twitter.com/frontinbh/">@FrontinBH</a>{" "}
-        co-organizer, a conference for web developers in Belo Horizonte, Brazil.
+        I'm also <a href="https://twitter.com/frontinbh/">@FrontinBH</a> co-organizer, a conference for web developers
+        in Belo Horizonte, Brazil.
       </OpeningText>
       <OpeningText>
-        Previously, I worked at <a href="https://www.globo.com/">Globo.com</a>{" "}
-        and <a href="http://english.cesar.org.br/">CESAR</a>. and some{" "}
-        <a href="https://github.com/davidsonfellipe">open source projects</a>.
-        You can find more on my{" "}
+        Previously, I worked at <a href="https://www.globo.com/">Globo.com</a> and{' '}
+        <a href="http://english.cesar.org.br/">CESAR</a>. and some{' '}
+        <a href="https://github.com/davidsonfellipe">open source projects</a>. You can find more on my{' '}
         <a href="https://www.linkedin.com/in/fellipe/">Linkedin.</a>
       </OpeningText>
       <OpeningText>
-        I'm a Brazilian, Based in Brooklyn, NY. Have a something you'd like to
-        discuss? Send me a <a href="https://twitter.com/davidsonfellipe">DM</a>{" "}
-        via twitter.
+        I'm a Brazilian, Based in Brooklyn, NY. Have a something you'd like to discuss? Send me a{' '}
+        <a href="https://twitter.com/davidsonfellipe">DM</a> via twitter.
       </OpeningText>
     </Block>
   </Section>
-);
+)
 
-export default Opening;
+export default Opening
