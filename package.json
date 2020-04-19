@@ -28,7 +28,7 @@
     },
     "devDependencies": {
         "gatsby-plugin-google-analytics": "^2.2.2",
-        "prettier": "^1.19.1"
+        "prettier": "2.0.4"
     },
     "keywords": [
         "front-end developer"
@@ -37,10 +37,10 @@
     "scripts": {
         "build": "gatsby build",
         "develop": "gatsby develop",
-        "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
         "start": "npm run develop",
         "serve": "gatsby serve",
         "clean": "gatsby clean",
+        "format": "prettier --write \"./src/**/*.{js,json,md}\"",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
     }
 }
