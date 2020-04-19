@@ -14,7 +14,7 @@
     <title>RioJS</title>
     <meta charset='utf-8'>
     <script src='slides.js'></script>
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|Droid+Sans" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|Droid+Sans" type="text/css" media="screen" title="no title" charset="utf-8">
 	<link rel="stylesheet" href="personal.css" type="text/css" media="screen" title="no title" charset="utf-8">
   <head>
   <body style='display: none'>
@@ -28,12 +28,12 @@
   	          <li class="black">Grupo de desenvolvedores JS do Rio de Janeiro</li>
 	          <li class="black">08 de junho</li>
 	          <li class="black">92 membros</li>
-	          <li class="black">http://www.facebook.com/groups/riojs/</li>
+	          <li class="black">https://www.facebook.com/groups/riojs/</li>
 	        </ul>
         </article>
       <article>
         <h1>
-          Jquery.fn 
+          Jquery.fn
         </h1>
         <br>
         <em>
@@ -54,7 +54,7 @@
 			          <li class="black">Fácil de criar</li>
 			        </ul>
 			      </article>
-			      
+
   			      <article class="code-example">
     			        <h3>
     			        Escrevendo seu primeiro jQuery.fn
@@ -91,12 +91,12 @@
   };
 })( jQuery );
        </pre>
-       
+
        <span>Usar $(this) seria a mesma coisa que fazer $($(this)), pois o this já é um jQuery Object</span>
 
           					</section>
           			      </article>
-          			      
+
 
 			      <article class="code-example">
   			        <h3>
@@ -143,7 +143,7 @@ $(".element").bgRed();
 $("div").maiorAltura();</pre>
         					</section>
         			      </article>
-    			      
+
 			     <article class="code-example">
                     			        <h3>
                     			        jQuery.fn : Enviando parametros
@@ -151,16 +151,16 @@ $("div").maiorAltura();</pre>
                     			        <section>
                   <br>
                   <pre>
-$.fn.bgChange = function( options ) {  
+$.fn.bgChange = function( options ) {
 
     var settings = {
       'bg' : '#fff'
     };
 
-    return this.each(function() {        
-        
+    return this.each(function() {
+
         if (options) $.extend(settings, options);
-        
+
         $(this).css("background-color", settings.bg);
     });
 };
@@ -206,19 +206,19 @@ $("body").bgChange({bg: "#00f"}); //azul
 
     $.fn.tooltip = function( method ) {
       if ( methods[method] ) {
-        return methods[ method ].apply( this, 
+        return methods[ method ].apply( this,
                                         Array.prototype
                                         .slice.call( arguments, 1 ));
       } else if ( typeof method === 'object' || ! method ) {
         return methods.init.apply( this, arguments );
       } else {
         $.error( 'Method ' +  method + 'does not exist on tooltip' );
-      }    
+      }
     };
 })( jQuery );
 </pre>
                 					</section>
-                			      </article>                                                          			        
+                			      </article>
                     			      <article class="code-example smaller">
                                             <h3>
                                               plugin com jquery.fn
@@ -290,7 +290,7 @@ $("body").bgChange({bg: "#00f"}); //azul
           },
 
           //configura binds e maquina de estados do botao
-  		__configBotaoPaginacao__: function() {	
+  		__configBotaoPaginacao__: function() {
   		    _self.__bindEvents__();
   			_self.__controleBotoesPaginacao__();
   		},
@@ -304,7 +304,7 @@ $("body").bgChange({bg: "#00f"}); //azul
   		},
 
   		__montarNoticia__: function(noticia) {
-            return  '&lt;li class="materia" itemscope itemtype="http://schema.org/NewsArticle"&gt;' +
+            return  '&lt;li class="materia" itemscope itemtype="https://schema.org/NewsArticle"&gt;' +
                   '	&lt;div class="materia-chamada"&gt;' +
                   '		&lt;span class="materia-data" itemprop="publishDate" content="' + noticia.ultima_atualizacao + '"&gt;' + noticia.ultima_atualizacao + '&lt;/span&gt;' +
                   '		&lt;h3 class="materia-titulo"&gt;' +
@@ -411,7 +411,7 @@ $("body").bgChange({bg: "#00f"}); //azul
         </h3>
         <iframe src='http://jqueryboilerplate.com/'></iframe>
       </article>
-      
+
       <article>
       	<h3>links </h3>
       	<p>
@@ -437,19 +437,14 @@ $("body").bgChange({bg: "#00f"}); //azul
       			    </a>
       			</li>
       			<li class="black">
-      			    <a href="http://fellipe.com/slides/jqueryfn/">
-      			        http://fellipe.com/slides/jqueryfn/
-      			    </a>
-      			</li>
-      			<li class="black">
-      			    <a href="http://code.google.com/p/html5slides/">
-      			        http://code.google.com/p/html5slides/
+      			    <a href="https://fellipe.com/slides/jqueryfn/">
+      			        https://fellipe.com/slides/jqueryfn/
       			    </a>
       			</li>
       		</ul>
       	</p>
       </article>
-      
+
       <article>
         <h1>
           Obrigado
@@ -464,19 +459,19 @@ $("body").bgChange({bg: "#00f"}); //azul
       </article>
 
 		<script type="text/javascript">
-	    
+
 	    	var _gaq = _gaq || [];
 		    _gaq.push(['_setAccount', 'UA-2123552-1']);
 		    _gaq.push(['_trackPageview']);
-		
+
 		    (function() {
-			
+
 		      var ga = document.createElement('script');
 		      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		
+
 		      ga.setAttribute('async', 'true');
 		      document.documentElement.firstChild.appendChild(ga);
-		
+
 		    })();
 		</script>
   </body>
