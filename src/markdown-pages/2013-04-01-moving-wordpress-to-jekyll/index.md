@@ -5,7 +5,7 @@ layout: post
 lang: en
 path: /blog/moving-wordpress-to-jekyll/
 date: "2013-04-01"
-tags: ['winter', 'snow', 'react']
+tags: ['wordpress', 'jekyll']
 ---
 
 ![jekyll](./jekyll.png)
