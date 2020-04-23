@@ -11,7 +11,7 @@ tags: ["pernambucojs"]
 
 Começar a escrever um resumo antes da realização do evento, como assim?
 
-É… Eu quis inverter essa ordem, pois para mim ele já começou há uns 2 meses.
+É… Eu quis inverter essa ordem, pois para mim ele já começou 2 meses atrás.
 
 Vamos lá. O [PernambucoJS][1] 2012 nasceu apos várias conversas com o Luiz Tiago ([@luiztiago][2]) sobre a necessidade de realizarmos um [encontro do grupo pernambucoJS][3], já existente no _facebook_, nos unimos ao Thiago Azurem ([@azurem][4]) e elaboramos um pré-projeto do evento. A foto abaixo foi de nossa primeira reunião presencial para finalização do documento do projeto.
 
@@ -62,9 +62,9 @@ Quase tivemos que pedir autorização dos pais dele para ele vir ao evento… El
 
 ##Bruno Souza, Dennis Calazans e Djalma Araújo
 
-Três caras que representam bem o desenvolvedores frontend de Recife, o primeiro também é da pré-história do frontend em pernambuco e hoje é um dos lideres de desenvolvimento da Ogilvy Recife. O segundo foi um dos primeiros instrutores de cursos de javascript no Recife e hoje é professor da Unibratec e Faculdade Marista. E para finalizar os _lightning talks_ teremos a presença do Djalma Araújo, lider de desenvolvimento da PianoLab e colunista do JqueryBrasil falará um pouco de sua experiencia com o _Bootstrap_.
+Três caras que representam bem o desenvolvedores frontend de Recife, o primeiro também é da pré-história do frontend em pernambuco e hoje é um dos lideres de desenvolvimento da Ogilvy Recife. O segundo foi um dos primeiros instrutores de cursos de javascript no Recife e hoje é professor da Unibratec e Faculdade Marista. E para finalizar os _lightning talks_ teremos a presença do Djalma Araújo, líder de desenvolvimento da PianoLab e colunista do JqueryBrasil falará um pouco de sua experiência com o _Bootstrap_.
 
-Foi de fundamental importancia para criação dessa grade de palestras, o patrocinio das empresas: [Liferay][9], [Globo.com][10], [EIA Cursos][11], [MV Sistemas][12], [Terra Networks][13] e [Servhost][14]. Apoiar iniciativas, como o PernambucoJS, são de fundamental importancia para conseguir futuros profissionais e clientes. Hoje é bem complicado para as empresas contrarem desenvolvedores frontend com forte *skill* em javascript.
+Foi de fundamental importância para criação dessa grade de palestras, o patrocinio das empresas: [Liferay][9], [Globo.com][10], [EIA Cursos][11], [MV Sistemas][12], [Terra Networks][13] e [Servhost][14]. Apoiar iniciativas, como o PernambucoJS, são de fundamental importância para conseguir futuros profissionais e clientes. Hoje é bem complicado para as empresas contrarem desenvolvedores frontend com forte *skill* em javascript.
 
 [9]: http://www.liferay.com/
 [10]: http://www.globo.com/
