@@ -12,11 +12,11 @@ tags: ['wordpress', 'jekyll']
 
 ##Why migrate?
 
-I just wanted to learn a new tool and improving design of website.
+I just wanted to learn a new tool and improving the design of the website.
 
 ##Motivation
 
-Almost 3 years this website was powered using Wordpress. Since beginning of the year I was thinking about how convert this blog for a static site generator tool. So, on last weekend I put hands on editor to finish this project.
+Almost 3 years this website was powered using Wordpress. Since the beginning of the year, I was thinking about how to convert this blog for a static site generator tool.
 
 
 ##I had 2 options
@@ -27,11 +27,11 @@ DocPad is a framework that allowing for content management via the file system, 
 
 Jekyll-bootstrap?
 
-[Jekyll-bootstrap](http://jekyllbootstrap.com/) is very simple, have a minimal structure for blogs, and a static site generator. I chose this one.
+[Jekyll-bootstrap](http://jekyllbootstrap.com/) is very simple, has a minimal structure for blogs, and a static site generator. I chose this one.
 
 ##New version
 
-There version isn't dependency on server-side, it's just server delivery static files. Other services that I use are: Google Analytics (for statistics about users), Disqus (for comments), GitHub (version control).
+Their version isn't a dependency on server-side, it's just server delivery static files. Other services that I use are Google Analytics (for statistics about users), Disqus (for comments), GitHub (version control).
 
 ##biggest problems for migration
 
@@ -57,8 +57,8 @@ I think about a simple navigation tree, with support for multiple languages, whi
 
 ##Comments
 
-I wanted to keep current comments from Disqus, for this a will to continue use this tool. Jekyll-bootstrap has this feature.
+I wanted to keep current comments from Disqus, for this a will to continue using this tool. Jekyll-bootstrap has this feature.
 
 ##Benefits
 
-More simplicity for changes on code, more simplicity for users to read my blog, and the website is with a better speed. This is due to in the fact all my posts are static assets now. Now I write the posts using Markdown + HTML.
+More simplicity for changes in code, more simplicity for users to read my blog, and the website load faster. This is due to in the fact all my posts are static assets now. Now I write the posts using Markdown + HTML.
