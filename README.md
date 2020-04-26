@@ -1,8 +1,8 @@
-# www.fellipe.com
+## [fellipe.com](https://fellipe.com)
 
 My personal website using Gatsbyjs
 
-# steps to run
+## steps to run
 
     git clone https://github.com/davidsonfellipe/fellipe.com.git
 
