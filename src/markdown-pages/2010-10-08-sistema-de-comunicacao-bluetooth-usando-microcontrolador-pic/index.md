@@ -22,9 +22,9 @@ Enfim agora com o blog terei mais espaço e facilidade para postar trabalhos que
 
 <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/davidsonfellipe/sistema-de-comunicao-bluetooth-usando-microcontrolado-pic" title="Sistema De Comunicação Bluetooth Usando Microcontrolador PIC" target="_blank">Sistema De Comunicação Bluetooth Usando Microcontrolador PIC</a> </strong> from <strong><a href="https://www.slideshare.net/davidsonfellipe" target="_blank">Davidson Fellipe</a></strong> </div>
 
-[Baixe a minha monografia em PDF][1]
+[Veja a minha monografia no Slideshare][1]
 
-[1]: http://fellipe.com/wp-content/uploads/2010/10/sistemadecomunicaobluetoothusandomicrocontrolado-davidsonfellipedasilva.pdf
+[1]: https://www.slideshare.net/davidsonfellipe/sistema-de-comunicao-bluetooth-usando-microcontrolado-pic-2910293
 
 **Essa e outras apresentações irei compartilhar no meu [Slideshare][2].**
 
