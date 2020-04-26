@@ -75,7 +75,7 @@ const Opening = () => (
         <a href="https://www.linkedin.com/in/fellipe/">Linkedin.</a>
       </OpeningText>
       <OpeningText>
-        I'm a Brazilian, Based in Brooklyn, NY. Have a something you'd like to discuss? Send me a{' '}
+        I'm a Brazilian, Based in Brooklyn, NY. Have something you'd like to discuss? Send me a{' '}
         <a href="https://twitter.com/davidsonfellipe">DM</a> via twitter.
       </OpeningText>
     </Block>
