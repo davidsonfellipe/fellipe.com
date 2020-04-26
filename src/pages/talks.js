@@ -14,11 +14,11 @@ const AboutPage = () => (
         Adventures from Enzyme to React Testing Library @ QueensJS
         <ItemDate>New York City, USA · nov 28, 2019</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
+      <Link href="https://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
         Guia do Front-end das Galáxias @ Front in Cuiabá
         <ItemDate>Cuiabá, Brazil · mar 28, 2015</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/o-melhor-da-monitoracao-de-web-performance">
+      <Link href="https://www.slideshare.net/davidsonfellipe/o-melhor-da-monitoracao-de-web-performance">
         O melhor da monitoração de Web Performance @ Front in Poa
         <ItemDate>Porto Alegre, Brazil · nov 8, 2014</ItemDate>
       </Link>
@@ -26,11 +26,11 @@ const AboutPage = () => (
         Workflow para desenvolvimento web &amp; mobile usando Grunt.JS @ VI FSLDC
         <ItemDate>Duque de Caxias, Brazil · oct 25, 2014</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
+      <Link href="https://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
         Guia do Front-end das Galáxias @ Rupy Natal
         <ItemDate>Natal, Brazil · oct 18, 2014</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
+      <Link href="https://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
         Guia do Front-end das Galáxias @ Frontend Carioca
         <ItemDate>Rio de Janeiro, Brazil · sep 27, 2014</ItemDate>
       </Link>
@@ -38,27 +38,27 @@ const AboutPage = () => (
         Workshop about Grunt.js @ Web.br by W3C
         <ItemDate>São Paulo, Brazil · sep 26, 2014</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/workflow-para-desenvolvimento-mobile-usando-gruntjs">
+      <Link href="https://www.slideshare.net/davidsonfellipe/workflow-para-desenvolvimento-mobile-usando-gruntjs">
         Workflow para desenvolvimento web &amp; mobile usando Grunt.JS @ Front Interior
         <ItemDate>Bauru, Brazil · aug 30, 2014</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
+      <Link href="https://www.slideshare.net/davidsonfellipe/guia-do-front-end-das-galaxias">
         Guia do Front-end das galáxias @ Front in Aracaju
         <ItemDate>Aracaju, Brazil · aug 2, 2014</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/workflow-para-desenvolvimento-mobile-usando-gruntjs">
+      <Link href="https://www.slideshare.net/davidsonfellipe/workflow-para-desenvolvimento-mobile-usando-gruntjs">
         Workflow para desenvolvimento mobile usando Grunt.JS @ Mobile Conf 2014
         <ItemDate>Rio de Janeiro, Brazil · may 31, 2014</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/como-e-trabalhar-na-globocom">
+      <Link href="https://www.slideshare.net/davidsonfellipe/como-e-trabalhar-na-globocom">
         Como é trabalhar na globo.com? @ UERJ
         <ItemDate>Rio de Janeiro, Brazil · may 15, 2014</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/practical-guide-for-frontend-development-for-django-devs">
+      <Link href="https://www.slideshare.net/davidsonfellipe/practical-guide-for-frontend-development-for-django-devs">
         Practical guide for front-end development for django devs @ Python Nordeste 2014
         <ItemDate>Salvador, Brazil · may 3, 2014</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/guia-pratico-de-desenvolvimento-front-end-para-django-devs">
+      <Link href="https://www.slideshare.net/davidsonfellipe/guia-pratico-de-desenvolvimento-front-end-para-django-devs">
         Guia prático de Desenvolvimento Front-end para Django Devs @ Python Nordeste 2014
         <ItemDate>Salvador, Brazil · may 3, 2014</ItemDate>
       </Link>
@@ -86,11 +86,11 @@ const AboutPage = () => (
         Os Segredos dos Front-end Engineers @ Semana Acadêmica ICET 2013 - Feevale
         <ItemDate>Novo Hamburgo, Brazil · apr 13, 2013</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/jqueryperf">
+      <Link href="https://www.slideshare.net/davidsonfellipe/jqueryperf">
         Performance em JQuery apps @ PHP n'Rio
         <ItemDate>Rio de Janeiro, Brazil · nov 10, 2012</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/javascript-cross-browser">
+      <Link href="https://www.slideshare.net/davidsonfellipe/javascript-cross-browser">
         Javascript Cross-browser @ Workshop Front-end Globo.com
         <ItemDate>Rio de Janeiro, Brazil · oct 1, 2012</ItemDate>
       </Link>
@@ -102,7 +102,7 @@ const AboutPage = () => (
         Fluent Conference - Highlights @ 6º Rio.JS
         <ItemDate>Rio de Janeiro, Brazil · jul 21, 2012</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/jqueryperf">
+      <Link href="https://www.slideshare.net/davidsonfellipe/jqueryperf">
         Performance em JQuery apps @ IV FSLDC
         <ItemDate>Duque de Caxias, Brazil · jun 30, 2012</ItemDate>
       </Link>
@@ -110,11 +110,11 @@ const AboutPage = () => (
         Fluent Conference - Highlights @ Globo.com Weekly Talk
         <ItemDate>Rio de Janeiro, Brazil · jun 12, 2012</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/javascript-cross-browser">
+      <Link href="https://www.slideshare.net/davidsonfellipe/javascript-cross-browser">
         Javascript Cross-browser @ PernambucoJS
         <ItemDate>Recife, Brazil · apr 21, 2012</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/jqueryperf">
+      <Link href="https://www.slideshare.net/davidsonfellipe/jqueryperf">
         Performance em JQuery apps @ BeagaJS
         <ItemDate>Belo Horizonte, Brazil · jan 13, 2012</ItemDate>
       </Link>
@@ -134,15 +134,15 @@ const AboutPage = () => (
         HTML5 &amp; CSS3 @ II EATI
         <ItemDate>Frederico Westphalen, Brazil · aug 26, 2011</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/canvas-vs-svg">
+      <Link href="https://www.slideshare.net/davidsonfellipe/canvas-vs-svg">
         Canvas vs. SVG @ Front in Rio
         <ItemDate>Rio de Jan, Brazil · jun 18, 2011</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/canvas-element">
+      <Link href="https://www.slideshare.net/davidsonfellipe/canvas-element">
         Canvas Element @ BrazilJS
         <ItemDate>Fortaleza, Brazil · may 14, 2011</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/frontendretirante-nordestino">
+      <Link href="https://www.slideshare.net/davidsonfellipe/frontendretirante-nordestino">
         Frontend, Retirante Nordestino @ Frontend Global
         <ItemDate>Recife, Brazil · jan 15, 2011</ItemDate>
       </Link>
@@ -154,7 +154,7 @@ const AboutPage = () => (
         RDFS @ PUC-Rio
         <ItemDate>Rio de Janeiro, Brazil</ItemDate>
       </Link>
-      <Link href="http://www.slideshare.net/davidsonfellipe/sistema-de-comunicao-bluetooth-usando-microcontrolado-pic">
+      <Link href="https://www.slideshare.net/davidsonfellipe/sistema-de-comunicao-bluetooth-usando-microcontrolado-pic">
         Sistema De Comunicação Bluetooth Usando Microcontrolador PIC @ University of Pernambuco (Completion of Course
         Work)
         <ItemDate>Recife, Brazil</ItemDate>
