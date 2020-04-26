@@ -7,7 +7,7 @@ import Section from '../components/Section'
 import Layout from '../components/Layout'
 import SEO from '../components/SEO'
 
-const IndexPage = ({
+const BlogPage = ({
   data: {
     allMarkdownRemark: { edges },
   },
@@ -27,7 +27,7 @@ const IndexPage = ({
   )
 }
 
-export default IndexPage
+export default BlogPage
 
 export const pageQuery = graphql`
   query {
