@@ -5,9 +5,11 @@ import Section from '../components/Section'
 import Link from '../components/Link'
 import ItemDate from '../components/ItemDate'
 import Layout from '../components/Layout'
+import SEO from '../components/SEO'
 
-const AboutPage = () => (
+const TalksPage = () => (
   <Layout>
+    <SEO title="Talks" />
     <Section>
       <Title>TALKS</Title>
       <Link href="https://speakerdeck.com/fellipe/adventures-from-enzyme-to-react-testing-library">
@@ -163,4 +165,4 @@ const AboutPage = () => (
   </Layout>
 )
 
-export default AboutPage
+export default TalksPage

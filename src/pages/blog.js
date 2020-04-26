@@ -5,6 +5,7 @@ import PostLink from '../components/postLink'
 import Title from '../components/Title'
 import Section from '../components/Section'
 import Layout from '../components/Layout'
+import SEO from '../components/SEO'
 
 const IndexPage = ({
   data: {
@@ -17,6 +18,7 @@ const IndexPage = ({
 
   return (
     <Layout>
+      <SEO title="Blog" />
       <Section>
         <Title>BLOG</Title>
         <div>{Posts}</div>
