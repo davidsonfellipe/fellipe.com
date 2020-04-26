@@ -94,11 +94,11 @@ const AboutPage = () => (
         Javascript Cross-browser @ Workshop Front-end Globo.com
         <ItemDate>Rio de Janeiro, Brazil · oct 1, 2012</ItemDate>
       </Link>
-      <Link href="http://fellipe.com/slides/performance-javascript/">
+      <Link href="https://fellipe.com/slides/performance-javascript/">
         Alta Performance em Aplicações JavaScript @ BrazilJS
         <ItemDate>Porto Alegre, Brazil · aug 13, 2012</ItemDate>
       </Link>
-      <Link href="http://fellipe.com/slides/fluent2012/pt/">
+      <Link href="https://fellipe.com/slides/fluent2012/pt/">
         Fluent Conference - Highlights @ 6º Rio.JS
         <ItemDate>Rio de Janeiro, Brazil · jul 21, 2012</ItemDate>
       </Link>
@@ -106,7 +106,7 @@ const AboutPage = () => (
         Performance em JQuery apps @ IV FSLDC
         <ItemDate>Duque de Caxias, Brazil · jun 30, 2012</ItemDate>
       </Link>
-      <Link href="http://fellipe.com/slides/fluent2012/pt/">
+      <Link href="https://fellipe.com/slides/fluent2012/pt/">
         Fluent Conference - Highlights @ Globo.com Weekly Talk
         <ItemDate>Rio de Janeiro, Brazil · jun 12, 2012</ItemDate>
       </Link>
@@ -118,19 +118,19 @@ const AboutPage = () => (
         Performance em JQuery apps @ BeagaJS
         <ItemDate>Belo Horizonte, Brazil · jan 13, 2012</ItemDate>
       </Link>
-      <Link href="http://fellipe.com/slides/jqueryfn">
+      <Link href="https://fellipe.com/slides/jqueryfn">
         Jquery.fn @ Sampa.JS
         <ItemDate>São Paulo, Brazil · nov 19, 2011</ItemDate>
       </Link>
-      <Link href="http://fellipe.com/slides/jqueryfn">
+      <Link href="https://fellipe.com/slides/jqueryfn">
         Jquery.fn @ Workshop Globo.com
         <ItemDate>Rio de Jan, Brazil · oct 27, 2011</ItemDate>
       </Link>
-      <Link href="http://fellipe.com/slides/jqueryfn">
+      <Link href="https://fellipe.com/slides/jqueryfn">
         Jquery.fn @ Rio.JS
         <ItemDate>Rio de Jan, Brazil · oct 8, 2011</ItemDate>
       </Link>
-      <Link href="http://fellipe.com/slides/html5/">
+      <Link href="https://fellipe.com/slides/html5/">
         HTML5 &amp; CSS3 @ II EATI
         <ItemDate>Frederico Westphalen, Brazil · aug 26, 2011</ItemDate>
       </Link>
@@ -150,7 +150,7 @@ const AboutPage = () => (
         Front-end engineer  &amp; designer @ Frontend-br Meetup
         <ItemDate>Recife, Brazil · mar 9, 2009</ItemDate>
       </Link>
-      <Link href="http://fellipe.com/slides/rdfs">
+      <Link href="https://fellipe.com/slides/rdfs">
         RDFS @ PUC-Rio
         <ItemDate>Rio de Janeiro, Brazil</ItemDate>
       </Link>
