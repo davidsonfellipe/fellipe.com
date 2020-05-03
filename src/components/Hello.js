@@ -6,7 +6,6 @@ import { font } from '../styles/theme'
 
 const Name = styled.h1`
   font-family: ${font.title};
-  font-style: normal;
   font-weight: 900;
   margin: 75px 0 25px 0;
   font-size: 75px;
