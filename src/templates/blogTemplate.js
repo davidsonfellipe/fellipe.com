@@ -11,6 +11,12 @@ import profile from './profile.jpg'
 
 import { screen } from '../styles/screen'
 
+const PostWrapper = styled.div`
+  .gatsby-highlight {
+    margin: 10px 0 20px;
+  }
+`
+
 const Footer = styled.h1`
   margin: 75px 0 25px 0;
   font-size: 25px;
@@ -67,9 +73,12 @@ export default function Template({
       <Section>
         <Title>{frontmatter.title}</Title>
         <span>{frontmatter.date}</span>
-        <Text>
-          <div dangerouslySetInnerHTML={{ __html: html }} />
-        </Text>
+
+        <PostWrapper>
+          <Text>
+            <div dangerouslySetInnerHTML={{ __html: html }} />
+          </Text>
+        </PostWrapper>
 
         <Footer>
           <img src={profile} alt="profile" width={100} height={100} />

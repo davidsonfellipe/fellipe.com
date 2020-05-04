@@ -25,69 +25,81 @@ Você pode editar esse arquivo utilizando um editor de texto ou utilizar o coman
 
 Para definir as configurações básicas de seu usuário e email, basta executar os seguintes comandos, claro que substituindo os valores “davidson” e “email@fellipe.com” por suas informações:
 
-    git config --global user.name "davidson"
-    git config --global user.email "email@fellipe.com"
+```bash
+git config --global user.name "davidson"
+git config --global user.email "email@fellipe.com"
+```
 
 ## Definições do editor de texto padrão
 
 Agora configure o editor de texto padrão utilizado pelo git, utilizando o seguinte comando:
 
-    git config --global core.editor "mate -w"
+```bash
+git config --global core.editor "mate -w"
+```
 
 ## Definições de Alias
 
 É de grande utilidade definir alguns aliases, para evitar digitar o nome completo do comando. Ou seja, ao invés de digitar “git checkout nomedoarquivo.extensao”, você pode digitar “git co nomedoarquivo.extensao”. Essas definições irão facilitam bastante, o uso do GIT no seu dia-a-dia de trabalho. Seguem as algumas definições de uso:
 
-    git config --global alias.st status
-    git config --global alias.co checkout
-    git config --global alias.br branch
-    git config --global alias.df diff
-    git config --global alias.dfs "diff --stat"
-    git config --global alias.ci commit
-    git config --global alias.pom "pull origin master"
-    git config --global alias.pl pull
-    git config --global alias.ps push
+```bash
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.df diff
+git config --global alias.dfs "diff --stat"
+git config --global alias.ci commit
+git config --global alias.pom "pull origin master"
+git config --global alias.pl pull
+git config --global alias.ps push
+```
 
 ## Color
 
 Especificar as cores das respostas do GIT, facilita bastante no uso da ferramenta em seu dia-a-dia, pois deixa mais fácil lidar com algumas situações como: O quê foi adicionado ao commit, branch atual ou até arquivos que foram alterados, vamos aos comandos:
 
-    git config --global color.branch auto
-    git config --global color.diff auto
-    git config --global color.grep auto
-    git config --global color.interactive auto
-    git config --global color.status auto
+```bash
+git config --global color.branch auto
+git config --global color.diff auto
+git config --global color.grep auto
+git config --global color.interactive auto
+git config --global color.status auto
+```
 
 ## Merge
 
 Situação bem comum que lidamos no desenvolvimento de software é a questão da resolução de conflitos, para casos que o GIT não pode resolver automaticamente você pode definir a ferramenta que você tem mais familiaridade para fazer uso do merge. Para defini-la basta utilizar o comando abaixo:
 
-    git config --global merge.tool "SUA_FERRAMENTA_DE_MERGE"
+```bash
+git config --global merge.tool "SUA_FERRAMENTA_DE_MERGE"
+```
 
 ## Resultado final do arquivo:
 
-    [user]
-    name = davidson
-    email = email@fellipe.com
+```bash
+[user]
+name = davidson
+email = email@fellipe.com
 
-    [color]
-    diff = auto
-    grep = auto
-    interactive = auto
-    status = auto
-    branch = auto
-    status = auto
+[color]
+diff = auto
+grep = auto
+interactive = auto
+status = auto
+branch = auto
+status = auto
 
-    [core]
-    editor = mate -w
+[core]
+editor = mate -w
 
-    [alias]
-    st = status
-    ci = commit
-    br = branch
-    df = diff
-    lg = log -pgit ps
-    co = checkout
-    pom = pull origin master
-    ps = push
-    pl = pull
+[alias]
+st = status
+ci = commit
+br = branch
+df = diff
+lg = log -pgit ps
+co = checkout
+pom = pull origin master
+ps = push
+pl = pull
+```

@@ -11,7 +11,9 @@ tags: ["blogs"]
 
 Irei comentar sobre um dos **erros** mais comuns em códigos **javascript**, que é o uso correto da função **parseInt**. Essa função converte uma string em um inteiro e possui a seguinte sintaxe:
 
-    parseInt(string, base)
+```javascript
+parseInt(string, base)
+```
 
 ##STRING
 
@@ -31,19 +33,21 @@ usada para especificar qual o sistema de numeração que deseja converter a stri
 
 ## Exemplos
 
-    parseInt("01"); //retorna 1
-    parseInt("02"); //retorna 2
-    parseInt("03"); //retorna 3
-    parseInt("04"); //retorna 4
-    parseInt("05"); //retorna 5
-    parseInt("06"); //retorna 6
-    parseInt("07"); //retorna 7
-    parseInt("08"); //retorna 0
-    parseInt("09"); //retorna 0
-    parseInt("10"); //retorna 10
-    parseInt("-222"); //retorna -222
-    parseInt(" 122"); //retorna 122
-    parseInt("fellipe1234"); //retorna NaN
+```javascript
+parseInt("01"); //retorna 1
+parseInt("02"); //retorna 2
+parseInt("03"); //retorna 3
+parseInt("04"); //retorna 4
+parseInt("05"); //retorna 5
+parseInt("06"); //retorna 6
+parseInt("07"); //retorna 7
+parseInt("08"); //retorna 0
+parseInt("09"); //retorna 0
+parseInt("10"); //retorna 10
+parseInt("-222"); //retorna -222
+parseInt(" 122"); //retorna 122
+parseInt("fellipe1234"); //retorna NaN
+```
 
 Essa forma de interpretação tem causado muitos problemas, sendo assim a nova versão da linguagem padrão, **[ECMAScript 5][1]**, teve esse comportamento modificado e essa **detecção implícita de octal foi removida** do **parseInt**.
 
@@ -53,5 +57,7 @@ Essa forma de interpretação tem causado muitos problemas, sendo assim a nova v
 
 Quando necessitar fazer o uso da função **parseInt**, informe para qual sistema de numeração que a string deverá ser convertida.
 
-    parseInt ("08", 10); //retorna 8
-    parseInt ("09", 10); //retorna 9
+```javascript
+parseInt ("08", 10); //retorna 8
+parseInt ("09", 10); //retorna 9
+```
