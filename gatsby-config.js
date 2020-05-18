@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://www.fellipe.com',
     title: `Davidson Fellipe`,
     description: `Software development`,
     author: `@davidsonfellipe`,
@@ -102,5 +103,7 @@ module.exports = {
         trackingId: 'UA-2123552-1',
       },
     },
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
   ],
 }
