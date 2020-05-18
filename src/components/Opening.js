@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Text from './Text'
 import { screen } from '../styles/screen'
 
-const Section = styled.div`
+const Section = styled.section`
   display: inline-block;
   padding: 15px 0 15px 0;
   vertical-align: top;
