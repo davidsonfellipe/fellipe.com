@@ -5,6 +5,7 @@ temp/
 _posts_not_published/
 assets/themes/fellipecom/css/
 yarn-error.log
+node_modules/
 
 # Local Netlify folder
 .netlify
