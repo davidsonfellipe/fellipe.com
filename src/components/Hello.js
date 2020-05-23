@@ -48,7 +48,7 @@ const Text = styled.p`
 const Sidebar = () => (
   <section>
     <Name>
-      HELLO!
+      HI THERE!
       <span role="img" aria-label="hand icon">
         👋🏻
       </span>
