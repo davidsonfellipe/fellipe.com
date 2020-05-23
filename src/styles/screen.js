@@ -10,5 +10,5 @@ export const screen = {
   md: `@media (min-width: ${sizes.md})`,
   lg: `@media (min-width: ${sizes.lg})`,
   xlg: `@media (min-width: ${sizes.xlg})`,
-  max: `1280px`,
+  max: `${sizes.xlg}px`,
 }
