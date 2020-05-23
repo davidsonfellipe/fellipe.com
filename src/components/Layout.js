@@ -24,7 +24,7 @@ const Wrapper = styled.div`
   margin: 0 auto;
   width: 100%;
   overflow: hidden;
-  max-width: 1280px;
+  max-width: ${screen.max};
 
   a {
     color: inherit;

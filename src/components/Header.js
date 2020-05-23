@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import styled from 'styled-components'
 
 import Section from './Section'
+import { screen } from '../styles/screen'
 import { font } from '../styles/theme'
 
 const Logo = styled.span`
@@ -13,6 +14,7 @@ const Logo = styled.span`
 
 const Wrapper = styled(Section)`
   position: relative;
+  max-width: ${screen.max};
 `
 
 const Nav = styled.nav`

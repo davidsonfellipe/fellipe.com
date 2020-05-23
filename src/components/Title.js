@@ -9,14 +9,14 @@ const Title = styled.h1`
   font-family: ${font.title};
   font-weight: 900;
   line-height: 1em;
-  margin: 75px 0 30px 0;
+  margin: 50px 0 20px 0;
   font-size: 40px;
   letter-spacing: -2px;
-  text-transform: uppercase;
-
+  
   ${screen.md} {
+    font-size: 50px;
     line-height: 1em;
-    font-size: 60px;
+    margin: 70px 0 20px 0;
   }
 `
 
