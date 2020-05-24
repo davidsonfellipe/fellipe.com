@@ -9,7 +9,7 @@ dsq_thread_id: 261158463
 tags: ["blogs"]
 ---
 
-Enfim agora com o blog terei mais espaço e facilidade para postar trabalhos que fiz no passado e os que irei fazer. Começando pelo mais importante até então, meu trabalho de conclusão de curso (TCC). Ele tinha como principal objetivo projetar e implementar um sistema de comunicação sem fio, através da tecnologia Bluetooth, utilizando o microcontrolador PIC para facilitar o desenvolvimento de atividades relacionadas ao ensino e projetos futuros usando Bluetooth, na universidade que me formei.
+Enfim agora com o blog terei mais espaço e facilidade para postar trabalhos passados e futuros. Começando pelo mais importante até então, meu trabalho de conclusão de curso (TCC). Ele tinha como principal objetivo projetar e implementar um sistema de comunicação sem fio, através da tecnologia Bluetooth, utilizando o microcontrolador PIC para facilitar o desenvolvimento de atividades relacionadas ao ensino e projetos futuros usando Bluetooth, na Universidade de Pernambuco.
 
 ##Os objetivos específicos do trabalho foram:
 

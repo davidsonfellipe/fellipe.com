@@ -9,9 +9,9 @@ dsq_thread_id: 261154516
 tags: ["rio de janeiro"]
 ---
 
-![](./DSC04035______.jpg)
+![](./praia-boa-viagem-recife.jpg)
 
-## Publicação de 2010, provavelmente alguns valores abaixo não façam mais sentido.
+## Publicação de 2010, provavelmente alguns dos valores abaixo não façam mais sentido.
 
 É comum muitos profissionais da área de TI migrarem para o eixo Rio-São Paulo, dentre os principais motivos que posso citar são: Falta de motivação com o trabalho atual, muitos reclamam dos salários oferecidos em suas regiões, falta de expectativa de crescimento profissional na empresa, falta de oportunidades na região que reside ou ainda aquela proposta de emprego tentadora. Enfim, esse _post_ apresenta pontos importantes para aceitar ou recusar uma proposta de trabalho no Rio de Janeiro, considerando trabalhar e morar na Zona Oeste da cidade.
 

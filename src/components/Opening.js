@@ -17,13 +17,10 @@ const Section = styled.section`
 const Block = styled.div`
   border-top: 1px solid #eeeeee;
   margin-bottom: 50px;
+  width: 100%;
 
   &:first-child {
     border: 0;
-  }
-
-  ${screen.lg} {
-    width: calc(100vw - 400px);
   }
 `
 
