@@ -2,17 +2,21 @@
 
 🚀 My personal website using Gatsbyjs
 
-## steps to run
+## 🧩 Stack
 
-    git clone https://github.com/davidsonfellipe/fellipe.com.git
+- React
+- Styled Components
+- GatsbyJS
+- GraphQL
 
-    cd fellipe.com
+## 💻 Steps to run
 
-    gatsby develop
+- git clone https://github.com/davidsonfellipe/fellipe.com.git
+- cd fellipe.com
+- gatsby develop
+- On browser [localhost:8000/](http://localhost:8000/)
 
-On browser [localhost:4000](http://localhost:4000)
-
-#### Author
+## Author
 
 [![Davidson Fellipe](http://gravatar.com/avatar/054c583ad5dc09a861874e14dcb43e4c?s=70)](https://github.com/davidsonfellipe)
 <br>
