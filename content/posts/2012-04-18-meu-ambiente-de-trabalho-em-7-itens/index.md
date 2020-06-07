@@ -12,9 +12,9 @@ Enfim criei coragem para escreve sobre esse tema, que foi uma brincadeira antiga
 
 [1]: https://www.google.com.br/search?q=Meu%20ambiente%20de%20trabalho%20em%207%20itens
 
-## 1) Mac macOS
+## 1) macOS
 
-Venho trabalhando com o Mac macOS desde 2009, e enquanto eu tiver trabalhando com desenvolvimento acho bem difícil, troca-lo por outro.
+Venho trabalhando com o macOS desde 2009, e enquanto eu tiver trabalhando com desenvolvimento acho bem difícil, troca-lo por outro.
 
 ## 2) Iterm2
 
