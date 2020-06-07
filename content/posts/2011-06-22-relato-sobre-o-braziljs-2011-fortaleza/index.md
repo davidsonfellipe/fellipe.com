@@ -9,11 +9,11 @@ dsq_thread_id: 339216301
 tags: ["blogs"]
 ---
 
-Pessoal, sei que a conferencia aconteceu há mais de um mês, mas precisava relata-la. Ela aconteceu nos dias 13 e 14 de maio e foi a primeira conferencia com foco em Javascript do Brasil, batizada de **BrazilJS**.
+Pessoal, sei que a conferencia aconteceu há mais de um mês, mas precisava relata-la. Ela aconteceu nos dias 13 e 14 de maio e foi a primeira conferencia com foco em JavaScript do Brasil, batizada de **BrazilJS**.
 
-Esse evento veio para mostrar como o interesse por javascript (JS) cresceu exponencialmente nos últimos anos. Antes o coitado do JS, era visto apenas como uma linguagem para validar formulários. Com o passar do tempo, foi crescendo o numero de **frameworks**, técnicas e **design patterns** que faziam o uso da linguagem, isso de certa forma acabou a tornando uma ferramenta mais produtiva e poderosa para criar interfaces ricas, games, e até usa-la no lado servidor.
+Esse evento veio para mostrar como o interesse por JavaScript (JS) cresceu exponencialmente nos últimos anos. Antes o coitado do JS, era visto apenas como uma linguagem para validar formulários. Com o passar do tempo, foi crescendo o numero de **frameworks**, técnicas e **design patterns** que faziam o uso da linguagem, isso de certa forma acabou a tornando uma ferramenta mais produtiva e poderosa para criar interfaces ricas, games, e até usa-la no lado servidor.
 
-O evento de **fortaleza** teve cerca de 550 inscritos, isso mesmo 550! Para um evento fora do eixo Rio-São Paulo, isso foi uma excelente marca. O evento mostrou 20 palestras, com bom conteúdo técnico, apresentando assuntos do nível básico ao avançado em Javascript. O evento contou com a excelente organização do [@cmilfont][1], [@jaydson][2], [@felipenmoura][3], [@fbarroso][4] e [@henriquegogo][5] e atraiu olhares até de organizadores das conferencias de JS de fora do Brasil, pela sua dimensão.
+O evento de **fortaleza** teve cerca de 550 inscritos, isso mesmo 550! Para um evento fora do eixo Rio-São Paulo, isso foi uma excelente marca. O evento mostrou 20 palestras, com bom conteúdo técnico, apresentando assuntos do nível básico ao avançado em JavaScript. O evento contou com a excelente organização do [@cmilfont][1], [@jaydson][2], [@felipenmoura][3], [@fbarroso][4] e [@henriquegogo][5] e atraiu olhares até de organizadores das conferencias de JS de fora do Brasil, pela sua dimensão.
 
 [1]: http://twitter.com/#!/cmilfont
 [2]: http://twitter.com/#!/jaydson
@@ -36,7 +36,7 @@ Estava com grandes expectativas para palestras do [Guilherme Chapiewski][7], [L�
 [15]: http://twitter.com/#!/maujor
 [16]: http://twitter.com/#!/LittleCalculist
 
-[Bruno Porkaria][17] mostrou para galera como investir em WebApps, tivemos também o Daniel Passos que veio mostrar que utilizar javascript no desenvolvimento para aplicativos de Android. O Douglas Campos mostrando um pouco do poder da JVM com Javascript. [Leo Balter][18] fez uma apresentação que consistia em mostrar anti-padrões de JS. Mike Taylor falou sobre **Web Messaging**. Guilherme Chapiewski sobre Titanium e YQL, **[Michal Budzynski][12]** falou sobre desenvolvimento de Jogos em Javascript.
+[Bruno Porkaria][17] mostrou para galera como investir em WebApps, tivemos também o Daniel Passos que veio mostrar que utilizar JavaScript no desenvolvimento para aplicativos de Android. O Douglas Campos mostrando um pouco do poder da JVM com Javascript. [Leo Balter][18] fez uma apresentação que consistia em mostrar anti-padrões de JS. Mike Taylor falou sobre **Web Messaging**. Guilherme Chapiewski sobre Titanium e YQL, **[Michal Budzynski][12]** falou sobre desenvolvimento de Jogos em JavaScript.
 
 [17]: http://twitter.com/#!/porkaria
 [18]: http://leobalter.net/

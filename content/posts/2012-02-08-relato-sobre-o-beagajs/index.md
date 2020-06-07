@@ -21,7 +21,7 @@ O evento teve a abertura com o Diego Fleury que apresentou os cases: Ego e Papar
 
 ![](./409066_10150551011829548_787149547_8724571_883946164_n.jpg)
 
-Voltando do almoço, acabei perdendo a palestra do Iraê, mas ainda tinhamos, uma longa tarde de palestras, sendo 6, no total. Começando pela apresentação do Milfont, que fez todos de levantarem, obviamente para despertar aqueles que gostam de uma soneca pós-almoço. Logo após, tivemos as apresentações do Herberth Amaral e a do Marcos Souza. Como penultima apresentação, tivemos a minha palestra sobre [Performance em JQuery Apps][4]. Fechando o evento com chave de ouro, tivemos o Luciano Ramalho ([@luciano][5]), passando um pouco de sua larga experiencia, para nós iniciantes na área de desenvolvimento.
+Voltando do almoço, acabei perdendo a palestra do Iraê, mas ainda tinhamos, uma longa tarde de palestras, sendo 6, no total. Começando pela apresentação do Milfont, que fez todos de levantarem, obviamente para despertar aqueles que gostam de uma soneca pós-almoço. Logo após, tivemos as apresentações do Herberth Amaral e a do Marcos Souza. Como penultima apresentação, tivemos a minha palestra sobre [Performance em jQuery Apps][4]. Fechando o evento com chave de ouro, tivemos o Luciano Ramalho ([@luciano][5]), passando um pouco de sua larga experiencia, para nós iniciantes na área de desenvolvimento.
 
 [4]: http://www.slideshare.net/davidsonfellipe/jqueryperf
 [5]: https://twitter.com/#!/luciano
@@ -32,8 +32,8 @@ Seguem links para algumas palestras do evento:
 2. [Performance em jQuery Apps][4] – Davidson Fellipe
 3. [Combinando OO e funcional numa abordagem prática][8] – Cristiano Milfont
 4. [Backbone e Knockout: comparativo entre frameworks MVC e MVVM][9] - Herbert Amaral
-5. [Dicas para criar plugins e widgets com JQuery ][10]- Marcos Sousa
-6. [Automatizando testes de JavaScript no front-end][11] – Iraê Lambert
+5. [Dicas para criar plugins e widgets com jQuery ][10]- Marcos Sousa
+6. [Automatizando testes de JavaScript no frontend][11] – Iraê Lambert
 7. [JS Storage][12] – Jean Nascimento (Suissa)
 8. [Ego & Paparazzo][13] – Diego Fleury
 

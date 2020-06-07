@@ -39,7 +39,7 @@ Irei completar a grade de palestras da sala B, às 16h30, com o tema: **Canvas v
 
 ## por que você tem que ir/ou deveria ir?
 
-Esse evento será uma ótima oportunidade para comunidade de desenvolvimento front-end carioca, assistir a palestras de bom nível técnico e trocar uma ideia para encontros futuros.
+Esse evento será uma ótima oportunidade para comunidade de desenvolvimento frontend carioca, assistir a palestras de bom nível técnico e trocar uma ideia para encontros futuros.
 
 ## outras informações
 

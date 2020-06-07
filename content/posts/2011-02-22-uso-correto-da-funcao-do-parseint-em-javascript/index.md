@@ -9,7 +9,7 @@ dsq_thread_id: 261154714
 tags: ["blogs"]
 ---
 
-Irei comentar sobre um dos **erros** mais comuns em códigos **javascript**, que é o uso correto da função **parseInt**. Essa função converte uma string em um inteiro e possui a seguinte sintaxe:
+Irei comentar sobre um dos **erros** mais comuns em códigos **JavaScript**, que é o uso correto da função **parseInt**. Essa função converte uma string em um inteiro e possui a seguinte sintaxe:
 
 ```javascript
 parseInt(string, base)
@@ -21,7 +21,7 @@ corresponde ao conjunto de caracteres que deseja converter para inteiro;
 
 **BASE**
 
-usada para especificar qual o sistema de numeração que deseja converter a string. Podendo receber valores de 2 a 36, dentre os mais utilizados podemos destacar 10 (**decimal**), 2 (binário), 16 (hexadecimal) e 8 (octal). **É opcional !** É justamente no fato do paramento base ser opcional é que mora o perigo. Pois, caso o mesmo não seja informado, o interpretador javascript irá se comportar das seguintes formas:
+usada para especificar qual o sistema de numeração que deseja converter a string. Podendo receber valores de 2 a 36, dentre os mais utilizados podemos destacar 10 (**decimal**), 2 (binário), 16 (hexadecimal) e 8 (octal). **É opcional !** É justamente no fato do paramento base ser opcional é que mora o perigo. Pois, caso o mesmo não seja informado, o interpretador JavaScript irá se comportar das seguintes formas:
 
 -   Começando com caractere que não pode ser convertido para um número, retorna NaN (not a number)
 -   Quando um string começa com “0x” é analisada implicitamente com base 16 (hexadecimal)

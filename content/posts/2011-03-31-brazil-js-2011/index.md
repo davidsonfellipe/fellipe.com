@@ -10,12 +10,12 @@ dsq_thread_id: 267890016
 
 ![](./banner-496.jpg)
 
-Pessoal, pela primeira vez teremos uma Conferência de Javascript no Brasil, que foi batizada de [BrazilJS 2011][2], ela será realizada na bela cidade de Fortaleza, Ceará, nos dias 13 e 14 de maio de 2011, no teatro da Faculdade Sete de Setembro. O evento trará alguns bons nomes da área de desenvolvimento web, tais como:
+Pessoal, pela primeira vez teremos uma Conferência de JavaScript no Brasil, que foi batizada de [BrazilJS 2011][2], ela será realizada na bela cidade de Fortaleza, Ceará, nos dias 13 e 14 de maio de 2011, no teatro da Faculdade Sete de Setembro. O evento trará alguns bons nomes da área de desenvolvimento web, tais como:
 
 [2]: http://braziljs.com.br/2011/
 
 -   [Maurício Samy Silva][3], o maujor (Escritor de livros de JQuery/CSS e maujor.com)
--   [Richard D. Worth][4] (Membro do Jquery Core Development Team)
+-   [Richard D. Worth][4] (Membro do jQuery Core Development Team)
 -   [Mike Taylor][5] (Opera Software)
 -   [Guilherme Chapiewski][6] (Sr. Engineering Manager at Yahoo! Inc.)
 -   [Loiane Groner][7] (IBM)

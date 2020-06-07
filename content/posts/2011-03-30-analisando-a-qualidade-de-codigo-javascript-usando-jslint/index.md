@@ -9,7 +9,7 @@ dsq_thread_id: 266772587
 tags: ["blogs"]
 ---
 
-Muitas vezes temos que realizar uma análise de códigos **Javascript**, para procurar determinados trechos que podem trazer erros, _warnings_, eliminar problemas da linguagem e _cross-browser_. Para nos auxiliar na análise de código JS, apresento-lhes uma ferramenta antiga, teve se primeiro release em 2002, mas que percebo que muita gente ainda a desconhece, essa ferramenta é o tal do **[JSLint][1]**. Ela é uma ferramenta para análise de qualidade de código [JavaScript][2] e foi criada por [Douglas Crockford][3],
+Muitas vezes temos que realizar uma análise de códigos **JavaScript**, para procurar determinados trechos que podem trazer erros, _warnings_, eliminar problemas da linguagem e _cross-browser_. Para nos auxiliar na análise de código JS, apresento-lhes uma ferramenta antiga, teve se primeiro release em 2002, mas que percebo que muita gente ainda a desconhece, essa ferramenta é o tal do **[JSLint][1]**. Ela é uma ferramenta para análise de qualidade de código [JavaScript][2] e foi criada por [Douglas Crockford][3],
 
 [1]: http://jslint.com
 [2]: http://pt.wikipedia.org/wiki/JavaScript
@@ -20,7 +20,7 @@ O JSLint analisa um dado trecho de código e informa problemas potenciais ou err
 [4]: http://javascript.crockford.com/code.html
 [5]: http://www.oracle.com/technetwork/java/codeconv-138413.html
 
-O [JSLint][6] é uma **ferramenta** poderosa para ser usada no dia-a-dia do programador **Javascript**, pois ela exige do programador mais preciosismo para escrita de código nessa linguagem. Exigindo certos cuidados, tais como: **indentação** de código, tamanho da linha, declaração de variáveis, **_statements_**, declarações de **funções**, entre outros. Por exemplo, o erro comum em javascript que citei no artigo [Uso correto da função do parseInt em Javascript][7], seria facilmente detectado e ele exibiria o erro “Missing radix parameter”.
+O [JSLint][6] é uma **ferramenta** poderosa para ser usada no dia-a-dia do programador **JavaScript**, pois ela exige do programador mais preciosismo para escrita de código nessa linguagem. Exigindo certos cuidados, tais como: **indentação** de código, tamanho da linha, declaração de variáveis, **_statements_**, declarações de **funções**, entre outros. Por exemplo, o erro comum em JavaScript que citei no artigo [Uso correto da função do parseInt em JavaScript][7], seria facilmente detectado e ele exibiria o erro “Missing radix parameter”.
 
 [6]: http://www.jslint.com/
 [7]: http://fellipe.com/blog/uso-correto-da-funcao-do-parseint-em-javascript/

@@ -12,18 +12,18 @@ tags: ['wordpress', 'jekyll']
 
 ##Why migrate?
 
-I just wanted to learn a new tool and improving the design of the website.
+I just wanted to learn a new tool and improving the design of the site.
 
 ##Motivation
 
-Almost 3 years this website was powered using Wordpress. Since the beginning of the year, I was thinking about how to convert this blog for a static site generator tool.
+Almost 3 years this site was powered using WordPress. Since the beginning of the year, I was thinking about how to convert this blog for a static site generator tool.
 
 
 ##I had 2 options
 
 Docpad?
 
-DocPad is a framework that allowing for content management via the file system, this tool offer support to plugins that are used for rendering, and has static site generation. It's built with Node and Express.js.
+DocPad is a framework that allowing for content management via the file system, this tool offer support to plugins that are used for rendering, and has static site generation. It's built with Node.js and Express.js.
 
 Jekyll-bootstrap?
 
@@ -43,7 +43,7 @@ Their version isn't a dependency on server-side, it's just server delivery stati
 
 ##Keep the previous content
 
-I migrate all posts from Wordpress, using [Wordpress to Jekyll exporter](https://github.com/benbalter/wordpress-to-jekyll-exporter). This tool is a WordPress plugin that converts all posts, pages, taxonomies, metadata, and settings to Markdown and YAML which can be dropped into Jekyll. Thanks [Ben Balter](https://github.com/benbalter) for this nice job.
+I migrate all posts from Wordpress, using [WordPress to Jekyll exporter](https://github.com/benbalter/wordpress-to-jekyll-exporter). This tool is a WordPress plugin that converts all posts, pages, taxonomies, metadata, and settings to Markdown and YAML which can be dropped into Jekyll. Thanks [Ben Balter](https://github.com/benbalter) for this nice job.
 
 ##Keep the same URLs
 
@@ -61,4 +61,4 @@ I wanted to keep current comments from Disqus, for this a will to continue using
 
 ##Benefits
 
-More simplicity for changes in code, more simplicity for users to read my blog, and the website load faster. This is due to in the fact all my posts are static assets now. Now I write the posts using Markdown + HTML.
+More simplicity for changes in code, more simplicity for users to read my blog, and the site load faster. This is due to in the fact all my posts are static assets now. Now I write the posts using Markdown + HTML.

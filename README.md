@@ -1,12 +1,12 @@
 ## [![Netlify Status](https://api.netlify.com/api/v1/badges/354395f9-0fc8-48bf-b322-1b91c29d062a/deploy-status)](https://app.netlify.com/sites/fellipe/deploys)
 
-### 🚀 My personal website using Gatsbyjs
+### 🚀 My personal page using Gatsbyjs
 >URL: [fellipe.com](https://fellipe.com)
 
 ### 🧩 Stack
 
 - React
-- Styled Components
+- Styled-components
 - GatsbyJS
 - GraphQL
 

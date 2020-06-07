@@ -12,7 +12,7 @@ tags: ["react"]
 
 ![](post-revista-imasters-frameworks-front-end.jpg)
 
-In this fifth edition's [iMasters Magazine][0], magazine's major brazilian portal about web development, I wrote an opinion about Frameworks for Front-end Development.
+In this fifth edition's [iMasters Magazine][0], magazine's major brazilian portal about web development, I wrote an opinion about Frameworks for frontend Development.
 
 [0]: http://issuu.com/imasters
 

@@ -19,7 +19,7 @@ O evento começou com as apresentações de **Maujor** e **André Fonseca**. A p
 
 Em certos momentos ficou difícil de escolher em qual sala ficar,
 além desse fato, tiveram palestras que não assistir devido a grande lotação da sala, como foi o caso da palestra sobre WTF
-Javascript com [Leo Balter][3]. As palestras que assisti foram:
+JavaScript com [Leo Balter][3]. As palestras que assisti foram:
 Desbravando o HTML5 Boilerplate com [Zeno Rocha][4], Android UI Design Patterns & melhores Práticas com Oscar Marques, Seletores com Fábio Costa, Animações e Jogos além do canvas com Andrews Medina.
 
 [3]: http://leobalter.net/
@@ -40,7 +40,7 @@ Fábio várias formas de otimização de seletores, com uma palestra que inter
 
 ## Animações e Jogos além do canvas com Andrews Medina
 
-Andrews Medina trouxe vários pontos legais sobre como usar CSS transforms, transitions, animations para o desenvolvimento de jogos usando as CSS3, além de fazer um comparativo com o desenvolvimento de jogos usando Canvas. Os códigos de sua palestra podem ser conferidos no [github dele][5].
+Andrews Medina trouxe vários pontos legais sobre como usar CSS transforms, transitions, animations para o desenvolvimento de jogos usando as CSS3, além de fazer um comparativo com o desenvolvimento de jogos usando Canvas. Os códigos de sua palestra podem ser conferidos no [GitHub dele][5].
 
 [5]: https://github.com/andrewsmedina/pacman
 
@@ -48,7 +48,7 @@ Andrews Medina trouxe vários pontos legais sobre como usar CSS transforms, tran
 
 Apos minha palestra no BrazilJS, percebi que poderia fazer uma específica sobre um dos slides da mesma. Sendo assim apos o convite do Leo Balter,
 para eu apresentar uma palestra no FrontInRio, escolhi esse tema. Comecei apresentando sobre alguns conceitos que seriam relevantes para o entendimento,
-mostrei também as principais diferenças entre as duas técnicas, o suporte aos browsers, libraries tanto para SVG quanto para Canvas, um hands on cujo código pode ser encontrado em [meu repositório no github para palestras][6].
+mostrei também as principais diferenças entre as duas técnicas, o suporte aos browsers, libraries tanto para SVG quanto para Canvas, um hands on cujo código pode ser encontrado em [meu repositório no GitHub para palestras][6].
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/cBrSaB767SSlID" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 

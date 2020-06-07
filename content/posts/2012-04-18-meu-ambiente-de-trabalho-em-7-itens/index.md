@@ -12,15 +12,15 @@ Enfim criei coragem para escreve sobre esse tema, que foi uma brincadeira antiga
 
 [1]: https://www.google.com.br/search?q=Meu%20ambiente%20de%20trabalho%20em%207%20itens
 
-## 1) Mac OS X
+## 1) Mac macOS
 
-Venho trabalhando com o Mac OS X desde 2009, e enquanto eu tiver trabalhando com desenvolvimento acho bem difícil, troca-lo por outro.
+Venho trabalhando com o Mac macOS desde 2009, e enquanto eu tiver trabalhando com desenvolvimento acho bem difícil, troca-lo por outro.
 
 ## 2) Iterm2
 
 Um emulador de terminal para MacOS, com boa performance, bons _skins_, e já tem suas teclas de atalho bem conhecidas por mim.
 
-## 3) Controle de versão: Git, Github e Gitifier
+## 3) Controle de versão: Git, GitHub e Gitifier
 
 Desde quando entrei no projeto na área de esportes, da globo.com venho usando o Git, e hoje, ele é meu controle de versão favorito. Nessa mesma época o @fabiomiranda me apresentou o Github, e fui conhecendo aos poucos essa incrível rede social, e passei a me envolver mais com o mundo Open Source devido a ela. O [Gitifier][2] é um simples notificador de pushs realizados em um determinado projeto e há uns 3 meses venho o utilizando.
 
@@ -36,7 +36,7 @@ Não tenho bem definido qual meu browser principal de desenvolvimento, acabo uti
 
 ## 6) Tools: ImageOptim, SpeedLimit, pixel perfect, Firebug, Internet Explorer Developer Toolbar e Chrome Developer Tools & CSSLint JSHint
 
-Estas são as ferramentas que mais uso no dia a dia, ImageOptim uso com bastante frequencia para realizar uma compressão de imagens sem perdas de qualidade. SpeedLimit para simular conexões mais lentas, para observar o quanto a página demora para carregar nas velocidades típicas, da péssima infra de internet desse país. Firebug, Chrome Developer Tools e IE Developer Toolbar, não para ser frontend sem eles. CSSLint e JSHint utilizado para tentar encontrar pontos do código, que podem gerar potencias armadilhas futuras,  além, é claro, eliminar problemas inseridos. Pixel perfect essencial para verificação da fidelidade visual, do css desenvolvido com o PSD.
+Estas são as ferramentas que mais uso no dia a dia, ImageOptim uso com bastante frequencia para realizar uma compressão de imagens sem perdas de qualidade. SpeedLimit para simular conexões mais lentas, para observar o quanto a página demora para carregar nas velocidades típicas, da péssima infra de internet desse país. Firebug, Chrome Developer Tools e IE Developer Toolbar, não para ser frontend sem eles. CSSLint e JSHint utilizado para tentar encontrar pontos do código, que podem gerar potencias armadilhas futuras,  além, é claro, eliminar problemas inseridos. Pixel perfect essencial para verificação da fidelidade visual, do CSS desenvolvido com o PSD.
 
 ## 7) Adium
 

@@ -30,9 +30,9 @@ Diante de nossas limitações de tempo, pelo fato de cada um dos 3 ter suas obri
 
 [7]: http://www.pianolab.com.br
 
-A partir dai tivemos um grande desafio: Como elaborar um bela grade de palestras, trazendo grandes nomes do desenvolvimento Javascript no Brasil?
+A partir dai tivemos um grande desafio: Como elaborar um bela grade de palestras, trazendo grandes nomes do desenvolvimento JavaScript no Brasil?
 
-Não pensamos pequeno nesse quesito, pois queríamos trazer bons nomes, e que movimentaram o javascript no Brasil, nos últimos tempos. Vamos aos nomes (em ordem alfabética):
+Não pensamos pequeno nesse quesito, pois queríamos trazer bons nomes, e que movimentaram o JavaScript no Brasil, nos últimos tempos. Vamos aos nomes (em ordem alfabética):
 
 ##Bernardo Heynemann
 
@@ -46,7 +46,7 @@ Ex-contribuidor dos projetos jQuery e jQuery UI, e hoje um dos principais nos do
 
 ##Jaydson Gomes
 
-Um dos criadores do BrazilJS, maior conferencia de javascript do Brasil e fundador do grupo de desenvolvedores javascript do Rio Grande do Sul, o RSJS. Atualmente é Desenvolvedor Sênior no Terra Networks.
+Um dos criadores do BrazilJS, maior conferencia de JavaScript do Brasil e fundador do grupo de desenvolvedores JavaScript do Rio Grande do Sul, o RSJS. Atualmente é Desenvolvedor Sênior no Terra Networks.
 
 ##Jean Nascimento
 
@@ -62,9 +62,9 @@ Quase tivemos que pedir autorização dos pais dele para ele vir ao evento… El
 
 ##Bruno Souza, Dennis Calazans e Djalma Araújo
 
-Três caras que representam bem o desenvolvedores frontend de Recife, o primeiro também é da pré-história do frontend em pernambuco e hoje é um dos lideres de desenvolvimento da Ogilvy Recife. O segundo foi um dos primeiros instrutores de cursos de javascript no Recife e hoje é professor da Unibratec e Faculdade Marista. E para finalizar os _lightning talks_ teremos a presença do Djalma Araújo, líder de desenvolvimento da PianoLab e colunista do JqueryBrasil falará um pouco de sua experiência com o _Bootstrap_.
+Três caras que representam bem o desenvolvedores frontend de Recife, o primeiro também é da pré-história do frontend em pernambuco e hoje é um dos lideres de desenvolvimento da Ogilvy Recife. O segundo foi um dos primeiros instrutores de cursos de JavaScript no Recife e hoje é professor da Unibratec e Faculdade Marista. E para finalizar os _lightning talks_ teremos a presença do Djalma Araújo, líder de desenvolvimento da PianoLab e colunista do JqueryBrasil falará um pouco de sua experiência com o _Bootstrap_.
 
-Foi de fundamental importância para criação dessa grade de palestras, o patrocinio das empresas: [Liferay][9], [Globo.com][10], [EIA Cursos][11], [MV Sistemas][12], [Terra Networks][13] e [Servhost][14]. Apoiar iniciativas, como o PernambucoJS, são de fundamental importância para conseguir futuros profissionais e clientes. Hoje é bem complicado para as empresas contrarem desenvolvedores frontend com forte *skill* em javascript.
+Foi de fundamental importância para criação dessa grade de palestras, o patrocinio das empresas: [Liferay][9], [Globo.com][10], [EIA Cursos][11], [MV Sistemas][12], [Terra Networks][13] e [Servhost][14]. Apoiar iniciativas, como o PernambucoJS, são de fundamental importância para conseguir futuros profissionais e clientes. Hoje é bem complicado para as empresas contrarem desenvolvedores frontend com forte *skill* em JavaScript.
 
 [9]: http://www.liferay.com/
 [10]: http://www.globo.com/

@@ -28,7 +28,7 @@ Esse é de fato um ponto bem importante, algumas empresas oferecem _auxílio-des
 
 ## Estudar sobre a empresa
 
-Não basta apenas visitar o site da empresa, procure conhecer algum funcionário da empresa. É fato que isso pode não ser uma tarefa fácil, mas você pode talvez tentar estabelecer contato com algum via [_Linkedin_][4], faça um bom uso dessa rede social. Dessa forma você terá uma ideia melhor de como é o dia a dia na empresa.
+Não basta apenas visitar o site da empresa, procure conhecer algum funcionário da empresa. É fato que isso pode não ser uma tarefa fácil, mas você pode talvez tentar estabelecer contato com algum via [_LinkedIn_][4], faça um bom uso dessa rede social. Dessa forma você terá uma ideia melhor de como é o dia a dia na empresa.
 
 [4]: http://www.linkedin.com/
 
