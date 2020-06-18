@@ -58,7 +58,7 @@ const Opening = () => (
   <Section>
     <Block>
       <OpeningText>
-        I'm a Engineering Manager at <a href="https://loadsmart.com/">Loadsmart</a>, working on a technical leadership,
+        I'm an Engineering Manager at <a href="https://loadsmart.com/">Loadsmart</a>, working on technical leadership,
         mentoring, architecture design, recruiting.
       </OpeningText>
       <OpeningText>
