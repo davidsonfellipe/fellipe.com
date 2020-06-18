@@ -33,6 +33,7 @@
         "textlint-rule-terminology": "^2.1.4"
     },
     "devDependencies": {
+        "cz-conventional-changelog": "3.2.0",
         "gatsby-remark-prismjs": "^3.5.0",
         "prettier": "2.0.4",
         "prismjs": "^1.20.0"
@@ -50,5 +51,10 @@
         "lint": "textlint --rule textlint-rule-terminology content/**/*.md",
         "format": "prettier --write \"./src/**/*.{js,json,md}\"",
         "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
     }
 }
