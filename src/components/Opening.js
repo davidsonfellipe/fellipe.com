@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Text from './Text'
-import { screen } from '../styles/screen'
+import Text from 'components/Text'
+import { screen } from 'styles/screen'
 
 const Section = styled.section`
   display: inline-block;

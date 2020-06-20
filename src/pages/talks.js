@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Title from '../components/Title'
-import Section from '../components/Section'
-import Link from '../components/Link'
-import ItemDate from '../components/ItemDate'
-import Layout from '../components/Layout'
-import SEO from '../components/SEO'
+import Title from 'components/Title'
+import Section from 'components/Section'
+import Link from 'components/Link'
+import ItemDate from 'components/ItemDate'
+import Layout from 'components/Layout'
+import SEO from 'components/SEO'
 
 const TalksPage = () => (
   <Layout>

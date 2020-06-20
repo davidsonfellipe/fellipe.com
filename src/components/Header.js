@@ -2,9 +2,9 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 
-import Section from './Section'
-import { screen } from '../styles/screen'
-import { font } from '../styles/theme'
+import Section from 'components/Section'
+import { screen } from 'styles/screen'
+import { font } from 'styles/theme'
 
 const Logo = styled.span`
   display: inline-block;

@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { screen } from '../styles/screen'
-import profile from '../images/profile.jpg'
+import { screen } from 'styles/screen'
+import profile from 'images/profile.jpg'
 
 const Footer = styled.h1`
   margin: 75px 0 25px 0;
