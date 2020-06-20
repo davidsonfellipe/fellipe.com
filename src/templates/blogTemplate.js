@@ -8,12 +8,13 @@ import SEO from '../components/SEO'
 import PostContent from '../components/PostContent'
 import PostDate from '../components/PostDate'
 import PostFooter from '../components/PostFooter'
+import TimeToRead from '../components/TimeToRead'
 
 export default function Template({
   data,
 }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, html, timeToRead } = markdownRemark
 
   return (
     <Layout>
@@ -21,7 +22,7 @@ export default function Template({
       <Section>
         <Title>
           {frontmatter.title}
-          <PostDate>{frontmatter.date}</PostDate>
+          <PostDate>{frontmatter.date} - {TimeToRead(timeToRead)}</PostDate>
         </Title>
 
         <PostContent>
@@ -43,6 +44,7 @@ export const pageQuery = graphql`
         path
         title
       }
+      timeToRead
     }
   }
 `
