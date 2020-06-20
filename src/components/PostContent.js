@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-import { font } from '../styles/theme'
-import { screen } from '../styles/screen'
+import { font } from 'styles/theme'
+import { screen } from 'styles/screen'
 
 const PostWrapper = styled.div`
   font-size: 20px;

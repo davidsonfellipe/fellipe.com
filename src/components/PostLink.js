@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import Link from '../components/Link'
-import ItemDate from '../components/ItemDate'
+import Link from 'components/Link'
+import ItemDate from 'components/ItemDate'
 
-import { screen } from '../styles/screen'
+import { screen } from 'styles/screen'
 
 const Date = styled(ItemDate)`
   display: none;

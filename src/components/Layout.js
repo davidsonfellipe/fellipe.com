@@ -12,11 +12,11 @@ import './layout.css'
 
 import styled from 'styled-components'
 
-import { screen } from '../styles/screen'
-import { font } from '../styles/theme'
+import { screen } from 'styles/screen'
+import { font } from 'styles/theme'
 
-import Header from './Header'
-import Footer from './Footer'
+import Header from 'components/Header'
+import Footer from 'components/Footer'
 
 const Wrapper = styled.div`
   font-family: ${font.text};
