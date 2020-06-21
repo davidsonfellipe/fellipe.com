@@ -17,6 +17,11 @@
 - gatsby develop
 - On browser [localhost:8000/](http://localhost:8000/)
 
+### Screenshot
+
+<img width="1455" alt="Screen Shot 2020-06-20 at 10 26 46 PM" src="https://user-images.githubusercontent.com/381179/85215337-30bc8d00-b345-11ea-9ab0-4daaab66e98a.png">
+
+
 ### 📖 License
 
 Code is under [MIT](http://davidsonfellipe.mit-license.org) license
