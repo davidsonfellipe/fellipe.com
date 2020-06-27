@@ -1,4 +1,6 @@
-## [![Netlify Status](https://api.netlify.com/api/v1/badges/354395f9-0fc8-48bf-b322-1b91c29d062a/deploy-status)](https://app.netlify.com/sites/fellipe/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/354395f9-0fc8-48bf-b322-1b91c29d062a/deploy-status)](https://app.netlify.com/sites/fellipe/deploys)
+[![MIT license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat)](https://davidsonfellipe.mit-license.org/)
+
 
 ### 🚀 My personal page using Gatsbyjs
 >URL: [fellipe.com](https://fellipe.com)
