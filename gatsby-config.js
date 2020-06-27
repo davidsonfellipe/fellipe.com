@@ -77,7 +77,7 @@ module.exports = {
         short_name: `fellipe.com`,
         start_url: `/`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.jpg`, // This path is relative to the root of the site.
+        icon: `src/images/profile.jpg`, // This path is relative to the root of the site.
       },
     },
     {
