@@ -1,5 +1,5 @@
 ---
-title: "PernambucoJS, 2012"
+title: "PernambucoJS 2012"
 author: Davidson Fellipe
 layout: post
 lang: pt
@@ -7,6 +7,7 @@ path: /blog/pernambucojs-2012-pre-evento/
 date: "2012-04-08"
 dsq_thread_id: 641557732
 tags: ["pernambucojs"]
+category: reports
 ---
 
 Começar a escrever um resumo antes da realização do evento, como assim?

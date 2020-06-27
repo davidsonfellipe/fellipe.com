@@ -7,21 +7,33 @@ import Section from 'components/Section'
 import Layout from 'components/Layout'
 import SEO from 'components/SEO'
 
+import styled from 'styled-components'
+
+const PostsWrapper = styled.div`
+  margin-bottom: 15px;
+`
+
 const BlogPage = ({
   data: {
     allMarkdownRemark: { edges },
   },
 }) => {
   const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
+    .filter(edge => !!edge.node.frontmatter.date && edge.node.frontmatter.category !== 'reports') // You can filter your posts based on some criteria
+    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+
+  const Reports = edges
+    .filter(edge => !!edge.node.frontmatter.date && edge.node.frontmatter.category === 'reports') // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
   return (
     <Layout>
       <SEO title="Blog" />
       <Section>
-        <Title>BLOG</Title>
-        <div>{Posts}</div>
+        <Title>ARTICLES</Title>
+        <PostsWrapper>{Posts}</PostsWrapper>
+        <Title>CONFERENCES REPORTS</Title>
+        <PostsWrapper>{Reports}</PostsWrapper>
       </Section>
     </Layout>
   )
@@ -37,9 +49,10 @@ export const pageQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "MMM DD, YYYY")
             path
             title
+            category
           }
         }
       }

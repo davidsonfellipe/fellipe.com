@@ -7,6 +7,7 @@ path: /blog/analisando-a-qualidade-de-codigo-javascript-usando-jslint/
 date: "2011-03-30"
 dsq_thread_id: 266772587
 tags: ["blogs"]
+category: articles
 ---
 
 Muitas vezes temos que realizar uma análise de códigos **JavaScript**, para procurar determinados trechos que podem trazer erros, _warnings_, eliminar problemas da linguagem e _cross-browser_. Para nos auxiliar na análise de código JS, apresento-lhes uma ferramenta antiga, teve se primeiro release em 2002, mas que percebo que muita gente ainda a desconhece, essa ferramenta é o tal do **[JSLint][1]**. Ela é uma ferramenta para análise de qualidade de código [JavaScript][2] e foi criada por [Douglas Crockford][3],

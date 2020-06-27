@@ -1,5 +1,5 @@
 ---
-title: "PHP n Rio, 2011"
+title: "PHP n Rio 2011"
 author: Davidson Fellipe
 layout: post
 lang: pt
@@ -7,6 +7,7 @@ path: /blog/relato-phpn-rio-2011/
 date: "2011-11-06"
 dsq_thread_id: 463112440
 tags: ["blogs"]
+category: reports
 ---
 
 ![](.//DSCF0003.jpg)

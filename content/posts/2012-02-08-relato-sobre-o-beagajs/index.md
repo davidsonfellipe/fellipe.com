@@ -1,5 +1,5 @@
 ---
-title: BeagaJS, 2012
+title: BeagaJS 2012
 author: Davidson Fellipe
 layout: post
 lang: pt
@@ -7,6 +7,7 @@ path: /blog/relato-sobre-o-beagajs/
 date: "2012-02-08"
 dsq_thread_id: 568385610
 tags: ["beagejs"]
+category: reports
 ---
 
 ![](./394357_10150551005174548_787149547_8724534_1017665618_n.jpg)

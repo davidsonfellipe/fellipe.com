@@ -1,5 +1,5 @@
 ---
-title: Front in Rio, 2011
+title: Front in Rio 2011
 author: Davidson Fellipe
 layout: post
 lang: pt
@@ -7,6 +7,7 @@ path: /blog/front-in-rio-2011/
 date: "2011-06-12"
 dsq_thread_id: 329335912
 tags: ["blogs"]
+category: reports
 ---
 
 ![](./frontinrio.png)

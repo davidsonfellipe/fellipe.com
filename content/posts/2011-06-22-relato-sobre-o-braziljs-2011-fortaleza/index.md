@@ -1,5 +1,5 @@
 ---
-title: "BrazilJS 2011, Fortaleza"
+title: "BrazilJS 2011"
 author: Davidson Fellipe
 layout: post
 lang: pt
@@ -7,13 +7,14 @@ path: /blog/relato-sobre-o-braziljs-2011-fortaleza/
 date: "2011-06-22"
 dsq_thread_id: 339216301
 tags: ["blogs"]
+category: reports
 ---
 
-Pessoal, sei que a conferencia aconteceu há mais de um mês, mas precisava relata-la. Ela aconteceu nos dias 13 e 14 de maio e foi a primeira conferencia com foco em JavaScript do Brasil, batizada de **BrazilJS**.
+Nos dias 13 e 14 de maio aconteceu a primeira conferência com foco em JavaScript do Brasil, batizada de **BrazilJS**. Esse evento veio para mostrar como o interesse por JavaScript (JS) cresceu exponencialmente nos últimos anos. Antes o coitado do JS, era visto apenas como uma linguagem para validar formulários. Com o passar do tempo, foi crescendo o numero de **frameworks**, técnicas e **design patterns** que faziam o uso da linguagem, isso de certa forma acabou a tornando uma ferramenta mais produtiva e poderosa para criar interfaces ricas, games, e até usa-la no lado servidor.
 
-Esse evento veio para mostrar como o interesse por JavaScript (JS) cresceu exponencialmente nos últimos anos. Antes o coitado do JS, era visto apenas como uma linguagem para validar formulários. Com o passar do tempo, foi crescendo o numero de **frameworks**, técnicas e **design patterns** que faziam o uso da linguagem, isso de certa forma acabou a tornando uma ferramenta mais produtiva e poderosa para criar interfaces ricas, games, e até usa-la no lado servidor.
+![](./banner-496.jpg)
 
-O evento de **fortaleza** teve cerca de 550 inscritos, isso mesmo 550! Para um evento fora do eixo Rio-São Paulo, isso foi uma excelente marca. O evento mostrou 20 palestras, com bom conteúdo técnico, apresentando assuntos do nível básico ao avançado em JavaScript. O evento contou com a excelente organização do [@cmilfont][1], [@jaydson][2], [@felipenmoura][3], [@fbarroso][4] e [@henriquegogo][5] e atraiu olhares até de organizadores das conferencias de JS de fora do Brasil, pela sua dimensão.
+O evento realizado no teatro da Faculdade Sete de Setembro, em Fortaleza, teve cerca de 550 inscritos, isso mesmo 550! Para um evento fora do eixo Rio-São Paulo, isso foi uma excelente marca. O evento mostrou 20 palestras, com bom conteúdo técnico, apresentando assuntos do nível básico ao avançado em JavaScript. O evento contou com a excelente organização do [@cmilfont][1], [@jaydson][2], [@felipenmoura][3], [@fbarroso][4] e [@henriquegogo][5] e atraiu olhares até de organizadores das conferencias de JS de fora do Brasil, pela sua dimensão.
 
 [1]: http://twitter.com/#!/cmilfont
 [2]: http://twitter.com/#!/jaydson
@@ -52,7 +53,7 @@ Além disso o **BrazilJS** foi uma excelente oportunidade para conhecer pessoas 
 
 ![](./pernambuco-braziljs-2011.jpg)
 
-##pronunciamento do @maujor
+##Pronunciamento do @maujor
 
 Encerrando o evento. tivemos esse pronunciamento do @maujor… Sinceramente o evento superou todas as minhas expectativas.
 

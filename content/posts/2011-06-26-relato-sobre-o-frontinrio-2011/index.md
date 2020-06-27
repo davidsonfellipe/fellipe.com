@@ -7,6 +7,7 @@ path: /blog/relato-sobre-o-frontinrio-2011/
 date: "2011-06-26"
 dsq_thread_id: 342861870
 tags: ["blogs"]
+category: reports
 ---
 
 ![](./front-in-rio2011-panfleto.jpg)

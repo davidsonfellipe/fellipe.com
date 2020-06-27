@@ -6,6 +6,7 @@ lang: pt
 path: /blog/como-se-adaptar-ao-chegar-no-rio-de-janeiro/
 date: "2010-10-13"
 dsq_thread_id: 261154499
+category: articles
 ---
 
 Hoje completo 3 meses na cidade maravilhosa e resolvi fazer um resumo sobre esse período, atendendo a sugestões dos comentários do artigo [Proposta de emprego no Rio de Janeiro, aceitar ou não?][1]. Agora, mostrarei alguns pontos para quem deseja mudar para cá. Vale lembrar que apenas mudando de **bairro** no **RJ**, você poderá ter uma percepção bem diferente da minha. Sendo assim, vou apresentar alguns pontos que me ajudaram a ter uma adaptação mais fácil nesta cidade.
