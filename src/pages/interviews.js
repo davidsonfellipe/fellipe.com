@@ -33,7 +33,7 @@ const InterviewsPage = () => (
         <Date>in portuguese · oct 15, 2013</Date>
       </Link>
       <Link href="https://issuu.com/imasters/docs/revistaimasters5/30">
-        Opinião sobre frameworks para desenvolvimento front-end by Revista iMasters #05
+        Frameworks para desenvolvimento front-end by Revista iMasters #05
         <Date>in portuguese · feb 23, 2013</Date>
       </Link>
     </Section>
