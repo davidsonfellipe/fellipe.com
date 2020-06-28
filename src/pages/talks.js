@@ -7,15 +7,19 @@ import Link from 'components/Link'
 import ItemDate from 'components/ItemDate'
 import Layout from 'components/Layout'
 import SEO from 'components/SEO'
+import { screen } from 'styles/screen'
 
 const Location = styled(ItemDate)`
+  display: none;
   margin-right: 15px;
   position: absolute;
   right: 0;
   top: 15px;
+
+  ${screen.md} {
+    display: inline-block;
+  }
 `
-/* ${screen.lg} { */
-/* } */
 
 const TalksPage = () => (
   <Layout>

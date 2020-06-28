@@ -23,6 +23,6 @@ In this fifth edition's [iMasters Magazine][0], magazine's major brazilian porta
 > team and maintenance cost among the options market can highlight: Twitter Bootstrap, Skeleton, ZURB Foundation."
 
 To read this complete article, visit the magazine (free online version):
-[http://issuu.com/imasters][1]
+[https://issuu.com/imasters/docs/revistaimasters5/30][1]
 
-[1]: http://issuu.com/imasters
+[1]: https://issuu.com/imasters/docs/revistaimasters5/30

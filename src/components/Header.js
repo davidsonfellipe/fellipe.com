@@ -12,6 +12,22 @@ const Logo = styled.span`
   width: 40%;
 `
 
+const LogoMobile = styled(Logo)`
+  display: inline-block;
+
+  ${screen.md} {
+    display: none;
+  }
+`
+
+const LogoDesktop = styled(Logo)`
+  display: none;
+
+  ${screen.md} {
+    display: inline-block;
+  }
+`
+
 const Wrapper = styled(Section)`
   position: relative;
   max-width: ${screen.max};
@@ -61,13 +77,17 @@ const Links = styled.div`
 const Header = () => (
   <Nav>
     <Wrapper>
-      <Logo>
+      <LogoMobile>
+        <Link to="/">Fellipe.com</Link>
+      </LogoMobile>
+      <LogoDesktop>
         <Link to="/"> Davidson Fellipe</Link>
-      </Logo>
+      </LogoDesktop>
 
       <Links>
         <Link to="/blog/">blog</Link>
         <Link to="/talks/">talks</Link>
+        <Link to="/interviews/">interviews</Link>
       </Links>
     </Wrapper>
   </Nav>
