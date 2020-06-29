@@ -32,6 +32,10 @@ const InterviewsPage = () => (
         Setup Davidson Fellipe by loopinfinito.com.br
         <Date>in portuguese · oct 15, 2013</Date>
       </Link>
+      <Link href="https://fellipe.com/files/estado-de-minas.pdf">
+        Interview about Front in BH Conference by Estado de Minas (brazilian newspaper)
+        <Date>in portuguese · jul 23, 2013</Date>
+      </Link>
       <Link href="https://issuu.com/imasters/docs/revistaimasters5/30">
         Frameworks para desenvolvimento front-end by Revista iMasters #05
         <Date>in portuguese · feb 23, 2013</Date>
