@@ -28,6 +28,10 @@ const InterviewsPage = () => (
         DNE 47 - Interview by Dev na Estrada
         <Date>in portuguese · apr 1, 2016</Date>
       </Link>
+      <Link href="https://www.youtube.com/watch?v=6Odt8ztbwNk">
+        Quick chat in Front in Aracaju
+        <Date>in portuguese · aug 02, 2014</Date>
+      </Link>
       <Link href="http://setup.loopinfinito.com.br/davidson-fellipe/">
         Setup Davidson Fellipe by loopinfinito.com.br
         <Date>in portuguese · oct 15, 2013</Date>
