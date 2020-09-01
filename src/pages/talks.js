@@ -112,7 +112,7 @@ const TalksPage = () => (
       </Link>
       <Link href="https://fellipe.com/slides/performance-javascript/">
         Alta Performance em Aplicações JavaScript @ BrazilJS
-        <Location>Porto Alegre, Brazil · aug 13, 2012</Location>
+        <Location>Porto Alegre, Brazil · aug 31, 2012</Location>
       </Link>
       <Link href="https://fellipe.com/slides/fluent2012/pt/">
         Fluent Conference - Highlights @ 6º Rio.JS
