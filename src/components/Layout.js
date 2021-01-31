@@ -36,10 +36,6 @@ const Section = styled.div`
   padding: 15px;
   vertical-align: top;
   width: 100%;
-
-  ${screen.lg} {
-    padding: 0;
-  }
 `
 
 const Layout = ({ children }) => (

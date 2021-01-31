@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 
+import profile from 'images/profile.jpg'
 import Section from 'components/Section'
 import { screen } from 'styles/screen'
 import { font } from 'styles/theme'
@@ -14,9 +15,16 @@ const Logo = styled.span`
 
 const LogoMobile = styled(Logo)`
   display: inline-block;
+  height: 40px;
+  width: 20%;
 
   ${screen.md} {
     display: none;
+  }
+
+  img {
+    border-radius: 50%;
+    margin-bottom: 0;
   }
 `
 
@@ -28,22 +36,22 @@ const LogoDesktop = styled(Logo)`
   }
 `
 
-const Wrapper = styled(Section)`
-  position: relative;
-  max-width: ${screen.max};
-`
-
 const Nav = styled.nav`
   background: #000;
   color: #fff;
-  padding: 15px;
   margin: 0 auto;
-  width: 100%;
+  padding: 10px 15px;
   position: fixed;
   text-transform: uppercase;
   top: 0;
-  right: 0;
+  width: 100%;
   z-index: 10;
+
+  ${screen.md} {
+    line-height: auto;
+    padding: 15px;
+    right: 0;
+  }
 
   a {
     font-family: ${font.title};
@@ -52,10 +60,26 @@ const Nav = styled.nav`
   }
 `
 
+const Wrapper = styled(Section)`
+  position: relative;
+  overflow-x: auto;
+
+  ${screen.lg} {
+    padding: 0 20px;
+    max-width: ${screen.max};
+  }
+`
+
 const Links = styled.div`
     display: inline-block;
+    line-height: 40px;
     position: absolute;
     right: 0;
+
+
+    ${screen.md} {
+      line-height: inherit;
+    }
 
     a {
       padding: 0;
@@ -78,7 +102,9 @@ const Header = () => (
   <Nav>
     <Wrapper>
       <LogoMobile>
-        <Link to="/">Fellipe.com</Link>
+        <Link to="/">
+          <img src={profile} alt="profile" width={40} height={40} />
+        </Link>
       </LogoMobile>
       <LogoDesktop>
         <Link to="/"> Davidson Fellipe</Link>
