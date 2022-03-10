@@ -81,23 +81,15 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Lato`,
-            variants: [`900`],
-          },
-          {
-            family: `Cormorant+Garamond`,
-            variants: [`400`, `500`],
-          },
-          {
-            family: `Source+Sans+Pro`,
-            variants: [`400`, `400i`, `700`],
-          },
+          `Lato\:900`,
+          `Cormorant+Garamond\:400,500`,
+          `Source+Sans+Pro\:400,400i,700`,
         ],
-      },
+        display: 'swap'
+      }
     },
     {
       resolve: `gatsby-plugin-google-analytics`,

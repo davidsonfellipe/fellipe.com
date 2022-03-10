@@ -58,21 +58,20 @@ const Opening = () => (
   <Section>
     <Block>
       <OpeningText>
-        I'm an Engineering Manager at <a href="https://loadsmart.com/">Loadsmart</a>, working on technical leadership,
-        mentoring, architecture design, recruiting.
+        Lead Software Engineer at <a href="https://www.salesforce.com/">Salesforce</a>, Commerce Search Team.
       </OpeningText>
       <OpeningText>
-        I'm also <a href="https://twitter.com/frontinbh/">@FrontinBH</a> co-organizer, a conference for web developers
+        <a href="https://twitter.com/frontinbh/">@FrontinBH</a> co-organizer, a conference for front-end engineers
         in Belo Horizonte, Brazil.
       </OpeningText>
       <OpeningText>
-        Previously, I worked at <a href="https://www.globo.com/">Globo.com</a> and{' '}
-        <a href="http://english.cesar.org.br/">CESAR</a>. and some{' '}
+        Previously, I worked at <a href="https://loadsmart.com/">Loadsmart</a> and{' '}
+        <a href="https://www.globo.com/">Globo.com</a> and{' '}
         <a href="https://github.com/davidsonfellipe">open source projects</a>. You can find more on my{' '}
         <a href="https://www.linkedin.com/in/fellipe/">Linkedin.</a>
       </OpeningText>
       <OpeningText>
-        I'm a Brazilian, Based in Brooklyn, NY. Have something you'd like to discuss? Send me a{' '}
+        Brazilian, Based in Brooklyn, NY. Have something you'd like to discuss? Send me a{' '}
         <a href="https://twitter.com/davidsonfellipe">DM</a> via twitter.
       </OpeningText>
     </Block>
