@@ -61,8 +61,8 @@ const Opening = () => (
         Lead Software Engineer at <a href="https://www.salesforce.com/">Salesforce</a>, Commerce Search Team.
       </OpeningText>
       <OpeningText>
-        <a href="https://twitter.com/frontinbh/">@FrontinBH</a> co-organizer, a conference for front-end engineers
-        in Belo Horizonte, Brazil.
+        <a href="https://twitter.com/frontinbh/">@FrontinBH</a> co-organizer, a conference for front-end engineers in
+        Belo Horizonte, Brazil.
       </OpeningText>
       <OpeningText>
         Previously, I worked at <a href="https://loadsmart.com/">Loadsmart</a> and{' '}
