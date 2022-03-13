@@ -10,7 +10,7 @@ import SEO from 'components/SEO'
 import { screen } from 'styles/screen'
 
 const Date = styled(ItemDate)`
-  ${screen.md} {
+  ${screen.lg} {
     margin-right: 15px;
     position: absolute;
     right: 0;

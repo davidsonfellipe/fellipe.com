@@ -7,7 +7,7 @@ import { screen } from 'styles/screen'
 import { font } from 'styles/theme'
 
 const Date = styled(ItemDate)`
-  display: none;
+  display: block;
   position: static;
 
   ${screen.md} {
