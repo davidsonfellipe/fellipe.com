@@ -1,11 +1,14 @@
 import styled from 'styled-components'
 
+import { font } from 'styles/theme'
+
 const Link = styled.a`
-  border-bottom: 2px dashed #eee;
+  border-bottom: 1px dashed #eee;
   display: block;
-  font-size: 20px;
+  font-family: ${font.title};
+  font-size: 18px;
   font-weight: 500;
-  color: #333;
+  color: #444;
   padding: 15px 0;
   line-height: 1.5em;
   position: relative;

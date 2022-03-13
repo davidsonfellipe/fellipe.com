@@ -10,13 +10,19 @@ import PropTypes from 'prop-types'
 
 import './layout.css'
 
-import styled from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components';
 
 import { screen } from 'styles/screen'
 import { font } from 'styles/theme'
 
 import Header from 'components/Header'
 import Footer from 'components/Footer'
+
+const GlobalStyle = createGlobalStyle`
+  a {
+    color: inherit;
+  }
+`
 
 const Wrapper = styled.div`
   font-family: ${font.text};
@@ -25,10 +31,6 @@ const Wrapper = styled.div`
   width: 100%;
   overflow: hidden;
   max-width: ${screen.max};
-
-  a {
-    color: inherit;
-  }
 `
 
 const Section = styled.div`
@@ -39,11 +41,14 @@ const Section = styled.div`
 `
 
 const Layout = ({ children }) => (
-  <Wrapper>
-    <Header />
-    <Section>{children}</Section>
-    <Footer />
-  </Wrapper>
+  <>
+    <GlobalStyle />
+    <Wrapper>
+      <Header />
+      <Section>{children}</Section>
+      <Footer />
+    </Wrapper>
+  </>
 )
 
 Layout.propTypes = {

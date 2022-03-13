@@ -26,23 +26,23 @@ const InterviewsPage = () => (
       <Title>INTERVIEWS</Title>
       <Link href="https://devnaestrada.com.br/2016/04/01/devnaestrada-entrevista-davidson-fellipe.html">
         DNE 47 - Interview by Dev na Estrada
-        <Date>in portuguese · apr 1, 2016</Date>
+        <Date>apr 1, 2016 · in portuguese</Date>
       </Link>
       <Link href="https://www.youtube.com/watch?v=6Odt8ztbwNk">
         Quick chat in Front in Aracaju
-        <Date>in portuguese · aug 02, 2014</Date>
+        <Date>aug 02, 2014 · in portuguese</Date>
       </Link>
       <Link href="http://setup.loopinfinito.com.br/davidson-fellipe/">
         Setup Davidson Fellipe by loopinfinito.com.br
-        <Date>in portuguese · oct 15, 2013</Date>
+        <Date>oct 15, 2013 · in portuguese</Date>
       </Link>
       <Link href="https://fellipe.com/files/estado-de-minas.pdf">
         Interview about Front in BH Conference by Estado de Minas (brazilian newspaper)
-        <Date>in portuguese · jul 23, 2013</Date>
+        <Date>jul 23, 2013 · in portuguese</Date>
       </Link>
       <Link href="https://issuu.com/imasters/docs/revistaimasters5/30">
         Frameworks para desenvolvimento front-end by Revista iMasters #05
-        <Date>in portuguese · feb 23, 2013</Date>
+        <Date>feb 23, 2013 · in portuguese</Date>
       </Link>
     </Section>
   </Layout>
