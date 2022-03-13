@@ -10,9 +10,7 @@ import PostDate from 'components/PostDate'
 import PostFooter from 'components/PostFooter'
 import TimeToRead from 'components/TimeToRead'
 
-export default function Template({
-  data,
-}) {
+export default function Template({ data }) {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, timeToRead } = markdownRemark
 
@@ -22,7 +20,9 @@ export default function Template({
       <Section>
         <Title>
           {frontmatter.title}
-          <PostDate>{frontmatter.date} - {TimeToRead(timeToRead)}</PostDate>
+          <PostDate>
+            {frontmatter.date} - {TimeToRead(timeToRead)}
+          </PostDate>
         </Title>
 
         <PostContent>

@@ -12,7 +12,7 @@ const Title = styled.h1`
   margin: 50px 0 20px 0;
   font-size: 40px;
   letter-spacing: -2px;
-  
+
   ${screen.md} {
     font-size: 50px;
     line-height: 1em;
