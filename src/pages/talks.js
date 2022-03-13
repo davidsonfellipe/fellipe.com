@@ -10,13 +10,13 @@ import SEO from 'components/SEO'
 import { screen } from 'styles/screen'
 
 const Location = styled(ItemDate)`
-  display: none;
-  margin-right: 15px;
-  position: absolute;
-  right: 0;
-  top: 15px;
+  display: block;
 
-  ${screen.md} {
+  ${screen.lg} {
+    margin-right: 15px;
+    position: absolute;
+    right: 0;
+    top: 15px;
     display: inline-block;
   }
 `

@@ -10,7 +10,7 @@ import PropTypes from 'prop-types'
 
 import './layout.css'
 
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components'
 
 import { screen } from 'styles/screen'
 import { font } from 'styles/theme'
@@ -28,6 +28,7 @@ const Wrapper = styled.div`
   font-family: ${font.text};
   padding: 15px 7px 15px 0;
   margin: 0 auto;
+  min-width: 340px;
   width: 100%;
   overflow: hidden;
   max-width: ${screen.max};
