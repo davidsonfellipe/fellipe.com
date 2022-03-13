@@ -7,14 +7,6 @@ const Text = styled.footer`
   text-align: center;
 `
 
-const Footer = () => (
-  <Text>
-    made by me with{' '}
-    <span role="img" aria-label="love">
-      🖤
-    </span>{' '}
-    since 2007
-  </Text>
-)
+const Footer = () => <Text>since 2007</Text>
 
 export default Footer

@@ -21,7 +21,7 @@ const Wrapper = styled.a`
   border-bottom: 1px dashed #eee;
   display: block;
   font-family: ${font.title};
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
   padding: 15px 0;
