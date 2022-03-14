@@ -140,11 +140,11 @@ const TalksPage = () => (
       </Link>
       <Link href="https://fellipe.com/slides/jqueryfn">
         Jquery.fn @ Workshop Globo.com
-        <Location>Rio de Jan, Brazil · oct 27, 2011</Location>
+        <Location>Rio de Janeiro, Brazil · oct 27, 2011</Location>
       </Link>
       <Link href="https://fellipe.com/slides/jqueryfn">
         Jquery.fn @ Rio.JS
-        <Location>Rio de Jan, Brazil · oct 8, 2011</Location>
+        <Location>Rio de Janeiro, Brazil · oct 8, 2011</Location>
       </Link>
       <Link href="https://fellipe.com/slides/html5/">
         HTML5 &amp; CSS3 @ II EATI
@@ -152,7 +152,7 @@ const TalksPage = () => (
       </Link>
       <Link href="https://www.slideshare.net/davidsonfellipe/canvas-vs-svg">
         Canvas vs. SVG @ Front in Rio
-        <Location>Rio de Jan, Brazil · jun 18, 2011</Location>
+        <Location>Rio de Janeiro, Brazil · jun 18, 2011</Location>
       </Link>
       <Link href="https://www.slideshare.net/davidsonfellipe/canvas-element">
         Canvas Element @ BrazilJS
