@@ -114,6 +114,7 @@ const Header = () => (
         <Link to="/blog/">blog</Link>
         <Link to="/talks/">talks</Link>
         <Link to="/interviews/">interviews</Link>
+        <Link to="/about/">about</Link>
       </Links>
     </Wrapper>
   </Nav>
