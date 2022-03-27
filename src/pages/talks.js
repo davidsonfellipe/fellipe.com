@@ -26,6 +26,7 @@ const TalksPage = () => (
     <SEO title="Talks" />
     <Section>
       <Title>TALKS</Title>
+      <p>Here is a list of all my past talks.</p>
       <Link href="https://speakerdeck.com/fellipe/adventures-from-enzyme-to-react-testing-library">
         Adventures from Enzyme to React Testing Library @ QueensJS
         <Location>New York City, USA · nov 28, 2019</Location>
@@ -163,7 +164,7 @@ const TalksPage = () => (
         <Location>Recife, Brazil · jan 15, 2011</Location>
       </Link>
       <Link href="https://speakerdeck.com/fellipe/front-end-engineer-and-designer">
-        Front-end engineer  &amp; designer @ Frontend-br Meetup
+        Front-end engineer &amp; designer @ Frontend-br Meetup
         <Location>Recife, Brazil · mar 9, 2009</Location>
       </Link>
       <Link href="https://fellipe.com/slides/rdfs">

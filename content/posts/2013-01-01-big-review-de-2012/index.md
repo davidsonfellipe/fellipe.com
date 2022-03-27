@@ -14,7 +14,7 @@ Depois de ler alguns depoimentos de alguns amigos sobre 2012, resolvi escrever o
 [1]: http://fellipe.com/blog/relato-sobre-o-beagajs/
 [2]: http://www.slideshare.net/davidsonfellipe/jqueryperf
 
-Nessas minhas primeiras férias, depois de 5 anos de faculdade e 1 ano e meio de Globo.com, resolvi conhecer o 2º destino turistíco mais visitado desse país, e o que eu tinha mais interesse em conhecer: A bela Foz do Iguaçu, e ainda visitei, a simpática Puerto Iguazú (Argentina) e a bagunçada Ciudad del Este (Paraguai), essa região de fronteiras é incrível e com muitas culturas diferentes, que se eu fosse contar todos os detalhes mereceria um post exclusivo.
+Nessas minhas primeiras férias, depois de 5 anos de faculdade e 1 ano e meio de Globo.com, resolvi conhecer o 2º destino turistíco mais visitado desse país, e o que eu tinha mais interesse em conhecer: Foz do Iguaçu, e ainda visitei, a Puerto Iguazú (Argentina) e Ciudad del Este (Paraguai), essa região de fronteiras é incrível e com muitas culturas diferentes, que se eu fosse contar todos os detalhes mereceria um post exclusivo.
 
 ## De volta a terrinha & Carnaval…
 

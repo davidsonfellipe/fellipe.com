@@ -18,9 +18,9 @@ const Date = styled(ItemDate)`
 `
 
 const Wrapper = styled.a`
-  border-bottom: 1px dashed #eee;
+  border-bottom: 2px solid #efefef;
   display: block;
-  font-family: ${font.title};
+  font-family: ${font.text};
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
