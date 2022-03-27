@@ -46,7 +46,7 @@ const InterviewsPage = () => (
         <Date>oct 15, 2013 · in portuguese</Date>
       </Link>
       <Link href="https://fellipe.com/files/estado-de-minas.pdf">
-      Estado de Minas (brazilian newspaper) - Interview about Front in BH Conference
+        Estado de Minas (brazilian newspaper) - Interview about Front in BH Conference
         <Date>jul 23, 2013 · in portuguese</Date>
       </Link>
       <Link href="https://issuu.com/imasters/docs/revistaimasters5/30">

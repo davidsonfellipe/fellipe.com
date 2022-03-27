@@ -3,11 +3,11 @@ import styled from 'styled-components'
 import { font } from 'styles/theme'
 
 const Link = styled.a`
-  border-bottom: 1px dashed #eee;
+  border-bottom: 2px solid #efefef;
   display: block;
-  font-family: ${font.title};
-  font-size: 18px;
-  font-weight: 500;
+  font-family: ${font.text};
+  font-size: 0.9em;
+  font-weight: 700;
   color: #444;
   padding: 15px 0;
   line-height: 1.5em;

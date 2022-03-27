@@ -5,7 +5,7 @@ import { screen } from 'styles/screen'
 
 const PostWrapper = styled.div`
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
   padding: 20px 0;
   line-height: 1.5em;
   position: relative;
@@ -26,10 +26,8 @@ const PostWrapper = styled.div`
   h6 {
     font-family: ${font.title};
     font-weight: 900;
-    background: #000;
-    color: #fff;
     display: inline-block;
-    padding: 10px;
+    margin: 2em 0 1em;
   }
 
   pre {

@@ -10,13 +10,14 @@ const Section = styled.section`
   vertical-align: top;
 
   ${screen.lg} {
-    padding: 40px 0 15px 0;
+    margin-top: 175px;
+    padding: 40px 0 0 0;
   }
 `
 
 const Block = styled.div`
   border-top: 1px solid #eeeeee;
-  margin-bottom: 50px;
+  margin-bottom: 0;
   width: 100%;
 
   &:first-child {
@@ -36,7 +37,7 @@ const OpeningText = styled(Text)`
 
   ${screen.lg} {
     border-left: 1px solid #EEEEEE;
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 50px 0 0;
     min-height: 80px;
     padding: 0 15px 10px 15px;
@@ -58,7 +59,8 @@ const Opening = () => (
   <Section>
     <Block>
       <OpeningText>
-        Lead Software Engineer at <a href="https://www.salesforce.com/">Salesforce</a>, Commerce Search Team.
+        Lead Software Engineering at <a href="https://www.salesforce.com/">Salesforce</a> since 2021, and working
+        remotely from Brooklyn, NY.
       </OpeningText>
       <OpeningText>
         <a href="https://twitter.com/frontinbh/">@FrontinBH</a> co-organizer, a conference for front-end engineers in
@@ -71,8 +73,8 @@ const Opening = () => (
         <a href="https://www.linkedin.com/in/fellipe/">Linkedin.</a>
       </OpeningText>
       <OpeningText>
-        Brazilian, Based in Brooklyn, NY. Have something you'd like to discuss? Send me a{' '}
-        <a href="https://twitter.com/davidsonfellipe">DM</a> via twitter.
+        Have something you'd like to discuss? Feel free to send me a{' '}
+        <a href="https://twitter.com/davidsonfellipe">direct message</a> via twitter.
       </OpeningText>
     </Block>
   </Section>
