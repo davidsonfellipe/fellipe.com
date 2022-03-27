@@ -16,7 +16,6 @@ const Subtitle = styled.h2`
 
   ${screen.md} {
     font-size: 1em;
-
     margin: 20px 0 20px 0;
   }
 `
