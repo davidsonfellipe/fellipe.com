@@ -59,8 +59,8 @@ const Opening = () => (
   <Section>
     <Block>
       <OpeningText>
-        Lead Software Engineering at <a href="https://www.salesforce.com/">Salesforce</a> since 2021, and working
-        remotely from Brooklyn, NY.
+        Engineering Manager at <a href="https://www.salesforce.com/">Salesforce, Commerce Cloud</a> - Based
+        in Brooklyn, NY.
       </OpeningText>
       <OpeningText>
         <a href="https://twitter.com/frontinbh/">@FrontinBH</a> co-organizer, a conference for front-end engineers in
