@@ -4,7 +4,6 @@
 			"destination": "/talks",
 			"statusCode": 301
 		},
-
 		{
 			"source": "/apps/lena-js/ ",
 			"destination": "/demos/lena-js/",
@@ -25,6 +24,5 @@
 			"destination": "/blog/relato-sobre-o-braziljs-2011-fortaleza/",
 			"statusCode": 301
 		}
-
 	]
 }
