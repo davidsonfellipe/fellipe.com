@@ -10,8 +10,8 @@ const Section = styled.section`
   vertical-align: top;
 
   ${screen.lg} {
-    margin-top: 175px;
-    padding: 40px 0 0 0;
+    margin-top: 100px;
+    padding: 20px 0 0 0;
   }
 `
 
@@ -29,7 +29,7 @@ const OpeningText = styled(Text)`
   display: inline-block;
   font-weight: 400;
   text-rendering: optimizeLegibility;
-  font-size: 1.25em;
+  font-size: 1em;
   line-height: 1.5em;
   margin-bottom: 10px;
   vertical-align: top;
@@ -59,8 +59,8 @@ const Opening = () => (
   <Section>
     <Block>
       <OpeningText>
-        Engineering Manager at <a href="https://www.salesforce.com/">Salesforce, Commerce Cloud</a> - Based
-        in Brooklyn, NY.
+        I'm a Brazilian based in Brooklyn since 2015 and have over 15 years of experience in the Software Development
+        Industry.
       </OpeningText>
       <OpeningText>
         <a href="https://twitter.com/frontinbh/">@FrontinBH</a> co-organizer, a conference for front-end engineers in
@@ -73,8 +73,8 @@ const Opening = () => (
         <a href="https://www.linkedin.com/in/fellipe/">Linkedin.</a>
       </OpeningText>
       <OpeningText>
-        Have something you'd like to discuss? Feel free to send me a{' '}
-        <a href="https://twitter.com/davidsonfellipe">direct message</a> via twitter.
+        Want to get in touch? Feel free to send me a <a href="https://twitter.com/davidsonfellipe">direct message</a>{' '}
+        via twitter.
       </OpeningText>
     </Block>
   </Section>
