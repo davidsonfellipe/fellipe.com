@@ -24,9 +24,9 @@ const InterviewsPage = () => (
     <SEO title="Interviews" />
     <Section>
       <Title>INTERVIEWS</Title>
-      <Link href="https://www.devsemfronteiras.tech/episode/vida-e-trabalho-nas-costas-leste-e-oeste-dos-eua-dev-sem-fronteiras-31/"> 
+      <Link href="https://www.devsemfronteiras.tech/episode/vida-e-trabalho-nas-costas-leste-e-oeste-dos-eua-dev-sem-fronteiras-31/">
         Vida e trabalho nas costas Leste e Oeste dos EUA @ Dev Sem Fronteiras
-        <Date>apr 13, 2022 · in portuguese</Date> 
+        <Date>apr 13, 2022 · in portuguese</Date>
       </Link>
       <Link href="https://devnaestrada.com.br/2016/04/01/devnaestrada-entrevista-davidson-fellipe.html">
         Trabalhando com gestão em tecnologia fora do Brasil @ Tech Leadership Rocks
