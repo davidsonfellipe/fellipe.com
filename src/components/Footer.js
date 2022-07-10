@@ -8,6 +8,6 @@ const Text = styled.footer`
   text-align: center;
 `
 
-const Footer = () => <Text>since 2007</Text>
+const Footer = () => <Text>since 2007 · <a href="https://github.com/davidsonfellipe/fellipe.com">source code</a></Text>
 
 export default Footer
