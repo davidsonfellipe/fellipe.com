@@ -22,7 +22,7 @@
         "gatsby-remark-reading-time": "^1.1.0",
         "gatsby-remark-responsive-iframe": "^5.11.0",
         "gatsby-source-filesystem": "^4.11.1",
-        "gatsby-transformer-remark": "^5.11.1",
+        "gatsby-transformer-remark": "^5.25.1",
         "gatsby-transformer-sharp": "^4.11.0",
         "prop-types": "^15.8.1",
         "react": "^18.0.0",
