@@ -20,6 +20,11 @@
             "statusCode": 301
         },
         {
+            "source": "/docs/",
+            "destination": "/",
+            "statusCode": 301
+        },
+        {
             "source": "/blog/brazil-js-2011/",
             "destination": "/blog/relato-sobre-o-braziljs-2011-fortaleza/",
             "statusCode": 301
