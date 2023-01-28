@@ -9,6 +9,16 @@ import Layout from 'components/Layout'
 import SEO from 'components/SEO'
 import { screen } from 'styles/screen'
 
+const Type = styled(ItemDate)`
+  display: block;
+
+  ${screen.md} {
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+`
+
 const Date = styled(ItemDate)`
   ${screen.lg} {
     margin-right: 15px;
@@ -25,36 +35,32 @@ const InterviewsPage = () => (
     <Section>
       <Title>INTERVIEWS</Title>
       <Link href="https://www.devsemfronteiras.tech/episode/vida-e-trabalho-nas-costas-leste-e-oeste-dos-eua-dev-sem-fronteiras-31/">
-        Vida e trabalho nas costas Leste e Oeste dos EUA @ Dev Sem Fronteiras
+        <Type>Podcast</Type>Vida e trabalho nas costas Leste e Oeste dos EUA @ Dev Sem Fronteiras
         <Date>apr 13, 2022 · in portuguese</Date>
       </Link>
       <Link href="https://devnaestrada.com.br/2016/04/01/devnaestrada-entrevista-davidson-fellipe.html">
-        Trabalhando com gestão em tecnologia fora do Brasil @ Tech Leadership Rocks
+        <Type>Podcast</Type>Trabalhando com gestão em tecnologia fora do Brasil @ Tech Leadership Rocks
         <Date>mar 21, 2021 · in portuguese</Date>
       </Link>
       <Link href="https://www.youtube.com/watch?v=dg2p6Bgajkg&list=PLx7GnPMAl5iyrSditXMSUlSq_uSmUxdl0">
-        IT Carrer Abroad @ Fellyph Cintra (YouTube Channel)
+        <Type>Youtube</Type>Chat with expats about careers outside Brazil @ Fellyph Cintra
         <Date>jul 08, 2020 · in portuguese</Date>
       </Link>
       <Link href="https://devnaestrada.com.br/2016/04/01/devnaestrada-entrevista-davidson-fellipe.html">
-        My career path (ep #47) @ Devnaestrada
+        <Type>Podcast</Type>Interview about my career for Devnaestrada
         {/* My career path from college to 2016, through academic experience, adaptation in a new city and beginning of my life in the USA. */}
         <Date>apr 1, 2016 · in portuguese</Date>
       </Link>
-      <Link href="https://www.youtube.com/watch?v=6Odt8ztbwNk">
-        Quick chat in Front in Aracaju
-        <Date>aug 02, 2014 · in portuguese</Date>
-      </Link>
       <Link href="http://setup.loopinfinito.com.br/davidson-fellipe/">
-        Setup by loopinfinito.com.br - My career path (#4)
+        <Type>Blog</Type>Interview about my career for Setup by loopinfinito.com.br
         <Date>oct 15, 2013 · in portuguese</Date>
       </Link>
       <Link href="https://fellipe.com/files/estado-de-minas.pdf">
-        Estado de Minas (brazilian newspaper) - Interview about Front in BH Conference
+        <Type>Newspaper</Type>Interview about Front in BH Conference for Estado de Minas (brazilian newspaper)
         <Date>jul 23, 2013 · in portuguese</Date>
       </Link>
       <Link href="https://issuu.com/imasters/docs/revistaimasters5/30">
-        Revista iMasters #05 - Frameworks para desenvolvimento front-end
+        <Type>Magazine</Type>Interview about Frameworks for front-end development - Revista iMasters
         <Date>feb 23, 2013 · in portuguese</Date>
       </Link>
     </Section>
