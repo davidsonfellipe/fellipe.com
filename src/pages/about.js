@@ -72,7 +72,7 @@ const AboutPage = () => (
         <br />
         <br />
         He is highly interested in Building teams, Agile software development, Front-end development, Web Performance,
-        Tests, and Web standards. He holds an MSc in Web Performace from PUC-Rio and a BSc in Computer Engineer from
+        Tests, and Web standards. He holds an MSc in Web Performance from PUC-Rio and a BSc in Computer Engineering from
         University of Pernambuco. In his spare time, he enjoys traveling and talking about travel.
       </Bio>
     </Section>
