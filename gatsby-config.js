@@ -92,9 +92,9 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: 'UA-2123552-1',
+        trackingIds: ['G-EV10PWT7QL'],
       },
     },
     `gatsby-plugin-sitemap`,
