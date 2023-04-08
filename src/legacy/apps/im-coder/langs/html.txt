@@ -10,13 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
     <!-- General -->
-    <link rel="canonical" href="http://fellipe.com">
+    <link rel="canonical" href="https://fellipe.com">
 
     <!-- Open Graph -->
     <meta property="og:title" content=" / Davidson Fellipe">
     <meta property="og:site_name" content="Davidson Fellipe">
-    <meta property="og:url" content="http://fellipe.com">
-    <meta property="og:image" content="http://fellipe.com/assets/img/opengraph.jpg">
+    <meta property="og:url" content="https://fellipe.com">
+    <meta property="og:image" content="https://fellipe.com/assets/img/opengraph.jpg">
     <meta property="og:type" content="website">
     <meta property="og:description" content=" from website's Davidson Fellipe">
 

@@ -7,7 +7,7 @@
            Dominic Mazzoni (browser compatibility)
            Charles Chen (ChromeVox support)
 
-  URL: http://code.google.com/p/html5slides/
+  URL: https://code.google.com/archive/p/html5slides/
 */
 
 var PERMANENT_URL_PREFIX = '';

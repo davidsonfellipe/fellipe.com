@@ -44,7 +44,7 @@ Seguem links para algumas palestras do evento:
 [10]: http://www.slideshare.net/marcossousa/indo-alem-jquery3
 [11]: http://irae.github.com/frontend-tests-pt/#slide1
 [12]: http://frontendbrasil.com.br/suissa/eventos/beagajs/#/
-[13]: http://www.slideshare.net/dfleury/ego-e-paparazzo
+[13]: https://www.slideshare.net/dfleury/ego-e-paparazzo
 
 BeagaJS 2013?
 

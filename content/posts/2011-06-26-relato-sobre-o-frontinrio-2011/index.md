@@ -14,7 +14,7 @@ category: reports
 
 No último sábado, 18, conforme [já citado por esse blog][2], aconteceu o FrontInRio 2011. Esse evento foi o primeiro com foco em desenvolvimento client-side em terras fluminenses. O evento que reuniu cerca de 170 inscritos, aconteceu na UniRio, no bairro da Urca e contou com 12 palestras de grandes nomes do cenário local. As palestras foram divididas em duas salas, cobrindo assuntos de nível básico ao avançando.
 
-[2]: http://fellipe.com/blog/front-in-rio-2011/
+[2]: https://fellipe.com/blog/front-in-rio-2011/
 
 O evento começou com as apresentações de **Maujor** e **André Fonseca**. A palestra do primeiro apresentou o tema @font-face e a do segundo foi sobre Testes unitários com javascript, usando o Jasmine.
 
@@ -24,7 +24,7 @@ JavaScript com [Leo Balter][3]. As palestras que assisti foram:
 Desbravando o HTML5 Boilerplate com [Zeno Rocha][4], Android UI Design Patterns & melhores Práticas com Oscar Marques, Seletores com Fábio Costa, Animações e Jogos além do canvas com Andrews Medina.
 
 [3]: http://leobalter.net/
-[4]: http://zenorocha.com/
+[4]: https://zenorocha.com/
 
 ## Android UI Design Patterns & melhores Práticas com Oscar Marques
 

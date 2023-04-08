@@ -29,7 +29,7 @@ Não foi nada fácil para nós conseguirmos um auditório para realização do e
 
 Diante de nossas limitações de tempo, pelo fato de cada um dos 3 ter suas obrigações profissionais, estava bem difícil para criarmos um site e uma identidade visual maneira para o evento, nesse quesito entrou a **[PianoLab][7]** para nos ajudar e nos presentou com um belo site, demonstrando um total apoio ao evento.
 
-[7]: http://www.pianolab.com.br
+[7]: https://www.pianolab.com.br
 
 A partir dai tivemos um grande desafio: Como elaborar um bela grade de palestras, trazendo grandes nomes do desenvolvimento JavaScript no Brasil?
 
@@ -39,7 +39,7 @@ Não pensamos pequeno nesse quesito, pois queríamos trazer bons nomes, e que 
 
 Atualmente ele é líder técnico da home da Globo.com. Possui uma grande experiência em desenvolvimento de software, passando por empresas do Brasil e Reino Unido. É um grande contribuidor dos projetos Pyccuracy, Skink, Ion, Thumbor e pyVows. Responsável direto pela implementação do responsive design na [home do etc][8].
 
-[8]: http://etc.globo.com
+[8]: https://etc.globo.com
 
 ##Eduardo Lundgren
 
@@ -67,12 +67,12 @@ Três caras que representam bem o desenvolvedores frontend de Recife, o primeiro
 
 Foi de fundamental importância para criação dessa grade de palestras, o patrocinio das empresas: [Liferay][9], [Globo.com][10], [EIA Cursos][11], [MV Sistemas][12], [Terra Networks][13] e [Servhost][14]. Apoiar iniciativas, como o PernambucoJS, são de fundamental importância para conseguir futuros profissionais e clientes. Hoje é bem complicado para as empresas contrarem desenvolvedores frontend com forte *skill* em JavaScript.
 
-[9]: http://www.liferay.com/
-[10]: http://www.globo.com/
+[9]: https://www.liferay.com/
+[10]: https://www.globo.com/
 [11]: http://curso.eia.com.br/javascript.php
 [12]: http://www.mv.com.br/mv/
-[13]: http://www.terra.com.br/portal/
-[14]: http://servhost.com.br/novo/
+[13]: https://www.terra.com.br/
+[14]: https://site.servhost.com.br/
 
 Lançadas as inscrições, nem esperávamos que elas iriam se esgotar em tão pouco tempo, foram 100 inscrições vendidas em apenas 6 dias! Para o primeiro evento foi sensacional. E agradecemos muito, aos inscritos no eventos e aos não-inscritos também. Pois devido aos vários pedidos de inscrições que recebemos, e ao grande numero de pessoas presentes numa lista de espera criada por nós, resolvemos alugar um espaço maior e disponibilizamos mais 80 vagas, que novamente estão praticamente esgotadas! Fiquem ligados o novo local evento, será no [Park Hotel][15], próximo a pracinha de Boa Viagem, no Recife.
 
