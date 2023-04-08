@@ -63,14 +63,13 @@ const Opening = () => (
         Industry.
       </OpeningText>
       <OpeningText>
-        <a href="https://twitter.com/frontinbh/">@FrontinBH</a> co-organizer, a conference for front-end engineers in
-        Belo Horizonte, Brazil.
+        Previously, I worked at <a href="https://salesforce.com/">Salesforce</a>,{' '}
+        <a href="https://loadsmart.com/">Loadsmart</a> and <a href="https://www.globo.com/">Globo.com</a>. You can find
+        more on my <a href="https://www.linkedin.com/in/fellipe/">Linkedin.</a>
       </OpeningText>
       <OpeningText>
-        Previously, I worked at <a href="https://loadsmart.com/">Loadsmart</a> and{' '}
-        <a href="https://www.globo.com/">Globo.com</a> and{' '}
-        <a href="https://github.com/davidsonfellipe">open source projects</a>. You can find more on my{' '}
-        <a href="https://www.linkedin.com/in/fellipe/">Linkedin.</a>
+        Take a few minutes to browse through my <a href="https://github.com/davidsonfellipe">open source projects</a>{' '}
+        and see what catches your eye.
       </OpeningText>
       <OpeningText>
         Want to get in touch? Feel free to send me a <a href="https://twitter.com/davidsonfellipe">direct message</a>{' '}
