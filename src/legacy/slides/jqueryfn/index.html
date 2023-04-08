@@ -648,20 +648,13 @@ $("body").bgChange({bg: "#00f"}); //azul
         </p>
       </article>
 
-      <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-2123552-1']);
-      _gaq.push(['_trackPageview']);
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-EV10PWT7QL"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      (function() {
-
-        var ga = document.createElement('script');
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-
-        ga.setAttribute('async', 'true');
-        document.documentElement.firstChild.appendChild(ga);
-
-      })();
+        gtag('config', 'G-EV10PWT7QL');
       </script>
   </body>
 </html>
