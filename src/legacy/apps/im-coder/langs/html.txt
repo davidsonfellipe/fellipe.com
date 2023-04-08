@@ -82,27 +82,16 @@
             </a>
         </li>
         <li class='button-list-item'>
-            <a class='button icon-facebook' href='https://www.facebook.com/fellipe'>
-            </a>
-        </li>
-        <li class='button-list-item'>
             <a class='button icon-twitter' href='https://twitter.com/davidsonfellipe' rel='me'>
             </a>
         </li>
-        <li class='button-list-item'>
-            <a class='button icon-google-plus' href='https://plus.google.com/+DavidsonFellipe/posts?rel=author'>
-            </a>
-        </li>
     </ul>
-
 </div>
 
     <footer class="footer">
         Made by Davidson Fellipe with ♥ since 2007
     </footer>
     
-
-
   <script>
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-2123552-1']);
