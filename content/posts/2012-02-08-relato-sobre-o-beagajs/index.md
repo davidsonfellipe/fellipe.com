@@ -16,7 +16,7 @@ No dia 21 de janeiro, Belo Horizonte foi palco de um evento bem legal sobre Java
 
 Tomei conhecimento sobre o evento em 22 de Dezembro, logo quando comecei a trocar umas ideias com o organizador (@eder_frances), e falei um pouco sobre o riojs, ele acabou curtindo a ideia e criando também o [BeagaJS no facebook][2], que hoje já conta com 108 membros, é notavel a influencia do evento no rápido crescimento do grupo.
 
-[2]: http://www.facebook.com/groups/beagajs/
+[2]: https://www.facebook.com/groups/beagajs/
 
 O evento teve a abertura com o Diego Fleury que apresentou os cases: Ego e Paparazzo, mostrando soluções para diversos problemas enfrentados. Logo apos, tivemos o Eder Frances apresentando sobre ExtJS, e fechando a manhã, o curitibano Zeno Rocha. Posteriormente, partimos para o almoço, onde rolou um belo papo, com os presentes na foto abaixo.
 
