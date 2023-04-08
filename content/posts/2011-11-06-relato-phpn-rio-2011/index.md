@@ -36,7 +36,7 @@ Em uma palestra recheada de links, ele tocou em vários assuntos, entre eles, lo
 
 Palestra comandada pelo Alexandre Gaigalas ([@alganet][3]), um dos nomes mais conhecidos da comunidade PHP no Brasil, que apresentou em quais paradigmas de programação podemos utilizar com a linguagem PHP. Fazendo um passei pelo imperativo, pelo dominante OOP com PHP e pelo ainda, pouco usado, PHP Funcional.
 
-[3]: http://twitter.com/alganet
+[3]: https://twitter.com/alganet
 
 ## Desconferencia
 
@@ -49,7 +49,7 @@ O evento tem tudo para ganhar uma nova edição no próximo ano e achei bem orga
 ## Slides das palestras:
 
 <ul>
-<li><a href="http://www.slideshare.net/LeoCabral/seo-x-velocidade-de-carregamento-phpnrio-2011" target="_blank">http://www.slideshare.net/LeoCabral/seo-x-velocidade-de-carregamento-phpnrio-2011</a></li>
-<li><a href="http://www.slideshare.net/maciel3000/robtica-e-php-com-arduino-phpn-rio-2011">http://www.slideshare.net/maciel3000/robtica-e-php-com-arduino-phpn-rio-2011</a></li>
+<li><a href="https://www.slideshare.net/LeoCabral/seo-x-velocidade-de-carregamento-phpnrio-2011" target="_blank">https://www.slideshare.net/LeoCabral/seo-x-velocidade-de-carregamento-phpnrio-2011</a></li>
+<li><a href="https://www.slideshare.net/maciel3000/robtica-e-php-com-arduino-phpn-rio-2011">https://www.slideshare.net/maciel3000/robtica-e-php-com-arduino-phpn-rio-2011</a></li>
 <li><a href="http://comousarhtml5semumamaquinadotempo.com/">http://comousarhtml5semumamaquinadotempo.com/</a></li>
 </ul>

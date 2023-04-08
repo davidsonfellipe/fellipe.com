@@ -52,8 +52,8 @@ Será que os seguintes nomes, topam falar sobre os seus?
 -   [Leonardo Alberto Souza][9]
 
 [4]: http://bygiovanni.com.br
-[5]: http://blog.zenorocha.com
+[5]: https://zenorocha.com
 [6]: http://rafaelcaricio.blogspot.com.br/
 [7]: http://romulojales.com/
-[8]: http://www.klauslaube.com.br/
+[8]: https://www.klauslaube.com.br/
 [9]: http://blog.leobetosouza.com/

@@ -11,7 +11,7 @@ tags: ["blogs"]
 
 **GIT** é um Software Livre utilizado para controle de versão, é distribuído, com enfase em rapidez. Foi inicialmente criado por **Linus Torvalds **para ser utilizado no desenvolvimento do kernel **Linux**. Para instalar a ferramenta para basta acessar seu [site oficial][1].
 
-[1]: http://git-scm.com/download
+[1]: https://git-scm.com/download
 
 Comecei a usar git em setembro de 2010. Hoje, acho o GIT uma ferramenta robusta para o controle de versão. No meu primeiro projeto que utilizava o GIT, tive um pouco de dificuldade para entender, mas com o tempo fui procurando soluções como se resolvia alguns problemas comuns de conflitos e já estou bem adaptado a seu uso.
 

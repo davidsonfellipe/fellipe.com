@@ -28,12 +28,12 @@ O evento irá contar com um total de 12 palestras, trazendo nomes como:
 -   [Andre Fonseca][9], Desenvolvedor na Globo.com
 -   entre outros.
 
-[3]: http://maujor.com/
-[4]: http://twitter.com/#!/fabiomiranda
-[5]: http://mootools.net/developers
+[3]: https://maujor.com/
+[4]: https://twitter.com/fabiomiranda
+[5]: https://mootools.net/developers
 [6]: http://www.andrewsmedina.com/
 [7]: http://leobalter.net/
-[8]: http://zenorocha.com/
+[8]: https://zenorocha.com/
 [9]: http://metronus.com/blog/
 
 Irei completar a grade de palestras da sala B, às 16h30, com o tema: **Canvas vs. SVG**. Apresentando as **diferenças** entre os dois formatos e uma visão do que se pode fazer com ambas as tecnologias.

@@ -20,4 +20,4 @@
 
 ### 📖 License
 
-Code is under [MIT](http://davidsonfellipe.mit-license.org) license
+Code is under [MIT](https://davidsonfellipe.mit-license.org) license

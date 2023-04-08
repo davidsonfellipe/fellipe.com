@@ -19,8 +19,8 @@ tags: ["rio de janeiro"]
 
 Caso a vaga solicite uma proposta salarial, seja bastante criterioso na elaboração. Procure saber o bairro onde está localizada a empresa, para que você possa ter ideia dos preços de aluguéis em bairros próximos ao trabalho desde o início do processo. É difícil chegar a um equilíbrio entre qualidade de vida x baixo custo. Um site que pode ajudar bastante para se ter uma média de preço de um aluguel é o [Casa em Casa][2]. Para os _freelancers_ ou profissionais que nunca trabalharam com carteira assinada é importante se atentar para qual será seu salário mensal após o desconto de impostos, entre outros, para isso recomendo que você [aprenda a calcular seu salário líquido mensal][3].
 
-[2]: http://www.casaemcasa.com.br/
-[3]: http://www.calculador.com.br/Trabalhista/SalarioLiquido.aspx
+[2]: https://www.casaemcasa.com.br/
+[3]: https://www.idinheiro.com.br/calculadoras/calculadora-de-salario-liquido/
 
 ## Está preparado financeiramente para se mudar?
 
@@ -30,7 +30,7 @@ Esse é de fato um ponto bem importante, algumas empresas oferecem _auxílio-des
 
 Não basta apenas visitar o site da empresa, procure conhecer algum funcionário da empresa. É fato que isso pode não ser uma tarefa fácil, mas você pode talvez tentar estabelecer contato com algum via [_LinkedIn_][4], faça um bom uso dessa rede social. Dessa forma você terá uma ideia melhor de como é o dia a dia na empresa.
 
-[4]: http://www.linkedin.com/
+[4]: https://www.linkedin.com/
 
 ## Procure saber quais os desafios que a vaga oferece para sua carreira profissional
 
