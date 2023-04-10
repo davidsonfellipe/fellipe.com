@@ -37,7 +37,7 @@ const OpeningText = styled(Text)`
 
   ${screen.lg} {
     border-left: 1px solid #EEEEEE;
-    font-size: 0.8em;
+    font-size: 0.9rem;
     margin: 50px 0 0;
     min-height: 80px;
     padding: 0 15px 10px 15px;
@@ -59,8 +59,7 @@ const Opening = () => (
   <Section>
     <Block>
       <OpeningText>
-        I'm a Brazilian based in Brooklyn since 2015 and have over 15 years of experience in the Software Development
-        Industry.
+        I'm a Brazilian based in Brooklyn with over 15 years of experience in the Software Development Industry.
       </OpeningText>
       <OpeningText>
         Previously, I worked at <a href="https://salesforce.com/">Salesforce</a>,{' '}

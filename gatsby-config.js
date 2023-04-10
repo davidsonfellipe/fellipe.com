@@ -84,9 +84,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Inter\:900`,
-          `Fira+Sans\:300,400,500`,
           `Source+Sans+Pro\:400,400i,700`,
+          `EB+Garamond\:400,400i,500,600,700,800`,
         ],
         display: 'swap'
       }

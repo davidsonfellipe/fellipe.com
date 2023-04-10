@@ -6,17 +6,17 @@ import { screen } from 'styles/screen'
 const Title = styled.h1`
   color: #333;
   font-style: normal;
-  font-family: ${font.title};
+  font-family: ${font.text};
   font-weight: 900;
   line-height: 1em;
-  margin: 50px 0 20px 0;
+  margin: 75px 0 20px 0;
   font-size: 40px;
   letter-spacing: -2px;
 
   ${screen.md} {
-    font-size: 50px;
+    font-size: 4rem;
     line-height: 1em;
-    margin: 70px 0 20px 0;
+    margin: 60px 0 40px 0;
   }
 `
 

@@ -1,10 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import { colors } from 'styles/theme'
+
 const Text = styled.footer`
-  color: #ccc;
-  font-size: 0.8em;
-  padding: 15px 0;
+  color: ${colors.primary};
+  font-size: 0.8rem;
+  padding: 1rem 0;
   text-align: center;
 `
 

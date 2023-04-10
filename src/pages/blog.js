@@ -1,10 +1,10 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import PostLink from 'components/PostLink'
 import Title from 'components/Title'
 import Section from 'components/Section'
 import Layout from 'components/Layout'
+import ListItemLink from 'components/ListItemLink'
 import SEO from 'components/SEO'
 
 import styled from 'styled-components'
@@ -20,19 +20,26 @@ const BlogPage = ({
 }) => {
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date && edge.node.frontmatter.category !== 'reports') // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+    .map(edge => (
+      <ListItemLink
+        url={edge.node.frontmatter.path}
+        headline={edge.node.frontmatter.date}
+        headlineSecondary={''}
+        title={edge.node.frontmatter.title}
+      />
+    ))
 
   const Reports = edges
     .filter(edge => !!edge.node.frontmatter.date && edge.node.frontmatter.category === 'reports') // You can filter your posts based on some criteria
-    .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
+    .map(edge => <ListItemLink url={edge.node.frontmatter.path} title={edge.node.frontmatter.title} />)
 
   return (
     <Layout>
       <SEO title="Blog" />
       <Section>
-        <Title>ARTICLES</Title>
+        <Title>Blog</Title>
         <PostsWrapper>{Posts}</PostsWrapper>
-        <Title>CONFERENCES REPORTS</Title>
+        <Title>Conference Reports</Title>
         <PostsWrapper>{Reports}</PostsWrapper>
       </Section>
     </Layout>

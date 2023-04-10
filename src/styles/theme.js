@@ -1,4 +1,12 @@
 export const font = {
-  text: `"Fira Sans", serif`,
-  title: `Inter, Helvetica, Arial, sans-serif`,
+  text: `"EB Garamond", serif`,
+  title: `"EB Garamond", Helvetica, Arial, sans-serif`,
+}
+
+export const colors = {
+  bg: '#fff',
+  text: '#333',
+  primary: '#333',
+  secondary: '#000',
+  tertiary: '#FBDB5C',
 }
