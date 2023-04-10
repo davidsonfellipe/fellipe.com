@@ -33,16 +33,17 @@ const Name = styled.h1`
 
 const Subtitle = styled.h2`
   background-color: ${colors.tertiary};
+  box-shadow: 0.25rem 0.25rem #000;
   display: inline-block;
   font-family: ${font.text};
   font-size: 1em;
   font-weight: 100;
   margin-bottom: 0;
+  max-width: 70%;
   padding: 0.5rem;
-  box-shadow: 0.25rem 0.25rem #000;
 
-  ${screen.lg} {
-    letter-spacing: -0.04em;
+  ${screen.md} {
+    min-width: 525px;
   }
 `
 

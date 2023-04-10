@@ -13,12 +13,13 @@ import profiles from 'data/profiles'
 const formatAllTalks = () =>
   projects.map(project => (
     <ListItemLink
-      url={projects[0].repositoryURL}
+      url={project.repositoryURL}
       headline={`${project.stars}+ stars on github · since ${project.year}`}
       headlineSecondary={project.status}
       rel="noreferrer"
       target="_blank"
       title={`${project.title} · ${project.description}`}
+      key={project.title}
     />
   ))
 
