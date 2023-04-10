@@ -50,7 +50,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "lint": "textlint --rule textlint-rule-terminology content/**/*.md",
-    "format": "prettier --write \"./src/{components,pages,styles,templates}/*.{js,json,md}\"",
+    "format": "prettier --write \"./src/{components,pages,styles,templates,data}/*.{js,json,md}\"",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "config": {

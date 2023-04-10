@@ -5,58 +5,52 @@ import styled from 'styled-components'
 import profile from 'images/profile.jpg'
 import Section from 'components/Section'
 import { screen } from 'styles/screen'
-import { font } from 'styles/theme'
+import { font, colors } from 'styles/theme'
 
 const Logo = styled.span`
   display: inline-block;
+  line-height: 45px;
   text-align: left;
   width: 40%;
-`
-
-const LogoMobile = styled(Logo)`
-  display: inline-block;
-  height: 40px;
-  width: 20%;
-
-  ${screen.md} {
-    display: none;
-  }
 
   img {
-    border-radius: 50%;
-    margin-bottom: 0;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
   }
-`
 
-const LogoDesktop = styled(Logo)`
-  display: none;
+  span {
+    display: none;
 
-  ${screen.md} {
-    display: inline-block;
+    ${screen.md} {
+      display: inline-block;
+    }
   }
 `
 
 const Nav = styled.nav`
-  background: #000;
-  color: #fff;
+  background: ${colors.bg};
+  box-shadow: 0 1px 5px 0 rgba(32, 33, 36, 0.1);
+  color: #333;
   margin: 0 auto;
   padding: 10px 15px;
   position: fixed;
-  text-transform: uppercase;
   top: 0;
   width: 100%;
   z-index: 10;
 
   ${screen.md} {
-    line-height: auto;
-    padding: 15px;
     right: 0;
   }
 
   a {
-    font-family: ${font.title};
+    font-family: ${font.text};
     font-weight: 900;
     text-decoration: none;
+  }
+
+  a.current:link,
+  a.current:visited {
+    color: blue;
   }
 `
 
@@ -72,20 +66,16 @@ const Wrapper = styled(Section)`
 
 const Links = styled.div`
     display: inline-block;
-    line-height: 40px;
+    line-height: 45px;
     position: absolute;
     right: 0;
-
-
-    ${screen.md} {
-      line-height: inherit;
-    }
 
     a {
       padding: 0;
 
       &:after {
         content: '  /';
+        color: ${colors.tertiary};
         display: inline-block;
         text-align: center;
         width: 25px;
@@ -101,17 +91,16 @@ const Links = styled.div`
 const Header = () => (
   <Nav>
     <Wrapper>
-      <LogoMobile>
+      <Logo>
         <Link to="/">
           <img src={profile} alt="profile" width={40} height={40} />
+          <span>Davidson Fellipe</span>
         </Link>
-      </LogoMobile>
-      <LogoDesktop>
-        <Link to="/"> Davidson Fellipe</Link>
-      </LogoDesktop>
+      </Logo>
 
       <Links>
         <Link to="/blog/">blog</Link>
+        <Link to="/projects/">projects</Link>
         <Link to="/talks/">talks</Link>
         <Link to="/interviews/">interviews</Link>
         <Link to="/about/">about</Link>

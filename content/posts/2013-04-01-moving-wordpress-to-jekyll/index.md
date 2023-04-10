@@ -10,16 +10,16 @@ tags: ['wordpress', 'jekyll']
 
 ![jekyll](./jekyll.png)
 
-##Why migrate?
+## Why migrate?
 
 I just wanted to learn a new tool and improving the design of the site.
 
-##Motivation
+## Motivation
 
 Almost 3 years this site was powered using WordPress. Since the beginning of the year, I was thinking about how to convert this blog for a static site generator tool.
 
 
-##I had 2 options
+## I had 2 options
 
 Docpad?
 
@@ -29,11 +29,11 @@ Jekyll-bootstrap?
 
 [Jekyll-bootstrap](http://jekyllbootstrap.com/) is very simple, has a minimal structure for blogs, and a static site generator. I chose this one.
 
-##New version
+## New version
 
 Their version isn't a dependency on server-side, it's just server delivery static files. Other services that I use are Google Analytics (for statistics about users), Disqus (for comments), GitHub (version control).
 
-##biggest problems for migration
+## biggest problems for migration
 
 * Keep the previous content
 * Keep the same URLs
@@ -41,11 +41,11 @@ Their version isn't a dependency on server-side, it's just server delivery stati
 * Comments
 * Convert content for english
 
-##Keep the previous content
+## Keep the previous content
 
 I migrate all posts from Wordpress, using [WordPress to Jekyll exporter](https://github.com/benbalter/wordpress-to-jekyll-exporter). This tool is a WordPress plugin that converts all posts, pages, taxonomies, metadata, and settings to Markdown and YAML which can be dropped into Jekyll. Thanks [Ben Balter](https://github.com/benbalter) for this nice job.
 
-##Keep the same URLs
+## Keep the same URLs
 
 I think about a simple navigation tree, with support for multiple languages, which in the end is like this:
 
@@ -55,10 +55,10 @@ I think about a simple navigation tree, with support for multiple languages, whi
 * Talks (english and portugues, on the same page)
 * About
 
-##Comments
+## Comments
 
 I wanted to keep current comments from Disqus, for this a will to continue using this tool. Jekyll-bootstrap has this feature.
 
-##Benefits
+## Benefits
 
 More simplicity for changes in code, more simplicity for users to read my blog, and the site load faster. This is due to in the fact all my posts are static assets now. Now I write the posts using Markdown + HTML.

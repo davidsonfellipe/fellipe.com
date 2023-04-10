@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import profile from 'images/profile.jpg'
 import { screen } from 'styles/screen'
-import { font } from 'styles/theme'
+import { font, colors } from 'styles/theme'
 
 const Wrapper = styled.section`
   margin: 50px 0 25px 0;
@@ -20,7 +20,7 @@ const Wrapper = styled.section`
 
 const Name = styled.h1`
   font-family: ${font.title};
-  font-weight: 500;
+  font-weight: 800;
   font-size: 2em;
   margin-bottom: 0.1em;
   text-transform: uppercase;
@@ -32,10 +32,14 @@ const Name = styled.h1`
 `
 
 const Subtitle = styled.h2`
+  background-color: ${colors.tertiary};
+  display: inline-block;
   font-family: ${font.text};
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 100;
   margin-bottom: 0;
+  padding: 0.5rem;
+  box-shadow: 0.25rem 0.25rem #000;
 
   ${screen.lg} {
     letter-spacing: -0.04em;

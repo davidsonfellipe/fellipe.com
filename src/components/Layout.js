@@ -13,12 +13,17 @@ import './layout.css'
 import styled, { createGlobalStyle } from 'styled-components'
 
 import { screen } from 'styles/screen'
-import { font } from 'styles/theme'
+import { font, colors } from 'styles/theme'
 
 import Header from 'components/Header'
 import Footer from 'components/Footer'
 
 const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: ${colors.bg};
+    color: ${colors.text};
+  }
+
   a {
     color: inherit;
   }

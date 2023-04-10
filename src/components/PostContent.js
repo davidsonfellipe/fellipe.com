@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { font } from 'styles/theme'
 import { screen } from 'styles/screen'
 
-const PostWrapper = styled.div`
+const PostContent = styled.div`
   font-size: 20px;
   font-weight: 300;
   padding: 20px 0;
@@ -36,4 +36,4 @@ const PostWrapper = styled.div`
   }
 `
 
-export default PostWrapper
+export default PostContent
