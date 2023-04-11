@@ -14,7 +14,7 @@ const formatAllTalks = () =>
   projects.map(project => (
     <ListItemLink
       url={project.repositoryURL}
-      headline={`${project.stars}+ stars on github · since ${project.year}`}
+      headline={`${project.stars}+ stars on github`}
       headlineSecondary={project.status}
       rel="noreferrer"
       target="_blank"

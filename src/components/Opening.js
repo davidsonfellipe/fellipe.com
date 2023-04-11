@@ -9,7 +9,7 @@ const Section = styled.section`
   padding: 15px 0 15px 0;
   vertical-align: top;
 
-  ${screen.lg} {
+  ${screen.md} {
     margin-top: 100px;
     padding: 20px 0 0 0;
   }
@@ -35,7 +35,7 @@ const OpeningText = styled(Text)`
   vertical-align: top;
   -webkit-font-smoothing: antialiased;
 
-  ${screen.lg} {
+  ${screen.md} {
     border-left: 1px solid #EEEEEE;
     font-size: 0.9rem;
     margin: 50px 0 0;

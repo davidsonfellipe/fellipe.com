@@ -15,6 +15,7 @@ const HeadlineBase = styled.span`
   line-height: 1rem;
   padding: 2px 10px;
   margin-bottom: 5px;
+  text-align: center;
   vertical-align: top;
 `
 
@@ -30,7 +31,7 @@ const HeadlineSecondary = styled(HeadlineBase)`
   top: 15px;
 `
 
-const Title = styled.h2`
+const Title = styled.span`
   font-size: 1rem;
   display: block;
   line-height: 1.25rem;
@@ -49,7 +50,7 @@ const Wrapper = styled.a`
   position: relative;
   text-decoration: none;
   transition: border-color 500ms linear;
-  opacity: 0.9;
+  opacity: 0.95;
 
   &:hover {
     border-color: ${colors.tertiary};

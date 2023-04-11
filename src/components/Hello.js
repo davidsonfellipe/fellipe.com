@@ -14,20 +14,19 @@ const Wrapper = styled.section`
   }
 
   img {
-    border-radius: 50%;
+    box-shadow: 0.25rem 0.25rem ${colors.tertiary};
+    margin-top: 50px;
   }
 `
 
 const Name = styled.h1`
   font-family: ${font.title};
   font-weight: 800;
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 0.1em;
-  text-transform: uppercase;
 
-  ${screen.lg} {
-    font-size: 3em;
-    letter-spacing: -0.04em;
+  ${screen.md} {
+    font-size: 4rem;
   }
 `
 
@@ -39,11 +38,19 @@ const Subtitle = styled.h2`
   font-size: 1em;
   font-weight: 100;
   margin-bottom: 0;
-  max-width: 70%;
+  max-width: 75%;
   padding: 0.5rem;
 
   ${screen.md} {
     min-width: 525px;
+  }
+
+  span {
+    display: none;
+
+    ${screen.md} {
+      display: inline-block;
+    }
   }
 `
 
@@ -51,7 +58,9 @@ const Hello = () => (
   <Wrapper>
     <img src={profile} alt="profile" width={150} height={150} />
     <Name>Davidson Fellipe</Name>
-    <Subtitle>Former Engineering Manager at Salesforce (Open to new opportunities)</Subtitle>
+    <Subtitle>
+      Former Engineering Manager at Salesforce <span>(Open to new opportunities)</span>
+    </Subtitle>
   </Wrapper>
 )
 
