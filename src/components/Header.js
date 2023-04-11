@@ -14,16 +14,9 @@ const Logo = styled.span`
   width: 40%;
 
   img {
-    margin: 0 5px 0 0;
+    margin: 0 10px 0 0;
     vertical-align: middle;
-  }
-
-  span {
-    display: none;
-
-    ${screen.md} {
-      display: inline-block;
-    }
+    opacity: 80%;
   }
 `
 
@@ -94,7 +87,6 @@ const Header = () => (
       <Logo>
         <Link to="/">
           <img src={profile} alt="profile" width={40} height={40} />
-          <span>Davidson Fellipe</span>
         </Link>
       </Logo>
 

@@ -26,6 +26,15 @@ const projects = [
     stars: '50',
     year: '2011',
   },
+  {
+    repositoryURL: 'https://github.com/davidsonfellipe/im-coder',
+    demoURL: '',
+    status: 'inactive',
+    title: "I'm coder 👾",
+    description: 'Pretend you are a developer and create fake codes for classes, movies, tv shows.',
+    stars: '100',
+    year: '2014',
+  },
 ]
 
 export default projects
