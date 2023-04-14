@@ -608,3 +608,10 @@ pre tt:after {
         font-size: 100%;
     }
 }
+
+
+@media print {
+    * {
+        overflow: visible !important;
+    }
+}

@@ -45,6 +45,10 @@ const Nav = styled.nav`
   a.current:visited {
     color: blue;
   }
+
+  @media print {
+    display: none;
+  }
 `
 
 const Wrapper = styled(Section)`
