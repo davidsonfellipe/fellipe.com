@@ -13,7 +13,7 @@ import talks from 'data/talks'
 const formatAllTalks = () =>
   talks.map(talk => (
     <ListItemLink
-      url={talks[0].url}
+      url={talk.url}
       headline={`${talk.where} · ${talk.date}`}
       headlineSecondary={talk.city}
       title={talk.title}
