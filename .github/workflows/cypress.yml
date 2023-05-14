@@ -3,15 +3,17 @@ name: cypress Tests
 
 on:
   deployment_status:
-    
-  run-e2es:
-    if: github.event_name == 'deployment_status' && github.event.deployment_status.state == 'success'
+    run-e2es:
+      if: github.event_name == 'deployment_status' && github.event.deployment_status.state == 'success'
+
+jobs:
+  run-e2e:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install dependencies
-      run: npm ci && npx cypress install --with-deps
-    - name: Run tests
-        run: yarn test:e2e
-          env:
-              BASE_URL: ${{ github.event.deployment_status.target_url }}
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm ci && npx cypress install --with-deps
+      - name: Run tests
+        run: npx test:e2e
+        env:
+          BASE_URL: ${{ github.event.deployment_status.target_url }}
