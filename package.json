@@ -31,10 +31,13 @@
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
+    "cypress": "^12.12.0",
     "cz-conventional-changelog": "^3.3.0",
+    "gatsby-cypress": "^3.9.0",
     "gatsby-remark-prismjs": "^6.11.0",
     "prettier": "^2.6.2",
     "prismjs": "^1.27.0",
+    "start-server-and-test": "^2.0.0",
     "textlint": "^12.2.1",
     "textlint-rule-no-dead-link": "^4.8.0",
     "textlint-rule-terminology": "^3.0.2"
@@ -51,8 +54,9 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "lint": "textlint --rule textlint-rule-terminology content/**/*.md",
-    "format": "prettier --write \"./src/{components,pages,styles,templates,data}/*.{js,json,md}\"",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "format": "prettier --write \"./{src,cypress}/{components,pages,styles,templates,data,e2e}/*.{cy.js,js,json,md}\"",
+    "test:cy:open": "cypress open --browser chrome --e2e",
+    "test:e2e": "CYPRESS_SUPPORT=y start-server-and-test develop http://localhost:8000 test:cy:open"
   },
   "config": {
     "commitizen": {
