@@ -51,5 +51,10 @@ exports.onPostBuild = ({ reporter }) => {
     path.join(__dirname, "/public")
   );
 
+  fs.copySync(
+    path.join(__dirname, "/src/assets/docs"),
+    path.join(__dirname, "/public/assets/docs")
+  );
+
   reporter.info(`Your legacy files has been built!`);
 };

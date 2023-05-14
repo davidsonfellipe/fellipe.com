@@ -40,7 +40,8 @@
     "textlint-rule-terminology": "^3.0.2"
   },
   "keywords": [
-    "front-end developer"
+    "front-end engineer",
+    "engineering manager"
   ],
   "license": "MIT",
   "scripts": {
