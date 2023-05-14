@@ -51,5 +51,4 @@ context('Navigation', () => {
     cy.contains('About')
     cy.location('pathname').should('include', 'about')
   })
-
 })
