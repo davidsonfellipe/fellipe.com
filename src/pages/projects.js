@@ -30,7 +30,7 @@ const TalksPage = () => (
       <Title>Projects</Title>
       <PageDescription>
         Here you can find some of my projects, You can find more on my Github:{' '}
-        <a href={profiles.github.url} rel="noopener" target="_blank">
+        <a href={profiles.github.url} rel="noreferrer" target="_blank">
           {profiles.github.url}
         </a>
       </PageDescription>
