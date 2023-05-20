@@ -129,20 +129,6 @@ article {
 
 }
 
-.social-wgt {
-	position: fixed;
-	top: 20px;
-	right: 0;
-	z-index: 100;
-	width: 250px;
-	height: 19px;
-	overflow: hidden;
-}
-.social-wgt .twitter-share-button {
-	position: absolute;
-	right: 40px;
-	top: 0;
-}
 .source-small {
 	font-size: 0.4em;
 }
