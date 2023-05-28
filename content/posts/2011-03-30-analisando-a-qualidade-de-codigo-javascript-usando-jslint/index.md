@@ -18,7 +18,7 @@ Muitas vezes temos que realizar uma análise de códigos **JavaScript**, para pr
 
 O JSLint analisa um dado trecho de código e informa problemas potenciais ou erros de sintaxe. Essa ferramenta segue [recomendações criadas pelo Crockford][4] e teve como inspiração as convenções da [SUN para a linguagem JAVA][5].
 
-[4]: http://javascript.crockford.com/code.html
+[4]: https://crockford.com/code.html
 [5]: http://www.oracle.com/technetwork/java/codeconv-138413.html
 
 O [JSLint][6] é uma **ferramenta** poderosa para ser usada no dia-a-dia do programador **JavaScript**, pois ela exige do programador mais preciosismo para escrita de código nessa linguagem. Exigindo certos cuidados, tais como: **indentação** de código, tamanho da linha, declaração de variáveis, **_statements_**, declarações de **funções**, entre outros. Por exemplo, o erro comum em JavaScript que citei no artigo [Uso correto da função do parseInt em JavaScript][7], seria facilmente detectado e ele exibiria o erro “Missing radix parameter”.
@@ -40,5 +40,5 @@ O site [nettuts ][8] criou ano passado esse screencast mostrando o uso do JSLint
 
 ##Referências:
 
-<p><a href="http://www.jslint.com/lint.html" target="_blank">http://www.jslint.com/lint.html</a><br />
-<a href="http://en.wikipedia.org/wiki/JSLint" target="_blank">http://en.wikipedia.org/wiki/JSLint</a></p>
+<p><a href="https://jslint.com/" target="_blank">https://jslint.com/</a><br />
+<a href="https://en.wikipedia.org/wiki/JSLint" target="_blank">https://en.wikipedia.org/wiki/JSLint</a></p>

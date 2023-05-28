@@ -18,17 +18,13 @@ export default function Template({ data }) {
     <Layout>
       <SEO title={frontmatter.title} />
       <Section>
-        <Title>
-          {frontmatter.title}
-          <PostDate>
-            {frontmatter.date} - {TimeToRead(timeToRead)}
-          </PostDate>
-        </Title>
-
+        <Title>{frontmatter.title}</Title>
+        <PostDate>
+          {frontmatter.date} - {TimeToRead(timeToRead)}
+        </PostDate>
         <PostContent>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </PostContent>
-
         <PostFooter />
       </Section>
     </Layout>

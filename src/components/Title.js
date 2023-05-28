@@ -16,7 +16,7 @@ const Title = styled.h1`
   ${screen.md} {
     font-size: 4rem;
     line-height: 1em;
-    margin: 60px 0 40px 0;
+    margin: 60px 0 15px 0;
   }
 `
 

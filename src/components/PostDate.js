@@ -1,14 +1,16 @@
 import styled from 'styled-components'
 
+import { colors } from 'styles/theme'
+
 const PostDate = styled.span`
-  color: #ccc;
-  display: block;
-  font-style: italic;
+  background: ${colors.tertiary};
+  clear: both;
+  display: inline-block;
   font-size: 12px;
   letter-spacing: normal;
   line-height: 1em;
   margin-top: 10px;
-  text-align: right;
+  padding: 5px 10px;
   text-transform: capitalize;
 `
 

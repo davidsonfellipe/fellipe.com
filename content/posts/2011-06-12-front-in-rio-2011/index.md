@@ -34,7 +34,7 @@ O evento irá contar com um total de 12 palestras, trazendo nomes como:
 [6]: http://www.andrewsmedina.com/
 [7]: http://leobalter.net/
 [8]: https://zenorocha.com/
-[9]: http://metronus.com/blog/
+[9]: https://metronus.com/blog/
 
 Irei completar a grade de palestras da sala B, às 16h30, com o tema: **Canvas vs. SVG**. Apresentando as **diferenças** entre os dois formatos e uma visão do que se pode fazer com ambas as tecnologias.
 

@@ -12,11 +12,15 @@ const HeadlineBase = styled.span`
   text-transform: uppercase;
   background: #333;
   color: #fff;
-  line-height: 1rem;
+  line-height: 1.25rem;
   padding: 2px 10px;
   margin-bottom: 5px;
   text-align: center;
   vertical-align: top;
+
+  ${screen.md} {
+    margin-bottom: 0;
+  }
 `
 
 const Headline = styled(HeadlineBase)`
@@ -32,11 +36,14 @@ const HeadlineSecondary = styled(HeadlineBase)`
 `
 
 const Title = styled.span`
-  font-size: 1rem;
   display: block;
+  font-size: 1rem;
   line-height: 1.25rem;
-  margin: 0.25rem 0 0 0;
   font-family: ${font.title};
+
+  ${screen.md} {
+    display: inline-block;
+  }
 `
 
 const Wrapper = styled.a`
