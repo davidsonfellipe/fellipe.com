@@ -26,8 +26,13 @@ const PostContent = styled.div`
   h6 {
     font-family: ${font.title};
     font-weight: 900;
-    display: inline-block;
-    margin: 2em 0 1em;
+    margin: 1.5em 0 0;
+  }
+
+  p,
+  ul {
+    margin: 1em 0 0 0;
+    list-style-position: inside;
   }
 
   pre {
