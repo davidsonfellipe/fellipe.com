@@ -164,7 +164,7 @@ window['PR']
 
   /** A set of tokens that can precede a regular expression literal in
     * javascript.
-    * http://www.mozilla.org/js/language/js20/rationale/syntax.html has the full
+    * https://www.mozilla.org/js/language/js20/rationale/syntax.html has the full
     * list, but I've removed ones that might be problematic when seen in
     * languages that don't support regular expression literals.
     *

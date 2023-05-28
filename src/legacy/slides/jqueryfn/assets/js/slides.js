@@ -10,7 +10,7 @@
   URL: http://code.google.com/p/html5slides/
 */
 
-var PERMANENT_URL_PREFIX = 'http://html5slides.googlecode.com/svn/trunk/';
+var PERMANENT_URL_PREFIX = '/';
 
 var SLIDE_CLASSES = ['far-past', 'past', 'current', 'next', 'far-next'];
 
@@ -546,7 +546,7 @@ function addFontStyle() {
   var el = document.createElement('link');
   el.rel = 'stylesheet';
   el.type = 'text/css';
-  el.href = 'http://fonts.googleapis.com/css?family=' +
+  el.href = 'https://fonts.googleapis.com/css?family=' +
             'Open+Sans:regular,semibold,italic,italicsemibold|Droid+Sans+Mono';
 
   document.body.appendChild(el);
@@ -603,7 +603,7 @@ function initialize() {
   getCurSlideFromHash();
 
   if (window['_DEBUG']) {
-    PERMANENT_URL_PREFIX = '../';
+    PERMANENT_URL_PREFIX = '/';
   }
 
   if (window['_DCL']) {
