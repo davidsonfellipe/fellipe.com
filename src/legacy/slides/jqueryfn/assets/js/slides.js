@@ -10,7 +10,7 @@
   URL: http://code.google.com/p/html5slides/
 */
 
-var PERMANENT_URL_PREFIX = '/';
+var PERMANENT_URL_PREFIX = '/slides/jqueryfn/assets/';
 
 var SLIDE_CLASSES = ['far-past', 'past', 'current', 'next', 'far-next'];
 
@@ -535,7 +535,7 @@ function addPrettify() {
   
   var el = document.createElement('script');
   el.type = 'text/javascript';
-  el.src = PERMANENT_URL_PREFIX + 'prettify.js';
+  el.src = PERMANENT_URL_PREFIX + 'js/prettify.js';
   el.onload = function() {
     prettyPrint();
   }
@@ -556,7 +556,7 @@ function addGeneralStyle() {
   var el = document.createElement('link');
   el.rel = 'stylesheet';
   el.type = 'text/css';
-  el.href = PERMANENT_URL_PREFIX + 'styles.css';
+  el.href = PERMANENT_URL_PREFIX + '/css/styles.css';
   document.body.appendChild(el);
   
   var el = document.createElement('meta');
