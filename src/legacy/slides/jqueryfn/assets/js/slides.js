@@ -603,7 +603,7 @@ function initialize() {
   getCurSlideFromHash();
 
   if (window['_DEBUG']) {
-    PERMANENT_URL_PREFIX = '/';
+    PERMANENT_URL_PREFIX = '/slides/jqueryfn/assets/js/';
   }
 
   if (window['_DCL']) {
