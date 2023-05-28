@@ -20,7 +20,7 @@ var curSlide;
 
 /* ---------------------------------------------------------------------- */
 /* classList polyfill by Eli Grey 
- * (http://purl.eligrey.com/github/classList.js/blob/master/classList.js) */
+ * (https://purl.eligrey.com/github/classList.js/blob/master/classList.js) */
 
 if (typeof document !== "undefined" && !("classList" in document.createElement("a"))) {
 
