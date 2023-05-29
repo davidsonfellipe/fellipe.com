@@ -96,6 +96,12 @@ module.exports = {
         trackingIds: ['G-EV10PWT7QL'],
       },
     },
+    {
+      resolve: "@vercel/gatsby-plugin-vercel-analytics",
+      options: {
+        debug: false,
+      },
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
   ],

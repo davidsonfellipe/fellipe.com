@@ -1062,6 +1062,13 @@
     core-js-pure "^3.20.2"
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@7.12.1":
+  version "7.12.1"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.1.tgz#b4116a6b6711d010b2dad3b7b6e43bf1b9954740"
+  integrity sha512-J5AIf3vPj3UwXaAzb5j1xM4WAQDX3EMgemF8rjCP3SoW09LfRKAXQKt6CoVYl230P6iWdRcBbnLDDdnqWxZSCA==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.14.6", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3", "@babel/runtime@^7.16.7":
   version "7.17.9"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.9.tgz#d19fbf802d01a8cb6cf053a64e472d42c434ba72"
@@ -3049,10 +3056,13 @@
     "@typescript-eslint/types" "4.33.0"
     eslint-visitor-keys "^2.0.0"
 
-"@vercel/analytics@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@vercel/analytics/-/analytics-1.0.1.tgz#38308a626c91866cb00a249c08bf65251e9b9d81"
-  integrity sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==
+"@vercel/gatsby-plugin-vercel-analytics@^1.0.10":
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/@vercel/gatsby-plugin-vercel-analytics/-/gatsby-plugin-vercel-analytics-1.0.10.tgz#05109138b24880fcd81476c78580bb00bea09ed5"
+  integrity sha512-v329WHdtIce+y7oAmaWRvEx59Xfo0FxlQqK4BJG0u6VWYoKWPaflohDAiehIZf/YHCRVb59ZxnzmMOcm/LR8YQ==
+  dependencies:
+    "@babel/runtime" "7.12.1"
+    web-vitals "0.2.4"
 
 "@vercel/webpack-asset-relocator-loader@^1.7.0":
   version "1.7.2"
@@ -14227,6 +14237,11 @@ web-namespaces@^1.0.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/web-namespaces/-/web-namespaces-1.1.4.tgz#bc98a3de60dadd7faefc403d1076d529f5e030ec"
   integrity sha512-wYxSGajtmoP4WxfejAPIr4l0fVh+jeMXZb08wNc0tMg6xsfZXj3cECqIK0G7ZAqUq0PP8WlMDtaOGVBTAWztNw==
+
+web-vitals@0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-0.2.4.tgz#ec3df43c834a207fd7cdefd732b2987896e08511"
+  integrity sha512-6BjspCO9VriYy12z356nL6JBS0GYeEcA457YyRzD+dD6XYCQ75NKhcOHUMHentOE7OcVCIXXDvOm0jKFfQG2Gg==
 
 webidl-conversions@^3.0.0:
   version "3.0.1"
