@@ -16,7 +16,7 @@
     "gatsby-plugin-react-helmet": "^5.11.0",
     "gatsby-plugin-robots-txt": "^1.7.1",
     "gatsby-plugin-sharp": "^4.11.1",
-    "gatsby-plugin-sitemap": "^5.11.1",
+    "gatsby-plugin-sitemap": "^6.10.0",
     "gatsby-plugin-styled-components": "^5.11.0",
     "gatsby-remark-images": "^6.11.1",
     "gatsby-remark-reading-time": "^1.1.0",
