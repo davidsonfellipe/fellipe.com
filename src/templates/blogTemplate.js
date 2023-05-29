@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { Analytics } from '@vercel/analytics/react';
 
 import Title from 'components/Title'
 import Section from 'components/Section'
@@ -27,6 +28,7 @@ export default function Template({ data }) {
         </PostContent>
         <PostFooter />
       </Section>
+      <Analytics />
     </Layout>
   )
 }
