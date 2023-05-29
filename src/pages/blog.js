@@ -13,13 +13,13 @@ const PostsWrapper = styled.div`
   margin-bottom: 15px;
 `
 
-const BlogPage = ({
-  data: {
-    allMarkdownRemark: { edges },
-  },
-}) => {
-  const Posts = edges
-    .filter(edge => !!edge.node.frontmatter.date && edge.node.frontmatter.category !== 'reports') // You can filter your posts based on some criteria
+const SubTitle = styled(Title)`
+  font-size: 2rem;
+`
+
+const filterPostsByLang = (edges, lang) => {
+  return edges
+    .filter(edge => !!edge.node.frontmatter.date && edge.node.frontmatter.lang === lang)
     .map(edge => (
       <ListItemLink
         url={edge.node.frontmatter.path}
@@ -28,19 +28,25 @@ const BlogPage = ({
         title={edge.node.frontmatter.title}
       />
     ))
+}
 
-  const Reports = edges
-    .filter(edge => !!edge.node.frontmatter.date && edge.node.frontmatter.category === 'reports') // You can filter your posts based on some criteria
-    .map(edge => <ListItemLink url={edge.node.frontmatter.path} title={edge.node.frontmatter.title} />)
+const BlogPage = ({
+  data: {
+    allMarkdownRemark: { edges },
+  },
+}) => {
+  const PostsInEnglish = filterPostsByLang(edges, 'en')
+  const PostsInPortuguese = filterPostsByLang(edges, 'pt')
 
   return (
     <Layout>
       <SEO title="Blog" />
       <Section>
         <Title>Blog</Title>
-        <PostsWrapper>{Posts}</PostsWrapper>
-        <Title>Conference Reports</Title>
-        <PostsWrapper>{Reports}</PostsWrapper>
+        <SubTitle>articles in english</SubTitle>
+        <PostsWrapper>{PostsInEnglish}</PostsWrapper>
+        <SubTitle>articles in portuguese</SubTitle>
+        <PostsWrapper>{PostsInPortuguese}</PostsWrapper>
       </Section>
     </Layout>
   )
@@ -60,6 +66,7 @@ export const pageQuery = graphql`
             path
             title
             category
+            lang
           }
         }
       }

@@ -1,5 +1,5 @@
 ---
-title: Definindo configurações do .gitconfig após a instalação do GIT
+title: Definindo configurações do .gitconfig após a instalação do Git
 author: Davidson Fellipe
 layout: post
 lang: pt
@@ -9,11 +9,11 @@ dsq_thread_id: 261154568
 tags: ["blogs"]
 ---
 
-**GIT** é um Software Livre utilizado para controle de versão, é distribuído, com enfase em rapidez. Foi inicialmente criado por **Linus Torvalds **para ser utilizado no desenvolvimento do kernel **Linux**. Para instalar a ferramenta para basta acessar seu [site oficial][1].
+**GIT** é um Software Livre utilizado para controle de versão, é distribuído, com enfase em rapidez. Foi inicialmente criado por Linus Torvalds para ser utilizado no desenvolvimento do kernel **Linux**. Para instalar a ferramenta para basta acessar seu [site oficial][1].
 
 [1]: https://git-scm.com/download
 
-Comecei a usar git em setembro de 2010. Hoje, acho o GIT uma ferramenta robusta para o controle de versão. No meu primeiro projeto que utilizava o GIT, tive um pouco de dificuldade para entender, mas com o tempo fui procurando soluções como se resolvia alguns problemas comuns de conflitos e já estou bem adaptado a seu uso.
+Comecei a usar o Git em setembro de 2010 e, ao longo do tempo, que é uma ferramenta robusta para controle de versão. No meu primeiro projeto utilizando o Git, enfrentei algumas dificuldades para compreendê-lo, mas com o passar do tempo fui buscando soluções para resolver problemas comuns, como conflitos, e agora estou bem adaptado ao seu uso.
 
 Enfim, irei apenas apresentar algumas definições que me ajuda a trabalhar no dia-a-dia com o GIT via terminal do MacOS.  Com o GIT instalado localize o arquivo **.gitconfig**, que normalmente fica no diretório _home_ de seu usuário, ex: _/Users/fellipe/.gitconfig_.
 
@@ -23,11 +23,11 @@ Você pode editar esse arquivo utilizando um editor de texto ou utilizar o coman
 
 ## Definições de Usuário
 
-Para definir as configurações básicas de seu usuário e email, basta executar os seguintes comandos, claro que substituindo os valores “davidson” e “email@fellipe.com” por suas informações:
+Para definir as configurações básicas de seu usuário e email, basta executar os seguintes comandos, claro que substituindo os valores "davidson" e "davidson@yourdomain.com" por suas informações:
 
 ```bash
 git config --global user.name "davidson"
-git config --global user.email "email@fellipe.com"
+git config --global user.email "davidson@yourdomain.com"
 ```
 
 ## Definições do editor de texto padrão
@@ -35,7 +35,7 @@ git config --global user.email "email@fellipe.com"
 Agora configure o editor de texto padrão utilizado pelo git, utilizando o seguinte comando:
 
 ```bash
-git config --global core.editor "mate -w"
+git config --global core.editor "code --wait"
 ```
 
 ## Definições de Alias
@@ -79,7 +79,7 @@ git config --global merge.tool "SUA_FERRAMENTA_DE_MERGE"
 ```bash
 [user]
 name = davidson
-email = email@fellipe.com
+email = davidson@yourdomain.com
 
 [color]
 diff = auto
