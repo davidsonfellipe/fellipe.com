@@ -59,7 +59,7 @@ const Hello = () => (
     <img src={profile} alt="profile" width={150} height={150} />
     <Name>Davidson Fellipe</Name>
     <Subtitle>
-      Former Engineering Manager at Salesforce <span>(Open to new opportunities)</span>
+      Software Engineer at [Coming soon]
     </Subtitle>
   </Wrapper>
 )
