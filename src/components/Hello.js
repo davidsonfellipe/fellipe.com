@@ -58,9 +58,7 @@ const Hello = () => (
   <Wrapper>
     <img src={profile} alt="profile" width={150} height={150} />
     <Name>Davidson Fellipe</Name>
-    <Subtitle>
-      Software Engineer at [Coming soon]
-    </Subtitle>
+    <Subtitle>Software Engineer at [Coming soon]</Subtitle>
   </Wrapper>
 )
 

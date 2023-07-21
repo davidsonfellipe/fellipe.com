@@ -1,17 +1,9 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import './layout.css'
-
 import styled, { createGlobalStyle } from 'styled-components'
 
+import ResetStyles from 'styles/resetStyles'
 import { screen } from 'styles/screen'
 import { font, colors } from 'styles/theme'
 
@@ -48,6 +40,7 @@ const Section = styled.div`
 
 const Layout = ({ children }) => (
   <>
+    <ResetStyles />
     <GlobalStyle />
     <Wrapper>
       <Header />
