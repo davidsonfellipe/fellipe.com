@@ -19,9 +19,12 @@ export default function Template({ data }) {
       <SEO title={frontmatter.title} />
       <Section>
         <Title>{frontmatter.title}</Title>
+
+        {/* Display date and time to read */}
         <PostDate>
           {frontmatter.date} - {TimeToRead(timeToRead)}
         </PostDate>
+
         <PostContent>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </PostContent>
