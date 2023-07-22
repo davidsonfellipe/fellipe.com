@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styled from 'styled-components'
 
 import Image from 'next/image'
-import Section from '../components/Section'
+import Section from '../components/section'
 import { screen } from '../styles/screen'
 import { font, colors } from '../styles/theme'
 
