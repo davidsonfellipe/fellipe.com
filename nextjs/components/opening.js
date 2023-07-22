@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import text from './text'
+import Text from './text'
 import { screen } from '../styles/screen'
 
 const Section = styled.section`
