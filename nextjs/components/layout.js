@@ -10,8 +10,8 @@ import { font, colors } from '../styles/theme'
 
 export const siteTitle = 'Next.js Sample Website'
 import StyledComponentsRegistry from '../lib/registry'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from '../components/header'
+import Footer from '../components/footer'
 
 import { EB_Garamond } from 'next/font/google';
 
