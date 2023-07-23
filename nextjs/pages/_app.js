@@ -1,5 +1,4 @@
 import { ThemeProvider, DefaultTheme } from 'styled-components'
-// import GlobalStyle from '../components/globalstyles'
 import ResetStyles from '../styles/resetStyles'
 
 const theme = {
