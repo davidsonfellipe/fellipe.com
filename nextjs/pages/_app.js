@@ -1,13 +1,21 @@
+import { ThemeProvider, DefaultTheme } from 'styled-components'
+// import GlobalStyle from '../components/globalstyles'
 import ResetStyles from '../styles/resetStyles'
 
-import StyledComponentsRegistry from '../lib/registry';
+const theme = {
+  colors: {
+    primary: '#111',
+    secondary: '#0070f3',
+  },
+}
 
 export default function App({ Component, pageProps }) {
   return (
-  <StyledComponentsRegistry>
-    <ResetStyles />
-    <Component {...pageProps} />
-  </StyledComponentsRegistry>
+    <>
+      <ThemeProvider theme={theme}>
+        <ResetStyles />
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
   )
 }
-
