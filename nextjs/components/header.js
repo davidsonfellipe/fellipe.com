@@ -86,13 +86,7 @@ const Header = () => (
     <Wrapper>
       <Logo>
         <Link href="/">
-          <Image
-            priority
-            src="/images/profile.jpg"
-            height={40}
-            width={40}
-            alt="profile"
-          />
+          <Image priority src="/images/profile.jpg" height={40} width={40} alt="profile" />
         </Link>
       </Logo>
 
