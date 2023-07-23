@@ -1,19 +1,20 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom';
 import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
 
 export default function StyledComponentsRegistry({ children }) {
+  // Only create stylesheet once with lazy initial state
+  // x-ref: https://reactjs.org/docs/hooks-reference.html#lazy-initial-state
   const [styledComponentsStyleSheet] = useState(() => new ServerStyleSheet());
 
   useEffect(() => {
     // This will ensure the server-side styles are generated and added to the stylesheet
     styledComponentsStyleSheet.collectStyles(children);
-  }, [children]);
 
-  useEffect(() => {
-    // On the client-side, clear any server-side styles and remove them from the DOM
-    styledComponentsStyleSheet.instance.clearTag();
-  }, []);
+    // Clean up the server-side styles when the component unmounts
+    return () => styledComponentsStyleSheet.instance.clearTag();
+  }, [children]);
 
   if (typeof window !== 'undefined') {
     // On the client-side, return the children directly without server-side rendering
@@ -27,3 +28,4 @@ export default function StyledComponentsRegistry({ children }) {
     </StyleSheetManager>
   );
 }
+

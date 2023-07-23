@@ -35,15 +35,12 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <StyledComponentsRegistry>
-        <ResetStyles />
-        <GlobalStyle />
-        <Wrapper>
-          <Header />
-          <Section>{children}</Section>
-          <Footer />
-        </Wrapper>
-      </StyledComponentsRegistry>
+      <GlobalStyle />
+      <Wrapper>
+        <Header />
+        <Section>{children}</Section>
+        <Footer />
+      </Wrapper>
     </div>
   )
 }
