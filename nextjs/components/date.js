@@ -1,6 +1,26 @@
-import { parseISO, format } from 'date-fns'
-
 export default function Date({ dateString }) {
-  const date = parseISO(dateString)
-  return <time dateTime={dateString}>{format(date, 'LLLL d, yyyy')}</time>
+  const months = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ]
+
+  if (!dateString) {
+    return 'No date'
+  }
+
+  const [year, month, day] = dateString.split('-').map(Number)
+
+  const formattedDate = `${months[month - 1]} ${day}, ${year}`
+
+  return formattedDate
 }
