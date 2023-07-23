@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Seo from '../components/seo'
 import Title from '../components/title'
 import Section from '../components/section'
 import ListItemLink from '../components/list-item-link'
@@ -25,6 +26,7 @@ const formatAllTalks = () =>
 
 const TalksPage = () => (
   <Layout>
+    <Seo title="Projects" />
     <Section>
       <Title>Projects</Title>
       <PageDescription>
