@@ -4,34 +4,29 @@ import Link from 'next/link'
 
 import styled, { createGlobalStyle } from 'styled-components'
 
-import ResetStyles from '../styles/resetStyles'
 import { screen } from '../styles/screen'
 import { font, colors } from '../styles/theme'
 
 export const siteTitle = 'Next.js Sample Website'
-import StyledComponentsRegistry from '../lib/registry'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-import { EB_Garamond } from 'next/font/google';
+import { EB_Garamond } from 'next/font/google'
 
-const ebGaramond = EB_Garamond({ subsets: ['latin'] });
+const ebGaramond = EB_Garamond({ subsets: ['latin'] })
 
 export default function Layout({ children, home }) {
   return (
     <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-          />
+        <meta name="description" content="Learn how to build a personal website using Next.js" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
             siteTitle
-            )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-          />
+          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+        />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
@@ -44,7 +39,6 @@ export default function Layout({ children, home }) {
     </div>
   )
 }
-
 
 const GlobalStyle = createGlobalStyle`
   :root {
