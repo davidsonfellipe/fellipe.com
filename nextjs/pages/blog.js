@@ -1,30 +1,48 @@
 import Link from 'next/link'
+import styled from 'styled-components'
 
 import Seo from '../components/seo'
+import Section from '../components/section'
+import Title from '../components/title'
+import ListItemLink from '../components/list-item-link'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 
-import Date from '../components/date'
+const PostsWrapper = styled.div`
+  margin-bottom: 15px;
+`
+const SubTitle = styled(Title)`
+  font-size: 2rem;
+`
 
-export default function Home({ allPostsData }) {
+const filterPostsByLang = (allPostsData, lang) => {
+  return allPostsData
+    .filter(allPostsData => !!allPostsData.date && allPostsData.lang === lang)
+    .map(postData => (
+      <ListItemLink
+        url={`/blog/${postData.id}`}
+        headline={postData.date}
+        headlineSecondary={''}
+        title={postData.title}
+      />
+    ))
+}
+
+export default function Blog({ allPostsData }) {
+  const PostsInEnglish = filterPostsByLang(allPostsData, 'en')
+  const PostsInPortuguese = filterPostsByLang(allPostsData, 'pt')
+
   return (
-    <Layout home>
+    <Layout>
       <Seo title="Blog" />
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link href={`/blog/${id}`}>{title}</Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
-        </ul>
-      </section>
+      <Section>
+        <Title>Blog</Title>
+        <SubTitle>articles in english</SubTitle>
+        <PostsWrapper>{PostsInEnglish}</PostsWrapper>
+        <SubTitle>articles in portuguese</SubTitle>
+        <PostsWrapper>{PostsInPortuguese}</PostsWrapper>
+      </Section>
     </Layout>
   )
 }
