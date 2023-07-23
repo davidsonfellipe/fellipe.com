@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Seo from '../components/seo'
 import Title from '../components/title'
 import Section from '../components/section'
 import ListItemLink from '../components/list-item-link'
@@ -21,6 +22,7 @@ const formatAllInterviews = () =>
 
 const InterviewsPage = () => (
   <Layout>
+    <Seo title="Interviews" />
     <Section>
       <Title>Interviews</Title>
       <PageDescription>Here is a list of my participations in podcasts.</PageDescription>

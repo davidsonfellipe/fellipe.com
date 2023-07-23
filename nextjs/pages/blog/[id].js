@@ -1,5 +1,4 @@
-import Head from 'next/head';
-
+import Seo from '../../components/seo'
 import Date from '../../components/date';
 import Layout from '../../components/layout';
 import { getAllPostIds, getPostData } from '../../lib/posts';
@@ -7,11 +6,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts';
 export default function Post({ postData }) {
     return (
       <Layout>
-        {/* Add this <Head> tag */}
-        <Head>
-          <title>{postData.title}</title>
-        </Head>
-        
+        <Seo title={postData.title} />
         {postData.title}
         <br />
         {postData.id}

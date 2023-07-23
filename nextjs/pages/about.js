@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Image from 'next/image'
 
+import Seo from '../components/seo'
 import Title from '../components/title'
 import Section from '../components/section'
 import Layout from '../components/layout'
@@ -58,7 +59,7 @@ const ImageProfile = styled.div`
 
 const AboutPage = () => (
   <Layout>
-    {/* <SEO title="About" /> */}
+    <Seo title="About" />
     <Section>
       <Title>About me</Title>
       <Bio>
