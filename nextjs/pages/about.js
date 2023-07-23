@@ -64,13 +64,7 @@ const AboutPage = () => (
       <Title>About me</Title>
       <Bio>
         <ImageProfile>
-          <Image
-            priority
-            src="/images/profile.jpg"
-            height={250}
-            width={250}
-            alt="profile"
-          />
+          <Image priority src="/images/profile.jpg" height={250} width={250} alt="profile" />
         </ImageProfile>
         ✋ Hi there! I'm a Brazilian who has been living in Brooklyn since 2015. With over fifteen years of experience
         in the software development industry, I've had the opportunity to work for large and small companies in the US
