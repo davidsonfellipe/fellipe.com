@@ -14,10 +14,6 @@ const PostContent = styled.div`
     font-size: 20px;
   }
 
-  .gatsby-highlight {
-    margin: 10px 0 20px;
-  }
-
   h1,
   h2,
   h3,
