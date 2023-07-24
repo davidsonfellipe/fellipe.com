@@ -1,5 +1,10 @@
-# Miscellaneous
+# Public folder
 public/
+
+# Exclude the nextjs/public/
+!nextjs/public/
+
+# Miscellaneous
 .cache/
 temp/
 _posts_not_published/

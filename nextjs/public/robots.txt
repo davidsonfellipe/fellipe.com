@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://fellipe.com/sitemap/sitemap-index.xml
+Host: https://fellipe.com
