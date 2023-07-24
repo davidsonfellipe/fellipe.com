@@ -21,6 +21,7 @@ const filterPostsByLang = (allPostsData, lang) => {
     .filter(allPostsData => !!allPostsData.date && allPostsData.lang === lang)
     .map(postData => (
       <ListItemLink
+        key={postData.id}
         url={`/blog/${postData.id}`}
         headline={postData.date}
         headlineSecondary={''}
