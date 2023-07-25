@@ -1,13 +1,13 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
 
 import styled, { createGlobalStyle } from 'styled-components'
 
+// Styles
+import ResetStyles from '../styles/resetStyles'
 import { screen } from '../styles/screen'
 import { font, colors } from '../styles/theme'
 
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Davidson Fellipe'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
@@ -30,6 +30,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
+      <ResetStyles />
       <GlobalStyle />
       <Wrapper>
         <Header />

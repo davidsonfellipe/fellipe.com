@@ -1,5 +1,4 @@
 import { ThemeProvider, DefaultTheme } from 'styled-components'
-import ResetStyles from '../styles/resetStyles'
 
 const theme = {
   colors: {
@@ -12,7 +11,6 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <ResetStyles />
         <Component {...pageProps} />
       </ThemeProvider>
     </>

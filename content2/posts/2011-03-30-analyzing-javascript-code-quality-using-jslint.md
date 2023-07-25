@@ -35,6 +35,4 @@ The website [nettuts][8] created a screencast last year demonstrating the use of
 <iframe width="880" height="500" src="https://www.youtube.com/embed/gz2mBQBp4XE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## References:
-
-<p><a href="https://jslint.com/" target="_blank">https://jslint.com/</a><br />
-<a href="https://en.wikipedia.org/wiki/JSLint" target="_blank">https://en.wikipedia.org/wiki/JSLint</a></p>
+- [https://jslint.com/](https://jslint.com/)

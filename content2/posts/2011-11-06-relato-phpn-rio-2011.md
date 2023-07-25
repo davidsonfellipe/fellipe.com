@@ -10,7 +10,7 @@ tags: ["blogs"]
 category: reports
 ---
 
-![](.//DSCF0003.jpg)
+![](/img-posts//DSCF0003.jpg)
 
 Aconteceu no ultimo, 5 de novembro, o PHP n’ Rio, evento que reuniu a comunidade de desenvolvedores php do rio de janeiro e contou com 13 palestras, 4 oficinas e uma desconferencia. Basicamente o evento, que foi realizado no CEFET/RJ Maracanã, se dividiu em 3 salas, e irei relatar as seguintes palestras que conferi:
 
@@ -24,7 +24,7 @@ Ainda mostrou diversos lugares onde podemos adquirir o material de estudo. No fi
 
 A segunda palestra do dia foi com uma figura, conhecida como Suissa, que atualmente é um dos maiores evangelistas do NoSQL no Brasil.
 
-![](./DSCF0005.jpg)
+![](/img-posts/DSCF0005.jpg)
 
 ## 3) Como usar HTML5 sem uma máquina do tempo
 
@@ -48,8 +48,6 @@ O evento tem tudo para ganhar uma nova edição no próximo ano e achei bem orga
 
 ## Slides das palestras:
 
-<ul>
-<li><a href="https://www.slideshare.net/LeoCabral/seo-x-velocidade-de-carregamento-phpnrio-2011" target="_blank">https://www.slideshare.net/LeoCabral/seo-x-velocidade-de-carregamento-phpnrio-2011</a></li>
-<li><a href="https://www.slideshare.net/maciel3000/robtica-e-php-com-arduino-phpn-rio-2011">https://www.slideshare.net/maciel3000/robtica-e-php-com-arduino-phpn-rio-2011</a></li>
-<li><a href="http://comousarhtml5semumamaquinadotempo.com/">http://comousarhtml5semumamaquinadotempo.com/</a></li>
-</ul>
+- [https://www.slideshare.net/LeoCabral/seo-x-velocidade-de-carregamento-phpnrio-2011](https://www.slideshare.net/LeoCabral/seo-x-velocidade-de-carregamento-phpnrio-2011)
+- [https://www.slideshare.net/maciel3000/robtica-e-php-com-arduino-phpn-rio-2011](https://www.slideshare.net/maciel3000/robtica-e-php-com-arduino-phpn-rio-2011)
+- [http://comousarhtml5semumamaquinadotempo.com/](http://comousarhtml5semumamaquinadotempo.com/)

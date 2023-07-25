@@ -21,7 +21,7 @@ Vamos lá. O [PernambucoJS][1] 2012 nasceu apos várias conversas com o Luiz Tia
 [3]: https://www.facebook.com/groups/pernambucojs/
 [4]: https://twitter.com/azurem
 
-![](./pejs.jpg)
+![](/img-posts/pejs.jpg)
 
 Não foi nada fácil para nós conseguirmos um auditório para realização do evento, diante da verba inicial que tínhamos para o projeto R\$ 0. Mas a vontade de realizar algo PHoda para nossa cidade era maior, e fomos atrás. Conseguimos inicialmente o auditório na **[Faculdade Mauricio de Nassau][6]**, que gentilmente aceitou apoiar o evento, sem esse espaço dificilmente conseguiríamos andar com o projeto.
 

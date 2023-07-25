@@ -10,7 +10,7 @@ tags: ["front-end", "revista"]
 
 Publicado originalmente na [edição n° 91](http://www.revistawide.com.br/index.php/2012/7) da Revista Wide, em julho de 2012.
 
-![](./revista-wide-front-end-made-in-brazil.png)
+![](/img-posts/revista-wide-front-end-made-in-brazil.png)
 
 Há um tempo estavam de um lado profissionais de frontend que se limitavam a escrever HTML e CSS, e do outro lado, gestores de projetos que desconheciam ou davam pouca importância ao profissional de frontend em sua equipe. Mas, nos últimos dois anos, essa profissão se desenvolveu bastante no Brasil, e o grau de exigência para esse profissional também.
 

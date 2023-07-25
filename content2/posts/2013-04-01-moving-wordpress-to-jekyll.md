@@ -8,7 +8,7 @@ date: "2013-04-01"
 tags: ['wordpress', 'jekyll']
 ---
 
-![jekyll](./jekyll-1x.png)
+![jekyll](/img-posts/jekyll-1x.png)
 
 ## Why migrate?
 I decided to undertake a migration for two primary reasons: to acquire new skills and enhance the design of the website.

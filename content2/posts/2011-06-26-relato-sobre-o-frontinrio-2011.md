@@ -10,7 +10,7 @@ tags: ["blogs"]
 category: reports
 ---
 
-![](./front-in-rio2011-panfleto.jpg)
+![](/img-posts/front-in-rio2011-panfleto.jpg)
 
 No último sábado, 18, conforme [já citado por esse blog][2], aconteceu o FrontInRio 2011. Esse evento foi o primeiro com foco em desenvolvimento client-side em terras fluminenses. O evento que reuniu cerca de 170 inscritos, aconteceu na UniRio, no bairro da Urca e contou com 12 palestras de grandes nomes do cenário local. As palestras foram divididas em duas salas, cobrindo assuntos de nível básico ao avançando.
 
@@ -55,7 +55,7 @@ mostrei também as principais diferenças entre as duas técnicas, o suporte aos
 
 <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/davidsonfellipe/canvas-vs-svg" title="CANVAS vs SVG @ FrontInRio 2011" target="_blank">CANVAS vs SVG @ FrontInRio 2011</a> </strong> from <strong><a href="//www.slideshare.net/davidsonfellipe" target="_blank">Davidson Fellipe</a></strong> </div>
 
-![](./264478_10150223688524548_787149547_7065875_6582493_n1.jpg)
+![](/img-posts/264478_10150223688524548_787149547_7065875_6582493_n1.jpg)
 
 ## Agradecimentos
 

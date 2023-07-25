@@ -15,7 +15,7 @@ Irei comentar sobre um dos **erros** mais comuns em códigos **JavaScript**, que
 parseInt(string, base)
 ```
 
-##STRING
+## STRING
 
 corresponde ao conjunto de caracteres que deseja converter para inteiro;
 
