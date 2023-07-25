@@ -10,7 +10,7 @@ tags: ["react"]
 
 Originally published in [edition No. 5][1], iMasters Magazine, Year 2, on March 2013.
 
-![](post-revista-imasters-frameworks-front-end.jpg)
+![](/img-posts/post-revista-imasters-frameworks-front-end.jpg)
 
 In this fifth edition's [iMasters Magazine][0], magazine's major brazilian portal about web development, I wrote an opinion about Frameworks for front-end Development.
 

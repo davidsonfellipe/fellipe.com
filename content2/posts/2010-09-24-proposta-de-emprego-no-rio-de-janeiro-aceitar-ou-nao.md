@@ -9,7 +9,7 @@ dsq_thread_id: 261154516
 tags: ["rio de janeiro"]
 ---
 
-![](./praia-boa-viagem-recife.jpg)
+![](/img-posts/praia-boa-viagem-recife.jpg)
 
 ## Publicação de 2010, provavelmente alguns dos valores abaixo não façam mais sentido.
 

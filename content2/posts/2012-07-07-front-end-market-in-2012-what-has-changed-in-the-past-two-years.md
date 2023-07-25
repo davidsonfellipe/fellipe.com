@@ -11,7 +11,7 @@ tags: ["front-end", "magazine"]
 Originally published in issue [#91 of Wide Magazine](http://www.revistawide.com.br/index.php/2012/7) in July 2012.
 
 
-![](./revista-wide-front-end-made-in-brazil.png)
+![](/img-posts/revista-wide-front-end-made-in-brazil.png)
 
 Some time ago, there were professionals in the front-end field who were limited to writing HTML and CSS, while project managers on the other side were unaware of or paid little attention to the front-end professional in their team. However, in the last two years, this profession has developed significantly in Brazil, and the level of demand for these professionals has also increased.
 
