@@ -2,6 +2,7 @@ import Seo from '../../components/seo'
 import Title from '../../components/title'
 import PostDate from '../../components/post-date'
 import PostContent from '../../components/post-content'
+import PostFooter from '../../components/post-footer'
 import Date from '../../components/date'
 import Layout from '../../components/layout'
 
@@ -23,6 +24,7 @@ export default function Post({ postData }) {
       <PostContent>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </PostContent>
+      <PostFooter />
     </Layout>
   )
 }

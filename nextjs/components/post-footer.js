@@ -1,9 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import Image from 'next/image'
 import SocialMediaLinks from './social-media-links'
 import { screen } from '../styles/screen'
-import profile from 'images/profile.jpg'
 
 const Footer = styled.div`
   margin: 75px 0 25px 0;
@@ -52,7 +51,7 @@ const WrapperSocialMediaLinks = styled.div`
 const PostFooter = () => (
   <Footer>
     <WrapperImg>
-      <img src={profile} alt="profile" width={100} height={100} />
+      <Image src="/images/profile.jpg" alt="profile" width={100} height={100} />
     </WrapperImg>
     <WrapperSocialMediaLinks>
       <SocialMediaLinks />
