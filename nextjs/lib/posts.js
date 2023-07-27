@@ -8,8 +8,8 @@ import html from 'remark-html';
 const postsDirectory = path.join(process.cwd(), '../content2/posts')
 
 export function getSortedPostsData() {
-  // Get file names under /posts
-  const fileNames = fs.readdirSync(postsDirectory).filter(fileName => !fileName.startsWith('.'));
+  // Get file names
+  const fileNames = getAllPostFiles()
 
   const allPostsData = fileNames.map(fileName => {
     // Remove ".md" from file name to get id
@@ -39,7 +39,7 @@ export function getSortedPostsData() {
 }
 
 export function getAllPostIds() {
-  const fileNames = fs.readdirSync(postsDirectory);
+  const fileNames = getAllPostFiles()
 
   return fileNames.map((fileName) => {
     return {
@@ -69,4 +69,13 @@ export async function getPostData(id) {
     contentHtml,
     ...matterResult.data,
   };
+}
+
+function getAllPostFiles() {
+  // Get ONLY md files under /content2/posts
+  const fileNames = fs.readdirSync(postsDirectory).filter(fileName => {
+    return !fileName.startsWith('.') && fileName.endsWith('.md');
+  });
+
+  return fileNames
 }
