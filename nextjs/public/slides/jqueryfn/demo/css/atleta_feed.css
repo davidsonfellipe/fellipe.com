@@ -1,0 +1,523 @@
+/* widget de feed */
+.feed .botao{
+    cursor: pointer;
+    display: block;
+	vertical-align: middle;
+    border:1px solid #ddd;
+    border-color: #DDDDDD #D0D0D0 #B5B5B5;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -khtml-border-radius:3px;
+    border-radius:3px;
+    text-align:center;
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 50%, #f3f3f3 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#ffffff), color-stop(100%,#f3f3f3));
+	background: -webkit-linear-gradient(top, #ffffff 50%,#f3f3f3 100%);
+	background: -o-linear-gradient(top, #ffffff 50%,#f3f3f3 100%);
+	background: -ms-linear-gradient(top, #ffffff 50%,#f3f3f3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3',GradientType=0 );
+	background: linear-gradient(top, #ffffff 50%,#f3f3f3 100%);	
+}
+.feed .botao:hover{
+    background:#fff;
+}
+.feed .botao:active{
+	background: #f3f3f3;
+	background: -moz-linear-gradient(top, #f3f3f3 0%, #ffffff 50%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3f3f3), color-stop(50%,#ffffff));
+	background: -webkit-linear-gradient(top, #f3f3f3 0%,#ffffff 50%);
+	background: -o-linear-gradient(top, #f3f3f3 0%,#ffffff 50%);
+	background: -ms-linear-gradient(top, #f3f3f3 0%,#ffffff 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#ffffff',GradientType=0 );
+	background: linear-gradient(top, #f3f3f3 0%,#ffffff 50%);
+}  
+.feed .botao-desabilitado{
+    background: none repeat scroll 0 0 #f4f4f4 !important;
+    border: 1px solid #ddd;
+    color: #aaa !important;
+    cursor:auto;
+}
+.feed .botao .seta,
+.feed .content-aba .seta{
+    background: url("../../img/sprite-topico-atleta.png") no-repeat scroll -20px -91px transparent;
+    display: block;
+    height: 5px;
+    position: absolute;
+    right: 12px;
+    top: 14px;
+    width: 7px;
+}
+.feed .botao-desabilitado .seta{
+    background-position:-31px -91px;
+}
+.feed .content-aba .seta{
+	top:8px;
+}
+.feed .atleta-titulo{
+    margin:5px 0 0;
+    padding-bottom:15px;
+	position:relative;
+}
+.feed .lista-data-plantao .item-data-plantao p.data {
+    text-transform: uppercase;
+}
+.feed .lista-materias{
+	background:url("../../../common/img/estrutura/borderbottom.gif") repeat-x scroll center top transparent;
+}
+.feed .lista-materias-com-filtro{
+	background-image:none;
+}
+.feed .lista-materias .materia{
+    border:0;
+    clear: both;
+    display: block;
+    padding: 30px 0 10px;
+    width: 100%;
+	background:url("../../../common/img/estrutura/borderbottom.gif") repeat-x scroll center bottom transparent;
+	border-bottom:1px dotted #ddd;
+    overflow:hidden;
+}
+.feed .materia-tipo{
+    background: url("../../img/sprite-topico-atleta.png") no-repeat scroll 0 0 #DDD;
+    float: left;
+    height: 43px;
+    margin: 0 19px 0 11px;
+    width: 38px;
+}
+.feed .materia-tipo-separador{
+    background: url("../../img/sprite-topico-atleta.png") no-repeat scroll 0 -100px #FFFFFF;
+    height: 71px;
+    margin-left: 42px;
+    width: 6px;
+}
+.feed .materia:hover .materia-tipo{
+	background-color: #AAA;
+}
+.feed .foto{
+    float: left;
+    padding: 0 0 0 17px;
+    width: 92px;
+}
+.feed .materia-chamada{
+    float: left;
+    height: 55px;
+    padding: 0 0 0 15px;
+    width: 425px;
+}
+.ie7 .feed .materia-chamada{
+    width: 410px;
+}
+.feed .foto img{
+	-webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-o-border-radius: 4px 4px 4px 4px;
+	-ms-border-radius: 4px 4px 4px 4px;
+	-khtml-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+}
+.foto .borda-interna:hover{
+	border-radius: 5px;
+}
+.feed .materia-data{
+    color: #666666;
+    display: block;
+    font-size: 0.75em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.feed .materia-titulo{
+    font-size: 1.39em;
+    line-height: 1.1em;
+}
+.feed .materia-author{
+    display:none;
+}
+.feed .paginacao{
+    cursor: pointer;
+    display: block !important;
+    font-size: 16px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 37px;
+    margin: -1px 0 20px;
+    vertical-align: middle;
+    border:1px solid #ddd;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -khtml-border-radius:4px;
+    border-radius:4px;
+    text-align:center;
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 50%, #f3f3f3 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#ffffff), color-stop(100%,#f3f3f3));
+	background: -webkit-linear-gradient(top, #ffffff 50%,#f3f3f3 100%);
+	background: -o-linear-gradient(top, #ffffff 50%,#f3f3f3 100%);
+	background: -ms-linear-gradient(top, #ffffff 50%,#f3f3f3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3',GradientType=0 );
+	background: linear-gradient(top, #ffffff 50%,#f3f3f3 100%);	
+}
+.ie7 .feed .paginacao{
+    margin-top:-5px;
+}
+.feed .paginacao:hover{
+    background:#fff;
+}
+.feed .paginacao:active{
+	background: #f3f3f3;
+	background: -moz-linear-gradient(top, #f3f3f3 0%, #ffffff 50%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3f3f3), color-stop(50%,#ffffff));
+	background: -webkit-linear-gradient(top, #f3f3f3 0%,#ffffff 50%);
+	background: -o-linear-gradient(top, #f3f3f3 0%,#ffffff 50%);
+	background: -ms-linear-gradient(top, #f3f3f3 0%,#ffffff 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#ffffff',GradientType=0 );
+	background: linear-gradient(top, #f3f3f3 0%,#ffffff 50%);
+}  
+#glb-corpo .feed .desabilitar-paginacao{
+    background: #f3f3f3; /* !important;*/
+    color: #ccc; /* !important;*/;
+    cursor:auto;
+}
+.feed .paginacao  .texto-dos-numeros {
+    float: left;
+}
+.feed .mensagem-nenhuma-noticia{
+	display:none;
+}
+.feed .mensagem-nenhuma-noticia,
+.feed .mensagem-erro-noticia{
+    background: url("../../img/nenhumResultadoEncontrado.gif") no-repeat scroll center top transparent;
+    border-bottom: 0 none;
+    color: #CCCCCC;
+    font-family: Arial;
+    font-size: 2.5em;
+    font-weight: normal;
+    height: 300px;
+    letter-spacing: -0.5px;
+    margin-top: 75px;
+    padding-top: 160px;
+    text-align: center;
+    text-transform: lowercase;
+}
+.feed .mensagem-erro-noticia{
+    background: url("../../img/erropaginacao.jpg") no-repeat scroll center top transparent;
+}
+/* feed filtros */
+.feed .filtro-bloco{
+    margin-right: 10px;
+    padding-bottom: 32px;
+    position: relative;
+}
+.feed .filtro-bloco-ultimo{
+	border-right: 0;
+}
+/* filtros */
+.filtro-popin {
+  display:block;
+  position:absolute;
+  z-index: 99;
+  top:34px;
+  left:-5px;
+}
+.filtro-popin .background {
+  background-color:#000;
+  -webkit-border-radius: 0 6px 6px;
+  -moz-border-radius:  0 6px 6px;
+  -o-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px;
+  height:100%;
+  left:0;
+  opacity:0.1;
+  filter: alpha(opacity=10);
+  -moz-opacity: 0.1;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:0;
+}
+.filtro-popin .content {
+  -webkit-border-radius: 0 3px 3px;
+  -moz-border-radius: 0 3px 3px;
+  -o-border-radius: 0 3px 3px;
+  border-radius: 0 3px 3px;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  font-size: 11px;
+  margin: 4px;
+  padding: 7px 0 7px 0;
+  position: relative;
+  white-space: nowrap;
+  z-index: 10;
+  color:#333;
+}
+.filtro-popin .content-listas{
+	padding:13px 0 6px;
+	overflow:hidden;
+	width:257px;
+}
+.filtro-popin .lista-dupla{
+	width:500px;
+}
+.filtro-popin .content-aba{
+    font-size: 1.091em;
+    padding:3px 22px 10px 10px;
+	position:relative;
+}
+.filtro-popin .content-lista-destaque{
+	border-right:1px solid #ccc;
+	float:left;
+	width:237px;
+}
+.filtro-popin .remover-borda-direita{
+	border-right:0;
+}
+.filtro-popin .content-lista-simples{
+    color: #CCCCCC; 
+    font-size: 9px;
+    float:left;
+    width: 235px;
+}
+.filtro-popin .content-lista-destaque .content-li{
+    font-size: 1.2em;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 0 8px;
+	width: 237px;
+}
+.filtro-popin .content-lista-simples .content-li{
+    margin: 0 0 6px;
+    width: 237px;
+}
+.filtro-popin .content-lista-simples .content-item{
+    color: #444 !important;
+    font-size: 1.3em;
+    line-height: 16px;
+    padding: 0 20px;
+    white-space: normal;
+}
+.filtro-popin .content-lista-simples .content-marcador{
+    background: none repeat scroll 0 0 #CCCCCC;
+    display: block;
+    float: left;
+    height: 3px;
+    margin: 6px 6px 0 0;
+    width: 3px;
+}
+.filtro-popin .content-lista-simples .content-label{
+    display: block;
+    float: left;
+    width: 187px;
+}
+.filtro-popin .content-lista-simples .content-item:hover{
+	border-left:3px solid #4E6E0B;
+    color:#4E6E0B !important;
+    cursor:pointer;
+    padding: 0 0 0 17px;
+}
+.filtro-popin .content-lista-destaque .content-foto{
+	background:none no-repeat scroll 0 0;
+    border-radius:4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-o-border-radius: 4px 4px 4px 4px;
+	-ms-border-radius: 4px 4px 4px 4px;
+	display:block;
+	float:left;
+	margin-right: 10px;
+	height: 35px;
+	width: 35px;
+}
+.filtro-popin .content-lista-destaque .content-label{
+	height: 35px;
+	width: 172px;
+	white-space: normal;
+}
+.filtro-popin .content-lista-destaque .sem-thumbnail{
+    width: 217px;
+}
+.ie7 .filtro-popin .content-lista-destaque .sem-thumbnail,
+.ie8 .filtro-popin .content-lista-destaque .sem-thumbnail{
+    width: 210px;   
+}
+.filtro-popin .indentado .content-label{
+    padding-left:10px;
+    width: 162px;
+}
+.filtro-popin .indentado .sem-thumbnail{
+    padding-left: 10px;
+    width: 207px;
+}
+.filtro-popin .content-lista-simples .indentado .content-label{
+    padding-left: 0px;
+}
+.filtro-popin .indentado .content-marcador{
+     margin: 6px 6px 0 10px;
+}
+.filtro-popin-bloco{
+	display:none;
+	float: left;
+}
+/*filtro-aba*/
+.filtro-popin-aba {
+	top:-5px;
+	z-index: 100;
+	cursor:pointer;
+}
+.feed .botao-grupo{
+	color:#f00;
+	float: left;
+    position: relative;
+}
+.ie7 .grupo-botao-atletas{
+    z-index:30;
+}
+.ie7 .grupo-botao-organizacoes{
+    z-index:20;
+}
+.ie7 .grupo-botao-eventos{
+    z-index:10;
+}
+.filtro-popin-aba .background {
+	-webkit-border-radius:6px 6px 0 0;
+	-moz-border-radius:6px 6px 0 0;
+	-o-border-radius:6px 6px 0 0;
+	-ms-border-radius:6px 6px 0 0;
+	border-radius:6px 6px 0 0;
+	border-bottom: 0 none;
+	top:-1px;
+}
+.filtro-popin-aba .content {
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	-o-border-radius: 3px 3px 0 0;
+	-ms-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	margin:4px 4px -4px;
+	border-bottom-width: 0;
+}
+.ie7 .filtro-popin-aba .content{
+   width:100%;
+}
+.filtros-botao{
+	color:#666 !important;
+	float:left;
+    line-height: 30px;
+	margin-right:10px;
+    padding: 0 22px 0 9px;
+    position: relative;
+	-moz-box-shadow: 0 1px 0 #E5E5E5;
+	-webkit-box-shadow: 0 1px 0 #E5E5E5;
+	box-shadow: 0 1px 0 #E5E5E5;
+}
+.filtros{
+	background:#fff;
+	border-bottom:1px solid #fefefe;
+	padding:10px 0 12px 0;
+	width: 620px;
+}
+.filtros .pontilhado{
+    background: url("../../img/sprite-topico-atleta.png") no-repeat scroll 0 -175px #FFFFFF;
+    display: block;
+    float: left;
+    height: 25px;
+    margin: 4px 10px 0 0;
+    width: 1px;
+}
+.filtros .botao-ultimo .pontilhado{
+    display:none;
+}
+.filtros-fixed{
+	border-top: 1px solid #DDD;
+    -moz-box-shadow: 0 4px 4px -4px #C0C0C0;
+    -webkit-box-shadow: 0 4px 4px -4px #C0C0C0;
+    box-shadow: 0 4px 4px -4px #C0C0C0;
+    padding: 10px 0 8px;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+.ie7 .filtros-fixed{
+    border-bottom: 1px solid #EEE;
+}
+.feed .filtros-fixed .filtro-resultado{
+    -moz-box-shadow: 0 4px 4px -4px #C0C0C0;
+    -webkit-box-shadow: 0 4px 4px -4px #C0C0C0;
+    box-shadow: 0 4px 4px -4px #C0C0C0;
+}
+.feed .filtros .thumbnail{
+	background:none repeat scroll center center transparent;
+	display:none;
+	float: left;
+	height:35px;
+	margin:0 12px 0 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	width:35px;
+}
+.feed .filtros .masculino,
+.filtro-popin .content-lista-destaque .masculino{
+    background:url("../../img/sprite-topico-atleta.png") no-repeat -45px -36px;
+}
+.feed .filtros .feminino,
+.filtro-popin .content-lista-destaque .feminino{
+	background:url("../../img/sprite-topico-atleta.png") no-repeat -45px 0;
+}
+.feed .botao-limpar{
+    -moz-box-shadow: 0 1px 0 #ccc;
+	-webkit-box-shadow: 0 1px 0 #ccc;
+	box-shadow: 0 1px 0 #ccc;
+	float:left;
+	width:53px;
+	line-height:19px;
+	font-weight:bold;
+	font-style:normal;	
+}
+.feed .filtro-resultado{
+	background: #e2e2e2; /* Old browsers */
+    background: -moz-linear-gradient(top, #e2e2e2 1%, #f6f6f6 7%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#e2e2e2), color-stop(7%,#f6f6f6)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #e2e2e2 1%,#f6f6f6 7%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #e2e2e2 1%,#f6f6f6 7%); /* Opera11.10+ */
+    background: -ms-linear-gradient(top, #e2e2e2 1%,#f6f6f6 7%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+    background: linear-gradient(top, #e2e2e2 1%,#f6f6f6 7%); /* W3C */
+    clear: both;
+	color:#666;
+	display:none;
+    font-style: italic;
+    margin: 12px 0 -15px;
+    padding: 10px;
+	overflow:hidden;
+}
+.ie7 .feed .filtro-resultado,
+.ie8 .feed .filtro-resultado{
+    border-top: 1px solid #e2e2e2;
+    background: #f6f6f6;
+    filter:none;
+}
+.filtros-box .filtro-resultado-texto{
+	float:left;
+	width:545px;
+	line-height:21px;
+}
+.filtros-box .content-item{
+	color: #444444 !important;
+    display: block;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 0 0 0 20px;
+}
+.filtros-box .content-tr{
+    cursor:pointer;
+}
+.filtros-box .content-lista-destaque .content-item-over{
+    border-left:3px solid #4E6E0B;
+    padding: 0 0 0 17px;
+}
+.filtros-box .destacado{
+	color:#4E6E0B;
+}

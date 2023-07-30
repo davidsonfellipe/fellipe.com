@@ -1,0 +1,7 @@
+# Redirects from what the browser requests to what we serve
+/palestras              /talks
+/apps/lena-js/          /demos/lena-js/
+/lena-js/               /demos/lena-js/
+/articles/              /blog/
+/about/                 /
+/blog/brazil-js-2011/   /blog/relato-sobre-o-braziljs-2011-fortaleza/
