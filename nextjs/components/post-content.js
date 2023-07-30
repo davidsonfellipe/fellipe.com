@@ -34,6 +34,7 @@ const PostContent = styled.div`
   pre {
     border-radius: 0;
     font-size: 0.8em;
+    margin-top: 1em;
   }
 `
 
