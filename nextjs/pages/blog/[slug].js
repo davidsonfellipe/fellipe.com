@@ -14,6 +14,7 @@ import PostFooter from '../../components/post-footer'
 import Date from '../../components/date'
 
 import { postFilePaths, POSTS_PATH } from '../../lib/mdx-utils'
+
 export default function PostPage({ source, frontMatter }) {
   return (
     <Layout>
