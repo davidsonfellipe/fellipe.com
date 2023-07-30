@@ -3,11 +3,9 @@ import matter from 'gray-matter'
 import { MDXRemote } from 'next-mdx-remote'
 import { serialize } from 'next-mdx-remote/serialize'
 
-import Seo from '../../components/seo'
-
 import path from 'path'
-import { postFilePaths, POSTS_PATH } from '../../lib/mdx-utils'
 
+import Seo from '../../components/seo'
 import Layout from '../../components/layout'
 import Title from '../../components/title'
 import PostDate from '../../components/post-date'
@@ -15,6 +13,7 @@ import PostContent from '../../components/post-content'
 import PostFooter from '../../components/post-footer'
 import Date from '../../components/date'
 
+import { postFilePaths, POSTS_PATH } from '../../lib/mdx-utils'
 export default function PostPage({ source, frontMatter }) {
   return (
     <Layout>
