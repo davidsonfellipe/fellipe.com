@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "author": "Davidson Fellipe <email@fellipe.com>",
   "dependencies": {
+    "@mdx-js/react": "^2.3.0",
     "@vercel/gatsby-plugin-vercel-analytics": "^1.0.10",
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.11.3",
@@ -29,6 +30,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-helmet": "^6.1.0",
+    "remark-oembed": "^1.2.2",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {

@@ -51,9 +51,9 @@ Apos minha palestra no BrazilJS, percebi que poderia fazer uma específica sobre
 para eu apresentar uma palestra no FrontInRio, escolhi esse tema. Comecei apresentando sobre alguns conceitos que seriam relevantes para o entendimento,
 mostrei também as principais diferenças entre as duas técnicas, o suporte aos browsers, libraries tanto para SVG quanto para Canvas, um hands on cujo código pode ser encontrado em [meu repositório no GitHub para palestras][6].
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/cBrSaB767SSlID" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/cBrSaB767SSlID" width="595" height="485" frameBorder="0" marginWidth="0" marginHeight="0" scrolling="no" allowFullScreen> </iframe>
 
-<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/davidsonfellipe/canvas-vs-svg" title="CANVAS vs SVG @ FrontInRio 2011" target="_blank">CANVAS vs SVG @ FrontInRio 2011</a> </strong> from <strong><a href="//www.slideshare.net/davidsonfellipe" target="_blank">Davidson Fellipe</a></strong> </div>
+<div> <strong> <a href="//www.slideshare.net/davidsonfellipe/canvas-vs-svg" title="CANVAS vs SVG @ FrontInRio 2011" target="_blank">CANVAS vs SVG @ FrontInRio 2011</a> </strong> from <strong><a href="//www.slideshare.net/davidsonfellipe" target="_blank">Davidson Fellipe</a></strong> </div>
 
 ![](/img-posts/264478_10150223688524548_787149547_7065875_6582493_n1.jpg)
 

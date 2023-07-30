@@ -18,9 +18,9 @@ Enfim agora com o blog terei mais espaço e facilidade para postar trabalhos pas
 
 ## **Slides da apresentação do trabalho**
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/7uhzfMYpzEDahq" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/7uhzfMYpzEDahq" width="595" height="485" frameBorder="0" marginWidth="0" marginHeight="0" scrolling="no" allowFullScreen> </iframe>
 
-<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/davidsonfellipe/sistema-de-comunicao-bluetooth-usando-microcontrolado-pic" title="Sistema De Comunicação Bluetooth Usando Microcontrolador PIC" target="_blank">Sistema De Comunicação Bluetooth Usando Microcontrolador PIC</a> </strong> from <strong><a href="https://www.slideshare.net/davidsonfellipe" target="_blank">Davidson Fellipe</a></strong> </div>
+<div> <strong> <a href="//www.slideshare.net/davidsonfellipe/sistema-de-comunicao-bluetooth-usando-microcontrolado-pic" title="Sistema De Comunicação Bluetooth Usando Microcontrolador PIC" target="_blank">Sistema De Comunicação Bluetooth Usando Microcontrolador PIC</a> </strong> from <strong><a href="https://www.slideshare.net/davidsonfellipe" target="_blank">Davidson Fellipe</a></strong> </div>
 
 [Sistema De Comunicação Bluetooth Usando Microcontrolador PIC](//www.slideshare.net/davidsonfellipe/sistema-de-comunicao-bluetooth-usando-microcontrolado-pic) from [Davidson Fellipe](https://www.slideshare.net/davidsonfellipe)
 

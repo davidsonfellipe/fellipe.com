@@ -32,7 +32,7 @@ The website [nettuts][8] created a screencast last year demonstrating the use of
 
 <br />
 
-<iframe width="880" height="500" src="https://www.youtube.com/embed/gz2mBQBp4XE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="880" height="500" src="https://www.youtube.com/embed/gz2mBQBp4XE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 ## References:
 - [https://jslint.com/](https://jslint.com/)
