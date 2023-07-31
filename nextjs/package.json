@@ -1,11 +1,16 @@
 {
+  "name": "fellipe.com",
+  "description": "Davidson Fellipe's website",
+  "version": "0.1.0",
+  "author": "Davidson Fellipe <email@fellipe.com>",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "dev:watch": "next-remote-watch ./posts",
     "build": "next build",
     "postbuild": "next-sitemap",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier --write \"./{src,cypress,nextjs}/{components,pages,styles,templates,data,e2e}/*.{cy.js,js,json,md}\""
   },
   "dependencies": {
     "@vercel/analytics": "^1.0.1",
@@ -18,5 +23,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "styled-components": "^6.0.5"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "prettier": "^3.0.0"
   }
 }
