@@ -28,7 +28,7 @@ To run the project on your local machine, follow these steps:
 
 ## 📖 License
 
-This code is licensed under the [MIT License](https://davidsonfellipe.mit-license.org), which allows you to use, modify, and distribute it freely while including the original license file.
+This code is licensed under the [MIT License](https://davidsonfellipe.mit-license.org).
 
 ## 🤝 Contribution
 
