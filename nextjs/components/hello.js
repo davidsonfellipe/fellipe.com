@@ -56,7 +56,7 @@ const Subtitle = styled.h2`
 
 const Hello = () => (
   <Wrapper>
-    <Image priority src="/images/profile.jpg" height={150} width={150} alt="profile" />
+    <Image priority src="/images/profile.jpg" height={150} width={150} alt="logo - profile picture" />
     <Name>Davidson Fellipe</Name>
     <Subtitle>Software Engineer at [Coming soon]</Subtitle>
   </Wrapper>

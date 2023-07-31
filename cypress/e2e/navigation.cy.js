@@ -1,6 +1,6 @@
 context('Navigation', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:8000/')
+    cy.visit('http://localhost:3000/')
   })
 
   it('check navigation', () => {
@@ -11,12 +11,37 @@ context('Navigation', () => {
     cy.contains('interviews')
   })
 
+  it('verify links have correct URLs with trailing slashes', () => {
+    cy.contains('blog').should('have.attr', 'href', '/blog/')
+    cy.contains('projects').should('have.attr', 'href', '/projects/')
+    cy.contains('talks').should('have.attr', 'href', '/talks/')
+    cy.contains('about').should('have.attr', 'href', '/about/')
+    cy.contains('interviews').should('have.attr', 'href', '/interviews/')
+  })
+
+  it('verify blog article link functionality', () => {
+    cy.contains('blog').click()
+
+    cy.contains('Moving Wordpress to Jekyll').click()
+
+    cy.title().should('include', 'Moving Wordpress to Jekyll')
+    cy.location('pathname').should('include', '/blog/moving-wordpress-to-jekyll/')
+  })
+
+  it('navigate to homepage from logo', () => {
+    cy.get('img[alt="logo - profile picture"]').click()
+
+    cy.title().should('include', 'Davidson Fellipe')
+    cy.location('pathname').should('eq', '/')
+  })
+
   it('navigate to blog page and check the content', () => {
     cy.contains('blog').click()
 
     cy.title().should('include', 'Blog | Davidson Fellipe')
     cy.contains('Blog')
-    cy.contains('Conference Reports')
+    cy.contains('articles in english')
+    cy.contains('articles in portuguese')
     cy.location('pathname').should('include', 'blog')
   })
 

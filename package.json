@@ -57,7 +57,7 @@
     "lint": "textlint --rule textlint-rule-terminology content/**/*.md",
     "format": "prettier --write \"./{src,cypress,nextjs}/{components,pages,styles,templates,data,e2e}/*.{cy.js,js,json,md}\"",
     "test:cy:open": "cypress open --browser chrome --e2e",
-    "test:e2e": "CYPRESS_SUPPORT=y start-server-and-test develop http://localhost:8000 test:cy:open"
+    "test:e2e": "CYPRESS_SUPPORT=y start-server-and-test develop http://localhost:3000 test:cy:open"
   },
   "config": {
     "commitizen": {
