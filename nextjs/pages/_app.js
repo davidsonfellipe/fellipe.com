@@ -1,4 +1,5 @@
 import { ThemeProvider, DefaultTheme } from 'styled-components'
+import { Analytics } from '@vercel/analytics/react';
 
 const theme = {
   colors: {
@@ -12,6 +13,7 @@ export default function App({ Component, pageProps }) {
     <>
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
+        <Analytics />
       </ThemeProvider>
     </>
   )
