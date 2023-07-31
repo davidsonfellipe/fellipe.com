@@ -1,5 +1,5 @@
 import { ThemeProvider, DefaultTheme } from 'styled-components'
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/react'
 
 const theme = {
   colors: {
