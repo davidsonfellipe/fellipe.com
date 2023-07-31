@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import { ThemeProvider, DefaultTheme } from 'styled-components'
 import { Analytics } from '@vercel/analytics/react'
 
@@ -13,8 +14,17 @@ export default function App({ Component, pageProps }) {
     <>
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
-        <Analytics />
       </ThemeProvider>
+      <Analytics />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-EV10PWT7QL" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-EV10PWT7QL');
+        `}
+      </Script>
     </>
   )
 }
