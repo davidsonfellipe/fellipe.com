@@ -1,0 +1,28 @@
+/* geral */
+/* estilos relativos ao cabecalho do produto */
+.feed{float:none;}
+.cabecalho-produto .editoria {
+	font-family: "VolkswagenSerial-Light", x-small arial,helvetica,freesans,sans-serif;
+	padding-top: 3px;
+	text-transform:uppercase;
+}
+.cabecalho-produto .editoria .com-destaque{
+    font-family: "VolkswagenSerial-regular", x-small arial,helvetica,freesans,sans-serif;
+    font-weight:normal;
+    letter-spacing: -0.05em;
+}
+.cabecalho-produto .editoria .texto-reduzido{
+    font-size:2em;
+}
+/* estilos gerais */
+.atleta-titulo{
+    border-bottom: 1px solid #DDDDDD;
+    font-family: "VolkswagenSerial-Light", x-small arial,helvetica,freesans,sans-serif;
+    font-size: 1.833em;
+    color: #333;
+    text-transform: uppercase;
+    word-spacing: .07em;
+    font-weight:normal;
+	letter-spacing: -0.04em;
+	line-height:.75em;
+}

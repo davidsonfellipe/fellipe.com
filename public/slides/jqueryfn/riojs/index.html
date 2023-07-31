@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+<html>
+  <head>
+    <title>RioJS</title>
+    <meta charset='utf-8'>
+    <script src='slides.js'></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|Droid+Sans" type="text/css" media="screen" title="no title" charset="utf-8">
+	<link rel="stylesheet" href="personal.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <head>
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+        <article>
+          <h1>
+            rio.js
+          </h1>
+            <ul>
+  	          <li class="black">Grupo de desenvolvedores JS do Rio de Janeiro</li>
+	          <li class="black">08 de junho</li>
+	          <li class="black">92 membros</li>
+	          <li class="black">https://www.facebook.com/groups/riojs/</li>
+	        </ul>
+        </article>
+      <article>
+        <h1>
+          Jquery.fn
+        </h1>
+        <br>
+        <em>
+          //jQuery effin
+        </em>
+        <p>
+          <br>
+          Davidson Fellipe | @davidsonfellipe
+          <br>
+          Out 8, 2011
+        </p>
+      </article>
+			      <article>
+			        <h3>Por que criar um plugin?</h3>
+			        <ul>
+			          <li class="black">Reuso de código</li>
+			          <li class="black">Encapsulamento</li>
+			          <li class="black">Fácil de criar</li>
+			        </ul>
+			      </article>
+
+  			      <article class="code-example">
+    			        <h3>
+    			        Escrevendo seu primeiro jQuery.fn
+    			        </h3>
+    			        <section>
+<br>
+<pre>
+  jQuery.fn.myPlugin = function() {
+    //seu código
+  };
+</pre>
+<span>Evitar o uso de $ nesse caso, para não haja conflito com outras bibliotecas<br><br></span>
+<pre>
+(function( $ ){
+  $.fn.myPlugin = function() {
+    //seu código
+  };
+})( jQuery );
+ </pre>
+
+    					</section>
+    			      </article>
+    			      <article class="code-example">
+          			        <h3>
+          			        Contexto no jQuery.fn
+          			        </h3>
+          			        <section>
+      <br>
+      <pre>
+(function( $ ){
+  $.fn.myPlugin = function() {
+    //seu código
+    console.log(this);
+  };
+})( jQuery );
+       </pre>
+
+       <span>Usar $(this) seria a mesma coisa que fazer $($(this)), pois o this já é um jQuery Object</span>
+
+          					</section>
+          			      </article>
+
+
+			      <article class="code-example">
+  			        <h3>
+  			        jQuery.fn
+  			        </h3>
+  			        <section>
+<br>
+<pre>
+&lt;p class="element"&gt;globoesporte&lt;/p&gt;
+</pre>
+<pre>
+$.fn.bgRed = function(){
+    return this.css({background: 'red'});
+}
+</pre>
+<pre>
+$(".element").bgRed();
+</pre>
+				    </section>
+  			      </article>
+
+  			      <article class="code-example">
+        			        <h3>
+        			        Simples jQuery.fn plugin interagindo com um conjunto de seletores
+        			        </h3>
+        			        <section>
+    <br>
+    <pre>
+(function( $ ){
+
+  $.fn.maiorAltura = function() {
+
+    var max = 0;
+
+    this.each(function() {
+      max = Math.max( max, $(this).height() );
+    });
+
+    return max;
+  };
+})( jQuery );
+     </pre>
+     <pre>
+$("div").maiorAltura();</pre>
+        					</section>
+        			      </article>
+
+			     <article class="code-example">
+                    			        <h3>
+                    			        jQuery.fn : Enviando parametros
+                    			        </h3>
+                    			        <section>
+                  <br>
+                  <pre>
+$.fn.bgChange = function( options ) {
+
+    var settings = {
+      'bg' : '#fff'
+    };
+
+    return this.each(function() {
+
+        if (options) $.extend(settings, options);
+
+        $(this).css("background-color", settings.bg);
+    });
+};
+</pre>
+<pre>
+$("body").bgChange({bg: "#f00"}); //vermelho
+$("body").bgChange({bg: "#0f0"}); //verde
+$("body").bgChange({bg: "#00f"}); //azul
+</pre>
+                    					</section>
+                    			      </article>
+
+			     <article class="code-example">
+                  			        <h3>
+                  			        jQuery.fn : Plugin methods =(
+                  			        </h3>
+                  			        <section>
+                <br>
+                <pre>
+(function( $ ){
+    $.fn.tooltip = function( options ) { // THIS };
+    $.fn.tooltipShow = function( ) { // IS   };
+    $.fn.tooltipHide = function( ) { // BAD  };
+    $.fn.tooltipUpdate = function( content ) { // !!!  };
+})( jQuery );
+                </pre>
+                  					</section>
+                  			      </article>
+			     <article class="code-example">
+                			        <h3>
+                			        jQuery.fn : Plugin methods =)
+                			        </h3>
+                			        <section>
+              <br>
+<pre>
+(function( $ ){
+    var methods = {
+      init : function( options ) { // THIS },
+      show : function( ) { // IS   },
+      hide : function( ) { // GOOD },
+      update : function( content ) { // !!! }
+    };
+
+    $.fn.tooltip = function( method ) {
+      if ( methods[method] ) {
+        return methods[ method ].apply( this,
+                                        Array.prototype
+                                        .slice.call( arguments, 1 ));
+      } else if ( typeof method === 'object' || ! method ) {
+        return methods.init.apply( this, arguments );
+      } else {
+        $.error( 'Method ' +  method + 'does not exist on tooltip' );
+      }
+    };
+})( jQuery );
+</pre>
+                					</section>
+                			      </article>
+                    			      <article class="code-example smaller">
+                                            <h3>
+                                              plugin com jquery.fn
+                                            </h3>
+                                            <section><br><br>
+                                            			<pre style="height:450px;overflow:scroll;width:750px">
+  /**
+   * Description: widget para controlar a paginacao
+   * Autor: Davidson Fellipe
+   * Dependencias:
+   * 1 - jQuery[1.4.2]
+   *
+  */
+  (function(global, $) {
+
+      $.fn.Paginacao = function(options) {
+
+          if( $(this).length > 0 ){
+
+  			$.extend(this, this.Paginacao.methods);
+
+              this.__init__(options);
+
+              return this;
+
+  		}else{
+
+  			$.error('selector not found on Paginacao');
+
+  			return;
+
+  		}
+      };
+
+      var _self = this;
+
+      $.fn.Paginacao.defaults = {
+  		textButton: "mais",
+  		paginaAtual: 1,
+  		total: 0,
+  		urlJSON: "",
+  		itensPorPagina: 1
+      };
+
+      $.fn.Paginacao.methods= {
+
+  		__init__: function(options) {
+
+  			if(options.urlJSON !== ""){
+
+  				_self = this;
+
+  			    //Merge do conteudo de dois ou mais objetos dentro do primeiro.
+  				_self.options = $.extend({}, $.fn.Paginacao.defaults, options);
+
+  				_self.__cacheDom__();
+
+  				_self.__configBotaoPaginacao__();
+  			}
+  		},
+
+          //realiza cache de elementos DOM
+          __cacheDom__: function() {
+              _self.domCache = {
+                  '$buttonPaginacao': $(".paginacao", _self),
+                  '$mensagemNenhumaNoticia': $(".mensagem-nenhuma-noticia", _self),
+                  '$listaNoticias': $("ol", _self)
+              }
+          },
+
+          //configura binds e maquina de estados do botao
+  		__configBotaoPaginacao__: function() {
+  		    _self.__bindEvents__();
+  			_self.__controleBotoesPaginacao__();
+  		},
+
+  		__showLoading__: function() {
+  			_self.domCache["$buttonPaginacao"].html('&lt;img src="img/loading.gif" alt="" /&gt;');
+  		},
+
+  		__hideLoading__: function() {
+  			_self.domCache["$buttonPaginacao"].html(_self.options.textButton);
+  		},
+
+  		__montarNoticia__: function(noticia) {
+            return  '&lt;li class="materia" itemscope itemtype="https://schema.org/NewsArticle"&gt;' +
+                  '	&lt;div class="materia-chamada"&gt;' +
+                  '		&lt;span class="materia-data" itemprop="publishDate" content="' + noticia.ultima_atualizacao + '"&gt;' + noticia.ultima_atualizacao + '&lt;/span&gt;' +
+                  '		&lt;h3 class="materia-titulo"&gt;' +
+                  '			&lt;a href="' + noticia.permalink + '" title="' + noticia.titulo + '" itemprop="name"&gt;' + noticia.titulo + '&lt;/a&gt;' +
+                  '		&lt;/h3&gt;' +
+                  '	&lt;/div&gt;' +
+                  '&lt;/li&gt;';
+        },
+
+        __controleBotoesPaginacao__: function() {
+
+  			var totalPaginas = Math.ceil(parseInt(_self.options.total, 10)/_self.options.itensPorPagina);
+
+  		    if(totalPaginas > _self.options.paginaAtual){
+  				_self.domCache["$buttonPaginacao"].removeClass("desabilitar-paginacao");
+  			}else{
+  				_self.domCache["$buttonPaginacao"].addClass("desabilitar-paginacao");
+  			}
+        },
+
+  	  __carrega_noticias__: function(){
+
+  			_self.__showLoading__();
+
+  			//prepara url para request do json
+  			var urlRequest = this.options.urlJSON +  (_self.options.paginaAtual + 1) + ".json";
+
+  			$.ajax({
+  		        method: 'get',
+  		        dataType: 'json',
+  		        url: urlRequest,
+  				success: function(response){
+
+  					//esconde o loading
+  					_self.__hideLoading__();
+
+  					//atualiza configuracoes da rolagem
+  					_self.options.total = response.totalItens;
+
+  					if (response.materias.length > 0){
+
+  						_self.__esconde_mensagem_sem_noticias__();
+
+  						var templateNoticia = "";
+
+  						for( var i = 0, total = response.materias.length; i < total; i++ ){
+
+  							templateNoticia = _self.__montarNoticia__(response.materias[i]);
+
+  							_self.domCache["$listaNoticias"].append(templateNoticia);
+
+  						}
+
+  						$("li:hidden", _self.domCache["$listaNoticias"]).slideDown("slow");
+
+  						_self.options.paginaAtual++;
+
+  						_self.__controleBotoesPaginacao__();
+  					}else{
+  						_self.__mostra_mensagem_sem_noticias__();
+  					}
+  				}
+  		    });
+  		},
+
+  		__mostra_mensagem_sem_noticias__: function(){
+  			_self.domCache["$buttonPaginacao"].hide();
+  			_self.domCache["$mensagemNenhumaNoticia"].show();
+  		},
+
+  		__esconde_mensagem_sem_noticias__: function(){
+  			_self.domCache["$buttonPaginacao"].show();
+  			_self.domCache["$mensagemNenhumaNoticia"].hide();
+  		},
+
+          __bindEvents__: function() {
+
+              _self.domCache["$buttonPaginacao"].die("click").live("click", function() {
+                  if(_self.options.total > (_self.options.paginaAtual * _self.options.itensPorPagina)){
+  					_self.__carrega_noticias__();
+  				}
+              });
+          }
+
+      };
+  }(this, this.jQuery));
+                        </pre>
+                                    		</section>
+                                          </article>
+              <article>
+                <h1>
+                  Alternativas?
+                </h1>
+              </article>
+        	  <article class='fill iframe-full'>
+                <h3>
+                  jQuery Widget factory
+                </h3>
+                <iframe src='https://jqueryui.pbworks.com/w/page/12138135/Widget%20factory'></iframe>
+              </article>
+	  <article class='fill iframe-full'>
+        <h3>
+          jQuery Boilerplate
+        </h3>
+        <iframe src='https://jqueryboilerplate.com/'></iframe>
+      </article>
+
+      <article>
+      	<h3>links </h3>
+      	<p>
+      		<ul>
+      			<li class="black">
+      			    <a href="http://wiki.jqueryui.com/w/page/12138135/Widget factory">
+      			        http://wiki.jqueryui.com/w/page/12138135/Widget factory
+      			    </a>
+      			</li>
+      			<li class="black">
+      			    <a href="http://docs.jquery.com/Using_jQuery_with_Other_Libraries">
+      			        http://docs.jquery.com/Using_jQuery_with_Other_Libraries
+      			    </a>
+      			</li>
+      			<li class="black">
+      			    <a href="http://jqueryboilerplate.com">
+      			        http://jqueryboilerplate.com
+      			    </a>
+      			</li>
+      			<li class="black">
+      			    <a href="http://docs.jquery.com/Plugins/Authoring">
+      			        http://docs.jquery.com/Plugins/Authoring
+      			    </a>
+      			</li>
+      			<li class="black">
+      			    <a href="https://fellipe.com/slides/jqueryfn/">
+      			        https://fellipe.com/slides/jqueryfn/
+      			    </a>
+      			</li>
+      		</ul>
+      	</p>
+      </article>
+
+      <article>
+        <h1>
+          Obrigado
+        </h1>
+        <p>
+          Davidson Fellipe | @davidsonfellipe
+          <br>
+          www.fellipe.com
+          <br>
+          Out 8, 2011
+        </p>
+      </article>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EV10PWT7QL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EV10PWT7QL');
+	</script>
+  </body>
+</html>
