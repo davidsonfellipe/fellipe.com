@@ -12,7 +12,7 @@ The website is built on the following technologies:
 - Styled-components: This CSS-in-JS library allows an integration of styles with components.
 - Next.js: Leveraging the capabilities of React, Next.js enables server-side rendering, automatic code splitting, and easy deployment.
 
-## Hosting
+## 🛜 Hosting
 
 The website is hosted on Vercel.
 
