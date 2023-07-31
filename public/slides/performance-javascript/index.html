@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahe (code)
+           Marcin Wichary (code and design)
+
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+<html>
+  <head>
+    <!-- general meta  tags -->
+    <title>Performance Javascript</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Performance Javascript">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <!-- open graph -->
+    <meta property="og:title" content="Palestra sobre a Performance em Javascript">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Palestra destacando principais pontos para melhorar a performance de aplicações javascript">
+    <meta property="og:url" content="https://fellipe.com/slides/performance-javascript/">
+    <meta property="og:image" content="https://fellipe.com/slides/performance-javascript/i/facebook.png">
+    <meta property="og:site_name" content="fellipe.com">
+    <meta property="fb:app_id" content="337306756343400">
+
+    <!-- google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700|Open+Sans:regular,semibold,italic,italicsemibold' rel='stylesheet' type='text/css'>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="c/min.css">
+    <!-- <link rel="stylesheet" href="c/style-main.css"> -->
+    <!-- <link rel="stylesheet" href="c/style-theme.css"> -->
+
+  </head>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+
+      <!-- abertura -->
+      <article class='fill abertura car'>
+        <h1 class="black-highlight">
+          Performance Javascript
+          <span class="author">
+          por Davidson Fellipe
+          </span>
+        </h1>
+        <div class='source white'>
+          Workshop na Globo.com (2012) e BrazilJS (2012)
+        </div>
+      </article>
+
+
+      <!-- about me -->
+      <article class="about-me">
+        <img src="i/me2.png" class="photo" width="180" height="176">
+        <h1 class="black">
+          Davidson Fellipe
+        </h1>
+        <ul class="lista-jovem">
+          <li>recife &#9992; frontend engineer at globo.com ~ 2 anos</li>
+          <li>&#10026; riojs, pernambucojs, frontinbh e frontinmaceio</li>
+          <li>&#9749; mestrando na puc-rio</li>
+          <li>&#9786; subscribe me <a href="http://facebook.com/fellipe">facebook.com/fellipe</a></li>
+        </ul>
+      </article>
+
+      <!-- github -->
+      <article class='fill smaller futpedia-site'>
+
+        <h2 class="black-highlight">trabalhando há 9 meses</h2>
+      </article>
+
+      <article class="pensando">
+        <h1 class="white black-highlight">
+          por que performance?
+        </h1>
+      </article>
+
+      <article>
+        <h1 class="center">
+          alto processamento<br>+<br>
+          consumo de memória<br>=<br>
+          apps lentas
+        </h1>
+      </article>
+
+      <article class='fill old-pc'>
+        <h1 class="white black-highlight">
+          pouca memória... baixa cpu...
+        </h1>
+        <div class="source">
+          <a href="http://www.classiccmp.org/dunfield/franklin/index.htm">http://www.classiccmp.org/dunfield/franklin/index.htm</a>
+        </div>
+      </article>
+
+      <article class='fill new-pc'>
+        <h1 class="white black-highlight">
+          isso vai nos impedir de ter aplicações lentas?
+        </h1>
+        <div class="source">
+          <a href="http://www.classiccmp.org/dunfield/franklin/index.htm">http://www.classiccmp.org/dunfield/franklin/index.htm</a>
+        </div>
+      </article>
+
+      <article class="hulk">
+        <h1 class="white black-highlight">
+          usuários adoram espera...
+        </h1>
+      </article>
+
+      <article>
+        <h1 class="black">
+          +1 segundo para carregar o que significa?
+        </h1>
+      </article>
+
+      <article class="smaller">
+        <q>
+          Mozilla shaved <strong class="blue">2.2</strong> seconds off their landing pages, thereby increasing download conversions by
+          <strong class="blue">15.4%</strong>, which they estimate will result in 60 million more Firefox downloads per year.
+        </q>
+        <div class='source'>
+          <a href="http://blog.mozilla.org/metrics/category/website-optimization/">
+            http://blog.mozilla.org/metrics/category/website-optimization/
+          </a>
+        </div>
+      </article>
+
+      <article class="smaller">
+        <q>
+          Yahoo increased traffic by <strong class="blue">9%</strong> for every <strong class="blue">400</strong> milliseconds of improvement.
+        </q>
+        <div class='source'>
+          <a href="http://www.slideshare.net/stoyan/yslow-20-presentation">
+            http://www.slideshare.net/stoyan/yslow-20-presentation
+          </a>
+        </div>
+      </article>
+
+      <article class="smaller">
+        <q>
+          Amazon found that it increased revenue by <strong class="blue">1%</strong> for every <strong class="blue">100</strong> milliseconds of improvement
+        </q>
+        <div class='source'>
+          <a href="https://sites.google.com/site/glinden/Home/StanfordDataMining.2006-11-28.ppt?attredirects=0">
+            https://sites.google.com/site/glinden/Home/StanfordDataMining.2006-11-28.ppt?attredirects=0
+          </a>
+        </div>
+      </article>
+
+      <article>
+        <h1 class="black">
+          Qual a importância da performance frontend para seus projetos?
+        </h1>
+      </article>
+
+      <article class="top10">
+        <h1 class="white black-highlight">
+          performance de frontend
+        </h1>
+        <div class="top10"></div>
+                <div class='source'>
+          <a href="http://www.stevesouders.com/blog/2012/02/10/the-performance-golden-rule/">
+            http://www.stevesouders.com/blog/2012/02/10/the-performance-golden-rule/
+          </a>
+        </div>
+      </article>
+
+      <!-- Donald Knuth -->
+      <article class="smaller">
+        <q>
+        Performance golden rule: Optimize front-end performance first, that's where 80/90% of the end-user response time is spent.
+        </q>
+        <div class='author'>
+          Steve Souders
+        </div>
+        <div class='source '>
+          vídeo da palestra: <a href="http://www.youtube.com/watch?v=OlkW5DKr6G8" class="href">http://www.youtube.com/watch?v=OlkW5DKr6G8</a>
+        </div>
+      </article>
+
+<!--       <article>
+        <h1 class="center">
+          mensure
+
+          &
+
+          Monitore
+        </h1>
+      </article>
+ -->
+
+      <article class="smaller compress">
+        <h1 class="black-highlight">comprimindo seu código</h1>
+        <div class="source">
+          <a href="http://www.flickr.com/photos/moosicorn/5172660816/sizes/l/in/photostream/">
+            http://www.flickr.com/photos/moosicorn/5172660816/sizes/l/in/photostream/
+          </a>
+        </div>
+
+      </article>
+
+     <!-- depencia cada vez maior de scripts externos -->
+      <article class='fill '>
+         <h4>
+            criando o seu min.js
+        </h4>
+        <ul class="lista-jovem">
+          <li>
+            comprima seus arquivos JS
+          </li>
+          <li>
+            minifique seus arquivos JS
+          </li>
+          <li>
+            e não esqueça do gzip
+          </li>
+        </ul>
+      </article>
+      <article class="fill yui-compressor">
+        <h4 class="black-highlight">
+          <a href="developer.yahoo.com/yui/compressor/" class="white">
+            yui compressor
+          </a>
+        </h4>
+      </article>
+
+      <article class="smaller">
+        <h1 class="black-highlight">carregamento e execução</h1>
+        <img src="i/loading.gif" alt="" class="loading" width="200" height="200">
+      </article>
+
+     <!-- depencia cada vez maior de scripts externos -->
+      <article class='fill '>
+         <h4>
+            maiores desafios
+        </h4>
+        <ul class="lista-jovem">
+          <li>
+            evitar bloquear o carregamento da página
+          </li>
+          <li>
+            interação rápida
+          </li>
+          <li>
+            melhoria da percepção
+          </li>
+        </ul>
+      </article>
+
+      <!-- head.js -->
+      <article>
+        <ul class="lista-jovem">
+          <li>natureza bloqueante do javascript...</li>
+        </ul>
+        <h1>
+          mas o que é ser bloqueante?
+        </h1>
+      </article>
+
+      <!-- head.js -->
+      <article class="semaforo">
+        <h1 class="white">
+          atualizações da interface<br>
+          vs<br>
+          execução do JavaScript
+        </h1>
+        <div class="source">
+          <a href="http://www.flickr.com/photos/sergeen/4909883654/sizes/l/in/photostream/">http://www.flickr.com/photos/sergeen/4909883654/sizes/l/in/photostream/</a>
+        </div>
+      </article>
+
+      <!-- head.js -->
+      <article >
+        <h1 class="black">
+          UI Thread
+        </h1>
+        <div class="source">
+          http://www.slideshare.net/nzakas/high-performance-javascript-jquery-conference-sf-bay-area-2010-3843763
+        </div>
+      </article>
+
+      <!-- head.js -->
+      <article class="">
+        <h4>exemplo UI Thread</h4>
+        <pre>
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Script Example&lt;/title&gt; &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;genesis&lt;/p&gt;
+      &lt;script type="text/javascript"&gt;
+        var i = 1000000000;
+
+        while(i--){}
+      &lt;/script&gt;
+    &lt;p&gt;apocalipse&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+      </article>
+
+      <!-- Donald Knuth -->
+      <article class="transito">
+        <h1 class="black-highlight">
+        javascript demorado<br>
+        =<br>
+        UI sem resposta
+        </h1>
+      </article>
+
+      <article>
+        <h1 class="white-highlight">
+        o que é um script demorado para o browser?
+        </h1>
+        <ul class="lista-jovem">
+          <li>IE - 5M statements ou HKEY MaxScriptStatements.</li>
+          <li>Firefox - 10s ou dom.max_script_run_time key.</li>
+          <li>Safari - 5s</li>
+          <li>Chrome não tem limite e confia no crash detection.</li>
+          <li>Opera - nenhum.</li>
+        </ul>
+      </article>
+
+      <article>
+        <h1 class="white-highlight">
+        o que é um script demorado para o browser?
+        </h1>
+        <p>
+          Jakob Nielsen afirma que a interface não pode responder à entrada do usuário, em um tempo maior que 100 milissegundos.
+        </p>
+      </article>
+
+      <!-- Chrome Frame - meta tag -->
+      <article>
+        <h1 class="white-highlight">
+        Chrome Frame
+        <span class="subtitle">meta tag</span>
+        </h1>
+        <pre>&lt;meta http-equiv="X-UA-Compatible" content="chrome=1"&gt;</pre>
+          <div class='source'>
+            documentação oficial:
+            <a href="https://developers.google.com/chrome/chrome-frame/">https://developers.google.com/chrome/chrome-frame/</a>
+          </div>
+      </article>
+
+      <!-- Chrome Frame - apache -->
+      <article>
+        <h1 class="white-highlight">
+        Chrome Frame
+        <span class="subtitle">
+          apache
+        </span>
+        </h1>
+        <pre>
+&lt;IfModule mod_setenvif.c&gt;
+  &lt;IfModule mod_headers.c&gt;
+    BrowserMatch chromeframe gcf
+    Header append X-UA-Compatible "chrome=1" env=gcf
+  &lt;/IfModule&gt;
+&lt;/IfModule&gt;</pre>
+        <div class='source'>
+          mais sobre o chrome frame:
+          <a href="http://www.html5rocks.com/en/tutorials/google-chrome-frame/">http://www.html5rocks.com/en/tutorials/google-chrome-frame/</a>
+        </div>
+      </article>
+
+      <!-- scriptloader -->
+      <article>
+        <h1 class="white-highlight">
+          apenas script tag
+          <br>
+          <span class="subtitle no-before">
+            <br>
+            &#x2714; carrega em paralelo
+            <br>
+            &#x2714; executa em ordem
+          </span>
+        </h1>
+        <pre>
+&lt;script src="arquivo1.js"&gt;&lt;/script&gt;
+&lt;script src="arquivo2.js"&gt;&lt;/script&gt;</pre>
+      </article>
+
+
+      <!-- scriptloader -->
+      <article>
+        <h1 class="white-highlight">
+          XHR Injection
+          <br>
+          <span class="subtitle no-before">
+            <br>
+            &#x2714; carrega em paralelo
+            <br>
+            &#x2717; executa em ordem
+          </span>
+        </h1>
+        <pre>
+var se = document.createElement('script');
+document.getElementsByTagName('head')[0].appendChild(se);
+se.text = xhrObj.responseText;</pre>
+      </article>
+
+
+      <!-- scriptloader -->
+      <article>
+        <h1 class="white-highlight">
+          Script DOM Element
+          <br>
+          <span class="subtitle no-before">
+            <br>
+            &#x2714; carrega em paralelo
+            <br>
+            &#x2717; executa em ordem
+          </span>
+        </h1>
+        <pre>
+var domscript = document.createElement('script');
+domscript.src = "menu.js";
+document.getElementsByTagName('head')[0].appendChild(domscript);</pre>
+      </article>
+
+      <!-- scriptloader -->
+      <article>
+        <h1 class="white-highlight">
+          tag script usando Defer
+          <br>
+          <span class="subtitle no-before">
+            <br>
+            &#x2714; carrega em paralelo
+            <br>
+            &#x2717; executa em ordem
+          </span>
+        </h1>
+        <pre>
+&lt;script defer src="arquivo1.js"&gt;&lt;/script&gt;
+&lt;script defer src="arquivo2.js"&gt;&lt;/script&gt;</pre>
+      </article>
+
+      <!-- head.js -->
+      <article>
+        <h1 class="white-highlight">
+        head.js
+        <span class="subtitle">
+          carregue em paralelo e execute em ordem
+        </span>
+        </h1>
+        <pre>
+head.js("/path/to/jquery.js",
+        "/google/analytics.js",
+        "/js/site.js", function() {
+
+        // seu codigo
+
+});</pre>
+          <div class='source'>
+            documentação oficial:
+            <a href="http://headjs.com/">http://headjs.com/</a>
+          </div>
+      </article>
+
+      <!-- head.js -->
+      <article>
+        <h1 class="white-highlight">
+        head.js
+        <span class="subtitle">
+          executando quando tudo estiver carregado
+          </span>
+        </h1>
+        <pre>
+// use jQuery on the body of the page even though it is not included yet
+head.ready(function() {
+   $("#my").jquery_plugin();
+});
+
+// load jQuery whenever you wish bottom of the page
+head.js("/path/to/jquery.js");</pre>
+          <div class='source'>
+            documentação oficial:
+            <a href="http://headjs.com/">http://headjs.com/</a>
+          </div>
+      </article>
+
+      <!-- head.js -->
+      <article>
+        <h1 class="white-highlight">
+        head.js
+        <span class="h1-smaller">
+          ainda oferece...
+          </span>
+        </h1>
+        <ul class="lista-jovem">
+          <li>Screen size detector</li>
+          <li>HTML5 enabler</li>
+          <li>Browser detector</li>
+          <li>JavaScript feature detection</li>
+        </ul>
+          <div class='source'>
+            documentação oficial:
+            <a href="http://headjs.com/">http://headjs.com/</a>
+          </div>
+      </article>
+
+      <!-- cuidado -->
+      <article class='fill smaller'>
+        <h1>repaint vs reflow</h1>
+      </article>
+
+      <article class="repaint">
+        <h4 class="black-highlight">
+        repaint
+        </h4>
+        <p class="black-highlight">
+          - quando algo é desenhado na tela
+        </p>
+        <p class="black-highlight">
+          - para mudanças visuais que não necessitam de calculo de layout
+        </p>
+        <p class="black-highlight">
+          - exemplo: color, background, background-images, visibility
+        </p>
+      </article>
+
+      <article class="reflow">
+        <h4 class="black-highlight">
+        reflow
+        </h4>
+        <p class="black-highlight">
+        requer calculo de layout
+        </p>
+        <p class="black-highlight">
+          exemplo: carregamento inicial, mudança de estilos, redimensionamento de browser, mudanças da DOM.
+        </p>
+      </article>
+
+      <article class='fill social-buttons'>
+        <h4 class="black-highlight">Social Buttons</h4>
+      </article>
+
+
+     <!-- depencia cada vez maior de scripts externos -->
+      <article class='fill '>
+        <h4>
+            só mais um social button...
+        </h4>
+        <ul>
+          <li>
+            a essa página tem que ter um like button, ok?
+          </li>
+          <li>
+            a mais coloca o tweet button também...
+          </li>
+          <li>
+            vai que o google+, começa a bombar, vamos coloca-lo também...
+          </li>
+          <li>
+            analytics... and more...
+          </li>
+        </ul>
+        <div class='source white'>
+          -
+        </div>
+      </article>
+
+      <!-- Your Script Just Killed My Site  -->
+      <article>
+        <h1>
+          Imagine o usuário acessando a página de onde o twitter é bloqueado?
+        </h1>
+        <div class='source'>
+          vídeo da palestra: <a href="http://www.youtube.com/watch?v=aHDNmTpqi7w">http://www.youtube.com/watch?v=aHDNmTpqi7w</a>
+        </div>
+      </article>
+
+      <article class='fill socialite'>
+        <div class='source'>
+          saiba mais sobre o socialite: <a href="http://socialitejs.com/">http://socialitejs.com/</a>
+        </div>
+      </article>
+
+      <!-- cuidado -->
+      <article class='fill girl'>
+        <h1 class="black">
+          javascript mobile...
+        </h1>
+      </article>
+
+      <!-- cuidado -->
+      <article class='fill kindle'>
+        <h5>
+          Kindle 3: Processador ARM11 Freescale 532 MHz, <br>
+          browser webkit, JavaScript, SSL e cookies.
+        </h5>
+        <h1 class="black">
+          javascript onde?
+        </h1>
+      </article>
+
+      <article class='fill'>
+        <h1>Consumo de energia e o Javascript</h1>
+      </article>
+
+      <article class='fill bat'>
+        <h1 class="black-highlight center">consumo de energia x<br>  capacidade de processamento</h1>
+      </article>
+
+      <article class="multimetro">
+        <h4 class="black-highlight">
+          Who killed my battery,<br> WWW 2012, Stanford University
+        </h4>
+      </article>
+
+      <article>
+        <h4>
+          Consumo em joules
+        </h4>
+        <ul>
+          <li>
+            <a href="http://www2012.org/proceedings/proceedings/p41.pdf">Who killed my battery</a>, WWW 2012
+          </li>
+        </ul>
+        <img src="i/battery_web_graph.png" width="730" height="283" alt="Gráfico sobre consumo de baterias">
+      </article>
+
+      <article>
+        <h4>
+          percentual consumido da bateria
+        </h4>
+        <img src="i/energia_tabela.png" width="480" height="527" alt="Gráfico sobre consumo de baterias">
+      </article>
+
+      <article>
+        <h4>
+          consumo de javascript
+        </h4>
+        <img src="i/transmissao_render.png" width="533" height="350" alt="Gráfico sobre consumo de baterias">
+      </article>
+
+      <article>
+        <h4>
+          Exemplo: seletores jQuery
+        </h4>
+        <img src="i/seletores.png"  alt="Gráfico sobre consumo de baterias" width="820" height="476">
+        <div class="source">
+          <a href="http://jsperf.com/jquery-selectors-context/2">http://jsperf.com/jquery-selectors-context/2</a>
+        </div>
+      </article>
+
+<!--       <article class="">
+        <h4>JSPERF DE VARIÁVEL LOCAL OU GLOBAL</h4>
+        <pre>
+Benchmark.prototype.setup = function() {
+
+  var a,b=0;
+
+  function x() {
+    for(a=0;a<20;a++) b+=a;
+  }
+  function y() {
+    var c,d=0;
+    for(c=0;c<20;c++) d+=c;
+  }
+  function z(){
+    var c = a,d = b;
+    for(c=0;c<20;c++) d+=c;
+  }
+};</pre>
+      </article>
+
+      <article>
+        <h4>
+          JSPERF de Variável local ou global
+        </h4>
+        <img src="i/perf-local.png"  alt="Gráfico sobre consumo de baterias">
+      </article>
+
+      <article>
+        <h4>
+          JSPERF de Variável local ou global
+        </h4>
+        <ul class="lista-jovem">
+          <li>ajuda o YUI compressor</li>
+          <li></li>
+        </ul>
+      </article>
+ -->
+      <article class='fill smaller jslitmus'>
+        <h1 class="black-highlight">JSLitmus</h1>
+      </article>
+
+      <article class='fill smaller web-page-1'>
+        <h1 class="black-highlight">web page test</h1>
+      </article>
+
+      <article class='fill smaller web-page-2'>
+      </article>
+
+      <article class='fill smaller web-page-3'>
+      </article>
+
+      <article class='fill smaller yslow'>
+        <h1 class="black-highlight">yslow</h1>
+      </article>
+
+      <article class='fill smaller page-speed'>
+        <h1 class="black-highlight">page speed</h1>
+      </article>
+
+      <!-- thankyou -->
+      <article class='fill smaller obrigado bgdark'>
+
+        <h1 class="white">OBRIGADO!</h1>
+
+        <ul class="lista-jovem">
+            <li>
+              <a href="https://fellipe.com/slides/performance-javascript">fellipe.com/slides/performance-javascript</a>
+            </li>
+            <li>
+              <a href="https://github.com/davidsonfellipe">github.com/davidsonfellipe</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/davidsonfellipe">twitter.com/davidsonfellipe</a>
+            </li>
+            <li>
+              <a href="https://facebook.com/fellipe">facebook.com/fellipe</a>
+            </li>
+            <li>
+              <a href="https://fellipe.com/">fellipe.com</a>
+            </li>
+        </ul>
+      </article>
+
+      <article class='fill smaller obrigado yoda'>
+
+        <h1 class="black black-highlight">perguntas?</h1>
+
+      </article>
+
+    </section>
+
+    <div class="social-wgt">
+
+      <div  id="fb-like"
+            class="fb-like"
+            data-href="https://fellipe.com/slides/performance-javascript/"
+            data-send="false"
+            data-layout="button_count"
+            data-width="100"
+            data-show-faces="false"></div>
+
+      <a href="https://twitter.com/share" class="twitter-share-button" data-lang="pt" data-hashtags="performance-js">Tweetar</a>
+    </div>
+
+    <div id="fb-root"></div>
+
+    <script src='j/min.js'></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EV10PWT7QL"></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-EV10PWT7QL');
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=236409829747888";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+
+      !function(d,s,id){
+        var js,fjs = d.getElementsByTagName(s)[0];
+        if(!d.getElementById(id)){
+          js=d.createElement(s);
+          js.id=id;
+          js.src="//platform.twitter.com/widgets.js";
+          fjs.parentNode.insertBefore(js,fjs);
+      }}(document,"script","twitter-wjs");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahe (code)
+           Marcin Wichary (code and design)
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: https://code.google.com/p/html5slides/
+-->
+<html>
+  <head>
+    <title>RDF</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Palestra sobre a RDF e RDFS">
+
+    <!-- open graph -->
+    <meta property="og:title" content="Palestra sobre a RDF e RDFS">
+    <meta property="og:type" content="article"/>
+    <meta property="og:description" content="Destacando alguns pontos sobre RDF e RDFS">
+    <meta property="og:url" content="https://fellipe.com/slides/rdf/">
+    <meta property="og:image" content="https://fellipe.com/slides/rdfs/i/abertura.png">
+    <meta property="og:site_name" content="fellipe.com">
+    <meta property="fb:app_id" content="337306756343400">
+
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700|Open+Sans:regular,semibold,italic,italicsemibold' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/slides/rdfs/c/style-main.css">
+    <link rel="stylesheet" href="/slides/rdfs/c/style-theme.css">
+
+  </head>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+      <!-- abertura -->
+      <article class='fill abertura smaller'>
+          <h1 class="bgdark">
+            RDF &amp; RDFS
+          </h1>
+        <p class="black">
+          por Davidson Fellipe
+        </p>
+        <span class='source black'>
+          apresentado na disciplina tópicos de hipertexto e multimídia II - mestrado infomática @ puc-rio
+        </span>
+      </article>
+
+      <!-- about talk -->
+      <article>
+        <h1 class="black">
+          Você pode utilizar as setas para navegar
+          <span class="highlight">&larr; &rarr;</span>
+        </h1>
+      </article>
+
+      <!-- about me -->
+      <article class="about-me">
+        <img src="/slides/rdfs/i/me.png" class="photo">
+        <h1 class="highlight">
+          Davidson Fellipe
+        </h1>
+      <ul>
+        <li>frontend engineer na globo.com</li>
+        <li>mestrando na puc-rio</li>
+        <li>para saber mais sobre mim, visite <a href="https://fellipe.com">fellipe.com</a></li>
+      </ul>
+      </article>
+
+      <!-- topicos -->
+      <article>
+        <h1 class="black">
+          Tópicos
+        </h1>
+      <ul>
+        <li>Web Semântica</li>
+        <li>RDF</li>
+        <li>RDF Schema</li>
+      </ul>
+      </article>
+
+      <article class="smaller">
+        <h4>
+         computadores
+        </h4>
+        <q class="black">
+        trabalham com processamento lógico, mas não são capazes de fazer associações de significados.
+        </q>
+        <div class="author">SANTARÉM, J. E. S. &amp; <br> VIDOTTI, S. A. B. G</div>
+        <div class="source source-small">
+          Organização da informação na web: a busca na qualidade do armazenamento e da recuperação com a utilização de XML e RDF. In: SIMPÓSIO EM FILOSOFIA E CIÊNCIAS, 5., 2003, Marília. Anais... Marília: Unesp Marília Publicações, 2003.
+        </div>
+      </article>
+
+      <article class="smaller">
+        <h4>
+         mente humana
+        </h4>
+        <q class="black">
+          Capaz de juntar partes de informações e de estabelecer um novo contexto, identificando o significado das informações e assimilando um novo conhecimento.
+        </q>
+      </article>
+
+      <article>
+        <h4>
+        com essa idéia,<br>
+        Tim Berners-Lee propôs:
+        </h4>
+        <h1 class="black">
+          A web semântica, em 1994
+        </h1>
+        <div class="source">
+          <a href="https://www.w3.org/Talks/WWW94Tim/">https://www.w3.org/Talks/WWW94Tim/</a>
+        </div>
+      </article>
+
+      <article>
+        <h4>
+          a web atual
+        </h4>
+        <h1 class="black">HTTP + URI + HTML
+        </h1>
+      </article>
+
+      <article class="human">
+        <h1>
+          atualmente temos uma web boa para humanos...
+        </h1>
+        </div>
+        <div class="source">
+          <a href="http://rocksonpessoa.blogspot.com.br/2012/05/felicidade-parasitaria.html">http://rocksonpessoa.blogspot.com.br/2012/05/felicidade-parasitaria.html</a>
+        </div>
+      </article>
+
+      <article class="como-extrair macaco2">
+        <h1>
+          mas como extrair informações<br> dos documentos HTML?
+        </h1>
+        <div class="source">
+          <a href="https://www.flickr.com/photos/raulcid/4263625334/sizes/o/in/photostream/">http://www.flickr.com/photos/raulcid/4263625334/sizes/o/in/photostream/</a>
+        </div>
+      </article>
+
+      <article class="como-extrair smile">
+        <h1>
+          A Web Semântica trará uma web em que as máquinas possam entendê-la melhor.
+        </h1>
+        <div class="source">
+          <a href="https://www.flickr.com/photos/lhamadomal/4660898150/sizes/l/in/photostream/">http://www.flickr.com/photos/lhamadomal/4660898150/sizes/l/in/photostream/</a>
+        </div>
+      </article>
+
+      <article>
+        <h4>
+          web semântica
+        </h4>
+        <h1 class="black">URI + RDF<br>
+          Dados + Objetos + Conceitos
+        </h1>
+      </article>
+
+      <article>
+        <h4>
+          Principais pontos da Web Semântica?
+        </h4>
+        <ul class="lista-jovem">
+          <li>web de documentos para web de dados</li>
+          <li>dados devem ser acessados usando a arquitetura da web, e.g. URI-s</li>
+          <li>dados deve ser relacionados uns aos outros não somente como documentos</li>
+          <li>documentos serem processados automaticamente de forma mais padronizada</li>
+        </ul>
+      </article>
+
+      <article>
+        <h1>
+          RDF
+        </h1>
+        <h2>
+          Resource Description Framework
+        </h2>
+        <div class="source">
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+          RDF
+        </h4>
+        <h1 class="black">
+          É um framework para representação de informações de recursos na web.
+        </h1>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <article class='fill smaller'>
+        <h4>
+          RDF
+        </h4>
+        <h1 class="black">
+          Busca trazer uma forma simplificada de fazer declarações sobre recursos na Web.
+        </h1>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <article class='fill smaller'>
+        <h4>
+          RDF
+        </h4>
+        <h1 class="black">
+          Visa melhorar a interoperabilidade diante a imensa quantidade de formatos incompatíveis na web
+        </h1>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <article class='fill smaller'>
+        <h4>
+          RDF
+        </h4>
+        <h1 class="black">
+         estende a estrutura de ligação da Web usando URIs para nomear a relação entre as coisas.
+        </h1>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <article class='fill smaller'>
+        <h4>
+          RDF
+        </h4>
+        <h1 class="black">
+         permitindo que os dados estruturados e semi-estruturados possam ser expostos.
+        </h1>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+            O que pode ser um RECURSO?<br>(o R do RDF)
+        </h4>
+        <ul class="lista-jovem">
+          <li>lugar</li>
+          <li>pessoa</li>
+          <li>livro</li>
+          <li>documentos</li>
+          <li>conceitos abstratos</li>
+        </ul>
+        <div class='source white'>
+          <a href="http://www.slideshare.net/olafhartig/an-introduction-to-rdf-and-the-web-of-data">http://www.slideshare.net/olafhartig/an-introduction-to-rdf-and-the-web-of-data</a>
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+          Como posso DESCREVER recursos?<br>
+          (o D do RDF)
+        </h4>
+        <ul class="lista-jovem">
+          <li>Atributos e Características</li>
+          <li>Relações</li>
+        </ul>
+        <div class='source white'>
+          <a href="http://www.slideshare.net/olafhartig/an-introduction-to-rdf-and-the-web-of-data">http://www.slideshare.net/olafhartig/an-introduction-to-rdf-and-the-web-of-data</a>
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+          O que contem o FRAMEWORK?<br>
+          (o F do RDF)
+        </h4>
+        <ul class="lista-jovem">
+          <li>Modelo de dado</li>
+          <li>Sintaxe</li>
+          <li>Linguagem</li>
+        </ul>
+        <div class='source white'>
+          <a href="http://www.slideshare.net/olafhartig/an-introduction-to-rdf-and-the-web-of-data">http://www.slideshare.net/olafhartig/an-introduction-to-rdf-and-the-web-of-data</a>
+        </div>
+      </article>
+<!--
+
+      <article class='fill'>
+        <h4>
+            Motivação e objetivos
+        </h4>
+        <ul class="lista-jovem">
+          <li> Web metadata: providing information about Web resources and the systems that use them (e.g. content rating, capability descriptions, privacy preferences, etc.)</li>
+          <li>Applications that require open rather than constrained information models (e.g. scheduling activities, describing organizational processes, annotation of Web resources, etc.)</li>
+          <li>To do for machine processable information (application data) what the World Wide Web has done for hypertext: to allow data to be processed outside the particular environment in which it was created, in a fashion that can work at Internet scale.</li>
+          <li>Interworking among applications: combining data from several applications to arrive at new information.</li>
+          <li>Automated processing of Web information by software agents: the Web is moving from having just human-readable information to being a world-wide network of cooperating processes. RDF provides a world-wide lingua franca for these processes.</li>
+        </ul>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+
+      <article class='fill'>
+        <h4>
+            Design Goals
+        </h4>
+        <ul class="lista-jovem">
+          <li>
+            Ter um simples modelo de dados, semântica formal e possibilidade de inferência
+          <li>
+            uso de um vocabulário baseado em URI e sintaxe baseada em XML
+          </li>
+          <li>
+            supporting use of XML schema datatypes
+          </li>
+          <li>
+            permitir que qualquer um descreva um comportamento sobre qualquer recurso
+          </li>
+        </ul>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <article class='fill macaco'>
+        <h4>
+            Anyone Can Make Statements About Any Resource
+        </h4>
+        <ul class="lista-jovem">
+          <li class="black">Permitir que qualquer um descreve comportamentos para facilitar o funcionamento na escala.</li>
+          <li class="black">
+            In general, it is not assumed that complete information about any resource is available. RDF does not prevent anyone from making assertions that are nonsensical or inconsistent with other statements, or the world as people see it. Designers of applications that use RDF should be aware of this and may design their applications to tolerate incomplete or inconsistent sources of information.
+          </li>
+        <ul>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+ -->
+
+      <article class='fill smaller'>
+        <h4>
+          RDF é uma aplicação XML?
+        </h4>
+        <h1 class="black">
+          Não. O modelo fundamento de RDF é independente de XML.
+        </h1>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+            Mais conceitos sobre RDF
+        </h4>
+        <ul class="lista-jovem">
+          <li>
+            Suas recomendações foram publicadas em 2004, pelo W3C.
+          </li>
+          <li>
+            Não é uma linguagem, mas sim, um modelo.
+          </li>
+          <li>
+            Utilizada para descrever recursos na web
+          </li>
+          <li>
+            É um padrão para intercâmbio de dados na Web.
+          </li>
+        </ul>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+            RDF têm três componentes básicos
+        </h4>
+        <ul class="lista-jovem">
+          <li>
+            Recurso: Qualquer coisa que pode conter uma URI, pode ser páginas da web, assim como outros elementos de um documento XML.
+          </li>
+          <li>
+            Propriedade: Um recurso que tenha um determinado nome e possa ser utilizado como uma propriedade.
+          </li>
+          <li>
+            Indicação: consiste na combinação de um recurso, de uma propriedade, e de um valor.
+          </li>
+        </ul>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+          Formato das Triplas em RDF
+        </h4>
+        <h1 class="black">
+          <br>{ sujeito predicado objeto }
+        </h1>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <article class="homer">
+        <h4>
+          como representaríamos em triplas RDF?
+        </h4>
+        <q>
+          Homer Simpson tem a cor amarela
+        </q>
+        <div class="source">
+          The Simpsons® é uma marca Twentieth Century Fox Film Corporation
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+          Formato das Triplas em RDF
+        </h4>
+        <h1 class="black">
+          {<br> "Homer Simpson"<br>
+                 :tem_cor<br>
+                 "amarela"<br> }
+        </h1>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <!-- about conference -->
+      <article class='fill'>
+        <h4>
+            RDF Schema
+        </h4>
+        <ul class="lista-jovem">
+          <li>
+             é uma extensão semântica do RDF
+          </li>
+          <li>
+             classes hierarquicas e propriedades hierarquicas
+          </li>
+          <li>
+            tem várias abreviações RDFS, RDF(S), RDF-S, or RDF/S
+          </li>
+          <li>
+            A 1ª versão foi publicada, pelo W3C, em Abril/98
+          </li>
+        </ul>
+        <div class='source white'>
+          <a href="https://www.w3.org/TR/rdf-schema/">https://www.w3.org/TR/rdf-schema/</a>
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+          Schema
+        </h4>
+        <h1 class="black">
+          utilizados apenas para definir as propriedades dos recursos, mas também os tipos de recursos descritos.
+        </h1>
+        <div class='source white'>
+          <a href="https://www.w3.org/RDF/">https://www.w3.org/RDF/</a>
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+          Elemento raíz e namespace
+        </h4>
+        <pre class="smaller">
+&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;rdf:RDF xmlns:rdf=&quot;https://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;
+         xmlns:rdfs=&quot;https://www.w3.org/2000/01/rdf-schema#&quot;
+         xml:base=&quot;http://www.animals.fake/animals#&quot;&gt;
+&lt;/rdf:RDF&gt;
+        </pre>
+        <div class='source white'>
+          <a href="https://www.w3.org/TR/rdf-schema/">https://www.w3.org/TR/rdf-schema/</a>
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+          RDF description
+        </h4>
+        <p>
+          <strong>rdf:about</strong> se refere a um recurso existente<br>
+          <strong>rdf:ID</strong> criação de um recurso
+        </p>
+        <pre class="smaller">
+&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;rdf:RDF xmlns:rdf=&quot;https://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;
+         xmlns:rdfs=&quot;https://www.w3.org/2000/01/rdf-schema#&quot;
+         xml:base=&quot;http://www.animals.fake/animals#&quot;&gt;
+  &lt;rdf:Description rdf:ID=&quot;animal&quot;&gt;
+    &lt;rdf:type
+       rdf:resource=&quot;https://www.w3.org/2000/01/rdf-schema#Class&quot;/&gt;
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+        </pre>
+        <div class='source white'>
+          <a href="https://www.w3.org/TR/rdf-schema/">https://www.w3.org/TR/rdf-schema/</a>
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+            Exemplo simplificado de RDF Schema
+        </h4>
+        <pre class="smaller">
+&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;rdf:RDF xmlns:rdf=&quot;https://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;
+         xmlns:rdfs=&quot;https://www.w3.org/2000/01/rdf-schema#&quot;
+         xml:base=&quot;http://www.animals.fake/animals#&quot;&gt;
+  &lt;rdf:Description rdf:ID=&quot;animal&quot;&gt;
+    &lt;rdf:type
+     rdf:resource=&quot;https://www.w3.org/2000/01/rdf-schema#Class&quot;/&gt;
+  &lt;/rdf:Description&gt;
+  &lt;rdf:Description rdf:ID=&quot;horse&quot;&gt;
+    &lt;rdf:type
+     rdf:resource=&quot;https://www.w3.org/2000/01/rdf-schema#Class&quot;/&gt;
+    &lt;rdfs:subClassOf rdf:resource=&quot;#animal&quot;/&gt;
+  &lt;/rdf:Description&gt;
+&lt;/rdf:RDF&gt;
+        </pre>
+        <div class='source white'>
+          <a href="https://www.w3.org/TR/rdf-schema/">https://www.w3.org/TR/rdf-schema/</a>
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h4>
+          RDF Schema especificar convenções
+        </h4>
+        <ul class="lista-jovem">
+          <li>Classe têm a primeira letra maiúscula<br>Exemplo: rdfs:Resource</li>
+          <li>Propriedades não têm a primeira letra maiúscula<br>Exemplo: rdfs:domain</li>
+          <li>Palavras adicionais ao nome são maiúsculas Exemplo: rdfs:subClassOf e rdfs:ConstraintProperty</li>
+        </ul>
+      </article>
+
+      <article class='fill smaller'>
+        <h4>
+            RDF Classes - parte 1
+        </h4>
+        <table border="1" summary="RDF classes">
+          <tbody valign="top">
+            <tr>
+              <td>rdfs:Resource</td>
+              <td>Classe para recursos, ou seja qualquer coisa.</td>
+            </tr>
+            <tr>
+              <td>rdfs:Literal</td>
+              <td>Classe para strings ou inteiros.</td>
+            </tr>
+            <tr>
+              <td>rdf:XMLLiteral</td>
+              <td>Classe para valores literais de XML.</td>
+            </tr>
+            <tr>
+              <td>rdfs:Class</td>
+              <td>Classes de classes.</td>
+            </tr>
+            <tr>
+              <td>rdf:Property</td>
+              <td>Classe para propriedades RDF.</td>
+            </tr>
+            <tr>
+              <td>rdfs:Datatype</td>
+              <td>Classe para tipos de dados RDF</td>
+            </tr>
+            <tr>
+              <td>rdf:Statement</td>
+              <td>Classe para declarações de RDF.</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class='source white'>
+          <a href="https://www.w3.org/TR/rdf-schema/">https://www.w3.org/TR/rdf-schema/</a>
+        </div>
+      </article>
+
+      <!-- about conference -->
+      <article class='fill smaller'>
+        <h4>
+            RDF Classes - parte 2
+        </h4>
+        <table border="1" summary="RDF classes">
+          <tbody valign="top">
+            <tr>
+              <td>rdf:Bag</td>
+              <td>Classe para conteiners que não exigem ordenação.</td>
+            </tr>
+            <tr>
+              <td>rdf:Seq</td>
+              <td>Classe para conteiners que exigem ordenação.</td>
+            </tr>
+            <tr>
+              <td>rdf:Alt</td>
+              <td>Classe para conteiners de alternativas.</td>
+            </tr>
+            <tr>
+              <td>rdfs:Container</td>
+              <td>Classe de containers RDF.</td>
+            </tr>
+            <tr>
+              <td>rdf:List</td>
+              <td>Classe para listas de RDF.</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class='source white'>
+          <a href="https://www.w3.org/TR/rdf-schema/">https://www.w3.org/TR/rdf-schema/</a>
+        </div>
+      </article>
+
+       <article class="smaller">
+        <h4>
+          Referências
+        </h4>
+        <ul>
+          <li>
+            <a href="http://rdfabout.com/">rdf about/</a>
+          </li>
+        </ul>
+      </article>
+
+      <!-- thankyou -->
+      <article class='fill smaller bgdark'>
+        <h1>Obrigado!</h1>
+        <h5 class="white">
+            Davidson Fellipe<br>(@davidsonfellipe)
+        </h5>
+        <a href="https://fellipe.com/slides/rdfs">https://fellipe.com/slides/rdfs</a>
+        <a href="https://github.com/davidsonfellipe">https://github.com/davidsonfellipe/talks</a>
+      </article>
+    </section>
+
+    <div id="fb-root"></div>
+
+    <script src="/slides/rdfs/j/min.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EV10PWT7QL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-EV10PWT7QL');
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=236409829747888";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    </script>
+  </body>
+</html>
