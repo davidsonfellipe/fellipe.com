@@ -16,6 +16,9 @@ yarn-error.log
 # IDE-specific files
 .vscode
 
+# testing
+/coverage
+
 # Local vercel folder
 .vercel
 
@@ -39,6 +42,7 @@ yarn-error.log
 # Build artifacts
 /out
 /.next
+/build
 
 # Logs
 npm-debug.log*

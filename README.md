@@ -6,7 +6,7 @@
 ### 🧩 Stack
 - React
 - Styled-components
-- Gatsby
+- Nextjs
 
 ### Hosting
 - Vercel
@@ -15,8 +15,9 @@
 
 - git clone https://github.com/davidsonfellipe/fellipe.com.git
 - cd fellipe.com
-- gatsby develop
-- On browser [localhost:8000/](http://localhost:8000/)
+- yarn
+- yarn dev
+- On browser [localhost:8000/](http://localhost:3000/)
 
 ### 📖 License
 
