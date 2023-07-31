@@ -37,7 +37,7 @@ export default function Index({ posts }) {
 }
 
 export function getStaticProps() {
-  const posts = postFilePaths.map((filePath) => {
+  const posts = postFilePaths.map(filePath => {
     const source = fs.readFileSync(path.join(POSTS_PATH, filePath))
     const { content, data } = matter(source)
 
@@ -58,12 +58,6 @@ const filterPostsByLang = (allPostsData, lang) => {
     })
     .sort((postA, postB) => new Date(postB.data.date) - new Date(postA.data.date))
     .map(({ data }) => (
-      <ListItemLink
-        key={data.path}
-        url={data.path}
-        headline={data.date}
-        headlineSecondary={''}
-        title={data.title}
-      />
+      <ListItemLink key={data.path} url={data.path} headline={data.date} headlineSecondary={''} title={data.title} />
     ))
 }
