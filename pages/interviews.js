@@ -10,12 +10,12 @@ import Layout from '../components/layout'
 import interviews from '../data/interviews'
 
 const formatAllInterviews = () =>
-  interviews.map(interview => (
+  interviews.map((interview, index) => (
     <ListItemLink
       url={interview.url}
-      key={`${interview.type} · ${interview.date}`}
-      headline={`${interview.type} · ${interview.date}`}
-      headlineSecondary={interview.lang}
+      key={index}
+      headline={interview.date}
+      headlineSecondary={`${interview.type} · ${interview.lang}`}
       title={interview.title}
     />
   ))

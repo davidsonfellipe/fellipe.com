@@ -65,7 +65,7 @@ const talks = [
   {
     url: 'https://www.slideshare.net/davidsonfellipe/workflow-para-desenvolvimento-mobile-usando-gruntjs',
     title: 'Workflow para desenvolvimento mobile usando Grunt.JS',
-    where: 'Mobile Conf 2014',
+    where: 'Mobile Conf',
     city: 'Rio de Janeiro, Brazil',
     date: 'may 31, 2014',
   },
@@ -79,14 +79,14 @@ const talks = [
   {
     url: 'https://www.slideshare.net/davidsonfellipe/practical-guide-for-frontend-development-for-django-devs',
     title: 'Practical guide for front-end development for django devs',
-    where: 'Python Nordeste 2014',
+    where: 'Python Nordeste',
     city: 'Salvador, Brazil',
     date: 'may 3, 2014',
   },
   {
     url: 'https://www.slideshare.net/davidsonfellipe/guia-pratico-de-desenvolvimento-front-end-para-django-devs',
     title: 'Guia prático de Desenvolvimento Front-end para Django Devs',
-    where: 'Python Nordeste 2014',
+    where: 'Python Nordeste',
     city: 'Salvador, Brazil',
     date: 'may 3, 2014',
   },
@@ -100,7 +100,7 @@ const talks = [
   {
     url: 'https://speakerdeck.com/fellipe/its-javascript-time',
     title: "It's Javascript Time",
-    where: 'Joomla Day Rio 2013',
+    where: 'Joomla Day Rio',
     city: 'Rio de Janeiro, Brazil',
     date: 'nov 16, 2013',
   },

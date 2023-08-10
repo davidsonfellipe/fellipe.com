@@ -40,7 +40,7 @@ context('Navigation', () => {
 
     cy.title().should('include', 'Blog | Davidson Fellipe')
     cy.contains('Blog')
-    cy.contains('articles in english')
+    cy.contains('in english')
     cy.contains('articles in portuguese')
     cy.location('pathname').should('include', 'blog')
   })
