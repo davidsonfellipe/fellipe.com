@@ -11,12 +11,12 @@ import profiles from '../data/profiles'
 import talks from '../data/talks'
 
 const formatAllTalks = () =>
-  talks.map(talk => (
+  talks.map((talk, index) => (
     <ListItemLink
       url={talk.url}
-      key={`${talk.where} · ${talk.date}`}
-      headline={`${talk.where} · ${talk.date}`}
-      headlineSecondary={talk.city}
+      key={index}
+      headline={`${talk.where}`}
+      headlineSecondary={`${talk.date} · ${talk.city}`}
       title={talk.title}
     />
   ))

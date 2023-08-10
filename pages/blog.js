@@ -27,9 +27,9 @@ export default function Index({ posts }) {
       <Seo title="Blog" />
       <Section>
         <Title>Blog</Title>
-        <SubTitle>articles in english</SubTitle>
+        <SubTitle as="h2">in english</SubTitle>
         <PostsWrapper>{PostsInEnglish}</PostsWrapper>
-        <SubTitle>articles in portuguese</SubTitle>
+        <SubTitle as="h2">in portuguese</SubTitle>
         <PostsWrapper>{PostsInPortuguese}</PostsWrapper>
       </Section>
     </Layout>

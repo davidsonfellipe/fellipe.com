@@ -8,14 +8,12 @@ const HeadlineBase = styled.span`
   display: inline-block;
   font-size: 0.5rem;
   font-family: ${font.text};
-  min-width: 80px;
+  min-width: 50px;
   text-transform: uppercase;
-  background: #333;
-  color: #fff;
+  color: #666;
   line-height: 1.25rem;
-  padding: 2px 10px;
+  padding: 2px 0;
   margin-bottom: 5px;
-  text-align: center;
   vertical-align: top;
 
   ${screen.md} {
