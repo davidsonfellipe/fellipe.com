@@ -35,6 +35,15 @@ const projects = [
     stars: '100',
     year: '2014',
   },
+  {
+    repositoryURL: 'https://github.com/zenorocha/browser-diet',
+    demoURL: 'https://github.com/zenorocha/browser-diet',
+    status: 'inactive',
+    title: "Browser diet",
+    description: 'One of the authors of this front-end performance guide.',
+    stars: '2000',
+    year: '2013',
+  },
 ]
 
 export default projects
