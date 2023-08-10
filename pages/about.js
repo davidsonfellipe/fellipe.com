@@ -68,7 +68,7 @@ const AboutPage = () => (
         </ImageProfile>
         ✋ Hi there! I'm a Brazilian who has been living in Brooklyn since 2015. With over fifteen years of experience
         in the software development industry, I've had the opportunity to work for large and small companies in the US
-        and Brazil. <br />
+        and Brazil. I'm currently Senior Software Engineer, Front-end at Upgrade.com.<br />
         <br />
         During my time in the US, I worked as an Engineering Manager at Salesforce Commerce Cloud for Commerce Search
         team until 2023. In 2014, I joined Loadsmart in its early stages and was the first front-end engineer, leading
@@ -110,7 +110,7 @@ const AboutPage = () => (
       <Subtitle>Technologies used on this site</Subtitle>
       <Bio>
         <ul>
-          <li>Framework: Gatsby</li>
+          <li>Framework: Next.js</li>
           <li>Styling: Styled components</li>
           <li>Deployment: Vercel</li>
           <li>
@@ -125,7 +125,7 @@ const AboutPage = () => (
 
       <Subtitle>Tiny bio</Subtitle>
       <Bio>
-        Davidson is a Brazilian based in Brooklyn who worked as an Engineering Manager at Salesforce Commerce Cloud.
+        Davidson is a Brazilian who lives in Brooklyn and works as a Senior Software Engineer, Front-end at Upgrade.com.
       </Bio>
 
       <Subtitle>Short bio</Subtitle>
