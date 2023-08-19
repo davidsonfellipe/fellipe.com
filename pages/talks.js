@@ -2,6 +2,7 @@ import React from 'react'
 
 import Seo from '../components/seo'
 import Title from '../components/title'
+import Subtitle from '../components/subtitle'
 import Section from '../components/section'
 import ListItemLink from '../components/list-item-link'
 import PageDescription from '../components/page-description'
@@ -27,8 +28,8 @@ const TalksPage = () => (
     <Section>
       <Title>Talks</Title>
       <PageDescription>
-        Here you can find all of my talks where I share my insights related to software development with you through my
-        presentations. To access a talk, you can select one below or find them on my{' '}
+        Here you can find all of my {talks.length} talks where I share my insights related to software development.
+        To access a talk, you can select one below or find them on my{' '}
         <a href={profiles.speakerdeck.url}>Speakerdeck</a> or <a href={profiles.slideshare.url}>SlideShare</a>, using
         these platforms you can browse through my presentations.
       </PageDescription>
