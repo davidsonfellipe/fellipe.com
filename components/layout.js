@@ -44,6 +44,12 @@ export default function Layout({ children, home }) {
 const GlobalStyle = createGlobalStyle`
   :root {
     --font-family: ${ebGaramond.style.fontFamily};
+
+    // colors
+    --primary-color: #333;
+    --secondary-color: #FBDB5C;
+    --background-color: #fff;
+    --text-color: #333;
   }
 
   body {
