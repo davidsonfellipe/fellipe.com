@@ -6,6 +6,7 @@ import Layout from '../components/layout'
 import { postFilePaths, POSTS_PATH } from '../lib/mdx-utils'
 
 import Section from '../components/section'
+import SubTitle from '../components/subtitle'
 import Title from '../components/title'
 import ListItemLink from '../components/list-item-link'
 import Seo from '../components/seo'
@@ -14,8 +15,8 @@ const PostsWrapper = styled.div`
   margin-bottom: 15px;
 `
 
-const SubTitle = styled(Title)`
-  font-size: 2rem;
+const SubTitleLang = styled(SubTitle)`
+  margin: 1rem 0;
 `
 
 export default function Index({ posts }) {
@@ -27,9 +28,9 @@ export default function Index({ posts }) {
       <Seo title="Blog" />
       <Section>
         <Title>Blog</Title>
-        <SubTitle as="h2">in english</SubTitle>
+        <SubTitleLang>in english</SubTitleLang>
         <PostsWrapper>{PostsInEnglish}</PostsWrapper>
-        <SubTitle as="h2">in portuguese</SubTitle>
+        <SubTitleLang>in portuguese</SubTitleLang>
         <PostsWrapper>{PostsInPortuguese}</PostsWrapper>
       </Section>
     </Layout>

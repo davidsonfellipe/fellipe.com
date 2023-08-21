@@ -62,7 +62,7 @@ const Opening = () => (
         I'm a Brazilian based in Brooklyn with over 15 years of experience in the Software Development Industry.
       </OpeningText>
       <OpeningText>
-        Previously, I worked at <a href="https://salesforce.com/">Salesforce</a>,{' '}
+        Previously, I worked for <a href="https://salesforce.com/">Salesforce</a>,{' '}
         <a href="https://loadsmart.com/">Loadsmart</a> and <a href="https://www.globo.com/">Globo.com</a>. You can find
         more on my <a href="https://www.linkedin.com/in/fellipe/">Linkedin.</a>
       </OpeningText>
