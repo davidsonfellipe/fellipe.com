@@ -51,9 +51,9 @@ const interviews = [
     lang: 'portuguese 🇧🇷',
   },
   {
-    url: 'https://fellipe.com/assets/docs/estado-de-minas.pdf',
+    url: 'https://fellipe.com/files/estado-de-minas.pdf',
     type: 'Newspaper',
-    title: 'Interview about Front in BH Conference for Estado de Minas (brazilian newspaper)',
+    title: 'Estado de Minas (brazilian newspaper) - Interview about Front in BH Conference',
     date: 'jul 23, 2013',
     lang: 'portuguese 🇧🇷',
   },
