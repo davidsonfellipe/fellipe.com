@@ -87,6 +87,9 @@ const AboutPage = () => (
         <ul>
           <li>Framework: Next.js - A React framework for building web applications.</li>
           <li>Styling: Styled Components - A CSS-in-JS library with component-based styling.</li>
+          <li>
+            Icons: <a href="https://github.com/simple-icons/simple-icons/">Simple Icons</a>.
+          </li>
           <li>Deployment: Vercel - A platform for deployment and hosting of web applications.</li>
           <li>
             Source Code is on <a href="https://github.com/davidsonfellipe/fellipe.com">GitHub</a>.

@@ -20,7 +20,7 @@ const Wrapper = styled.div`
 
   li {
     vertical-align: top;
-    width: 75px;
+    width: 70px;
     margin: 0 20px 0 0;
 
     ${screen.md} {
@@ -39,8 +39,8 @@ const Wrapper = styled.div`
   }
 
   img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
   }
 `
 
@@ -52,7 +52,7 @@ const Name = styled.span`
   font-size: 0.5rem;
   font-weight: 600;
   line-height: 1.25rem;
-  margin-top: 0.15rem;
+  margin-top: 0.25rem;
   text-transform: uppercase;
   vertical-align: top;
 `
@@ -63,7 +63,7 @@ const formatAllSocialIcons = () => {
   return keys.map(key => (
     <li key={key}>
       <a href={profiles[key].url} target="_blank" rel="noopener noreferrer">
-        <Image width={20} height={20} src={profiles[key].icon} alt={`My profile at ${key}`} />
+        <Image width={18} height={18} src={profiles[key].icon} alt={`My profile at ${key}`} />
         <Name>{key}</Name>
       </a>
     </li>

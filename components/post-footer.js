@@ -51,7 +51,7 @@ const WrapperSocialMediaLinks = styled.div`
 const PostFooter = () => (
   <Footer>
     <WrapperImg>
-      <Image src="/images/profile.jpg" alt="profile" width={100} height={100} />
+      <Image src="/images/profile.jpg" alt="profile" width={80} height={80} />
     </WrapperImg>
     <WrapperSocialMediaLinks>
       <SocialMediaLinks />
