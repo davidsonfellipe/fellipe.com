@@ -10,6 +10,7 @@ import { font, colors } from '../styles/theme'
 export const siteTitle = 'Davidson Fellipe'
 import Header from './header'
 import Footer from './footer'
+import profiles from '../data/profiles'
 
 import { EB_Garamond } from 'next/font/google'
 
@@ -29,6 +30,7 @@ export default function Layout({ children, home }) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
+        <link href={profiles?.mastodon.url} rel="me" />
       </Head>
       <ResetStyles />
       <GlobalStyle />
