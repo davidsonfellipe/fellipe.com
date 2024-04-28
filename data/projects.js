@@ -5,7 +5,7 @@ const projects = [
     status: 'active',
     title: 'Awesome-wpo',
     description: 'A curated list of Web Performance Optimization.',
-    stars: '7900',
+    stars: '8100',
     year: '2015',
   },
   {
@@ -14,7 +14,7 @@ const projects = [
     status: 'active',
     title: 'Lena.js',
     description: 'Tiny library for image processing.',
-    stars: '570',
+    stars: '600',
     year: '2013',
   },
   {
