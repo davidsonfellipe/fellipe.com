@@ -59,7 +59,7 @@ const Opening = () => (
   <Section>
     <Block>
       <OpeningText>
-        I'm a Brazilian based in Brooklyn with over 15 years of experience in the Software Development Industry.
+        I&apos;m a Brazilian based in Brooklyn with over 15 years of experience in the Software Development Industry.
       </OpeningText>
       <OpeningText>
         Previously, I worked for <a href="https://salesforce.com/">Salesforce</a>,{' '}

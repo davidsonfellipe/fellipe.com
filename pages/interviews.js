@@ -25,7 +25,7 @@ const InterviewsPage = () => (
     <Seo title="Interviews" />
     <Section>
       <Title>Interviews</Title>
-      <Subtitle>Over the years, I've been participated in {interviews.length} podcasts and publications.</Subtitle>
+      <Subtitle>Over the years, I&apos;ve been participated in {interviews.length} podcasts and publications.</Subtitle>
       {formatAllInterviews()}
     </Section>
   </Layout>

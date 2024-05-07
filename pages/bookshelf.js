@@ -57,7 +57,7 @@ const BookshelfPage = () => (
         <Typewriter text="Here's a list of software engineering and engineering management books that have influenced me." />
       </SubtitleAsTypewriter>
       <SubtitleStatic>
-        Here's a list of software engineering and engineering management books that have influenced me.
+        Here&apos;s a list of software engineering and engineering management books that have influenced me.
       </SubtitleStatic>
       <BookshelfGrid>
         {books?.map(book => (
