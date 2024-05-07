@@ -7,7 +7,6 @@ import Section from '../components/section'
 import ListItemLink from '../components/list-item-link'
 import Layout from '../components/layout'
 
-import profiles from '../data/profiles'
 import talks from '../data/talks'
 
 const formatAllTalks = () =>
@@ -15,8 +14,8 @@ const formatAllTalks = () =>
     <ListItemLink
       url={talk.url}
       key={index}
-      headline={`${talk.where}`}
-      headlineSecondary={`${talk.date} · ${talk.city}`}
+      headline={`${talk.where} - ${talk.city}`}
+      headlineSecondary={`${talk.date}`}
       title={talk.title}
     />
   ))

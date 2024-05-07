@@ -71,7 +71,7 @@ const Links = styled.div`
       color: ${colors.tertiary};
       display: inline-block;
       text-align: center;
-      width: 25px;
+      width: 15px;
     }
 
     &:last-child:after {

@@ -10,6 +10,7 @@ import SubTitle from '../components/subtitle'
 import Title from '../components/title'
 import ListItemLink from '../components/list-item-link'
 import Seo from '../components/seo'
+import { formatDateToMonthDayYear } from '../lib/format-date-to-month-day-year'
 
 const PostsWrapper = styled.div`
   margin-bottom: 15px;
@@ -59,6 +60,12 @@ const filterPostsByLang = (allPostsData, lang) => {
     })
     .sort((postA, postB) => new Date(postB.data.date) - new Date(postA.data.date))
     .map(({ data }) => (
-      <ListItemLink key={data.path} url={data.path} headline={data.date} headlineSecondary={''} title={data.title} />
+      <ListItemLink
+        key={data.path}
+        url={data.path}
+        headline={formatDateToMonthDayYear(data.date)}
+        headlineSecondary={''}
+        title={data.title}
+      />
     ))
 }

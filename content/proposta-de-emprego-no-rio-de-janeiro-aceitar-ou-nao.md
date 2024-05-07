@@ -1,6 +1,6 @@
 ---
 title: 'Proposta de emprego no Rio de Janeiro, aceitar ou não?'
-date: '2022-01-02'
+date: '2010-01-02'
 author: Davidson Fellipe
 layout: post
 lang: pt
