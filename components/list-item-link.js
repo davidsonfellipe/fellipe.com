@@ -6,10 +6,8 @@ import { font, colors } from '../styles/theme'
 
 const HeadlineBase = styled.span`
   display: inline-block;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   font-family: ${font.text};
-  min-width: 50px;
-  text-transform: uppercase;
   color: #666;
   line-height: 1.25rem;
   padding: 2px 0;
@@ -22,15 +20,16 @@ const HeadlineBase = styled.span`
 `
 
 const Headline = styled(HeadlineBase)`
-  ${screen.md} {
-    margin-right: 15px;
-  }
+  margin-right: 0;
 `
 
 const HeadlineSecondary = styled(HeadlineBase)`
-  position: absolute;
-  right: 0;
-  top: 15px;
+  margin-left: 0.5rem;
+
+  &:before {
+    content: '·';
+    margin-right: 0.5rem;
+  }
 `
 
 const Title = styled.span`
@@ -38,10 +37,6 @@ const Title = styled.span`
   font-size: 1rem;
   line-height: 1.25rem;
   font-family: ${font.title};
-
-  ${screen.md} {
-    display: inline-block;
-  }
 `
 
 const Wrapper = styled.a`
@@ -54,20 +49,22 @@ const Wrapper = styled.a`
   line-height: 1.5em;
   position: relative;
   text-decoration: none;
-  transition: border-color 500ms linear;
+  transition: border-color 100ms linear, transform 100ms linear;
   opacity: 0.95;
 
-  &:hover {
+  &:hover,
+  &:focus {
     border-color: ${colors.tertiary};
     opacity: 1;
+    transform: scale(1.005);
   }
 `
 
 const ListItemLink = ({ headline = '', headlineSecondary = '', title = '', url = '' }) => (
   <Wrapper href={url}>
-    {headline && <Headline>{headline}</Headline>}
-    {headlineSecondary && <HeadlineSecondary>{headlineSecondary}</HeadlineSecondary>}
     <Title>{title}</Title>
+    {headline ? <Headline>{headline}</Headline> : null}
+    {headlineSecondary ? <HeadlineSecondary>{headlineSecondary}</HeadlineSecondary> : null}
   </Wrapper>
 )
 
