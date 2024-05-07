@@ -58,25 +58,24 @@ const Wrapper = styled(Section)`
 `
 
 const Links = styled.div`
-    display: inline-block;
-    line-height: 45px;
-    position: absolute;
-    right: 0;
+  display: inline-block;
+  line-height: 45px;
+  position: absolute;
+  right: 0;
 
-    a {
-      padding: 0;
+  a {
+    padding: 0;
 
-      &:after {
-        content: '  /';
-        color: ${colors.tertiary};
-        display: inline-block;
-        text-align: center;
-        width: 25px;
-      }
+    &:after {
+      content: '/';
+      color: ${colors.tertiary};
+      display: inline-block;
+      text-align: center;
+      width: 25px;
+    }
 
-      &:last-child:after {
-        display: none;
-      }
+    &:last-child:after {
+      display: none;
     }
   }
 `
@@ -93,8 +92,8 @@ const Header = () => (
       <Links>
         <Link href="/blog/">blog</Link>
         <Link href="/projects/">projects</Link>
+        <Link href="/bookshelf/">bookshelf</Link>
         <Link href="/talks/">talks</Link>
-        <Link href="/interviews/">interviews</Link>
         <Link href="/about/">about</Link>
       </Links>
     </Wrapper>
