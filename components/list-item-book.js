@@ -71,7 +71,7 @@ const Tag = styled.span`
 
 const ListItemBook = ({ author = '', tags, title = '', description = '', url = '' }) => (
   <Wrapper>
-    <Title as="a" href={url}>
+    <Title as="a" href={url} target="_blank">
       {title}
     </Title>
     {author ? <Headline>by {author}</Headline> : null}
