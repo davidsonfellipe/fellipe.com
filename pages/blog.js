@@ -60,6 +60,12 @@ const filterPostsByLang = (allPostsData, lang) => {
     })
     .sort((postA, postB) => new Date(postB.data.date) - new Date(postA.data.date))
     .map(({ data }) => (
-      <ListItemLink key={data.path} url={data.path} headline={formatDateToMonthDayYear(data.date)} headlineSecondary={''} title={data.title} />
+      <ListItemLink
+        key={data.path}
+        url={data.path}
+        headline={formatDateToMonthDayYear(data.date)}
+        headlineSecondary={''}
+        title={data.title}
+      />
     ))
 }

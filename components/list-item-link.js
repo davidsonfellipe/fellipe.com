@@ -49,7 +49,9 @@ const Wrapper = styled.a`
   line-height: 1.5em;
   position: relative;
   text-decoration: none;
-  transition: border-color 100ms linear, transform 100ms linear;
+  transition:
+    border-color 100ms linear,
+    transform 100ms linear;
   opacity: 0.95;
 
   &:hover,
