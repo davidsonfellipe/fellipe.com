@@ -20,7 +20,7 @@ const books = [
     title: "The Manager's Path",
     author: 'Camille Fournier',
     description:
-      "A must-read for engineers considering or already in management roles, offering insights and covering the journey from individual contributor to leader, the book presents the author's varied experiences in large institutions and startups. It navigates the nuances of leadership while tackling common managerial challenges.",
+      "A must-read for engineers considering or already in management roles, offering insights and covering the journey from individual contributor to leader, the book presents the author's varied experiences in large institutions and startups. It navigates the nuances of leadership while tackling common management challenges.",
     tags: ['Management'],
   },
   {
