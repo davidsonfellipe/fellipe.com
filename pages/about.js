@@ -25,9 +25,9 @@ const AboutPage = () => (
         <ImageProfile>
           <Image priority src="/images/profile.jpg" height={250} width={250} alt="profile" />
         </ImageProfile>
-        ✋ Hi there! I'm a Brazilian who has been living in Brooklyn since 2015. With over fifteen years of experience
-        in the software development industry, I've had the opportunity to work for large and small companies in the US
-        and Brazil. I'm currently Senior Software Engineer, Front-end at Upgrade.com.
+        ✋ Hi there! I&apos;m a Brazilian who has been living in Brooklyn since 2015. With over fifteen years of
+        experience in the software development industry, I&apos;ve had the opportunity to work for large and small
+        companies in the US and Brazil. I&apos;m currently Senior Software Engineer, Front-end at Upgrade.com.
         <br />
         <br />
         During my time in the US, I worked as an Engineering Manager at Salesforce Commerce Cloud for Commerce Search
