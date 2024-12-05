@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { colors } from '../styles/theme'
 
 const PostDate = styled.span`
-  background: ${colors.tertiary};
+  background: var(--color-tertiary);
   clear: both;
   display: inline-block;
   font-size: 12px;

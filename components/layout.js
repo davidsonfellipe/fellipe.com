@@ -1,20 +1,16 @@
 import Head from 'next/head'
-
-import styled, { createGlobalStyle } from 'styled-components'
+import styled from 'styled-components'
 
 // Styles
-import ResetStyles from '../styles/resetStyles'
 import { screen } from '../styles/screen'
-import { font, colors } from '../styles/theme'
+import { font } from '../styles/theme'
+import { Reset as ResetStyles } from '../styles/reset'
+import { Global as GlobalStyles } from '../styles/global'
 
 export const siteTitle = 'Davidson Fellipe'
 import Header from './header'
 import Footer from './footer'
 import profiles from '../data/profiles'
-
-import { EB_Garamond } from 'next/font/google'
-
-const ebGaramond = EB_Garamond({ subsets: ['latin'] })
 
 export default function Layout({ children, home }) {
   return (
@@ -33,7 +29,7 @@ export default function Layout({ children, home }) {
         <link href={profiles?.mastodon.url} rel="me" />
       </Head>
       <ResetStyles />
-      <GlobalStyle />
+      <GlobalStyles />
       <Wrapper>
         <Header />
         <Section>{children}</Section>
@@ -42,27 +38,6 @@ export default function Layout({ children, home }) {
     </div>
   )
 }
-
-const GlobalStyle = createGlobalStyle`
-  :root {
-    --font-family: ${ebGaramond.style.fontFamily};
-
-    // colors
-    --primary-color: #333;
-    --secondary-color: #FBDB5C;
-    --background-color: #fff;
-    --text-color: #333;
-  }
-
-  body {
-    background-color: ${colors.bg};
-    color: ${colors.text};
-  }
-
-  a {
-    color: inherit;
-  }
-`
 
 const Wrapper = styled.div`
   font-family: ${font.text};

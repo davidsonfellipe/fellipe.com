@@ -45,9 +45,9 @@ const Wrapper = styled.div`
 `
 
 const Name = styled.span`
-  background-color: ${colors.tertiary};
-  box-shadow: 0.25rem 0.25rem ${colors.secondary};
-  color: #000;
+  background-color: var(--color-tertiary);
+  box-shadow: 0.25rem 0.25rem var(--color-secondary);
+  color: var(--color-secondary);
   display: block;
   font-size: 0.5rem;
   font-weight: 600;

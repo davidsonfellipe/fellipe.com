@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Image from 'next/image'
 import Section from './section'
 import { screen } from '../styles/screen'
-import { font, colors } from '../styles/theme'
+import { font } from '../styles/theme'
 
 const Logo = styled.span`
   display: inline-block;
@@ -21,9 +21,9 @@ const Logo = styled.span`
 `
 
 const Nav = styled.nav`
-  background: ${colors.bg};
+  background-color: var(--color-background);
   box-shadow: 0 1px 5px 0 rgba(32, 33, 36, 0.1);
-  color: #333;
+  color: var(--color-text);
   margin: 0 auto;
   padding: 10px 15px;
   position: fixed;
@@ -68,7 +68,7 @@ const Links = styled.div`
 
     &:after {
       content: '/';
-      color: ${colors.tertiary};
+      color: var(--color-tertiary);
       display: inline-block;
       text-align: center;
       width: 15px;
