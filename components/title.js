@@ -4,7 +4,7 @@ import { font } from '../styles/theme'
 import { screen } from '../styles/screen'
 
 const Title = styled.h1`
-  color: #333;
+  color: var(--color-text);
   font-style: normal;
   font-family: ${font.text};
   font-weight: 900;

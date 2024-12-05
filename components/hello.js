@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Image from 'next/image'
 
 import { screen } from '../styles/screen'
-import { font, colors } from '../styles/theme'
+import { font } from '../styles/theme'
 
 const Wrapper = styled.section`
   margin: 50px 0 25px 0;
@@ -14,7 +14,7 @@ const Wrapper = styled.section`
   }
 
   img {
-    box-shadow: 0.25rem 0.25rem ${colors.tertiary};
+    box-shadow: 0.25rem 0.25rem var(--color-tertiary);
     margin-top: 50px;
   }
 `
@@ -31,7 +31,7 @@ const Name = styled.h1`
 `
 
 const Subtitle = styled.h2`
-  background-color: ${colors.tertiary};
+  background-color: var(--color-tertiary);
   box-shadow: 0.25rem 0.25rem #000;
   display: inline-block;
   font-family: ${font.text};

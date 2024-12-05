@@ -101,7 +101,7 @@ const AboutPage = () => (
 )
 
 const SubtitleUnderline = styled.h2`
-  color: #333;
+  color: var(--color-text);
   line-height: 1em;
   margin: 50px 0 20px 0;
   font-size: 1.5em;
@@ -114,7 +114,7 @@ const SubtitleUnderline = styled.h2`
   }
 
   &:after {
-    border-top: 1px solid ${colors.tertiary};
+    border-top: 1px solid var(--color-tertiary);
     content: ' ';
     display: inline-block;
     position: absolute;
@@ -138,7 +138,7 @@ const ImageProfile = styled.div`
   img {
     float: left;
     margin: 0 1rem 0 0;
-    box-shadow: 0.25rem 0.25rem ${colors.tertiary};
+    box-shadow: 0.25rem 0.25rem var(--color-tertiary);
   }
 `
 

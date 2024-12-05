@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
-import { font, colors } from '../styles/theme'
+import { font } from '../styles/theme'
 
 const PageDescription = styled.p`
-  background-color: ${colors.tertiary};
+  background-color: var(--color-tertiary);
   display: inline-block;
   font-family: ${font.text};
   font-size: 0.8rem;
@@ -11,7 +11,7 @@ const PageDescription = styled.p`
   margin-bottom: 1.5rem;
   min-width: 75%;
   padding: 1rem 1.5rem;
-  box-shadow: 0.25rem 0.25rem ${colors.secondary};
+  box-shadow: 0.25rem 0.25rem var(--color-secondary);
 `
 
 export default PageDescription

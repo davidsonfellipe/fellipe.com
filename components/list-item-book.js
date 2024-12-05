@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { screen } from '../styles/screen'
-import { font, colors } from '../styles/theme'
+import { font } from '../styles/theme'
 
 const HeadlineBase = styled.span`
   display: inline-block;
@@ -9,7 +9,7 @@ const HeadlineBase = styled.span`
   font-family: ${font.text};
   min-width: 50px;
   text-transform: uppercase;
-  color: #666;
+  color: var(--color-text);
   line-height: 1.25rem;
   padding: 2px 0;
   margin-bottom: 5px;
@@ -43,7 +43,7 @@ const Wrapper = styled.a`
   border-bottom: 3px solid #efefef;
   display: block;
   font-size: 1rem;
-  color: ${colors.primary};
+  color: var(--color-primary);
   padding: 15px 0;
   line-height: 1.5em;
   position: relative;
@@ -52,7 +52,7 @@ const Wrapper = styled.a`
   opacity: 0.95;
 
   &:hover {
-    border-color: ${colors.tertiary};
+    border-color: var(--color-tertiary);
     opacity: 1;
   }
 `
@@ -65,7 +65,7 @@ const Tag = styled.span`
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
   padding: 0 0.25rem;
-  background: ${colors.tertiary};
+  background: var(--color-tertiary);
   text-transform: lowercase;
 `
 
