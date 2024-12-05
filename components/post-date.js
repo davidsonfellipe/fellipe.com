@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-import { colors } from '../styles/theme'
-
 const PostDate = styled.span`
   background: var(--color-tertiary);
   clear: both;

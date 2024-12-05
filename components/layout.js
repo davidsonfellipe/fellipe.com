@@ -12,7 +12,7 @@ import Header from './header'
 import Footer from './footer'
 import profiles from '../data/profiles'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <div>
       <Head>

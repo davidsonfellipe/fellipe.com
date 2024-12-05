@@ -1,8 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { colors } from '../styles/theme'
-
 const Text = styled.footer`
   color: var(--color-primary);
   font-size: 0.8rem;

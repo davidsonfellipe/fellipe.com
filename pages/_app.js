@@ -1,5 +1,5 @@
 import Script from 'next/script'
-import { ThemeProvider, DefaultTheme } from 'styled-components'
+import { ThemeProvider } from 'styled-components'
 import { Analytics } from '@vercel/analytics/react'
 
 const theme = {

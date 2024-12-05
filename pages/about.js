@@ -8,11 +8,9 @@ import Title from '../components/title'
 import Subtitle from '../components/subtitle'
 import Section from '../components/section'
 import Layout from '../components/layout'
-import PageDescription from '../components/page-description'
 import SocialMediaLinks from '../components/social-media-links'
 
 import { screen } from '../styles/screen'
-import { colors } from '../styles/theme'
 
 import profiles from '../data/profiles'
 

@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import Image from 'next/image'
 
 import { screen } from '../styles/screen'
-import { colors } from '../styles/theme'
 import profiles from '../data/profiles'
 
 const Wrapper = styled.div`
