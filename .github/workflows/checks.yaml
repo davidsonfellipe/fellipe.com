@@ -12,4 +12,4 @@ jobs:
         cache: yarn
         cache-dependency-path: yarn.lock
     - run: yarn install --frozen-lockfile --prefer-offline
-    - run: yarn lint --cache --max-warnings=0
+    - run: yarn lint --max-warnings=0
