@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import Image from 'next/image'
 
 import { screen } from '../styles/screen'
-import { font } from '../styles/theme'
 
 const Wrapper = styled.section`
   margin: 50px 0 25px 0;
@@ -20,7 +19,7 @@ const Wrapper = styled.section`
 `
 
 const Name = styled.h1`
-  font-family: ${font.title};
+  font-family: var(--font-title);
   font-weight: 800;
   font-size: 2.5em;
   margin-bottom: 0.1em;
@@ -34,7 +33,7 @@ const Subtitle = styled.h2`
   background-color: var(--color-tertiary);
   box-shadow: 0.25rem 0.25rem #000;
   display: inline-block;
-  font-family: ${font.text};
+  font-family: var(--font-text);
   font-size: 1em;
   font-weight: 100;
   margin-bottom: 0;

@@ -7,7 +7,7 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 body {
-    background: #fff;
+    background: var(--color-background);
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -69,8 +69,8 @@ h1 {
     margin: 0.67em 0;
 }
 mark {
-    background-color: #ff0;
-    color: #000;
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
 }
 small {
     font-size: 80%;

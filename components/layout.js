@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 // Styles
 import { screen } from '../styles/screen'
-import { font } from '../styles/theme'
 import { Reset as ResetStyles } from '../styles/reset'
 import { Global as GlobalStyles } from '../styles/global'
 
@@ -40,7 +39,7 @@ export default function Layout({ children }) {
 }
 
 const Wrapper = styled.div`
-  font-family: ${font.text};
+  font-family: var(--font-text);
   padding: 15px 7px 15px 0;
   margin: 0 auto;
   min-width: 340px;

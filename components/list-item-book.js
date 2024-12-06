@@ -1,12 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import { screen } from '../styles/screen'
-import { font } from '../styles/theme'
 
 const HeadlineBase = styled.span`
   display: inline-block;
   font-size: 0.5rem;
-  font-family: ${font.text};
+  font-family: var(--font-text);
   min-width: 50px;
   text-transform: uppercase;
   color: var(--color-text);
@@ -31,7 +30,7 @@ const Title = styled.span`
   display: block;
   font-size: 1rem;
   line-height: 1.25rem;
-  font-family: ${font.title};
+  font-family: var(--font-title);
   font-weight: 700;
 
   ${screen.md} {
