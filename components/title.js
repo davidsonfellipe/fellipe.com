@@ -1,12 +1,10 @@
 import styled from 'styled-components'
-
-import { font } from '../styles/theme'
 import { screen } from '../styles/screen'
 
 const Title = styled.h1`
   color: var(--color-text);
   font-style: normal;
-  font-family: ${font.text};
+  font-family: var(--font-text);
   font-weight: 900;
   line-height: 1em;
   margin: 75px 0 20px 0;

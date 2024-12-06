@@ -1,13 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-
 import { screen } from '../styles/screen'
-import { font } from '../styles/theme'
 
 const HeadlineBase = styled.span`
   display: inline-block;
   font-size: 0.75rem;
-  font-family: ${font.text};
+  font-family: var(--font-text);
   color: var(--color-gray);
   line-height: 1.25rem;
   padding: 2px 0;
@@ -36,7 +34,7 @@ const Title = styled.span`
   display: block;
   font-size: 1rem;
   line-height: 1.25rem;
-  font-family: ${font.title};
+  font-family: var(--font-title);
 `
 
 const Wrapper = styled.a`

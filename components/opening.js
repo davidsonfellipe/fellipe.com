@@ -16,7 +16,6 @@ const Section = styled.section`
 `
 
 const Block = styled.div`
-  border-top: 1px solid #eeeeee;
   margin-bottom: 0;
   width: 100%;
 

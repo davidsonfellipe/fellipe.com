@@ -1,6 +1,4 @@
 import styled from 'styled-components'
-
-import { font } from '../styles/theme'
 import { screen } from '../styles/screen'
 
 const PostContent = styled.div`
@@ -20,7 +18,7 @@ const PostContent = styled.div`
   h4,
   h5,
   h6 {
-    font-family: ${font.title};
+    font-family: var(--font-title);
     font-weight: 900;
     margin: 1.5em 0 0;
   }

@@ -3,6 +3,8 @@ const ebGaramond = EB_Garamond({ subsets: ['latin'] })
 
 export const variables = `
   --font-family: ${ebGaramond.style.fontFamily};
+  --font-text: ${ebGaramond.style.fontFamily}, serif;
+  --font-title: ${ebGaramond.style.fontFamily}, Helvetica, Arial, sans-serif;
 
   // Colors
   --color-primary: #333;

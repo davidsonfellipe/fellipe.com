@@ -5,7 +5,6 @@ import styled from 'styled-components'
 import Image from 'next/image'
 import Section from './section'
 import { screen } from '../styles/screen'
-import { font } from '../styles/theme'
 
 const Logo = styled.span`
   display: inline-block;
@@ -36,7 +35,7 @@ const Nav = styled.nav`
   }
 
   a {
-    font-family: ${font.text};
+    font-family: var(--font-text);
     font-weight: 900;
     text-decoration: none;
   }
