@@ -28,7 +28,7 @@ The new version I'm working on is designed to minimize server-side dependencies,
 
 ## Major Challenges for Migration
 
-During the migration process, we encountered several significant challenges that required careful consideration and planning:
+During the migration process, I ran into a few challenges that needed some considerations:
 
 * Keeping Old Content
 * Handling Image Paths
