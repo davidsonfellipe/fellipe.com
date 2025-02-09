@@ -6,7 +6,6 @@ import Layout from '../components/layout'
 import { postFilePaths, POSTS_PATH } from '../lib/mdx-utils'
 
 import Section from '../components/section'
-import SubTitle from '../components/subtitle'
 import Title from '../components/title'
 import ListItemLink from '../components/list-item-link'
 import Seo from '../components/seo'
@@ -14,10 +13,6 @@ import { formatDateToMonthDayYear } from '../lib/format-date-to-month-day-year'
 
 const PostsWrapper = styled.div`
   margin-bottom: 15px;
-`
-
-const SubTitleLang = styled(SubTitle)`
-  margin: 1rem 0;
 `
 
 export default function Index({ posts }) {
@@ -29,9 +24,7 @@ export default function Index({ posts }) {
       <Seo title="Blog" />
       <Section>
         <Title>Blog</Title>
-        <SubTitleLang>in english</SubTitleLang>
         <PostsWrapper>{PostsInEnglish}</PostsWrapper>
-        <SubTitleLang>in portuguese</SubTitleLang>
         <PostsWrapper>{PostsInPortuguese}</PostsWrapper>
       </Section>
     </Layout>

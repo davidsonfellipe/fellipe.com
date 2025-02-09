@@ -8,13 +8,12 @@ const Title = styled.h1`
   font-weight: 900;
   line-height: 1em;
   margin: 75px 0 20px 0;
-  font-size: 40px;
+  font-size: 4rem;
   letter-spacing: -2px;
 
   ${screen.md} {
-    font-size: 4rem;
     line-height: 1em;
-    margin: 60px 0 15px 0;
+    padding: 45px 0 60px 0;
   }
 `
 
