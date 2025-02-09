@@ -79,12 +79,31 @@ const Links = styled.div`
   }
 `
 
+const Name = styled.span`
+  display: none;
+
+  ${screen.md} {
+    display: inline-block;
+  }
+`
+
+const ImgWrapper = styled.span`
+  display: inline-block;
+
+  ${screen.md} {
+    display: none;
+  }
+`
+
 const Header = () => (
   <Nav>
     <Wrapper>
       <Logo>
         <Link href="/">
-          <Image priority src="/images/profile.jpg" height={40} width={40} alt="profile" />
+          <ImgWrapper>
+            <Image priority src="/images/profile.jpg" height={40} width={40} alt="profile" />
+          </ImgWrapper>
+          <Name>Davidson Fellipe</Name>
         </Link>
       </Logo>
 
