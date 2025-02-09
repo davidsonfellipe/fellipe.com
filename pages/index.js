@@ -16,17 +16,18 @@ export default function Home() {
         <Baloon>Olá</Baloon>
       </ImgWrapper>
       <TextIntro>
-        I'm an engineering leader passionate about helping teams build for the web as a developer or manager — based in
-        Brooklyn.
+        I&rsquo;m an engineering leader passionate about helping teams build for the web as a developer or manager —
+        based in Brooklyn.
       </TextIntro>
       <TextIntro>
-        When I'm off my laptop, I’m exploring coffee spots, enjoying '90s arcade games, or planning my next getaway.
+        When I&rsquo;m off my laptop, I&rsquo;m exploring coffee spots, enjoying &rsquo;90s arcade games, or planning my
+        next getaway.
       </TextIntro>
       <Section>
         <PageSectionContainer>
           <Block>
             <OpeningText>
-              I'm currently an engineer at Upgrade.com. Previously, I worked for{' '}
+              I&rsquo;m currently an engineer at Upgrade.com. Previously, I worked for{' '}
               <a href="https://salesforce.com/">Salesforce</a>, <a href="https://loadsmart.com/">Loadsmart</a> and{' '}
               <a href="https://www.globo.com/">Globo.com</a>. Allowing me to grow both technically and as a leader,
               taking on various projects. You can find more on my{' '}
@@ -34,8 +35,8 @@ export default function Home() {
             </OpeningText>
             <OpeningText>
               Check out my <a href="https://github.com/davidsonfellipe">open source projects</a> and see what interests
-              you. I've also spoken at 30+ conferences and meetups on topics like performance, front-end development,
-              and testing.
+              you. I&rsquo;ve also spoken at 30+ conferences and meetups on topics like performance, front-end
+              development, and testing.
             </OpeningText>
             <OpeningText>
               Want to get in touch? Feel free to send me a direct message via{' '}
