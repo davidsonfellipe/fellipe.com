@@ -79,7 +79,7 @@ const projects = [
     company: 'Personal Project',
     demoURL: '',
     status: 'inactive',
-    title: "I'm coder",
+    title: "I'm a coder",
     description: 'Pretend you are a developer and create fake codes for classes, movies, tv shows.',
     stars: '100',
     year: '2014',
