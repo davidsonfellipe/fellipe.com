@@ -115,7 +115,7 @@ const ProjectItem = ({ project }) => {
         <br />
         {project.year}
       </ProjectCategory>
-      <ProjectsDetails as={url ? 'a' : 'div'} href={url} target={isExternal ? '_blank' : 'dsa'} rel="noreferrer">
+      <ProjectsDetails as={url ? 'a' : 'div'} href={url} target={isExternal ? '_blank' : '_self'} rel={isExternal ? 'noopener noreferrer' : undefined}>
         <Wrapper>
           <ProjectTitle>{project.title}</ProjectTitle>
           <ProjectDescription>
