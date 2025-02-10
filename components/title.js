@@ -7,13 +7,13 @@ const Title = styled.h1`
   font-family: var(--font-text);
   font-weight: 900;
   line-height: 1em;
-  margin: 75px 0 20px 0;
+  margin: 75px 0 40px 0;
   font-size: 4rem;
   letter-spacing: -2px;
 
   ${screen.md} {
     line-height: 1em;
-    padding: 45px 0 60px 0;
+    padding: 25px 0 60px 0;
   }
 `
 

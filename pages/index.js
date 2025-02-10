@@ -135,7 +135,6 @@ const OpeningText = styled(Text)`
   font-weight: 400;
   font-size: 1.25em;
   line-height: 1.5em;
-  -webkit-font-smoothing: antialiased;
 
   ${screen.md} {
     padding-left: 15px;

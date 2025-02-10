@@ -12,6 +12,7 @@ export const variables = `
   --color-background: #fff;
   --color-text: #333;
   --color-gray: #666;
+  --color-gray-ccc: #ccc;
 
   // Spacing
   --spacing-xs: 4px;
