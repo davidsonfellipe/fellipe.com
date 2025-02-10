@@ -5,7 +5,6 @@ import Seo from '../components/seo'
 import Title from '../components/title'
 import Subtitle from '../components/subtitle'
 import Section from '../components/section'
-import Typewriter from '../components/typewriter'
 import ListItemBook from '../components/list-item-book'
 import Layout from '../components/layout'
 import { screen } from '../styles/screen'
@@ -25,24 +24,6 @@ const BookshelfGrid = styled.div`
   }
 `
 
-const SubtitleAsTypewriter = styled(Subtitle)`
-  display: none;
-
-  ${screen.md} {
-    display: block;
-  }
-`
-
-const SubtitleStatic = styled(Subtitle)`
-  display: block;
-  margin-bottom: 1rem;
-  line-height: 1.5rem;
-
-  ${screen.md} {
-    display: none;
-  }
-`
-
 const MoreSoon = styled.p`
   padding-top: 3rem;
   text-align: right;
@@ -53,12 +34,6 @@ const BookshelfPage = () => (
     <Seo title="Bookshelf" />
     <Section>
       <Title>Bookshelf</Title>
-      <SubtitleAsTypewriter>
-        <Typewriter text="Here's a list of software engineering and engineering management books that have influenced me." />
-      </SubtitleAsTypewriter>
-      <SubtitleStatic>
-        Here&apos;s a list of software engineering and engineering management books that have influenced me.
-      </SubtitleStatic>
       <BookshelfGrid>
         {books?.map(book => (
           <ListItemBook

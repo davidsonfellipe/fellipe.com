@@ -1,6 +1,62 @@
 const projects = [
   {
+    repositoryURL: '',
+    company: 'Upgrade',
+    demoURL: '',
+    status: 'active',
+    title: 'Smart Transfer Tools',
+    description:
+      'Developed front-end features for Smart Transfer Tools, enabling users to automate money management with intuitive interfaces. It included three features Save My Paycheck for automated savings, Bill Pay Guard to prevent payment failures, and Auto Balance for custom rule-based transfers.',
+    stars: '0',
+    year: '2024 — 2025',
+  },
+  {
+    repositoryURL: '',
+    company: 'Upgrade',
+    demoURL: '',
+    status: 'active',
+    title: 'ATM Locator Tool',
+    description:
+      'Built a micro-frontend integrated with Allpoint API, enabling users to find 50,000+ ATMs on the web and mobile app, which boosted transaction volume and reduced operational costs.',
+    stars: '0',
+    year: '2024',
+  },
+  {
+    repositoryURL: '',
+    company: 'Upgrade',
+    demoURL: '',
+    status: 'active',
+    title: 'Account Dashboard Revamp',
+    description:
+      'Led the redesign of Account Dashboards, enhancing the user experience through composable components. Improving consistency, accessibility, and reuse across multiple product dashboards, significantly contributing to the revamp efforts of over four teams.',
+    stars: '0',
+    year: '2023 — 2024',
+  },
+  {
+    repositoryURL: '',
+    company: 'Salesforce',
+    demoURL: '',
+    status: 'active',
+    title: 'Search UI for Salesforce Commerce Cloud',
+    description:
+      'For nearly one year and a half, I collaborated with Salesforce, initially as a Lead Front-end Engineer and later transitioning to Engineering Manager. Focused on building and scaling UI components for the Commerce Platform, contributing to B2B and B2B2C products, much of the work here remains proprietary.',
+    stars: '0',
+    year: '2020 — 2021',
+  },
+  {
+    repositoryURL: '',
+    company: 'Loadsmart',
+    demoURL: 'https://engineering.loadsmart.com/',
+    status: 'active',
+    title: 'Loadsmart Engineering Blog',
+    description:
+      'I co-led the creation of the Loadsmart Engineering Blog using GatsbyJS with continuous deployment on Netlify, enabling fast, automated updates. The blog supported Markdown-based posts with a structured directory system and GitHub collaboration through pull requests, fostering knowledge sharing and technical engagement.',
+    stars: '0',
+    year: '2020',
+  },
+  {
     repositoryURL: 'https://github.com/davidsonfellipe/awesome-wpo',
+    company: 'Personal Project',
     demoURL: '',
     status: 'active',
     title: 'Awesome-wpo',
@@ -10,6 +66,7 @@ const projects = [
   },
   {
     repositoryURL: 'https://github.com/davidsonfellipe/lena.js',
+    company: 'Personal Project',
     demoURL: 'https://www.fellipe.com/demos/lena-js/',
     status: 'active',
     title: 'Lena.js',
@@ -18,31 +75,25 @@ const projects = [
     year: '2013',
   },
   {
-    repositoryURL: 'https://github.com/davidsonfellipe/dotfiles',
-    demoURL: '',
-    status: 'active',
-    title: 'My dotfiles',
-    description: 'My personal dotfiles',
-    stars: '50',
-    year: '2011',
-  },
-  {
     repositoryURL: 'https://github.com/davidsonfellipe/im-coder',
+    company: 'Personal Project',
     demoURL: '',
     status: 'inactive',
-    title: "I'm coder 👾",
+    title: "I'm coder",
     description: 'Pretend you are a developer and create fake codes for classes, movies, tv shows.',
     stars: '100',
     year: '2014',
   },
   {
     repositoryURL: 'https://github.com/zenorocha/browser-diet',
+    company: 'Personal Project',
     demoURL: 'https://github.com/zenorocha/browser-diet',
     status: 'inactive',
     title: 'Browser diet',
-    description: 'One of the authors of this front-end performance guide.',
+    description:
+      'I co-authored Browser Diet, a front-end performance guide packed with practical tips for optimizing web applications. The project was built with DocPad and Node.js and supported multiple languages.',
     stars: '2000',
-    year: '2013',
+    year: '2013 — 2019',
   },
 ]
 
