@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 import Seo from '../components/seo'
 import Title from '../components/title'
-import Subtitle from '../components/subtitle'
 import Section from '../components/section'
 import ListItemBook from '../components/list-item-book'
 import Layout from '../components/layout'
