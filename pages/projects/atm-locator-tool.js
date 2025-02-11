@@ -10,7 +10,7 @@ import {
   ListProjectsGroup,
   ListProjectsGroupSticky,
   ListProjectsDetails,
-} from './styles'
+} from '../../components/project-demo-styles'
 
 const ProjectATMLocatorTool = () => (
   <Layout>

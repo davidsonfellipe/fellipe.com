@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import Title from '../../components/title'
-import { screen } from '../../styles/screen'
+import Title from './title'
+import { screen } from '../styles/screen'
 
 export const TitleCenter = styled(Title)`
   text-align: center;

@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-
 import { screen } from '../styles/screen'
 
 const Text = styled.p`
