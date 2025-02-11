@@ -4,9 +4,8 @@ import matter from 'gray-matter'
 import path from 'path'
 import Layout from '../components/layout'
 import { postFilePaths, POSTS_PATH } from '../lib/mdx-utils'
-
 import Section from '../components/section'
-import Title from '../components/title'
+import PageTitle from '../components/page-title'
 import ListItemLink from '../components/list-item-link'
 import Seo from '../components/seo'
 import { formatDateToMonthDayYear } from '../lib/format-date-to-month-day-year'
@@ -23,7 +22,7 @@ export default function Index({ posts }) {
     <Layout>
       <Seo title="Blog" />
       <Section>
-        <Title>Blog</Title>
+        <PageTitle>Blog</PageTitle>
         <PostsWrapper>{PostsInEnglish}</PostsWrapper>
         <PostsWrapper>{PostsInPortuguese}</PostsWrapper>
       </Section>

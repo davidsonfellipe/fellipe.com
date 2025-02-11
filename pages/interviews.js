@@ -1,7 +1,6 @@
 import React from 'react'
-
 import Seo from '../components/seo'
-import Title from '../components/title'
+import PageTitle from '../components/page-title'
 import Subtitle from '../components/subtitle'
 import Section from '../components/section'
 import ListItemLink from '../components/list-item-link'
@@ -24,7 +23,7 @@ const InterviewsPage = () => (
   <Layout>
     <Seo title="Interviews" />
     <Section>
-      <Title>Interviews</Title>
+      <PageTitle>Interviews</PageTitle>
       <Subtitle>Over the years, I&apos;ve been participated in {interviews.length} podcasts and publications.</Subtitle>
       {formatAllInterviews()}
     </Section>

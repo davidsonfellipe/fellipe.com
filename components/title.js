@@ -13,7 +13,7 @@ const Title = styled.h1`
 
   ${screen.md} {
     line-height: 1em;
-    padding: 25px 0 60px 0;
+    padding: 25px 0 40px 0;
   }
 `
 

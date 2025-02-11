@@ -1,8 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-
 import Seo from '../components/seo'
-import Title from '../components/title'
+import PageTitle from '../components/page-title'
 import Section from '../components/section'
 import ListItemBook from '../components/list-item-book'
 import Layout from '../components/layout'
@@ -32,7 +31,7 @@ const BookshelfPage = () => (
   <Layout>
     <Seo title="Bookshelf" />
     <Section>
-      <Title>Bookshelf</Title>
+      <PageTitle>Bookshelf</PageTitle>
       <BookshelfGrid>
         {books?.map(book => (
           <ListItemBook
