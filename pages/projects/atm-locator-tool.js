@@ -37,7 +37,7 @@ const ProjectATMLocatorTool = () => (
                 To enhance the customer experience and reduce operational costs, the ATM Locator Tool enabled users to
                 find over 50,000 ATMs across the USA directly through web or mobile platforms.
                 <VideoWrapper>
-                  <video loop muted autoPlay="true" controls>
+                  <video loop muted autoPlay={true} controls>
                     <source src="/images/projects/atm-desktop2.mov" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
