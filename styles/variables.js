@@ -1,9 +1,11 @@
-import { EB_Garamond } from 'next/font/google'
+import { EB_Garamond, Montserrat } from 'next/font/google'
 const ebGaramond = EB_Garamond({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ['latin'] })
 
 export const variables = `
+  // Fonts
   --font-text: ${ebGaramond.style.fontFamily}, serif;
-  --font-title: ${ebGaramond.style.fontFamily}, Helvetica, Arial, sans-serif;
+  --font-title: ${montserrat.style.fontFamily}, Helvetica, Arial, sans-serif;
 
   // Colors
   --color-primary: #333;
