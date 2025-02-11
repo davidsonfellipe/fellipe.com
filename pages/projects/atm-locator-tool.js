@@ -35,7 +35,7 @@ const ProjectATMLocatorTool = () => (
             description={
               <>
                 To enhance the customer experience and reduce operational costs, the ATM Locator Tool enabled users to
-                find over 50,000 Allpoint® ATMs across the USA directly through web or mobile platforms.
+                find over 50,000 ATMs across the USA directly through web or mobile platforms.
                 <VideoWrapper>
                   <video loop muted autoPlay="true" controls>
                     <source src="/images/projects/atm-desktop2.mov" type="video/mp4" />
@@ -51,8 +51,8 @@ const ProjectATMLocatorTool = () => (
               <>
                 <ul>
                   <li>
-                    Micro-frontend Architecture: Developed the locator as a lightweight, standalone micro-frontend that
-                    integrates into company’s web app, landing pages and mobile applications.
+                    Micro-frontend Architecture: Built the locator as a lightweight, standalone micro-frontend
+                    seamlessly integrated with the company's web app, landing pages, and mobile applications.
                   </li>
                   <li>
                     Interactive Map Integration: Built a responsive, user-friendly map interface using the API to
