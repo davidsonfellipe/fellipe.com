@@ -11,7 +11,7 @@ const projects = [
     year: '2024 — 2025',
   },
   {
-    repositoryURL: '',
+    repositoryURL: '/projects/atm-locator-tool/',
     company: 'Upgrade',
     demoURL: '',
     status: 'active',
