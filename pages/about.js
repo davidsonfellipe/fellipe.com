@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 // Components
 import Seo from '../components/seo'
-import Title from '../components/title'
+import PageTitle from '../components/page-title'
 import Subtitle from '../components/subtitle'
 import Section from '../components/section'
 import Layout from '../components/layout'
@@ -18,7 +18,7 @@ const AboutPage = () => (
   <Layout>
     <Seo title="About" />
     <Section>
-      <Title>About me</Title>
+      <PageTitle>About me</PageTitle>
       <Bio>
         <ImageProfile>
           <Image priority src="/images/profile.jpg" height={250} width={250} alt="profile" />

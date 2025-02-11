@@ -1,23 +1,25 @@
 import React from 'react'
 import styled from 'styled-components'
 import Seo from '../components/seo'
-import Title from '../components/title'
+import PageTitle from '../components/page-title'
 import Section from '../components/section'
 import Layout from '../components/layout'
 import projects from '../data/projects'
 import { screen } from '../styles/screen'
 
-const ProjectsPage = () => (
-  <Layout>
-    <Seo title="Projects" />
-    <Section>
-      <Title>Projects</Title>
-      {projects?.map(project => (
-        <ProjectItem project={project} key={project.title} />
-      ))}
-    </Section>
-  </Layout>
-)
+const ProjectsPage = () => {
+  return (
+    <Layout>
+      <Seo title="Projects" />
+      <Section>
+        <PageTitle>Projects</PageTitle>
+        {projects?.map(project => (
+          <ProjectItem project={project} key={project.title} />
+        ))}
+      </Section>
+    </Layout>
+  )
+}
 
 const ProjectWrapper = styled.div`
   display: flex;
