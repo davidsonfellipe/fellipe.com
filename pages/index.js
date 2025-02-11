@@ -86,7 +86,7 @@ const Baloon = styled.div`
   background-color: var(--color-tertiary);
   color: var(--color-secondary);
   padding: 28px 25px;
-  font-family: var(--font-title);
+  font-family: var(--font-text);
   font-weight: 500;
   opacity: 0;
   animation: fadeIn 750ms linear 1s forwards;
