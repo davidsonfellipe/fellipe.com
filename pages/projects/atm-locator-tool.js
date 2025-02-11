@@ -52,7 +52,7 @@ const ProjectATMLocatorTool = () => (
                 <ul>
                   <li>
                     Micro-frontend Architecture: Built the locator as a lightweight, standalone micro-frontend
-                    seamlessly integrated with the company's web app, landing pages, and mobile applications.
+                    seamlessly integrated with the company&apos;s web app, landing pages, and mobile applications.
                   </li>
                   <li>
                     Interactive Map Integration: Built a responsive, user-friendly map interface using the API to
