@@ -51,7 +51,7 @@ export default function Home() {
 }
 
 const TextIntro = styled.h2`
-  font-family: var(--font-title);
+  font-family: var(--font-text);
   font-weight: 500;
   font-size: 1.75em;
   margin: 1.25rem 0;

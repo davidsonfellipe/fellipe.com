@@ -58,14 +58,15 @@ const ProjectsDetails = styled.div`
 
 const ProjectTitle = styled.h3`
   display: block;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
   font-family: var(--font-title);
   font-weight: 700;
+  text-transform: uppercase;
+  padding-top: var(--spacing-xs);
 
   ${screen.md} {
-    font-size: 2rem;
-    display: inline-block;
+    font-size: 1.25rem;
   }
 `
 

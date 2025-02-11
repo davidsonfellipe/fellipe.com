@@ -35,7 +35,7 @@ const Nav = styled.nav`
   }
 
   a {
-    font-family: var(--font-text);
+    font-family: var(--font-title);
     font-weight: 900;
     text-decoration: none;
   }
@@ -110,7 +110,7 @@ const Header = () => (
       <Links>
         <Link href="/blog/">blog</Link>
         <Link href="/projects/">projects</Link>
-        <Link href="/bookshelf/">bookshelf</Link>
+        {/* <Link href="/bookshelf/">bookshelf</Link> */}
         <Link href="/talks/">talks</Link>
         <Link href="/about/">about</Link>
       </Links>

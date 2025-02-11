@@ -35,6 +35,7 @@ const Title = styled.span`
   font-size: 1rem;
   line-height: 1.25rem;
   font-family: var(--font-title);
+  text-transform: uppercase;
 `
 
 const Wrapper = styled.a`
