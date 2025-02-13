@@ -32,6 +32,14 @@ export const ListProjectsGroupSticky = styled.div`
 
 export const Text = styled.p``
 
+export const ImageWrapper = styled.div`
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid var(--color-gray-ccc);
+  border-radius: 8px;
+`
+
 export const VideoWrapper = styled.div`
   width: 100%;
   margin-top: 50px;

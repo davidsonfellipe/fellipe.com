@@ -1,16 +1,5 @@
 const projects = [
   {
-    repositoryURL: '',
-    company: 'Upgrade',
-    demoURL: '',
-    status: 'active',
-    title: 'Smart Transfer Tools',
-    description:
-      'Developed front-end features for Smart Transfer Tools, enabling users to automate money management with intuitive interfaces. It included three features Save My Paycheck for automated savings, Bill Pay Guard to prevent payment failures, and Auto Balance for custom rule-based transfers.',
-    stars: '0',
-    year: '2024 — 2025',
-  },
-  {
     repositoryURL: '/projects/atm-locator-tool/',
     company: 'Upgrade',
     demoURL: '',
@@ -22,7 +11,7 @@ const projects = [
     year: '2024',
   },
   {
-    repositoryURL: '',
+    repositoryURL: '/projects/account-dashboard-revamp/',
     company: 'Upgrade',
     demoURL: '',
     status: 'active',
@@ -31,6 +20,17 @@ const projects = [
       'Led the redesign of Account Dashboards, enhancing the user experience through composable components. Improving consistency, accessibility, and reuse across multiple product dashboards, significantly contributing to the revamp efforts of over four teams.',
     stars: '0',
     year: '2023 — 2024',
+  },
+  {
+    repositoryURL: '',
+    company: 'Upgrade',
+    demoURL: '',
+    status: 'active',
+    title: 'Smart Transfer Tools',
+    description:
+      'Developed front-end features for Smart Transfer Tools, enabling users to automate money management with intuitive interfaces. It included three features Save My Paycheck for automated savings, Bill Pay Guard to prevent payment failures, and Auto Balance for custom rule-based transfers.',
+    stars: '0',
+    year: '2024',
   },
   {
     repositoryURL: '',
@@ -46,6 +46,28 @@ const projects = [
   {
     repositoryURL: '',
     company: 'Loadsmart',
+    demoURL: '',
+    status: 'active',
+    title: 'Loadsmart Design System',
+    description:
+      'As an Engineering Manager, I led the front-end side of an initiative to evolve our design system, partnering with design and engineering. We transitioned the system to an atomic design approach, improving development efficiency and design consistency. Established a dual system for internal tools and customer-facing products, ensuring adoption through design critiques, Storybook for documentation, and developer collaboration without a dedicated team.',
+    stars: '0',
+    year: '2019 — 2021',
+  },
+  {
+    repositoryURL: '',
+    company: 'Loadsmart',
+    demoURL: '',
+    status: 'active',
+    title: 'From 0 → 1: Loadsmart Web',
+    description:
+      'Joined Loadsmart as the first front-end engineer, from scratch, I built an SPA with features like quotes, payments, load boards, chat, and load management.  Implemented from component library to CI/CD pipelines. Worked closely with founding team members to drive product growth, validate ideas, and deliver high-impact solutions. Built and launched core front-end features using Angular, SASS, Protractor, CodeceptJS, and Grunt.',
+    stars: '0',
+    year: '2016 — 2020',
+  },
+  {
+    repositoryURL: '',
+    company: 'Loadsmart',
     demoURL: 'https://engineering.loadsmart.com/',
     status: 'active',
     title: 'Loadsmart Engineering Blog',
@@ -54,6 +76,7 @@ const projects = [
     stars: '0',
     year: '2020',
   },
+
   {
     repositoryURL: 'https://github.com/davidsonfellipe/awesome-wpo',
     company: 'Personal Project',
@@ -75,12 +98,13 @@ const projects = [
     year: '2013',
   },
   {
-    repositoryURL: 'https://github.com/davidsonfellipe/im-coder',
+    repositoryURL: 'https://www.fellipe.com/apps/im-coder/',
     company: 'Personal Project',
     demoURL: '',
     status: 'inactive',
     title: "I'm a coder",
-    description: 'Pretend you are a developer and create fake codes for classes, movies, tv shows.',
+    description:
+      'A fun  tool where you can pretend to be a developer by generating fake code snippets. Perfect for fake live coding sessions.',
     stars: '100',
     year: '2014',
   },
