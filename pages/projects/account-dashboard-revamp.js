@@ -37,7 +37,7 @@ const ProjectAccountDashboardRevamp = () => (
               <>
                 <div>
                   The Account Dashboard Revamp focused on enhancing the user experience by redesigning the dashboard
-                  with a modular, composable React component. This project delived more consistency, better
+                  with a modular, composable React component. This project delivered more consistency, better
                   accessibility, and reusability across multiple product dashboards.
                 </div>
                 <div>
