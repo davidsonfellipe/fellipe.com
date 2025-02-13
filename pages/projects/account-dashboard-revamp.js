@@ -59,7 +59,7 @@ const ProjectAccountDashboardRevamp = () => (
                   </li>
                   <li>
                     Implemented components applying Web Content Accessibility Guidelines (WCAG), making the dashboard
-                    more accessible and inclusive, while adhering to accessibility standards for a broader user base.
+                    more accessible and inclusive while adhering to accessibility standards for a broader user base.
                   </li>
                   <li>
                     Collaborated with multiple teams to align on functional and visual requirements, ensuring a seamless
