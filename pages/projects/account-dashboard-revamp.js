@@ -55,7 +55,7 @@ const ProjectAccountDashboardRevamp = () => (
                 <ul>
                   <li>
                     Developed a modular, reusable component library to ensure UI consistency and reduce maintenance
-                    overhead across dashboards, promoting scalability and efficiency.
+                    overhead, promoting extensibility and efficiency across dashboards.
                   </li>
                   <li>
                     Implemented components applying Web Content Accessibility Guidelines (WCAG), making the dashboard
