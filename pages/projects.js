@@ -28,6 +28,7 @@ const ProjectWrapper = styled.div`
 `
 
 const ProjectCategory = styled.div`
+  padding-top: var(--spacing-md);
   width: 20%;
 
   ${screen.md} {
@@ -36,12 +37,12 @@ const ProjectCategory = styled.div`
 `
 
 const ProjectsDetails = styled.div`
-  padding: 0 0 20px;
   text-decoration: none;
   transition:
     border-color 100ms linear,
     transform 100ms linear;
   width: 80%;
+  will-change: transform, opacity, border-color;
 
   ${screen.md} {
     opacity: 0.95;
@@ -63,7 +64,7 @@ const ProjectTitle = styled.h3`
   font-family: var(--font-title);
   font-weight: 700;
   text-transform: uppercase;
-  padding-top: var(--spacing-xs);
+  padding-top: var(--spacing-md);
 
   ${screen.md} {
     font-size: 1.25rem;
@@ -71,7 +72,8 @@ const ProjectTitle = styled.h3`
 `
 
 const ProjectDescription = styled.p`
-  margin-top: 10px;
+  margin: 0;
+  padding: 10px 0 15px 0;
 `
 
 const Wrapper = styled.div`
@@ -83,27 +85,28 @@ const Wrapper = styled.div`
   position: relative;
   text-decoration: none;
   transition: border-color 500ms linear;
-  opacity: 0.95;
 
   &:hover {
-    opacity: 1;
     border-color: var(--color-tertiary);
   }
 `
 
-const ViewProject = styled.a`
+const ViewProject = styled.span`
   display: block;
-  font-size: 0.75rem;
+  font-size: 0.5rem;
   margin: 10px 0 20px 0;
   text-align: right;
   text-decoration: none;
   width: 100%;
+  font-family: var(--font-title);
+  font-weight: 700;
+  text-transform: uppercase;
 
   ${screen.md} {
     margin-top: 0;
-    text-align: left;
-    display: inline-block;
-    max-width: 100px;
+    text-align: right;
+    padding: 0 10px;
+    opacity: 0.9;
   }
 `
 
@@ -127,7 +130,7 @@ const ProjectItem = ({ project }) => {
         <Wrapper>
           <ProjectTitle>{project.title}</ProjectTitle>
           <ProjectDescription>
-            {project.description} {url ? <ViewProject href={project.repositoryURL}>View more →</ViewProject> : null}
+            {project.description} {url ? <ViewProject>View more →</ViewProject> : null}
           </ProjectDescription>
         </Wrapper>
       </ProjectsDetails>
