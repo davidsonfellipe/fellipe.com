@@ -6,18 +6,27 @@ import { screen } from '../styles/screen'
 export const TitleCenter = styled(Title)`
   text-align: center;
   padding: 60px 0 45px 0;
-  margin-bottom: 45px;
+  margin-bottom: var(--spacing-lg);
+  text-wrap: balance;
+
+  ${screen.md} {
+    margin-bottom: 45px;
+  }
 `
 
 export const ListProjects = styled.div`
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
   padding: 0;
+
+  ${screen.md} {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
 `
 
 export const ListProjectsGroup = styled.div`
-  width: 25%;
+  width: 100%;
+  padding-bottom: var(--spacing-xl);
 
   ${screen.md} {
     width: 15%;
@@ -35,9 +44,16 @@ export const Text = styled.p``
 export const ImageWrapper = styled.div`
   width: 100%;
   margin-top: 50px;
+  padding: var(--spacing-lg) var(--spacing-md) var(--spacing-md);
   text-align: center;
   border: 1px solid var(--color-gray-ccc);
   border-radius: 8px;
+  overflow: auto;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 `
 
 export const VideoWrapper = styled.div`
@@ -54,7 +70,7 @@ export const VideoWrapper = styled.div`
 
 export const ListProjectsDetails = styled.div`
   padding: 0;
-  width: 80%;
+  width: 100%;
 
   ${screen.md} {
     width: 85%;

@@ -21,17 +21,17 @@ const projects = [
     stars: '0',
     year: '2023 — 2024',
   },
-  {
-    repositoryURL: '',
-    company: 'Upgrade',
-    demoURL: '',
-    status: 'active',
-    title: 'Smart Transfer Tools',
-    description:
-      'Developed front-end features for Smart Transfer Tools, enabling users to automate money management with intuitive interfaces. It included three features Save My Paycheck for automated savings, Bill Pay Guard to prevent payment failures, and Auto Balance for custom rule-based transfers.',
-    stars: '0',
-    year: '2024',
-  },
+  // {
+  //   repositoryURL: '',
+  //   company: 'Upgrade',
+  //   demoURL: '',
+  //   status: 'active',
+  //   title: 'Smart Transfer Tools',
+  //   description:
+  //     'Developed front-end features for Smart Transfer Tools, enabling users to automate money management with intuitive interfaces. It included three features Save My Paycheck for automated savings, Bill Pay Guard to prevent payment failures, and Auto Balance for custom rule-based transfers.',
+  //   stars: '0',
+  //   year: '2024',
+  // },
   {
     repositoryURL: '',
     company: 'Salesforce',
@@ -44,7 +44,7 @@ const projects = [
     year: '2020 — 2021',
   },
   {
-    repositoryURL: '',
+    repositoryURL: '/projects/loadsmart-design-system',
     company: 'Loadsmart',
     demoURL: '',
     status: 'active',
@@ -52,7 +52,7 @@ const projects = [
     description:
       'As an Engineering Manager, I led the front-end side of an initiative to evolve our design system, partnering with design and engineering. We transitioned the system to an atomic design approach, improving development efficiency and design consistency. Established a dual system for internal tools and customer-facing products, ensuring adoption through design critiques, Storybook for documentation, and developer collaboration without a dedicated team.',
     stars: '0',
-    year: '2019 — 2021',
+    year: '2020 — 2021',
   },
   {
     repositoryURL: '',

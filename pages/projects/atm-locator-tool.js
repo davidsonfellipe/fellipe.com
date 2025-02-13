@@ -48,23 +48,25 @@ const ProjectATMLocatorTool = () => (
           <ListItemProject
             title="Challenge"
             description={
-              <>
-                <ul>
-                  <li>
-                    Micro-frontend Architecture: Built the locator as a lightweight, standalone micro-frontend
-                    seamlessly integrated with the company&apos;s web app, landing pages, and mobile applications.
-                  </li>
-                  <li>
-                    Interactive Map Integration: Built a responsive, user-friendly map interface using the API to
-                    display ATM locations, along with search, search by area, and filtering features for location-based
-                    queries.
-                  </li>
-                  <li>
-                    Mobile & Web Parity: Ensured feature parity and consistent user experience across web and mobile
-                    platforms through responsive design techniques.
-                  </li>
-                </ul>
-              </>
+              <ul>
+                <li>
+                  Developed a standalone ATM locator as a micro-frontend to be integrated into the company&apos;s web
+                  app, landing pages, and mobile applications. This required collaboration with multiple teams to ensure
+                  compatibility across different projects while maintaining a consistent user experience.
+                </li>
+                <li>
+                  This interactive and responsive map interface uses the Google Maps API, enabling users to locate ATMs.
+                  The implementation included custom markers and smooth animations to enhance navigation.
+                </li>
+                <li>
+                  Also provide search capabilities with autocomplete, geolocation-based, radius-based and area-based
+                  filtering to improve usubility.
+                </li>
+                <li>
+                  Addressed performance challenges by optimizing API calls, and data-fetching strategies to ensure fast
+                  load times and a seamless experience, even on mobile networks with limited bandwidth.
+                </li>
+              </ul>
             }
           />
           <ListItemProject
