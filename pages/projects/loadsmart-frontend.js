@@ -36,7 +36,7 @@ const ProjectLoadsmartFrontend = () => (
               <>
                 <div>
                   Joined as the first front-end engineer in a fast-paced startup environment, responsible for building
-                  key features like quotes, payments, and load management. Where I led front-end engineering team,
+                  key features like quotes, payments, and load management. Where I led the front-end engineering team,
                   fostering quality, maintainability, and performance. Expanded the number of contributors to the
                   front-end codebase from just me to 25+, fostering collaboration and knowledge sharing through
                   documentation, mentoring, and UI meetings. Introduced and advocated for front-end best practices,
