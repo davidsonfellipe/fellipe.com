@@ -55,15 +55,15 @@ const projects = [
     year: '2020 — 2021',
   },
   {
-    repositoryURL: '',
+    repositoryURL: '/projects/loadsmart-frontend',
     company: 'Loadsmart',
     demoURL: '',
     status: 'active',
-    title: 'From 0 → 1: Loadsmart Web',
+    title: 'From 0 → 1: Loadsmart Front-end',
     description:
       'Joined Loadsmart as the first front-end engineer, from scratch, I built an SPA with features like quotes, payments, load boards, chat, and load management.  Implemented from component library to CI/CD pipelines. Worked closely with founding team members to drive product growth, validate ideas, and deliver high-impact solutions. Built and launched core front-end features using Angular, SASS, Protractor, CodeceptJS, and Grunt.',
     stars: '0',
-    year: '2016 — 2020',
+    year: '2015 — 2021',
   },
   {
     repositoryURL: '',
