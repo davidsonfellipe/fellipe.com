@@ -72,7 +72,7 @@ const ProjectLoadsmartFrontend = () => (
                     integrated performance monitoring using Datadog RUM.
                   </li>
                   <li>
-                    Migrated of Landing pages from an Assemble.io to Next.js + Migrated from an AngularJS frontend to a
+                    Migrated landing pages from an Assemble.io to Next.js + Migrated from an AngularJS frontend to a
                     modular React for SPA, improving performance, maintainability, and developer experience.
                   </li>
                 </ul>
