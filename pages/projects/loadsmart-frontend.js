@@ -85,7 +85,7 @@ const ProjectLoadsmartFrontend = () => (
           />
           <ListItemProject
             title="Outcomes"
-            description="Built the front-end team that supported the company's growth from seed round to pre-series D. Here, I evolved as a leader, learning through wins and mistakes while successfully navigating technical complexities, scaling products and the design system, and improving processes to contribute the company's hyper-growth."
+            description="Built the front-end team that supported the company's growth from seed round to pre-series D. Here, I evolved as a leader, learning through wins and mistakes while successfully navigating technical complexities, scaling products and the design system, and improving processes to contribute to the company's hyper-growth."
           />
         </ListProjectsDetails>
       </ListProjects>
