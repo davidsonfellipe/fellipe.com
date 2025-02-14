@@ -60,7 +60,7 @@ const ProjectLoadsmartFrontend = () => (
               <>
                 <ul>
                   <li>
-                    Led project of a reusable component library with Styled Components and Storybook, ensuring UI
+                    Led the project of a reusable component library with Styled Components and Storybook, ensuring UI
                     consistency and reducing duplication.
                   </li>
                   <li>
