@@ -7,6 +7,7 @@
       {"source": "/docs/", "destination": "/", "statusCode": 301},
       {"source": "/blog/brazil-js-2011/", "destination": "/blog/relato-sobre-o-braziljs-2011-fortaleza/", "statusCode": 301},
       {"source": "/blog/brazil-js-2011", "destination": "/blog/relato-sobre-o-braziljs-2011-fortaleza/", "statusCode": 301},
-      {"source": "/blog/mercado-de-front-end-o-que-mudou-de-dois-anos-para-ca/", "destination": "/blog/front-end-market-in-2012-what-has-changed-in-the-past-two-years/", "statusCode": 301}
+      {"source": "/blog/mercado-de-front-end-o-que-mudou-de-dois-anos-para-ca/", "destination": "/blog/front-end-market-in-2012-what-has-changed-in-the-past-two-years/", "statusCode": 301},
+      {"source": "/blog/analisando-a-qualidade-de-codigo-javascript-usando-jslint/", "destination": "/blog/analyzing-javascript-code-quality-using-jslint/", "statusCode": 301}
     ]
   }
