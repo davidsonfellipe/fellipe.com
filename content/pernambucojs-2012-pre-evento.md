@@ -17,7 +17,7 @@ Começar a escrever um resumo antes da realização do evento, como assim?
 Vamos lá. O [PernambucoJS][1] 2012 nasceu apos várias conversas com o Luiz Tiago ([@luiztiago][2]) sobre a necessidade de realizarmos um [encontro do grupo pernambucoJS][3], já existente no _facebook_, nos unimos ao Thiago Azurem ([@azurem][4]) e elaboramos um pré-projeto do evento. A foto abaixo foi de nossa primeira reunião presencial para finalização do documento do projeto.
 
 [1]: https://pernambucojs.com
-[2]: https://twitter.com/luiztiago
+[2]: https://github.com/luiztiago
 [3]: https://www.facebook.com/groups/pernambucojs/
 [4]: https://twitter.com/azurem
 

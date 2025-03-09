@@ -36,7 +36,7 @@ Em uma palestra recheada de links, ele tocou em vários assuntos, entre eles, lo
 
 Palestra comandada pelo Alexandre Gaigalas ([@alganet][3]), um dos nomes mais conhecidos da comunidade PHP no Brasil, que apresentou em quais paradigmas de programação podemos utilizar com a linguagem PHP. Fazendo um passei pelo imperativo, pelo dominante OOP com PHP e pelo ainda, pouco usado, PHP Funcional.
 
-[3]: https://twitter.com/alganet
+[3]: https://github.com/alganet
 
 ## Desconferencia
 

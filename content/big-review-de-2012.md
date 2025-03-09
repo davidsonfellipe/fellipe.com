@@ -146,4 +146,4 @@ Considerando atividades que me envolvi o ano todo, posso destacar: O trabalho no
 A minha esposa, que mesmo não tendo nada a ver com desenvolvimento, se envolveu bastante nos eventos. A Globo.com pelo incentivo a participar nos eventos e mestrado, ao [BrazilJS Team][41], a galera que participou do RioJS, PernambucoJS, Front in Maceió e Front in BH, aos parceiros de organização [Giovanni Keppelen][42] (RioJS e Front in BH), Victor Ferraz (BH), Juarez (Maceió), Luiz Tiago (PernambucoJS) e Azurém (PernambucoJS).
 
 [41]: http://braziljs.org/team/
-[42]: https://twitter.com/Keppelen
+[42]: https://github.com/keppelen
