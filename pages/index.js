@@ -27,7 +27,8 @@ export default function Home() {
         <PageSectionContainer>
           <Block>
             <OpeningText>
-              I&rsquo;m currently an engineer at Upgrade.com. Previously, I worked for{' '}
+              I&rsquo;m currently an engineer at{' '}
+              <a href="https://upgrade.com/">Upgrade</a>. Previously, I worked for{' '}
               <a href="https://salesforce.com/">Salesforce</a>, <a href="https://loadsmart.com/">Loadsmart</a> and{' '}
               <a href="https://www.globo.com/">Globo.com</a>. Allowing me to grow both technically and as a leader,
               taking on various projects. You can find more on my{' '}

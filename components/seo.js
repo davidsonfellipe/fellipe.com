@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const Seo = ({ title, description = "" }) => {
+const Seo = ({ title, description = '' }) => {
   return (
     <Head>
       <title>{`${title} | Davidson Fellipe`}</title>
