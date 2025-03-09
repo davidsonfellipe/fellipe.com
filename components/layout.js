@@ -16,7 +16,6 @@ export default function Layout({ children }) {
     <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Engineering leader passionate about helping teams build for the web." />
         <meta name="og:title" content={siteTitle} />
         <meta property="og:image" content="/images/profile.jpg" />
         <meta name="twitter:card" content="summary_large_image" />

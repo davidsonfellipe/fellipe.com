@@ -1,5 +1,6 @@
 ---
-title: "Tailoring your Git experience: customizing .gitconfig settings"
+title: Tailoring your Git experience: customizing .gitconfig settings
+description: Learn how to configure Git for an efficient terminal workflow on macOS. Includes user setup, aliases, color settings, merge tool selection
 author: Davidson Fellipe
 layout: post
 lang: en
