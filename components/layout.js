@@ -35,7 +35,6 @@ export default function Layout({ children }) {
 
 const Wrapper = styled.div`
   font-family: var(--font-text);
-  padding: 15px 7px 15px 0;
   margin: 0 auto;
   min-width: 340px;
   width: 100%;
@@ -44,7 +43,15 @@ const Wrapper = styled.div`
 
 const Section = styled.div`
   display: inline-block;
-  padding: 15px;
+  padding: var(--layout-wrapper-padding-sm);
   vertical-align: top;
   width: 100%;
+
+  ${screen.md} {
+    padding: var(--layout-wrapper-padding-md);
+  }
+
+  ${screen.lg} {
+    padding: var(--layout-wrapper-padding-sm);
+  }
 `

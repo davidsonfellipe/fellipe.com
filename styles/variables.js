@@ -22,4 +22,9 @@ export const variables = `
   --spacing-md: 16px;
   --spacing-lg: 24px;
   --spacing-xl: 32px;
+
+  // layout
+  --layout-wrapper-padding-sm: 16px;
+  --layout-wrapper-padding-md: 24px;
+  --layout-wrapper-padding-lg: 16px;
 `

@@ -24,7 +24,7 @@ const Nav = styled.nav`
   box-shadow: 0 1px 5px 0 rgba(32, 33, 36, 0.1);
   color: var(--color-text);
   margin: 0 auto;
-  padding: 10px 15px;
+  padding: 10px var(--layout-wrapper-padding-sm);
   position: fixed;
   top: 0;
   width: 100%;
@@ -32,6 +32,11 @@ const Nav = styled.nav`
 
   ${screen.md} {
     right: 0;
+    padding: 10px var(--layout-wrapper-padding-md);
+  }
+
+  ${screen.lg} {
+    padding: 10px var(--layout-wrapper-padding-sm);
   }
 
   a {

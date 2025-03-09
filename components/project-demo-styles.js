@@ -39,7 +39,7 @@ export const ListProjectsGroupSticky = styled.div`
   font-weight: 500;
 `
 
-export const Text = styled.p``
+export const Text = styled.div``
 
 export const ImageWrapper = styled.div`
   width: 100%;
@@ -90,7 +90,7 @@ export const ListItemProjectTitle = styled.h3`
   }
 `
 
-export const Wrapper = styled.a`
+export const Wrapper = styled.div`
   display: block;
   font-size: 1rem;
   color: var(--color-primary);
