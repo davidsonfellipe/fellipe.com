@@ -1,17 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import Image from 'next/image'
-
-// Components
 import Seo from '../components/seo'
 import PageTitle from '../components/page-title'
 import Subtitle from '../components/subtitle'
 import Section from '../components/section'
 import Layout from '../components/layout'
 import SocialMediaLinks from '../components/social-media-links'
-
 import { screen } from '../styles/screen'
-
 import profiles from '../data/profiles'
 
 const AboutPage = () => (
