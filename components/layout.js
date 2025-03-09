@@ -18,7 +18,6 @@ export default function Layout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <meta name="og:title" content={siteTitle} />
         <meta property="og:image" content="/images/profile.jpg" />
-        <meta name="twitter:card" content="summary_large_image" />
         <link href={profiles?.mastodon.url} rel="me" />
       </Head>
       <ResetStyles />

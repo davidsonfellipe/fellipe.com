@@ -17,7 +17,7 @@ Well… I wanted to reverse this order, because for me, it actually started 2 mo
 Let's get started, [PernambucoJS][1] 2012 was born after some conversations with Luiz Tiago ([@luiztiago][2]) about the need to organize a [meetup for PernambucoJS group][3], which already existed on Facebook. We teamed up with Thiago Azurem ([@azurem][4]) and developed a initial project for the event. The photo below is from our first in-person meeting to finalize the project document.
 
 [1]: https://pernambucojs.com
-[2]: https://twitter.com/luiztiago
+[2]: https://github.com/luiztiago
 [3]: https://www.facebook.com/groups/pernambucojs/
 [4]: https://twitter.com/azurem
 

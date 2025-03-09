@@ -81,10 +81,6 @@
             <a class='button icon-linkedin' href='http://www.linkedin.com/in/fellipe'>
             </a>
         </li>
-        <li class='button-list-item'>
-            <a class='button icon-twitter' href='https://twitter.com/davidsonfellipe' rel='me'>
-            </a>
-        </li>
     </ul>
 </div>
 

@@ -17,7 +17,7 @@ Nos dias 13 e 14 de maio aconteceu a primeira conferência com foco em JavaScrip
 O evento realizado no teatro da Faculdade Sete de Setembro, em Fortaleza, teve cerca de 550 inscritos, isso mesmo 550! Para um evento fora do eixo Rio-São Paulo, isso foi uma excelente marca. O evento mostrou 20 palestras, com bom conteúdo técnico, apresentando assuntos do nível básico ao avançado em JavaScript. O evento contou com a excelente organização do [@cmilfont][1], [@jaydson][2], [@felipenmoura][3], [@fbarroso][4] e [@henriquegogo][5] e atraiu olhares até de organizadores das conferencias de JS de fora do Brasil, pela sua dimensão.
 
 [1]: https://twitter.com/cmilfont
-[2]: https://twitter.com/jaydson
+[2]: https://github.com/jaydson
 [3]: https://twitter.com/felipenmoura "Felipe Nascimento"
 [4]: https://twitter.com/fbarroso "Barroso"
 [5]: https://twitter.com/henriquegogo "Henrique Gogo"
@@ -40,16 +40,16 @@ Estava com grandes expectativas para palestras do [Guilherme Chapiewski][7], [L�
 [Bruno Porkaria][17] mostrou para galera como investir em WebApps, tivemos também o Daniel Passos que veio mostrar que utilizar JavaScript no desenvolvimento para aplicativos de Android. O Douglas Campos mostrando um pouco do poder da JVM com Javascript. [Leo Balter][18] fez uma apresentação que consistia em mostrar anti-padrões de JS. Mike Taylor falou sobre **Web Messaging**. Guilherme Chapiewski sobre Titanium e YQL, **[Michal Budzynski][12]** falou sobre desenvolvimento de Jogos em JavaScript.
 
 [17]: https://twitter.com/porkaria
-[18]: http://leobalter.net/
+[18]: https://github.com/leobalter
 
 Além disso o **BrazilJS** foi uma excelente oportunidade para conhecer pessoas que eu antes só as conhecia por listas de discussão/twitter/facebook. Conheci e revi uma parte da galera do **frontend-br**, e até fizemos nosso 1º encontro da lista FORA da Recife. A ocasião contou com a presença de [Luiz Tiago Oliveira][19], [Dennis Callazans][20], [Gerson Thiago][21], [Djalma Araújo][22], Bruna Brito, [Felipe Rodrigues][23], [Bruno Souza][24], Lucas, Eduardo Santos e o Hedcler Morais. O papo NERD e _frontendilistico_ rolou até aproximadamente 1h da madrugada.
 
-[19]: https://twitter.com/luiztiago
+[19]: https://github.com/luiztiago
 [20]: https://twitter.com/dannnish
-[21]: https://twitter.com/gersonthiago
-[22]: https://twitter.com/djalmaaraujo
+[21]: https://github.com/gersonlimadev
+[22]: https://github.com/djalmaaraujo
 [23]: https://twitter.com/feliperodrigues
-[24]: https://twitter.com/brunosouza
+[24]: https://github.com/brunosouza
 
 ![](/img-posts/pernambuco-braziljs-2011.jpg)
 
