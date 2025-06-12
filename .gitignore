@@ -43,3 +43,8 @@ pnpm-debug.log*
 
 # pnpm
 .pnpm-store
+
+# Public files
+public/robots.txt
+public/sitemap.xml
+public/sitemap-0.xml
