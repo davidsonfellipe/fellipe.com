@@ -22,8 +22,8 @@ To run the project on your local machine, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/davidsonfellipe/fellipe.com.git`
 2. Navigate to the project folder: `cd fellipe.com`
-3. Install dependencies: `yarn` (Make sure you have Node.js and yarn installed)
-4. Start the development server: `yarn dev`
+3. Install dependencies: `pnpm install` (Make sure you have Node.js and pnpm installed)
+4. Start the development server: `pnpm dev`
 5. Open your preferred browser and go to [localhost:3000](http://localhost:3000)
 
 ## 📖 License
