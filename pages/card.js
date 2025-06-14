@@ -120,10 +120,12 @@ const CardLayout = styled.div`
   min-height: 100vh;
   background: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(9, 9, 9) 100%);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  padding: 0 20px;
+  padding: 40px 20px 0 20px;
   font-family: var(--font-text);
+  overflow: hidden;
+  box-sizing: border-box;
 `
 
 const FlipCardContainer = styled(motion.div)`
