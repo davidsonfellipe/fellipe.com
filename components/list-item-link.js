@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { screen } from '../styles/screen'
 
 const HeadlineBase = styled.span`
   display: inline-block;
