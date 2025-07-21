@@ -27,4 +27,12 @@ export const variables = `
   --layout-wrapper-padding-sm: 16px;
   --layout-wrapper-padding-md: 24px;
   --layout-wrapper-padding-lg: 16px;
+
+  // Font sizes
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-xxl: 2rem;
 `

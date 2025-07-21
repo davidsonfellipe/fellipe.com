@@ -16,6 +16,7 @@
     "test:e2e": "CYPRESS_SUPPORT=y start-server-and-test develop http://localhost:3000 test:cy:open"
   },
   "dependencies": {
+    "@tabler/icons-react": "^3.34.1",
     "@vercel/analytics": "^1.0.1",
     "date-fns": "^2.30.0",
     "framer-motion": "^12.17.0",

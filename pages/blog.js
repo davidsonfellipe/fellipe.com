@@ -9,9 +9,17 @@ import PageTitle from '../components/page-title'
 import ListItemLink from '../components/list-item-link'
 import Seo from '../components/seo'
 import { formatDateToMonthDayYear } from '../lib/format-date-to-month-day-year'
+import { IconCalendar } from '@tabler/icons-react'
 
 const PostsWrapper = styled.div`
   margin-bottom: 15px;
+`
+
+const IconWrapper = styled.span`
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: 16px;
 `
 
 export default function Index({ posts }) {
@@ -55,7 +63,12 @@ const filterPostsByLang = (allPostsData, lang) => {
       <ListItemLink
         key={data.path}
         url={data.path}
-        headline={formatDateToMonthDayYear(data.date)}
+        headline={
+          <IconWrapper>
+            <IconCalendar size={14} />
+            {formatDateToMonthDayYear(data.date)}
+          </IconWrapper>
+        }
         headlineSecondary={''}
         title={data.title}
       />
