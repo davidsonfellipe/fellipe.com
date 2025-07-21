@@ -9,23 +9,21 @@ const HeadlineBase = styled.span`
   color: var(--color-gray);
   line-height: 1.25rem;
   padding: 2px 0;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   vertical-align: top;
-
-  ${screen.md} {
-    margin-bottom: 0;
-  }
 `
 
 const Headline = styled(HeadlineBase)`
   margin-right: 0;
+  font-family: var(--font-title);
+  font-size: var(--font-size-xs);
 `
 
 const HeadlineSecondary = styled(HeadlineBase)`
   margin-left: 0.5rem;
 
   &:before {
-    content: '·';
+    content: '';
     margin-right: 0.5rem;
   }
 `
