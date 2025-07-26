@@ -13,7 +13,9 @@
     "lint": "next lint",
     "format": "prettier --write \"./{components,pages,styles,lib,templates,data,e2e}/**/*.{cy.js,js,json,md}\"",
     "test:cy:open": "cypress open --browser chrome --e2e",
-    "test:e2e": "CYPRESS_SUPPORT=y start-server-and-test develop http://localhost:3000 test:cy:open"
+    "test:e2e": "CYPRESS_SUPPORT=y start-server-and-test develop http://localhost:3000 test:cy:open",
+    "textlint": "textlint \"content/**/*.md\"",
+    "textlint:fix": "textlint \"content/**/*.md\" --fix"
   },
   "dependencies": {
     "@tabler/icons-react": "^3.34.1",

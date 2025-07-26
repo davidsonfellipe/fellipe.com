@@ -1,0 +1,19 @@
+{
+  "filters": {},
+  "rules": {
+    "no-dead-link": {
+      "checkRelative": false,
+      "baseURI": "https://fellipe.com",
+      "ignore": [
+        "https://localhost:*",
+        "http://localhost:*",
+        "https://127.0.0.1:*",
+        "http://127.0.0.1:*"
+      ]
+    },
+    "terminology": {
+      "defaultTerms": true,
+      "skipPatterns": []
+    }
+  }
+} 

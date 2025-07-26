@@ -22,9 +22,9 @@ context('Navigation', () => {
   it('verify blog article link functionality', () => {
     cy.contains('blog').click()
 
-    cy.contains('Moving Wordpress to Jekyll').click()
+    cy.contains('Moving WordPress to Jekyll').click()
 
-    cy.title().should('include', 'Moving Wordpress to Jekyll')
+    cy.title().should('include', 'Moving WordPress to Jekyll')
     cy.location('pathname').should('include', '/blog/moving-wordpress-to-jekyll/')
   })
 

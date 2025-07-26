@@ -50,4 +50,4 @@ O evento tem tudo para ganhar uma nova edição no próximo ano e achei bem orga
 
 - [https://www.slideshare.net/LeoCabral/seo-x-velocidade-de-carregamento-phpnrio-2011](https://www.slideshare.net/LeoCabral/seo-x-velocidade-de-carregamento-phpnrio-2011)
 - [https://www.slideshare.net/maciel3000/robtica-e-php-com-arduino-phpn-rio-2011](https://www.slideshare.net/maciel3000/robtica-e-php-com-arduino-phpn-rio-2011)
-- [http://comousarhtml5semumamaquinadotempo.com/](http://comousarhtml5semumamaquinadotempo.com/)
+- [https://zenorocha.com/como-usar-html5-sem-uma-maquina-do-tempo](https://zenorocha.com/como-usar-html5-sem-uma-maquina-do-tempo)

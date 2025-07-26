@@ -25,7 +25,7 @@ O evento teve a abertura com o Diego Fleury que apresentou os cases: Ego e Papar
 Voltando do almoço, acabei perdendo a palestra do Iraê, mas ainda tinhamos, uma longa tarde de palestras, sendo 6, no total. Começando pela apresentação do Milfont, que fez todos de levantarem, obviamente para despertar aqueles que gostam de uma soneca pós-almoço. Logo após, tivemos as apresentações do Herberth Amaral e a do Marcos Souza. Como penultima apresentação, tivemos a minha palestra sobre [Performance em jQuery Apps][4]. Fechando o evento com chave de ouro, tivemos o Luciano Ramalho ([@luciano][5]), passando um pouco de sua larga experiencia, para nós iniciantes na área de desenvolvimento.
 
 [4]: http://www.slideshare.net/davidsonfellipe/jqueryperf
-[5]: https://twitter.com/#!/luciano
+[5]: https://x.com/luciano
 
 Seguem links para algumas palestras do evento:
 
@@ -38,7 +38,7 @@ Seguem links para algumas palestras do evento:
 7. [JS Storage][12] – Jean Nascimento (Suissa)
 8. [Ego & Paparazzo][13] – Diego Fleury
 
-[7]: http://comousarhtml5semumamaquinadotempo.com/#1
+[7]: https://zenorocha.com/como-usar-html5-sem-uma-maquina-do-tempo
 [8]: http://www.slideshare.net/cmilfont/beagajs
 [9]: https://github.com/herberthamaral/bhjs
 [10]: http://www.slideshare.net/marcossousa/indo-alem-jquery3

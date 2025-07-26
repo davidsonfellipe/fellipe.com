@@ -35,33 +35,33 @@ A partir dai tivemos um grande desafio: Como elaborar um bela grade de palestras
 
 Não pensamos pequeno nesse quesito, pois queríamos trazer bons nomes, e que movimentaram o JavaScript no Brasil, nos últimos tempos. Vamos aos nomes (em ordem alfabética):
 
-##Bernardo Heynemann
+## Bernardo Heynemann
 
 Atualmente ele é líder técnico da home da Globo.com. Possui uma grande experiência em desenvolvimento de software, passando por empresas do Brasil e Reino Unido. É um grande contribuidor dos projetos Pyccuracy, Skink, Ion, Thumbor e pyVows. Responsável direto pela implementação do responsive design na [home do etc][8].
 
 [8]: https://etc.globo.com
 
-##Eduardo Lundgren
+## Eduardo Lundgren
 
 Ex-contribuidor dos projetos jQuery e jQuery UI, e hoje um dos principais nos do YUI no Brasil. Além de ser um dos criadores do AlloyUI. Dai já ficamos com aquela pergunta na cabeça, porque ele deixou o jQuery e migrou para o YUI? Acredito que será uma das respostas mais aguardadas do evento. Além de ter sido um dos palestrantes na yuiconf 2011, em Santa Clara, Califórnia. Atualmente é líder de desenvolvimento da Liferay, e divide seu tempo entre Recife e Califórnia.
 
-##Jaydson Gomes
+## Jaydson Gomes
 
 Um dos criadores do BrazilJS, maior conferencia de JavaScript do Brasil e fundador do grupo de desenvolvedores JavaScript do Rio Grande do Sul, o RSJS. Atualmente é Desenvolvedor Sênior no Terra Networks.
 
-##Jean Nascimento
+## Jean Nascimento
 
 Evangelista de nosql no brasil e grande colaborador do nosqlbr.com.br, javascriptbrasil.com, frontendbrasil.com.br e jquerybrasil.org, além de ser organizador do Sampa.js. Além disso tudo, tem tempo para trabalhar como programador PHP Sênior na GoNow.
 
-##Luiz Tiago
+## Luiz Tiago
 
 Individuo pré-histórico do frontend-br, grupo que começou há muito tempo atras em Recife, acredito que 2006. Foi vencedor do prêmio Peixe Grande de 2007, promovido pela Arteccom. Co-fundador do jQueryBrasil e PernambucoJS. Atualmente é Gerente de Frontend da MGR Tecnologia.
 
-##Zeno Rocha
+## Zeno Rocha
 
 Quase tivemos que pedir autorização dos pais dele para ele vir ao evento… Ele é um dos criadores do jQuery Boilerplate e do Wormz do Chrome Experiments. Já foi desenvolvedor de software na Petrobras e hoje trabalha no Globoesporte.com. Sobre a autorização é brincadeira, pois ele já tem 21 anos e faz de Sistemas de Informação na Universidade Federal do Estado do Rio de Janeiro.
 
-##Bruno Souza, Dennis Calazans e Djalma Araújo
+## Bruno Souza, Dennis Calazans e Djalma Araújo
 
 Três caras que representam bem o desenvolvedores frontend de Recife, o primeiro também é da pré-história do frontend em pernambuco e hoje é um dos lideres de desenvolvimento da Ogilvy Recife. O segundo foi um dos primeiros instrutores de cursos de JavaScript no Recife e hoje é professor da Unibratec e Faculdade Marista. E para finalizar os _lightning talks_ teremos a presença do Djalma Araújo, líder de desenvolvimento da PianoLab e colunista do JqueryBrasil falará um pouco de sua experiência com o _Bootstrap_.
 
@@ -82,21 +82,21 @@ Tivemos grandes nomes que fizeram menções ao evento:
 
 **Pinceladas da web**
 
-[https://twitter.com/#!/pinceladasdaweb/status/181791040544583681](https://twitter.com/#!/pinceladasdaweb/status/181791040544583681)
+[https://x.com/pinceladasdaweb/status/181791040544583681](https://x.com/pinceladasdaweb/status/181791040544583681)
 
 **Maujor**
 
-[https://twitter.com/#!/maujor/status/179722008051990528](https://twitter.com/#!/maujor/status/179722008051990528)
+[https://x.com/maujor/status/179722008051990528](https://x.com/maujor/status/179722008051990528)
 
 **YUI Team**
 
-[https://twitter.com/#!/yuilibrary/status/181807730015735808](https://twitter.com/#!/yuilibrary/status/181807730015735808)
+[https://x.com/yuilibrary/status/181807730015735808](https://x.com/yuilibrary/status/181807730015735808)
 [http://www.yuiblog.com/blog/2012/04/03/yui-talk-at-pernambuco-js-by-eduardo-lundgren-of-alloyui/](http://www.yuiblog.com/blog/2012/04/03/yui-talk-at-pernambuco-js-by-eduardo-lundgren-of-alloyui/)
 
 **Richard Worth, Líder do jQueryUI**
 
-[https://twitter.com/#!/rworth/status/180759693227073536](https://twitter.com/#!/rworth/status/180759693227073536)
+[https://x.com/rworth/status/180759693227073536](https://x.com/rworth/status/180759693227073536)
 
 Há inscritos no evento vindo de várias cidades do Brasil, tais como Brasilia, Rio de Janeiro, João Pessoa e até uma caravana saindo de Maceió, organizada pelo [@juarezpaf][16]. É isso… Até lá!
 
-[16]: https://twitter.com/#!/juarezpaf
+[16]: https://x.com/juarezpaf

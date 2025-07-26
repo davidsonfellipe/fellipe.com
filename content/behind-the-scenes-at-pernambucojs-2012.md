@@ -19,7 +19,7 @@ Let's get started, [PernambucoJS][1] 2012 was born after some conversations with
 [1]: https://pernambucojs.com
 [2]: https://github.com/luiztiago
 [3]: https://www.facebook.com/groups/pernambucojs/
-[4]: https://twitter.com/azurem
+[4]: https://x.com/azurem
 
 ![](/img-posts/pejs.jpg)
 
@@ -82,7 +82,7 @@ Once registrations were opened, we didn't expect them to sell out so quickly –
 
 **Pinceladas da web**
 
-- [https://twitter.com/pinceladasdaweb/status/181791040544583681](https://twitter.com/pinceladasdaweb/status/181791040544583681)
+- [https://x.com/pinceladasdaweb/status/181791040544583681](https://x.com/pinceladasdaweb/status/181791040544583681)
 
 **Maujor**
 

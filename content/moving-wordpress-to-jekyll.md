@@ -1,5 +1,5 @@
 ---
-title: Moving Wordpress to Jekyll
+title: Moving WordPress to Jekyll
 author: Davidson Fellipe
 layout: post
 lang: en

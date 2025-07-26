@@ -15,7 +15,7 @@ tags: ["blogs"]
 
 Comecei a usar o Git em setembro de 2010 e, ao longo do tempo, que é uma ferramenta robusta para controle de versão. No meu primeiro projeto utilizando o Git, enfrentei algumas dificuldades para compreendê-lo, mas com o passar do tempo fui buscando soluções para resolver problemas comuns, como conflitos, e agora estou bem adaptado ao seu uso.
 
-Enfim, irei apenas apresentar algumas definições que me ajuda a trabalhar no dia-a-dia com o GIT via terminal do MacOS.  Com o GIT instalado localize o arquivo **.gitconfig**, que normalmente fica no diretório _home_ de seu usuário, ex: _/Users/fellipe/.gitconfig_.
+Enfim, irei apenas apresentar algumas definições que me ajuda a trabalhar no dia-a-dia com o GIT via terminal do macOS.  Com o GIT instalado localize o arquivo **.gitconfig**, que normalmente fica no diretório _home_ de seu usuário, ex: _/Users/fellipe/.gitconfig_.
 
 Você pode editar esse arquivo utilizando um editor de texto ou utilizar o comando “_git config –global_” via Terminal. Primeiramente apresentarei via Terminal e no [final do post tem o resultado de como o arquivo .gitconfig ficará][2], esse resultado apresentado no final pode ser usado para quem deseja editar via editor de texto.
 
