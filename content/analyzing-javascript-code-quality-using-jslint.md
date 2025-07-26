@@ -11,7 +11,7 @@ category: articles
 
 Often we need to perform an analysis of JavaScript code to search for specific sections that may cause errors, warnings, eliminate language problems, and ensure cross-browser compatibility. To assist us in the analysis of JS code, I present to you an old tool that had its first release in 2002, but I notice that many people still don't know about it. This tool is called [JSLint][1]. It is a code quality analysis tool for JavaScript created by [Douglas Crockford][3].
 
-[1]: https://jslint.com
+[1]: https://www.jslint.com/
 [3]: https://www.crockford.com/
 
 JSLint analyzes a given piece of code and identifies potential issues or syntax errors. This tool follows recommendations created by [Crockford][4] and takes inspiration from SUN code standards for the [Java language][5].
@@ -35,4 +35,4 @@ The website [nettuts][8] created a screencast last year demonstrating the use of
 <iframe width="880" height="500" src="https://www.youtube.com/embed/gz2mBQBp4XE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 ## References:
-- [https://jslint.com/](https://jslint.com/)
+- [https://www.jslint.com/](https://www.jslint.com/)

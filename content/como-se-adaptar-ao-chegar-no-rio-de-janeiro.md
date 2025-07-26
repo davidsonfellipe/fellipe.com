@@ -15,7 +15,7 @@ Hoje completo 3 meses na cidade maravilhosa e resolvi fazer um resumo sobre esse
 
 ## Mudança de emprego
 
-Normalmente o simples fato de mudar de **emprego** já é uma situação complicada. Imagina fazer isso morando em outra cidade, sem conhecer ninguém e sem parentes por perto? É um desafio bem complicado, mas motivador. Ainda tive um pouco de sorte, pois conheci algumas pessoas do Rio de Janeiro, via _twitter_, linkedin, facebook, que ajudaram muito, antes de desembarcar por aqui.
+Normalmente o simples fato de mudar de **emprego** já é uma situação complicada. Imagina fazer isso morando em outra cidade, sem conhecer ninguém e sem parentes por perto? É um desafio bem complicado, mas motivador. Ainda tive um pouco de sorte, pois conheci algumas pessoas do Rio de Janeiro, via _twitter_, LinkedIn, Facebook, que ajudaram muito, antes de desembarcar por aqui.
 
 ## Decida entre VIVER ou MORAR no Rio de Janeiro
 

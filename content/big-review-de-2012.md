@@ -26,7 +26,7 @@ Nada melhor que essa ultra-mega-hiper lotada Praça do Marco Zero, ao som de Seu
 
 ## Contribuindo para o crescimento do frontend em Pernambuco
 
-Após voltar para o mundo real, tinha que começar a pensar no que eu poderia fazer de diferente em 2012, algo que pudesse ajudar a vida de muitas pessoas, então resolvi participar da organização de um evento para minha *terrinha* com grandes nomes da área do Javascript, [junto com Luiz Tiago e Thiago Azurém criamos o PernambucoJS][5], com a grande colaboração de Djalma Araújo e Eduardo Lundgren.
+Após voltar para o mundo real, tinha que começar a pensar no que eu poderia fazer de diferente em 2012, algo que pudesse ajudar a vida de muitas pessoas, então resolvi participar da organização de um evento para minha *terrinha* com grandes nomes da área do JavaScript, [junto com Luiz Tiago e Thiago Azurém criamos o PernambucoJS][5], com a grande colaboração de Djalma Araújo e Eduardo Lundgren.
 
 [5]: https://fellipe.com/blog/pernambucojs-2012-pre-evento/
 

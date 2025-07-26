@@ -1,0 +1,6 @@
+node_modules/
+.next/
+public/
+cypress/
+*.min.js
+pnpm-lock.yaml 

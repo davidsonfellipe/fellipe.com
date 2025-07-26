@@ -16,7 +16,7 @@ tags: ["blogs"]
 
 I started using Git in September 2010 and, over time, I found it to be a robust version control tool. In my first project using Git, I encountered some difficulties in understanding it, but as time went on, I sought solutions to common problems like conflicts, and now I'm well adapted to using it.
 
-My goal is to share some useful configurations that have enhanced my day-to-day Git workflow via the MacOS terminal. Once you have Git installed, you can locate the .gitconfig file, which is usually found in your user's home directory, such as _/Users/fellipe/.gitconfig_. To customize this file, you have two options: either directly edit it using a text editor or modify it through the command-line interface (CLI).
+My goal is to share some useful configurations that have enhanced my day-to-day Git workflow via the macOS terminal. Once you have Git installed, you can locate the .gitconfig file, which is usually found in your user's home directory, such as _/Users/fellipe/.gitconfig_. To customize this file, you have two options: either directly edit it using a text editor or modify it through the command-line interface (CLI).
 
 ```bash
 git config --global
