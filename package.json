@@ -12,6 +12,7 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write \"./{components,pages,styles,lib,templates,data,e2e}/**/*.{cy.js,js,json,md}\"",
+    "sync:im-coder": "node scripts/sync-im-coder.js",
     "test:cy:open": "cypress open --browser chrome --e2e",
     "test:e2e": "CYPRESS_SUPPORT=y start-server-and-test develop http://localhost:3000 test:cy:open",
     "textlint": "textlint \"content/**/*.md\"",

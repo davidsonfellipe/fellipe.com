@@ -3,67 +3,153 @@
   <head>
     <meta charset="utf-8">
     <title>I'm coder</title>
+    <meta name="description" content="I'm coder, an app for fake coders">
     <meta name="author" content="Davidson Fellipe">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:title" content="I'm coder, an app for fake coders">
-    <meta property="og:site_name" content="Davidson Fellipe">
+    <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://fellipe.com/apps/im-coder/">
-    <meta property="og:image" content="https://fellipe.com/apps/im-coder/assets/img/fb.png">
     <meta property="og:type" content="website">
+    <meta property="og:title" content="I'm coder, an app for fake coders">
     <meta property="og:description" content="I'm coder, an app for fake coders">
-    <meta property="fb:app_id" content="337306756343400">
+    <meta property="og:image" content="https://fellipe.com/apps/im-coder/assets/img/fb.png">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-        <script src='assets/js/html5shiv.min.js'></script>
-    <![endif]-->
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="fellipe.com">
+    <meta property="twitter:url" content="https://fellipe.com/apps/im-coder/">
+    <meta name="twitter:title" content="I'm coder, an app for fake coders">
+    <meta name="twitter:description" content="I'm coder, an app for fake coders">
+    <meta name="twitter:image" content="https://fellipe.com/apps/im-coder/assets/img/fb.png">
 
     <link rel="stylesheet" href="assets/css/solarized_dark.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   </head>
   <body class="im-coder">
     <pre id="im-coder-editor" class="im-coder-editor"></pre>
+    <!-- Status Bar -->
+    <div id="im-coder-statusbar" class="im-coder-statusbar">
+      <div class="im-coder-statusbar-left">
+        <span class="im-coder-statusbar-item">
+          <i class="fas fa-code-branch"></i>
+          <a href="https://github.com/davidsonfellipe/im-coder" target="_blank" class="im-coder-github-link">main</a>
+        </span>
+        <span class="im-coder-statusbar-item">
+          <i class="fas fa-palette"></i>
+          <select id="im-coder-theme-selector" class="im-coder-theme-selector">
+            <option value="solarized_dark">Solarized Dark</option>
+            <option value="monokai">Monokai</option>
+            <option value="dracula">Dracula</option>
+            <option value="github">GitHub</option>
+            <option value="vs">Visual Studio</option>
+            <option value="atom">Atom</option>
+            <option value="nord">Nord</option>
+            <option value="material">Material</option>
+          </select>
+        </span>
+      </div>
+      <div class="im-coder-statusbar-right">
+        <span class="im-coder-statusbar-item">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/davidsonfellipe/im-coder" target="_blank" class="im-coder-github-link">on github</a>
+        </span>
+      </div>
+    </div>
     <section id='im-coder-sidebar' class="im-coder-sidebar">
       <header class="im-coder-header">
         <div class="im-coder-logo"></div>
-        <p class="im-coder-slogan">Create fake codes for classes, movies, tv shows...
-          <br>Or be a troll using for live coding in talks ;) </p>
+          <p class="im-coder-slogan">Create code snippets for presentations, classes, demos, and educational content...
+            <br>Good for live coding sessions, tutorials, and creative projects! 😄</p>
       </header>
+      
       <div class="im-coder-characters-wrapper">
-          <span>Number of Characters (Max 100)</span>
-          <input id="im-coder-characters" class="im-coder-characters" type="number" name="characters" max="1" min="30" value="5">
+          <span>Typing speed: characters per press (Max 100)</span>
+          <input id="im-coder-characters" class="im-coder-characters" type="number" name="characters" min="1" max="100" value="5">
       </div>
       <ul class="im-coder-langs">
-        <li class="im-coder-lang" data-syntax-lang="c">C</li>
-        <li class="im-coder-lang" data-syntax-lang="coffeescript">CoffeeScript</li>
-        <li class="im-coder-lang" data-syntax-lang="css">CSS</li>
-        <li class="im-coder-lang" data-syntax-lang="csharp">C#</li>
-        <li class="im-coder-lang" data-syntax-lang="erlang">Erlang</li>
-        <li class="im-coder-lang" data-syntax-lang="go">Go</li>
-        <li class="im-coder-lang" data-syntax-lang="html">HTML</li>
-        <li class="im-coder-lang" data-syntax-lang="java">Java</li>
-        <li class="im-coder-lang" data-syntax-lang="js">JavaScript</li>
-        <li class="im-coder-lang" data-syntax-lang="julia">Julia</li>
-        <li class="im-coder-lang" data-syntax-lang="objc">Objective-C</li>
-        <li class="im-coder-lang" data-syntax-lang="perl">Perl</li>
-        <li class="im-coder-lang" data-syntax-lang="php">PHP</li>
-        <li class="im-coder-lang" data-syntax-lang="python">Python</li>
-        <li class="im-coder-lang" data-syntax-lang="ruby">Ruby</li>
-        <li class="im-coder-lang" data-syntax-lang="swift">Swift</li>
+        <li class="im-coder-lang" data-syntax-lang="c">
+          <button>C</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="css">
+          <button>CSS</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="csharp">
+          <button>C#</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="erlang">
+          <button>Erlang</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="go">
+          <button>Go</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="html">
+          <button>HTML</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="java">
+          <button>Java</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="js">
+          <button>JavaScript</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="julia">
+          <button>Julia</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="kotlin">
+          <button>Kotlin</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="objc">
+          <button>Objective-C</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="perl">
+          <button>Perl</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="php">
+          <button>PHP</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="python">
+          <button>Python</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="r">
+          <button>R</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="ruby">
+          <button>Ruby</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="rust">
+          <button>Rust</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="swift">
+          <button>Swift</button>
+        </li>
+        <li class="im-coder-lang" data-syntax-lang="typescript">
+          <button>TypeScript</button>
+        </li>
         <li>
           <textarea id="im-coder-paste" class="im-coder-paste" placeholder="choose one language or paste a fake code here"></textarea>
         </li>
       </ul>
       <footer class="im-coder-footer">
-        <div class="im-coder-social fb-like" data-href="https://fellipe.com/apps/im-coder/" data-width="300" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-        <iframe src="https://ghbtns.com/github-btn.html?user=davidsonfellipe&repo=im-coder&type=star&count=true"
+        <iframe src="http://ghbtns.com/github-btn.html?user=davidsonfellipe&repo=im-coder&type=star&count=true"
   allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20" class="im-coder-social "></iframe>
         <p class="im-coder-copy">
         Made with <span class="im-coder-♥">♥</span> by <a href="https://fellipe.com">Davidson Fellipe</a> with the help of <a href="https://github.com/davidsonfellipe/im-coder/graphs/contributors">our contributors</a>
         </p>
       </footer>
+            
+      <!-- LenaJS Demo Banner -->
+      <a class="im-coder-banner" href="https://fellipe.com/demos/lena-js/" target="_blank">
+        <div class="im-coder-banner-content">
+          <div class="im-coder-banner-icon">
+            <i class="fas fa-image"></i>
+          </div>
+          <div class="im-coder-banner-text">
+            <h3>Try LenaJS Demo!</h3>
+            <p>A tiny library for image processing with filters like Canny, Gaussian, Sepia, and more</p>
+          </div>
+        </div>
+      </a>
     </section>
     <script src="assets/vendor/highlight.min.js"></script>
     <script src='assets/vendor/jquery.min.js'></script>

@@ -10,13 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
     <!-- General -->
-    <link rel="canonical" href="https://fellipe.com">
+    <link rel="canonical" href="http://fellipe.com">
 
     <!-- Open Graph -->
     <meta property="og:title" content=" / Davidson Fellipe">
     <meta property="og:site_name" content="Davidson Fellipe">
-    <meta property="og:url" content="https://fellipe.com">
-    <meta property="og:image" content="https://fellipe.com/assets/img/opengraph.jpg">
+    <meta property="og:url" content="http://fellipe.com">
+    <meta property="og:image" content="http://fellipe.com/assets/img/opengraph.jpg">
     <meta property="og:type" content="website">
     <meta property="og:description" content=" from website's Davidson Fellipe">
 
@@ -81,12 +81,43 @@
             <a class='button icon-linkedin' href='http://www.linkedin.com/in/fellipe'>
             </a>
         </li>
+        <li class='button-list-item'>
+            <a class='button icon-facebook' href='https://www.facebook.com/fellipe'>
+            </a>
+        </li>
+        <li class='button-list-item'>
+            <a class='button icon-twitter' href='https://twitter.com/davidsonfellipe' rel='me'>
+            </a>
+        </li>
+        <li class='button-list-item'>
+            <a class='button icon-google-plus' href='https://plus.google.com/+DavidsonFellipe/posts?rel=author'>
+            </a>
+        </li>
     </ul>
+
 </div>
 
     <footer class="footer">
         Made by Davidson Fellipe with ♥ since 2007
     </footer>
+    
+
+
+  <script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2123552-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
 </body>
 </html>
 
