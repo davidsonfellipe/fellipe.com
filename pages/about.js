@@ -21,13 +21,13 @@ const AboutPage = () => (
         </ImageProfile>
         ✋ Hi there! I&apos;m a Brazilian who has been living in Brooklyn since 2015. With over fifteen years of
         experience in the software development industry, I&apos;ve had the opportunity to work for large and small
-        companies in the US and Brazil. I&apos;m currently Senior Software Engineer, Front-end at Upgrade.com.
+        companies in the US and Brazil. I&apos;m currently a Senior Software Engineer, Front-end at Upgrade.com.
         <br />
         <br />
         During my time in the US, I worked as an Engineering Manager at Salesforce Commerce Cloud for Commerce Search
         team until 2023. In 2014, I joined Loadsmart in its early stages and was the first front-end engineer, leading
         the area for five years. I was responsible for maintaining and evolving the engineering recruitment process and
-        also worked as an engineering manager, managing teams, roadmap, backlog and supporting the career growth of two
+        also worked as an engineering manager, managing teams, roadmap, backlog, and supporting the career growth of two
         engineering teams.
         <br />
         <br />
@@ -47,9 +47,9 @@ const AboutPage = () => (
         Rio.JS.
         <br />
         <br /> I am highly interested in building teams, Agile software development, Front-end development, Web
-        Performance, Tests, and Web standards. I hold an MSc in Web Performance from PUC-Rio and a BSc in Computer
-        Engineering from University of Pernambuco. In my spare time, I enjoy traveling, visit coffeeshops and talking
-        about travel.
+        Performance, Tests, and Web Standards. I hold an MSc in Web Performance from PUC-Rio and a BSc in Computer
+        Engineering from the University of Pernambuco. In my spare time, I enjoy traveling, visiting coffee shops, and 
+        talking about travel.
       </Bio>
 
       <Subtitle>
@@ -67,13 +67,13 @@ const AboutPage = () => (
 
       <SubtitleUnderline>Short bio</SubtitleUnderline>
       <Bio>
-        Brazilian based in Brooklyn since 2015, he has over fifteen years of experience in the Software Industry and has
-        worked for some large and small companies in the US and Brazil. He worked as an Engineering Manager at
-        Salesforce, also in the US, he joined Loadsmart at an early stage and worked for nearly seven years, was the
-        first front-end engineer, led the area, and was an engineering manager. In Brazil, he worked for five years
-        building high scalable front-end applications for globo.com, and a few more years in projects related to web
-        development, e-learning platforms, and mentoring in coding bootcamp-like programs. He is highly interested in
-        building teams, Agile software development, Front-end development, Web Performance, Tests, and Web standards.
+        Davidson works as a Senior Software Engineer at Upgrade, focused on front-end for banking products. He has 
+        experience as an Engineering Manager at Salesforce, leading UI components for the Commerce Search Platform, 
+        and as a Founding Engineer and later Manager at Loadsmart, where he spent nearly seven years building and scaling. 
+        Prior to relocating to the US, he developed large-scale applications at Globo.com.
+        <br />
+        Based in Brooklyn since 2015, he blends front-end craftsmanship and user experience with hands-on leadership to help
+        engineering teams work better together.
       </Bio>
 
       <SubtitleUnderline>About this website</SubtitleUnderline>
