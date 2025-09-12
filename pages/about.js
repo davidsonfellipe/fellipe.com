@@ -71,7 +71,6 @@ const AboutPage = () => (
         experience as an Engineering Manager at Salesforce, leading UI components for the Commerce Search Platform, 
         and as a Founding Engineer and later Manager at Loadsmart, where he spent nearly seven years building and scaling. 
         Prior to relocating to the US, he developed large-scale applications at Globo.com.
-        <br />
         Based in Brooklyn since 2015, he blends front-end craftsmanship and user experience with hands-on leadership to help
         engineering teams work better together.
       </Bio>
