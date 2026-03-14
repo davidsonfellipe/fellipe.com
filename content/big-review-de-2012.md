@@ -47,7 +47,7 @@ Em Maio, fiquei na expectativa de minha primeira viagem internacional segunda v
 Depois da correria para visto e passaporte, embarquei com destino a San Francisco para participar da [Fluent Conferenc][10]e, a primeira conferência focada em JavaScript da O’Reilly, realizada na apaixonante San Francisco. Foram 3 dias de evento, e uma ótima oportunidade para troca ideias com desenvolvedores de várias partes do mundo, e abrir meus olhos para o grande crescimento do mercado de mobile para o desenvolvedor Frontend. Mais detalhes sobre o que rolou no evento podem ser conferidos nessa minha apresentação: [Fluent Conference Highlights][11], que apresentei em um TechTalk lá na Globo.com e também no Rio.js. Ainda pude conferir uma SF em clima de festa, em comemoração dos 75 anos da [Golden Gate Bridge][12], que trouxe um tempero especial para essa viagem.
 
 [10]: http://fluentconf.com
-[11]: https://fellipe.com/slides/fluent2012/pt
+[11]: https://fellipe.com/slides/fluent2012/pt/
 [12]: https://www.youtube.com/watch?v=KPsXd28iuPc
 
 ## Preparativos para o Front in BH
