@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import styled from 'styled-components'
+import { IconMenu2, IconX } from '@tabler/icons-react'
 
 import Image from 'next/image'
 import Section from './section'
@@ -62,24 +63,126 @@ const Wrapper = styled(Section)`
 `
 
 const Links = styled.div`
-  display: inline-block;
-  line-height: 45px;
+  display: none;
+
+  ${screen.md} {
+    display: inline-block;
+    line-height: 45px;
+    position: absolute;
+    right: 0;
+
+    a {
+      padding: 0;
+
+      &:after {
+        content: '/';
+        color: var(--color-tertiary);
+        display: inline-block;
+        text-align: center;
+        width: 15px;
+      }
+
+      &:last-child:after {
+        display: none;
+      }
+    }
+  }
+`
+
+const HamburgerButton = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  color: var(--color-text);
+
+  ${screen.md} {
+    display: none;
+  }
+`
+
+const MobileMenuOverlay = styled.div`
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 20;
+  opacity: ${p => (p.$open ? 1 : 0)};
+  visibility: ${p => (p.$open ? 'visible' : 'hidden')};
+  transition:
+    opacity 0.2s ease,
+    visibility 0.2s ease;
+
+  ${screen.md} {
+    display: none;
+  }
+`
+
+const MobileMenuPanel = styled.div`
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 280px;
+  max-width: 85vw;
+  height: 100%;
+  background: var(--color-background);
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
+  z-index: 21;
+  padding: 60px 24px 24px;
+  transform: translateX(${p => (p.$open ? 0 : '100%')});
+  transition: transform 0.25s ease;
+
+  ${screen.md} {
+    display: none;
+  }
+`
+
+const MobileMenuClose = styled.button`
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  color: var(--color-text);
+`
+
+const MobileMenuLinks = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 
   a {
-    padding: 0;
+    display: block;
+    padding: 12px 0 12px 12px;
+    font-size: 1.125rem;
+    border-bottom: 1px solid #eee;
+    border-left: 3px solid transparent;
+    transition: border-left-color 0.2s ease;
 
-    &:after {
+    &:before {
       content: '/';
       color: var(--color-tertiary);
-      display: inline-block;
-      text-align: center;
-      width: 15px;
+      margin-right: 8px;
     }
 
-    &:last-child:after {
-      display: none;
+    &:hover {
+      border-left-color: var(--color-tertiary);
+    }
+
+    &:active {
+      border-left-color: transparent;
+    }
+
+    &:last-child {
+      border-bottom: none;
     }
   }
 `
@@ -100,27 +203,77 @@ const ImgWrapper = styled.span`
   }
 `
 
-const Header = () => (
-  <Nav>
-    <Wrapper>
-      <Logo>
-        <Link href="/">
-          <ImgWrapper>
-            <Image priority src="/images/profile.jpg" height={40} width={40} alt="profile" />
-          </ImgWrapper>
-          <Name>Davidson Fellipe</Name>
-        </Link>
-      </Logo>
+const navLinks = [
+  { href: '/blog/', label: 'blog' },
+  { href: '/projects/', label: 'projects' },
+  { href: '/talks/', label: 'talks' },
+  { href: '/about/', label: 'about' },
+]
 
-      <Links>
-        <Link href="/blog/">blog</Link>
-        <Link href="/projects/">projects</Link>
-        {/* <Link href="/bookshelf/">bookshelf</Link> */}
-        <Link href="/talks/">talks</Link>
-        <Link href="/about/">about</Link>
-      </Links>
-    </Wrapper>
-  </Nav>
-)
+const Header = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  const closeMobileMenu = () => setMobileMenuOpen(false)
+
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [mobileMenuOpen])
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 768) setMobileMenuOpen(false)
+    }
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
+
+  return (
+    <Nav>
+      <Wrapper>
+        <Logo>
+          <Link href="/" onClick={closeMobileMenu}>
+            <ImgWrapper>
+              <Image priority src="/images/profile.jpg" height={40} width={40} alt="profile" />
+            </ImgWrapper>
+            <Name>Davidson Fellipe</Name>
+          </Link>
+        </Logo>
+
+        <HamburgerButton onClick={() => setMobileMenuOpen(true)} aria-label="Abrir menu" aria-expanded={mobileMenuOpen}>
+          <IconMenu2 size={28} stroke={1.5} />
+        </HamburgerButton>
+
+        <Links>
+          {navLinks.map(({ href, label }) => (
+            <Link key={href} href={href}>
+              {label}
+            </Link>
+          ))}
+        </Links>
+      </Wrapper>
+
+      <MobileMenuOverlay $open={mobileMenuOpen} onClick={closeMobileMenu} aria-hidden="true" />
+      <MobileMenuPanel $open={mobileMenuOpen}>
+        <MobileMenuClose onClick={closeMobileMenu} aria-label="Fechar menu">
+          <IconX size={24} stroke={1.5} />
+        </MobileMenuClose>
+        <MobileMenuLinks>
+          {navLinks.map(({ href, label }) => (
+            <Link key={href} href={href} onClick={closeMobileMenu}>
+              {label}
+            </Link>
+          ))}
+        </MobileMenuLinks>
+      </MobileMenuPanel>
+    </Nav>
+  )
+}
 
 export default Header
