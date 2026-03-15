@@ -13,6 +13,8 @@ const formatAllInterviews = () =>
     <ListItemLink
       url={interview.url}
       key={index}
+      target="_blank"
+      rel="noopener noreferrer"
       headline={interview.date}
       headlineSecondary={`${interview.type} · ${interview.lang}`}
       title={interview.title}

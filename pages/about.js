@@ -48,7 +48,7 @@ const AboutPage = () => (
         <br />
         <br /> I am highly interested in building teams, Agile software development, Front-end development, Web
         Performance, Tests, and Web Standards. I hold an MSc in Web Performance from PUC-Rio and a BSc in Computer
-        Engineering from the University of Pernambuco. In my spare time, I enjoy traveling, visiting coffee shops, and 
+        Engineering from the University of Pernambuco. In my spare time, I enjoy traveling, visiting coffee shops, and
         talking about travel.
       </Bio>
 
@@ -67,12 +67,12 @@ const AboutPage = () => (
 
       <SubtitleUnderline>Short bio</SubtitleUnderline>
       <Bio>
-        Davidson works as a Senior Software Engineer at Upgrade, focused on front-end for banking products. He has 
-        experience as an Engineering Manager at Salesforce, leading UI components for the Commerce Search Platform, 
-        and as a Founding Engineer and later Manager at Loadsmart, where he spent nearly seven years building and scaling. 
-        Prior to relocating to the US, he developed large-scale applications at Globo.com.
-        Based in Brooklyn since 2015, he blends front-end craftsmanship and user experience with hands-on leadership to help
-        engineering teams work better together.
+        Davidson works as a Senior Software Engineer at Upgrade, focused on front-end for banking products. He has
+        experience as an Engineering Manager at Salesforce, leading UI components for the Commerce Search Platform, and
+        as a Founding Engineer and later Manager at Loadsmart, where he spent nearly seven years building and scaling.
+        Prior to relocating to the US, he developed large-scale applications at Globo.com. Based in Brooklyn since 2015,
+        he blends front-end craftsmanship and user experience with hands-on leadership to help engineering teams work
+        better together.
       </Bio>
 
       <SubtitleUnderline>About this website</SubtitleUnderline>
