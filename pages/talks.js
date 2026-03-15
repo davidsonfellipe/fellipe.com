@@ -263,23 +263,6 @@ const FilterButton = styled.button`
   }
 `
 
-const WatchMoreButton = styled.a`
-  display: inline-block;
-  font-size: 0.9375rem;
-  font-family: var(--font-title);
-  font-weight: 600;
-  color: #fff;
-  background: var(--color-primary);
-  padding: 10px 20px;
-  border-radius: 24px;
-  text-decoration: none;
-  transition: opacity 100ms linear;
-
-  &:hover {
-    opacity: 0.9;
-  }
-`
-
 const parseDate = dateStr => {
   const d = new Date(dateStr)
   return isNaN(d.getTime()) ? 0 : d.getTime()
