@@ -1,27 +1,27 @@
 const interviews = [
   {
-    url: 'https://devnaestrada.com.br/2023/08/18/entrevistas-mercado-e-dicas-para-emprego-na-gringa.html',
+    url: 'https://open.spotify.com/episode/4rQDqoh2TmyHd0FHgbJnK5',
     type: 'Podcast',
     title: 'Dev na Estrada #392 - Entrevistas, Mercado e Dicas para emprego na gringa',
     date: '2023-08-18',
     lang: 'pt-BR',
   },
   {
-    url: 'https://blog.pragmaticengineer.com/a-senior-engineer-em-job-search-story/',
+    url: 'https://blog.pragmaticengineer.com/a-senior-engineer-em-job-search-story/?ref=fellipe.com',
     type: 'Newsletter',
     title: 'Pragmatic Engineer Newsletter #58 - A senior engineer/engineering manager job search story',
     date: '2023-08-10',
     lang: 'en-US',
   },
   {
-    url: 'https://www.devsemfronteiras.tech/episode/vida-e-trabalho-nas-costas-leste-e-oeste-dos-eua-dev-sem-fronteiras-31/',
+    url: 'https://www.devsemfronteiras.tech/episode/vida-e-trabalho-nas-costas-leste-e-oeste-dos-eua-dev-sem-fronteiras-31/?ref=fellipe.com',
     type: 'Podcast',
     title: 'Dev Sem Fronteiras #31 - Vida e trabalho nas costas Leste e Oeste dos EUA',
     date: '2022-04-13',
     lang: 'pt-BR',
   },
   {
-    url: 'https://techleadership.rocks/2021/03/21/trabalhando-com-gestao-em-tecnologia-fora-do-brasil-com-davidson-fellipe/',
+    url: 'https://techleadership.rocks/2021/03/21/trabalhando-com-gestao-em-tecnologia-fora-do-brasil-com-davidson-fellipe/?ref=fellipe.com',
     type: 'Podcast',
     title: 'Tech Leadership Rocks #26 - Trabalhando com gestão em tecnologia fora do Brasil',
     date: '2021-03-21',
@@ -35,7 +35,7 @@ const interviews = [
     lang: 'pt-BR',
   },
   {
-    url: 'https://devnaestrada.com.br/2016/04/01/devnaestrada-entrevista-davidson-fellipe.html',
+    url: 'https://open.spotify.com/episode/4qIyhv3rCpazhfeXRiQlls',
     type: 'Podcast',
     title: 'Dev na Estrada #47 - Interview about my career for Devnaestrada',
     description:
