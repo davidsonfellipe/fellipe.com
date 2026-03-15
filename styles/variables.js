@@ -14,6 +14,8 @@ export const variables = `
   --color-background: #fff;
   --color-text: #333;
   --color-gray: #666;
+  --color-gray-999: #999;
+  --color-gray-aaa: #aaa;
   --color-gray-ccc: #ccc;
 
   // Spacing
