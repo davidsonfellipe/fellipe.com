@@ -2,6 +2,7 @@ import React from 'react'
 import Seo from '../../components/seo'
 import Section from '../../components/section'
 import Layout from '../../components/layout'
+import BackToProjects from '../../components/back-to-projects'
 import {
   TitleCenter,
   ListItemProject,
@@ -17,6 +18,7 @@ const ProjectAccountDashboardRevamp = () => (
   <Layout>
     <Seo title="Account Dashboard Revamp" />
     <Section>
+      <BackToProjects />
       <TitleCenter>Account Dashboard Revamp</TitleCenter>
       <ListProjects>
         <ListProjectsGroup>

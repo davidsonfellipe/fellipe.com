@@ -2,6 +2,7 @@ import React from 'react'
 import Seo from '../../components/seo'
 import Section from '../../components/section'
 import Layout from '../../components/layout'
+import BackToProjects from '../../components/back-to-projects'
 import {
   TitleCenter,
   ListItemProject,
@@ -16,6 +17,7 @@ const ProjectATMLocatorTool = () => (
   <Layout>
     <Seo title="ATM Locator Tool" />
     <Section>
+      <BackToProjects />
       <TitleCenter>ATM Locator Tool</TitleCenter>
       <ListProjects>
         <ListProjectsGroup>

@@ -173,10 +173,6 @@ const MobileMenuLinks = styled.div`
       margin-right: 8px;
     }
 
-    &:hover {
-      border-left-color: var(--color-tertiary);
-    }
-
     &:active {
       border-left-color: transparent;
     }

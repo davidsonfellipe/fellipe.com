@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { screen } from '../styles/screen'
 
 const HeadlineBase = styled.span`
   display: block;
@@ -21,12 +22,6 @@ const HeadlineRow = styled.span`
   font-family: var(--font-title);
   font-size: var(--font-size-xs);
   line-height: 1.25rem;
-`
-
-const HeadlineCategoryLabel = styled.span`
-  font-weight: 500;
-  color: var(--color-gray-aaa);
-  text-transform: uppercase;
 `
 
 const HeadlineMeta = styled.span`
@@ -57,7 +52,7 @@ const CategoryColumn = styled.span`
   width: ${p => p.$width || '36px'};
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   padding-top: 2px;
   padding-left: 0;
@@ -68,6 +63,16 @@ const IconOnlyWrapper = styled.span`
   align-items: flex-start;
   line-height: 1;
   color: var(--color-primary);
+`
+
+const CategoryLabelBelow = styled.span`
+  font-size: var(--font-size-xxs);
+  font-weight: 500;
+  font-family: var(--font-title);
+  color: var(--color-gray-aaa);
+  text-transform: uppercase;
+  margin-top: 4px;
+  line-height: 1.2;
 `
 
 const ContentColumn = styled.span`
@@ -99,14 +104,14 @@ const ViewMore = styled.span`
 
 const Title = styled.span`
   display: block;
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1.25rem;
   font-family: var(--font-title);
   font-weight: 700;
   text-transform: uppercase;
   color: var(--color-primary);
 
-  @media (min-width: 768px) {
+  ${screen.md} {
     font-size: 1.25rem;
     line-height: 1.35rem;
   }
@@ -150,19 +155,29 @@ const ListItemLink = ({
   rel,
 }) => {
   const linkProps = url ? { href: url, target, rel } : {}
-  const hasIconOnly = categoryIcon && !category
-  const columnWidth = categoryWidth || (hasIconOnly ? '36px' : '100px')
+  const hasIconAndLabel = categoryIcon && categoryLabel && !category
+  const columnWidth = categoryWidth || (hasIconAndLabel ? '72px' : '36px')
 
   const renderHeadline = () => {
-    if (!headline && !categoryLabel) return null
-    if (headline || categoryLabel) {
+    if (!headline) return null
+    return (
+      <HeadlineRow>
+        <HeadlineMeta>{headline}</HeadlineMeta>
+      </HeadlineRow>
+    )
+  }
+
+  const renderCategoryColumn = () => {
+    if (category) return category
+    if (categoryIcon && categoryLabel) {
       return (
-        <HeadlineRow>
-          {categoryLabel ? <HeadlineCategoryLabel>{categoryLabel}</HeadlineCategoryLabel> : null}
-          {headline ? <HeadlineMeta>{headline}</HeadlineMeta> : null}
-        </HeadlineRow>
+        <>
+          <IconOnlyWrapper>{categoryIcon}</IconOnlyWrapper>
+          <CategoryLabelBelow>{categoryLabel}</CategoryLabelBelow>
+        </>
       )
     }
+    if (categoryIcon) return <IconOnlyWrapper>{categoryIcon}</IconOnlyWrapper>
     return null
   }
 
@@ -170,9 +185,7 @@ const ListItemLink = ({
     <Wrapper as={url ? 'a' : 'div'} {...linkProps}>
       <Row>
         {categoryIcon || category ? (
-          <CategoryColumn $width={columnWidth}>
-            {category ?? <IconOnlyWrapper>{categoryIcon}</IconOnlyWrapper>}
-          </CategoryColumn>
+          <CategoryColumn $width={columnWidth}>{renderCategoryColumn()}</CategoryColumn>
         ) : null}
         <ContentColumn>
           <Title>{title}</Title>

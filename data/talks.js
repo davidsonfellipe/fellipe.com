@@ -29,7 +29,7 @@ const slides = [
   },
   {
     id: 'grunt-workshop',
-    url: 'https://github.com/almirfilho/grunt-workshop',
+    url: 'https://github.com/davidsonfellipe/grunt-workshop',
     title: 'Workshop about Grunt.js',
     views: 0,
     lang: 'pt-BR',

@@ -31,6 +31,7 @@ export const variables = `
   --layout-wrapper-padding-lg: 16px;
 
   // Font sizes
+  --font-size-xxs: 0.5rem;
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
   --font-size-md: 1rem;
