@@ -12,12 +12,29 @@ const HeadlineBase = styled.span`
   margin-bottom: 0;
 `
 
-const Headline = styled(HeadlineBase)`
-  margin-right: 0;
-  line-height: 0.75rem;
+const HeadlineRow = styled.span`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
   font-family: var(--font-title);
   font-size: var(--font-size-xs);
+  line-height: 1.25rem;
+`
+
+const HeadlineCategoryLabel = styled.span`
+  font-weight: 500;
   color: var(--color-gray-aaa);
+  text-transform: uppercase;
+`
+
+const HeadlineMeta = styled.span`
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-gray);
 `
 
 const HeadlineSecondary = styled(HeadlineBase)`
@@ -32,21 +49,25 @@ const HeadlineSecondary = styled(HeadlineBase)`
 const Row = styled.span`
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  gap: 12px;
 `
 
 const CategoryColumn = styled.span`
   flex-shrink: 0;
-  width: 60px;
+  width: ${p => p.$width || '36px'};
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 4px;
-  font-family: var(--font-title);
-  font-weight: 500;
-  color: var(--color-gray);
+  justify-content: flex-start;
   padding-top: 2px;
   padding-left: 0;
+`
+
+const IconOnlyWrapper = styled.span`
+  display: flex;
+  align-items: flex-start;
+  line-height: 1;
+  color: var(--color-primary);
 `
 
 const ContentColumn = styled.span`
@@ -54,14 +75,41 @@ const ContentColumn = styled.span`
   min-width: 0;
 `
 
+const Description = styled.span`
+  display: block;
+  font-size: 0.9375rem;
+  font-family: var(--font-text);
+  font-weight: 400;
+  color: var(--color-gray);
+  line-height: 1.5;
+  margin-top: 4px;
+  margin-bottom: 0;
+`
+
+const ViewMore = styled.span`
+  display: block;
+  font-size: 0.75rem;
+  font-family: var(--font-title);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-gray);
+  margin-top: 8px;
+  text-align: right;
+`
+
 const Title = styled.span`
   display: block;
   font-size: 1rem;
-  line-height: 1.15rem;
+  line-height: 1.25rem;
   font-family: var(--font-title);
   font-weight: 700;
   text-transform: uppercase;
   color: var(--color-primary);
+
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+    line-height: 1.35rem;
+  }
 `
 
 const Wrapper = styled.a`
@@ -87,55 +135,55 @@ const Wrapper = styled.a`
   }
 `
 
-const CategoryIconWrapper = styled.span`
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  line-height: 1;
-`
-
-const CategoryLabel = styled.span`
-  font-size: 0.45rem;
-  font-weight: 500;
-  color: var(--color-gray);
-  text-transform: uppercase;
-  width: 100%;
-  text-align: center;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-`
-
 const ListItemLink = ({
   categoryIcon,
   categoryLabel = '',
   category,
+  categoryWidth,
   headline = '',
   headlineSecondary = '',
+  description = '',
+  showViewMore = false,
   title = '',
   url = '',
   target,
   rel,
-}) => (
-  <Wrapper href={url} target={target} rel={rel}>
-    <Row>
-      {categoryIcon || category ? (
-        <CategoryColumn>
-          {category ?? (
-            <>
-              {categoryIcon && <CategoryIconWrapper>{categoryIcon}</CategoryIconWrapper>}
-              {categoryLabel ? <CategoryLabel>{categoryLabel}</CategoryLabel> : null}
-            </>
-          )}
-        </CategoryColumn>
-      ) : null}
-      <ContentColumn>
-        <Title>{title}</Title>
-        {headline ? <Headline>{headline}</Headline> : null}
-        {headlineSecondary ? <HeadlineSecondary>{headlineSecondary}</HeadlineSecondary> : null}
-      </ContentColumn>
-    </Row>
-  </Wrapper>
-)
+}) => {
+  const linkProps = url ? { href: url, target, rel } : {}
+  const hasIconOnly = categoryIcon && !category
+  const columnWidth = categoryWidth || (hasIconOnly ? '36px' : '100px')
+
+  const renderHeadline = () => {
+    if (!headline && !categoryLabel) return null
+    if (headline || categoryLabel) {
+      return (
+        <HeadlineRow>
+          {categoryLabel ? <HeadlineCategoryLabel>{categoryLabel}</HeadlineCategoryLabel> : null}
+          {headline ? <HeadlineMeta>{headline}</HeadlineMeta> : null}
+        </HeadlineRow>
+      )
+    }
+    return null
+  }
+
+  return (
+    <Wrapper as={url ? 'a' : 'div'} {...linkProps}>
+      <Row>
+        {categoryIcon || category ? (
+          <CategoryColumn $width={columnWidth}>
+            {category ?? <IconOnlyWrapper>{categoryIcon}</IconOnlyWrapper>}
+          </CategoryColumn>
+        ) : null}
+        <ContentColumn>
+          <Title>{title}</Title>
+          {renderHeadline()}
+          {headlineSecondary ? <HeadlineSecondary>{headlineSecondary}</HeadlineSecondary> : null}
+          {description ? <Description>{description}</Description> : null}
+          {showViewMore && url ? <ViewMore>View more →</ViewMore> : null}
+        </ContentColumn>
+      </Row>
+    </Wrapper>
+  )
+}
 
 export default ListItemLink

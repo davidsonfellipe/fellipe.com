@@ -79,7 +79,7 @@ const projects = [
 
   {
     repositoryURL: 'https://github.com/davidsonfellipe/awesome-wpo',
-    company: 'Personal Project',
+    company: 'Pet Projects',
     demoURL: '',
     status: 'active',
     title: 'Awesome-wpo',
@@ -89,7 +89,7 @@ const projects = [
   },
   {
     repositoryURL: 'https://github.com/davidsonfellipe/lena.js',
-    company: 'Personal Project',
+    company: 'Pet Projects',
     demoURL: 'https://www.fellipe.com/demos/lena-js/',
     status: 'active',
     title: 'Lena.js',
@@ -99,7 +99,7 @@ const projects = [
   },
   {
     repositoryURL: 'https://www.fellipe.com/apps/im-coder/',
-    company: 'Personal Project',
+    company: 'Pet Projects',
     demoURL: '',
     status: 'inactive',
     title: "I'm a coder",
@@ -110,7 +110,7 @@ const projects = [
   },
   {
     repositoryURL: 'https://github.com/zenorocha/browser-diet',
-    company: 'Personal Project',
+    company: 'Pet Projects',
     demoURL: 'https://github.com/zenorocha/browser-diet',
     status: 'inactive',
     title: 'Browser diet',
