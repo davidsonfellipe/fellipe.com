@@ -37,14 +37,6 @@ const HeadlineMeta = styled.span`
   color: var(--color-gray);
 `
 
-const Headline = styled(HeadlineBase)`
-  margin-right: 0;
-  line-height: 0.75rem;
-  font-family: var(--font-title);
-  font-size: var(--font-size-xs);
-  color: var(--color-gray-aaa);
-`
-
 const HeadlineSecondary = styled(HeadlineBase)`
   margin-left: 0.5rem;
 
