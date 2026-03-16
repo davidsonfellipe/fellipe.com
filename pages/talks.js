@@ -5,6 +5,7 @@ import Seo from '../components/seo'
 import PageTitle from '../components/page-title'
 import Section from '../components/section'
 import ListItemLink from '../components/list-item-link'
+import FilterBar from '../components/filter-bar'
 import Layout from '../components/layout'
 import {
   IconMapPin,
@@ -205,13 +206,6 @@ const WatchMoreText = styled.p`
   max-width: 560px;
 `
 
-const FilterRow = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 24px;
-`
-
 const YearGroup = styled.div`
   margin-top: 48px;
 `
@@ -243,25 +237,6 @@ const YearHeader = ({ year, count }) => {
     </YearHeaderBase>
   )
 }
-
-const FilterButton = styled.button`
-  font-size: 0.875rem;
-  font-family: var(--font-title);
-  font-weight: 700;
-  color: var(--color-primary);
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  padding: 8px 12px 12px;
-  cursor: pointer;
-  text-transform: uppercase;
-  border-bottom: ${p => (p.$active ? '3px solid var(--color-tertiary)' : '1px solid #e0e0e0')};
-  transition: border-color 100ms ease;
-
-  &:hover {
-    border-bottom-color: ${p => (p.$active ? 'var(--color-tertiary)' : '#bbb')};
-  }
-`
 
 const parseDate = dateStr => {
   const d = new Date(dateStr)
@@ -417,36 +392,16 @@ const TalksPage = () => {
             ))}
           </FeaturedRowWithFade>
         </HighlightsWrapper>
-        <FilterRow>
-          <FilterButton
-            $active={filter === FILTER_ALL}
-            onClick={() => setFilter(FILTER_ALL)}
-            aria-current={filter === FILTER_ALL ? 'true' : undefined}
-          >
-            All
-          </FilterButton>
-          <FilterButton
-            $active={filter === FILTER_TALKS}
-            onClick={() => setFilter(FILTER_TALKS)}
-            aria-current={filter === FILTER_TALKS ? 'true' : undefined}
-          >
-            Talks
-          </FilterButton>
-          <FilterButton
-            $active={filter === FILTER_INTERVIEWS}
-            onClick={() => setFilter(FILTER_INTERVIEWS)}
-            aria-current={filter === FILTER_INTERVIEWS ? 'true' : undefined}
-          >
-            Interviews
-          </FilterButton>
-          <FilterButton
-            $active={filter === FILTER_VIDEOS}
-            onClick={() => setFilter(FILTER_VIDEOS)}
-            aria-current={filter === FILTER_VIDEOS ? 'true' : undefined}
-          >
-            Videos
-          </FilterButton>
-        </FilterRow>
+        <FilterBar
+          options={[
+            { value: FILTER_ALL, label: 'All' },
+            { value: FILTER_TALKS, label: 'Talks' },
+            { value: FILTER_INTERVIEWS, label: 'Interviews' },
+            { value: FILTER_VIDEOS, label: 'Videos' },
+          ]}
+          value={filter}
+          onChange={setFilter}
+        />
         <div id="all-talks">
           <AnimatePresence mode="wait">
             <motion.div

@@ -9,7 +9,12 @@ import PageTitle from '../components/page-title'
 import ListItemLink from '../components/list-item-link'
 import Seo from '../components/seo'
 import { formatDateToMonthDayYear } from '../lib/format-date-to-month-day-year'
-import { IconCalendar } from '@tabler/icons-react'
+import { IconCalendar, IconWorld } from '@tabler/icons-react'
+
+const formatDisplayLang = lang => {
+  const map = { 'pt-BR': 'PT', 'en-US': 'EN', pt: 'PT', en: 'EN', portuguese: 'PT', english: 'EN' }
+  return map[lang] ?? lang
+}
 
 const PostsWrapper = styled.div`
   margin-bottom: 15px;
@@ -64,10 +69,16 @@ const filterPostsByLang = (allPostsData, lang) => {
         key={data.path}
         url={data.path}
         headline={
-          <IconWrapper>
-            <IconCalendar size={14} />
-            {formatDateToMonthDayYear(data.date)}
-          </IconWrapper>
+          <>
+            <IconWrapper>
+              <IconCalendar size={14} />
+              {formatDateToMonthDayYear(data.date)}
+            </IconWrapper>
+            <IconWrapper>
+              <IconWorld size={14} />
+              {formatDisplayLang(data.lang)}
+            </IconWrapper>
+          </>
         }
         headlineSecondary={''}
         title={data.title}
