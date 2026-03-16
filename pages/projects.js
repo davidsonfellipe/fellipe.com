@@ -1,140 +1,116 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
+import { motion, AnimatePresence } from 'framer-motion'
+import { IconBriefcase } from '@tabler/icons-react'
 import Seo from '../components/seo'
 import PageTitle from '../components/page-title'
 import Section from '../components/section'
+import ListItemLink from '../components/list-item-link'
 import Layout from '../components/layout'
 import projects from '../data/projects'
 import { screen } from '../styles/screen'
 
+const FILTER_ALL = 'all'
+
+const FILTER_ORDER = ['Upgrade', 'Salesforce', 'Loadsmart', 'Pet Projects']
+const companies = FILTER_ORDER.filter(c => projects.some(p => p.company === c))
+
+const getFilteredProjects = filter => {
+  if (filter === FILTER_ALL) return projects
+  return projects.filter(p => p.company === filter)
+}
+
+const FilterRow = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 24px;
+
+  ${screen.md} {
+    gap: 8px;
+  }
+`
+
+const FilterButton = styled.button`
+  font-size: 0.75rem;
+  font-family: var(--font-title);
+  font-weight: 700;
+  color: var(--color-primary);
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 6px 8px 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-bottom: ${p => (p.$active ? '3px solid var(--color-tertiary)' : '1px solid #e0e0e0')};
+  transition: border-color 100ms ease;
+
+  &:hover {
+    border-bottom-color: ${p => (p.$active ? 'var(--color-tertiary)' : '#bbb')};
+  }
+
+  ${screen.md} {
+    font-size: 0.875rem;
+    padding: 8px 12px 12px;
+  }
+`
+
 const ProjectsPage = () => {
+  const [filter, setFilter] = useState(FILTER_ALL)
+  const filteredProjects = getFilteredProjects(filter)
+
   return (
     <Layout>
       <Seo title="Projects" />
       <Section>
         <PageTitle>Projects</PageTitle>
-        {projects?.map(project => (
-          <ProjectItem project={project} key={project.title} />
-        ))}
+        <FilterRow>
+          <FilterButton
+            $active={filter === FILTER_ALL}
+            onClick={() => setFilter(FILTER_ALL)}
+            aria-current={filter === FILTER_ALL ? 'true' : undefined}
+          >
+            All
+          </FilterButton>
+          {companies.map(company => (
+            <FilterButton
+              key={company}
+              $active={filter === company}
+              onClick={() => setFilter(company)}
+              aria-current={filter === company ? 'true' : undefined}
+            >
+              {company}
+            </FilterButton>
+          ))}
+        </FilterRow>
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={filter}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.25, ease: [0.4, 0, 0.2, 1] }}
+          >
+            {filteredProjects?.map(project => {
+              const url = project.demoURL || project.repositoryURL || ''
+              return (
+                <ListItemLink
+                  key={project.title}
+                  categoryIcon={<IconBriefcase size={20} />}
+                  headline={`${project.company} · ${project.year}`}
+                  title={project.title}
+                  description={project.description}
+                  showViewMore={!!url}
+                  url={url}
+                  target={url.startsWith('http') ? '_blank' : undefined}
+                  rel={url.startsWith('http') ? 'noopener noreferrer' : undefined}
+                />
+              )
+            })}
+          </motion.div>
+        </AnimatePresence>
       </Section>
     </Layout>
-  )
-}
-
-const ProjectWrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-`
-
-const ProjectCategory = styled.div`
-  padding-top: var(--spacing-md);
-  width: 20%;
-
-  ${screen.md} {
-    width: 15%;
-  }
-`
-
-const ProjectsDetails = styled.div`
-  text-decoration: none;
-  transition:
-    border-color 100ms linear,
-    transform 100ms linear;
-  width: 80%;
-  will-change: transform, opacity, border-color;
-
-  ${screen.md} {
-    opacity: 0.95;
-    width: 85%;
-
-    &:hover,
-    &:focus {
-      border-color: var(--color-tertiary);
-      opacity: 1;
-      transform: scale(1.005);
-    }
-  }
-`
-
-const ProjectTitle = styled.h3`
-  display: block;
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  font-family: var(--font-title);
-  font-weight: 700;
-  text-transform: uppercase;
-  padding-top: var(--spacing-md);
-
-  ${screen.md} {
-    font-size: 1.25rem;
-  }
-`
-
-const ProjectDescription = styled.p`
-  margin: 0;
-  padding: 10px 0 15px 0;
-`
-
-const Wrapper = styled.div`
-  border-bottom: 3px solid #efefef;
-  display: block;
-  font-size: 1rem;
-  color: var(--color-primary);
-  line-height: 1.5em;
-  position: relative;
-  text-decoration: none;
-  transition: border-color 500ms linear;
-
-  &:hover {
-    border-color: var(--color-tertiary);
-  }
-`
-
-const ViewProject = styled.span`
-  display: block;
-  font-size: 0.5rem;
-  margin: 10px 0 20px 0;
-  text-align: right;
-  text-decoration: none;
-  width: 100%;
-  font-family: var(--font-title);
-  font-weight: 700;
-  text-transform: uppercase;
-
-  ${screen.md} {
-    margin-top: 0;
-    text-align: right;
-    padding: 0 10px;
-    opacity: 0.9;
-  }
-`
-
-const ProjectItem = ({ project }) => {
-  const url = project.demoURL || project.repositoryURL
-  const isExternal = url && url.startsWith('http')
-
-  return (
-    <ProjectWrapper>
-      <ProjectCategory>
-        {project.company}
-        <br />
-        {project.year}
-      </ProjectCategory>
-      <ProjectsDetails
-        as={url ? 'a' : 'div'}
-        href={url}
-        target={isExternal ? '_blank' : '_self'}
-        rel={isExternal ? 'noopener noreferrer' : undefined}
-      >
-        <Wrapper>
-          <ProjectTitle>{project.title}</ProjectTitle>
-          <ProjectDescription>
-            {project.description} {url ? <ViewProject>View more →</ViewProject> : null}
-          </ProjectDescription>
-        </Wrapper>
-      </ProjectsDetails>
-    </ProjectWrapper>
   )
 }
 
