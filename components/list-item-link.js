@@ -179,9 +179,7 @@ const ListItemLink = ({
       <Row>
         {categoryIcon || category ? (
           <CategoryColumn $width={columnWidth}>
-            {category ?? (
-              <IconOnlyWrapper>{categoryIcon}</IconOnlyWrapper>
-            )}
+            {category ?? <IconOnlyWrapper>{categoryIcon}</IconOnlyWrapper>}
           </CategoryColumn>
         ) : null}
         <ContentColumn>
