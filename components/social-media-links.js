@@ -1,12 +1,33 @@
 import React from 'react'
 import styled from 'styled-components'
-import Image from 'next/image'
+import {
+  IconBrandLinkedin,
+  IconBrandGithub,
+  IconBrandMastodon,
+  IconBrandThreads,
+  IconBrandBluesky,
+  IconBrandYoutube,
+  IconBrandNpm,
+  IconPresentation,
+} from '@tabler/icons-react'
 
 import { screen } from '../styles/screen'
 import profiles from '../data/profiles'
 
+const ICON_MAP = {
+  linkedin: IconBrandLinkedin,
+  github: IconBrandGithub,
+  mastodon: IconBrandMastodon,
+  threads: IconBrandThreads,
+  bluesky: IconBrandBluesky,
+  youtube: IconBrandYoutube,
+  npm: IconBrandNpm,
+  speakerdeck: IconPresentation,
+  slideshare: IconPresentation,
+}
+
 const Wrapper = styled.div`
-  img,
+  svg,
   ul,
   li {
     display: inline-block;
@@ -37,7 +58,7 @@ const Wrapper = styled.div`
     }
   }
 
-  img {
+  svg {
     height: 40px;
     width: 40px;
   }
@@ -57,16 +78,19 @@ const Name = styled.span`
 `
 
 const formatAllSocialIcons = () => {
-  let keys = Object.keys(profiles)
+  const keys = Object.keys(profiles)
 
-  return keys.map(key => (
-    <li key={key}>
-      <a href={profiles[key].url} target="_blank" rel="noopener noreferrer">
-        <Image width={18} height={18} src={profiles[key].icon} alt={`My profile at ${key}`} />
-        <Name>{key}</Name>
-      </a>
-    </li>
-  ))
+  return keys.map(key => {
+    const Icon = ICON_MAP[key]
+    return (
+      <li key={key}>
+        <a href={profiles[key].url} target="_blank" rel="noopener noreferrer">
+          <Icon size={40} stroke={1.5} aria-hidden />
+          <Name>{key}</Name>
+        </a>
+      </li>
+    )
+  })
 }
 
 const SocialMediaLinks = () => (
