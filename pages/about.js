@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import Image from 'next/image'
 import Seo from '../components/seo'
 import PageTitle from '../components/page-title'
-import Subtitle from '../components/subtitle'
 import Section from '../components/section'
 import Layout from '../components/layout'
 import SocialMediaLinks from '../components/social-media-links'
@@ -52,9 +51,9 @@ const AboutPage = () => (
         talking about travel.
       </Bio>
 
-      <Subtitle>
+      <Bio>
         You can find more on my Linkedin: <a href={profiles.linkedin.url}>{profiles.linkedin.url}</a>
-      </Subtitle>
+      </Bio>
 
       <SubtitleUnderline>Social Media</SubtitleUnderline>
 
@@ -76,19 +75,38 @@ const AboutPage = () => (
       </Bio>
 
       <SubtitleUnderline>About this website</SubtitleUnderline>
-      <Bio>
-        <ul>
-          <li>Framework: Next.js - A React framework for building web applications.</li>
-          <li>Styling: Styled Components - A CSS-in-JS library with component-based styling.</li>
-          <li>
-            Icons: <a href="https://github.com/simple-icons/simple-icons/">Simple Icons</a>.
-          </li>
-          <li>Deployment: Vercel - A platform for deployment and hosting of web applications.</li>
-          <li>
-            Source Code is on <a href="https://github.com/davidsonfellipe/fellipe.com">GitHub</a>.
-          </li>
-        </ul>
-      </Bio>
+      <TechStack>
+        <TechItem>
+          <TechLabel>Framework</TechLabel>
+          <TechValue>Next.js</TechValue>
+        </TechItem>
+        <TechItem>
+          <TechLabel>Styling</TechLabel>
+          <TechValue>Styled Components</TechValue>
+        </TechItem>
+        <TechItem>
+          <TechLabel>Icons</TechLabel>
+          <TechValue>
+            <a href="https://tabler.io/icons" target="_blank" rel="noopener noreferrer">Tabler Icons</a>
+          </TechValue>
+        </TechItem>
+        <TechItem>
+          <TechLabel>Animations</TechLabel>
+          <TechValue>
+            <a href="https://www.framer.com/motion/" target="_blank" rel="noopener noreferrer">Framer Motion</a>
+          </TechValue>
+        </TechItem>
+        <TechItem>
+          <TechLabel>Deployment</TechLabel>
+          <TechValue>Vercel</TechValue>
+        </TechItem>
+        <TechItem>
+          <TechLabel>Source</TechLabel>
+          <TechValue>
+            <a href="https://github.com/davidsonfellipe/fellipe.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </TechValue>
+        </TechItem>
+      </TechStack>
     </Section>
   </Layout>
 )
@@ -125,6 +143,54 @@ const Bio = styled.section`
   font-size: 1rem;
   line-height: 1.25em;
   margin: 1rem 0 2rem 0;
+`
+
+const TechStack = styled.dl`
+  margin: 1rem 0 2rem 0;
+  padding: 0;
+`
+
+const TechItem = styled.div`
+  display: grid;
+  grid-template-columns: 8em 1fr;
+  gap: 12px 24px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  ${screen.md} {
+    grid-template-columns: 9em 1fr;
+  }
+`
+
+const TechLabel = styled.dt`
+  margin: 0;
+  font-family: var(--font-title);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-primary);
+`
+
+const TechValue = styled.dd`
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--color-text);
+
+  a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    text-decoration-color: var(--color-tertiary);
+    text-underline-offset: 2px;
+
+    &:hover {
+      text-decoration-color: var(--color-primary);
+    }
+  }
 `
 
 const ImageProfile = styled.div`
