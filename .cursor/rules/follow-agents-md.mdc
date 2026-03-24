@@ -1,0 +1,10 @@
+---
+description: Follow AGENTS.md for project conventions, including commits
+alwaysApply: true
+---
+
+# Project Conventions
+
+For **commit messages** and other project conventions, always follow **`AGENTS.md`** at the project root.
+
+When suggesting or creating commits, read the "Commits – Conventional Commits" section of `AGENTS.md` and use that format.
