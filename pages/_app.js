@@ -1,6 +1,7 @@
 import Script from 'next/script'
 import { ThemeProvider } from 'styled-components'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const theme = {
   colors: {
@@ -16,6 +17,7 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </ThemeProvider>
       <Analytics />
+      <SpeedInsights />
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-EV10PWT7QL" />
       <Script id="google-analytics">
         {`
