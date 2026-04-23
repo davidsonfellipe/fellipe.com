@@ -21,6 +21,7 @@
   "dependencies": {
     "@tabler/icons-react": "^3.34.1",
     "@vercel/analytics": "^1.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "date-fns": "^2.30.0",
     "framer-motion": "^12.17.0",
     "gray-matter": "^4.0.3",
