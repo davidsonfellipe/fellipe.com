@@ -246,7 +246,7 @@ const Header = () => {
           <IconMenu2 size={28} stroke={1.5} />
         </HamburgerButton>
 
-        <Links>
+        <Links aria-hidden={mobileMenuOpen}>
           {navLinks.map(({ href, label }) => (
             <Link key={href} href={href}>
               {label}
@@ -256,11 +256,11 @@ const Header = () => {
       </Wrapper>
 
       <MobileMenuOverlay $open={mobileMenuOpen} onClick={closeMobileMenu} aria-hidden="true" />
-      <MobileMenuPanel $open={mobileMenuOpen}>
+      <MobileMenuPanel $open={mobileMenuOpen} aria-hidden={!mobileMenuOpen} inert={!mobileMenuOpen}>
         <MobileMenuClose onClick={closeMobileMenu} aria-label="Close menu" aria-expanded={mobileMenuOpen}>
           <IconX size={24} stroke={1.5} />
         </MobileMenuClose>
-        <MobileMenuLinks>
+        <MobileMenuLinks aria-hidden={!mobileMenuOpen}>
           {navLinks.map(({ href, label }) => (
             <Link key={href} href={href} onClick={closeMobileMenu}>
               {label}
