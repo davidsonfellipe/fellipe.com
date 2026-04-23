@@ -257,7 +257,7 @@ const Header = () => {
 
       <MobileMenuOverlay $open={mobileMenuOpen} onClick={closeMobileMenu} aria-hidden="true" />
       <MobileMenuPanel $open={mobileMenuOpen}>
-        <MobileMenuClose onClick={closeMobileMenu} aria-label="Fechar menu">
+        <MobileMenuClose onClick={closeMobileMenu} aria-label="Fechar menu" aria-expanded={mobileMenuOpen}>
           <IconX size={24} stroke={1.5} />
         </MobileMenuClose>
         <MobileMenuLinks>
