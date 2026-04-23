@@ -4,7 +4,6 @@ temp/
 _posts_not_published/
 assets/themes/fellipecom/css/
 .DS_Store
-.env
 
 # IDE-specific files
 .vscode

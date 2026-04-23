@@ -22,7 +22,7 @@ JSLint analyzes a given piece of code and identifies potential issues or syntax 
 [JSLint][6] is a powerful tool for everyday use by JavaScript programmers, as it demands greater precision in code writing for this language. It requires certain considerations, such as code indentation, line length, variable declaration, statements, and function declarations, among others. For example, the common JavaScript error mentioned in the article [Correct Usage of the parseInt Function in JavaScript][7] would be easily detected, and it would display the error "Missing radix parameter."
 
 [6]: https://www.jslint.com/
-[7]: https://fellipe.com/blog/uso-correto-da-funcao-do-parseint-em-javascript/
+[7]: /blog/uso-correto-da-funcao-do-parseint-em-javascript/
 
 Therefore, by using JSLint, you will be able to identify your most common errors and start adopting essential habits to become a better programmer in the JavaScript language. To use JSLint, simply access the website, paste your code, and click on the JSLint button. The good practice of always checking your code in this tool can even prevent cross-browser issues.
 

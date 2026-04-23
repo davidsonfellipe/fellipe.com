@@ -11,7 +11,7 @@ tags: ["winter", "snow", "react"]
 
 Depois de ler alguns depoimentos de alguns amigos sobre 2012, resolvi escrever o meu. Esse ano, foi o ano que fez mais diferença na minha carreira profissional, e que ano! Comecei o ano visitando pela primeira vez a capital mineira, onde tive o prazer de palestrar no [BeagaJS][1], onde abordei o tema de [Performance em jQuery Apps][2]. Depois tirei férias… o/
 
-[1]: https://fellipe.com/blog/relato-sobre-o-beagajs/
+[1]: /blog/relato-sobre-o-beagajs/
 [2]: https://www.slideshare.net/davidsonfellipe/jqueryperf
 
 Nessas minhas primeiras férias, depois de 5 anos de faculdade e 1 ano e meio de Globo.com, resolvi conhecer o 2º destino turistíco mais visitado desse país, e o que eu tinha mais interesse em conhecer: Foz do Iguaçu, e ainda visitei, a Puerto Iguazú (Argentina) e Ciudad del Este (Paraguai), essa região de fronteiras é incrível e com muitas culturas diferentes, que se eu fosse contar todos os detalhes mereceria um post exclusivo.
@@ -28,7 +28,7 @@ Nada melhor que essa ultra-mega-hiper lotada Praça do Marco Zero, ao som de Seu
 
 Após voltar para o mundo real, tinha que começar a pensar no que eu poderia fazer de diferente em 2012, algo que pudesse ajudar a vida de muitas pessoas, então resolvi participar da organização de um evento para minha *terrinha* com grandes nomes da área do JavaScript, [junto com Luiz Tiago e Thiago Azurém criamos o PernambucoJS][5], com a grande colaboração de Djalma Araújo e Eduardo Lundgren.
 
-[5]: https://fellipe.com/blog/pernambucojs-2012-pre-evento/
+[5]: /blog/pernambucojs-2012-pre-evento/
 
 O [PernambucoJS][6] foi um projeto de cerca de 3 meses, onde levamos 7 palestrantes e contou com a presença de cerca de 220 pessoas. E ainda palestrei sobre[ JavaScript Cross-Browser][7].
 
@@ -47,7 +47,7 @@ Em Maio, fiquei na expectativa de minha primeira viagem internacional segunda v
 Depois da correria para visto e passaporte, embarquei com destino a San Francisco para participar da [Fluent Conferenc][10]e, a primeira conferência focada em JavaScript da O’Reilly, realizada na apaixonante San Francisco. Foram 3 dias de evento, e uma ótima oportunidade para troca ideias com desenvolvedores de várias partes do mundo, e abrir meus olhos para o grande crescimento do mercado de mobile para o desenvolvedor Frontend. Mais detalhes sobre o que rolou no evento podem ser conferidos nessa minha apresentação: [Fluent Conference Highlights][11], que apresentei em um TechTalk lá na Globo.com e também no Rio.js. Ainda pude conferir uma SF em clima de festa, em comemoração dos 75 anos da [Golden Gate Bridge][12], que trouxe um tempero especial para essa viagem.
 
 [10]: http://fluentconf.com
-[11]: https://fellipe.com/slides/fluent2012/pt/
+[11]: /slides/fluent2012/pt/
 [12]: https://www.youtube.com/watch?v=KPsXd28iuPc
 
 ## Preparativos para o Front in BH
@@ -115,7 +115,7 @@ Esse foi outro grande desafio para esse ano, onde busquei expor minha visão atu
 Já em agosto, rolou a BrazilJS Conference, um evento que superou todas minhas expectativas, e pela primeira vez reuniu a grande maioria da comunidade frontend do país, e grandes palestrantes do Brasil e do mundo, que também contou com forte apoio da [Globo.com][35], onde levamos um belo stand. Sem dúvida esse foi o momento “mais friozinho na barriga” do ano, subir num palco quase 1 mil pessoas presentes num teatro em Porto Alegre, não foi fácil e ao mesmo tempo foi o maior desafio para a timidez na minha vida! Fiz a primeira palestra do segundo dia do evento, com o tema [Performance em JavaScript][36].
 
 [35]: https://opensource.globo.com/
-[36]: https://fellipe.com/slides/performance-javascript/#1
+[36]: /slides/performance-javascript/#1
 
 Após ser anunciado e subir alguns degraus, vi aquela enorme platéia, bebi um gole de água, e falei para mim: “Vai lá e faz a melhor apresentação que você já fez na vida”, após uns 5 minutos tentando me entender com a forte iluminação, acredito que consegui passar a ideia para maioria dos presentes, e coletei feedbacks da apresentação, que já pude mostrá-los em um Workshop na Globo.com.
 

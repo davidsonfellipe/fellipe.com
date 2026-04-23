@@ -89,7 +89,7 @@ const CardPage = () => {
 
                   <QRCodeContainerTop>
                     <QRCode
-                      value="https://fellipe.com/card/"
+                      value="/card/"
                       size={120}
                       style={{ height: 'auto', maxWidth: '100%', width: '100%' }}
                       viewBox={`0 0 120 120`}
