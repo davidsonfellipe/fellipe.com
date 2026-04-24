@@ -80,7 +80,7 @@ const projects = [
   {
     repositoryURL: 'https://github.com/davidsonfellipe/awesome-wpo',
     company: 'Personal',
-    demoURL: '',
+    demoURL: 'https://awesome-wpo.dev/',
     status: 'active',
     title: 'Awesome-wpo',
     description: 'A curated list of Web Performance Optimization.',
