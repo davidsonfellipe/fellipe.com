@@ -16,8 +16,6 @@ export default function Layout({ children }) {
     <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="og:title" content={siteTitle} />
-        <meta property="og:image" content="/images/profile.jpg" />
         <link href={profiles?.mastodon.url} rel="me" />
       </Head>
       <ResetStyles />
