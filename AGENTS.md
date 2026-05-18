@@ -66,7 +66,7 @@ pnpm textlint:fix
 
 ## Commits – Conventional Commits
 
-Always use [Conventional Commits](https://www.conventionalcommits.org/) for commit messages:
+Commits and PR titles must follow [Conventional Commits](https://www.conventionalcommits.org/) as used by [Commitizen](https://commitizen-tools.github.io/commitizen/). PR titles use the same format as commit subjects.
 
 ```
 <type>[optional scope]: <description>
@@ -87,6 +87,8 @@ pnpm exec cz
 ```
 
 ## Pull requests
+
+Use the same Conventional Commits format for the **PR title** as for commit subjects (see above).
 
 When creating or describing pull requests, use the `.github/PULL_REQUEST_TEMPLATE` format. Fill in:
 - **Types of changes** – e.g. feat, fix, docs, refactor
