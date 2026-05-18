@@ -12,16 +12,24 @@ const Seo = ({ title, description = '' }) => {
         ? currentPath
         : `${currentPath}/`
   const canonicalUrl = `${siteUrl}${normalizedPath}`
+  const ogImageUrl = `${siteUrl}/images/profile.jpg`
+  const ogTitle = `${title} | Davidson Fellipe`
 
   return (
     <Head>
-      <title>{`${title} | Davidson Fellipe`}</title>
+      <title>{ogTitle}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonicalUrl} />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content={title} />
-      <meta property="og:image" content="/images/profile.jpg" />
+      <meta property="og:url" content={canonicalUrl} />
+      <meta property="og:title" content={ogTitle} />
+      {description ? (
+        <meta property="og:description" content={description} />
+      ) : null}
+      <meta property="og:image" content={ogImageUrl} />
       <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={ogTitle} />
+      <meta name="twitter:image" content={ogImageUrl} />
     </Head>
   )
 }
