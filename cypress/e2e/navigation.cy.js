@@ -8,7 +8,6 @@ context('Navigation', () => {
     cy.contains('projects')
     cy.contains('talks')
     cy.contains('about')
-    cy.contains('interviews')
   })
 
   it('verify links have correct URLs with trailing slashes', () => {
@@ -16,7 +15,6 @@ context('Navigation', () => {
     cy.contains('projects').should('have.attr', 'href', '/projects/')
     cy.contains('talks').should('have.attr', 'href', '/talks/')
     cy.contains('about').should('have.attr', 'href', '/about/')
-    cy.contains('interviews').should('have.attr', 'href', '/interviews/')
   })
 
   it('verify blog article link functionality', () => {
@@ -59,14 +57,6 @@ context('Navigation', () => {
     cy.title().should('include', 'Talks | Davidson Fellipe')
     cy.contains('Talks')
     cy.location('pathname').should('include', 'talks')
-  })
-
-  it('navigate to interviews page and check the content', () => {
-    cy.contains('interviews').click()
-
-    cy.title().should('include', 'Interviews | Davidson Fellipe')
-    cy.contains('Interviews')
-    cy.location('pathname').should('include', 'interviews')
   })
 
   it('navigate to about page and check the content', () => {

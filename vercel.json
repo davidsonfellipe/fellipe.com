@@ -1,6 +1,8 @@
 {
     "redirects": [
       {"source": "/palestras", "destination": "/talks", "statusCode": 301},
+      {"source": "/interviews", "destination": "/talks/", "statusCode": 301},
+      {"source": "/interviews/", "destination": "/talks/", "statusCode": 301},
       {"source": "/apps/lena-js/ ", "destination": "/demos/lena-js/", "statusCode": 301},
       {"source": "/lena-js/", "destination": "/demos/lena-js/", "statusCode": 301},
       {"source": "/articles/", "destination": "/blog", "statusCode": 301},
