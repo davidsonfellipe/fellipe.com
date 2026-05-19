@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 
-const Seo = ({ title, description = '' }) => {
+const Seo = ({ title, description = '', ogImageUrl: ogImageUrlCustom }) => {
   const router = useRouter()
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, '')
   const currentPath = (router.asPath || '/').split('?')[0].split('#')[0]
@@ -12,7 +12,8 @@ const Seo = ({ title, description = '' }) => {
         ? currentPath
         : `${currentPath}/`
   const canonicalUrl = `${siteUrl}${normalizedPath}`
-  const ogImageUrl = `${siteUrl}/images/profile.jpg`
+  const ogImageUrlSuffix = ogImageUrlCustom ? ogImageUrlCustom : `/api/og?title=${encodeURIComponent(title)}`
+  const ogImageUrl = `${siteUrl}${ogImageUrlSuffix}`
   const ogTitle = `${title} | Davidson Fellipe`
 
   return (

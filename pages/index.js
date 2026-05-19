@@ -10,9 +10,9 @@ import { screen } from '../styles/screen'
 export default function Home() {
   return (
     <Layout home>
-      <Seo title="Home" description="Engineering leader passionate about helping teams build for the web." />
+      <Seo title="Home" description="Engineering leader passionate about helping teams build for the web." ogImageUrl="/images/profile.jpg" />
       <ImgWrapper>
-        <Image priority src="/images/profile.jpg" height={150} width={150} alt="logo - profile picture" />
+        <Image priority src="/images/profile.jpg" height={150} width={150} alt="" />
         <Baloon>Olá</Baloon>
       </ImgWrapper>
       <TextIntro>
