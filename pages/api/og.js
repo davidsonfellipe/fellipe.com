@@ -60,8 +60,10 @@ export default async function handler(req) {
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center' }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={profileImageUrl}
+            alt=""
             width={220}
             height={220}
             style={{ borderRadius: '50%', objectFit: 'cover' }}
