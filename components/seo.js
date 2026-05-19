@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 const Seo = ({ title, description = '' }) => {
   const router = useRouter()
-  const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://fellipe.com').replace(/\/$/, '')
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, '')
   const currentPath = (router.asPath || '/').split('?')[0].split('#')[0]
   const normalizedPath =
     currentPath === '/' || currentPath === ''
